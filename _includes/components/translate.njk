@@ -1,0 +1,26 @@
+<nav role="navigation" class="fr-translate fr-nav">
+    <div class="fr-nav__item">
+        <button class="fr-translate__btn fr-btn fr-btn--tertiary" aria-controls="translate-516"
+                aria-expanded="false" title="{{ 'select_lang' | i18n }}">
+            {{ page.lang | upper }}
+        </button>
+        <div class="fr-collapse fr-translate__menu fr-menu" id="translate-516">
+            <ul class="fr-menu__list">
+                <li>
+                    <a class="fr-translate__language fr-nav__link" href="{{ page.url }}" lang="{{ page.lang }}"
+                       hreflang="{{ page.lang }}" aria-current="true">
+                        {{ page.lang | upper }} - {{ 'lang_name' | i18n(page.lang) }}</a>
+                </li>
+                {% for lang in langs %}
+                    {% if lang != page.lang %}
+                        <li>
+                            <a class="fr-translate__language fr-nav__link" href="{{ page.url | locale_url_fallback(lang) }}" lang="{{ lang }}"
+                               hreflang="{{ lang }}">
+                                {{ lang | upper }} - {{ 'lang_name' | i18n(lang) }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

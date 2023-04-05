@@ -1,0 +1,9 @@
+<nav class="fr-nav" id="navigation-494" role="navigation" aria-label="{{ 'main_menu' | i18n }}">
+    <ul class="fr-nav__list">
+        {% for link in navigationLinks[page.lang] %}
+            <li class="fr-nav__item">
+                <a class="fr-nav__link" href="{{ link.url | locale_url_fallback(lang) }}" target="_self">{{ link.text | i18n }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

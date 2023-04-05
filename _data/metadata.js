@@ -1,11 +1,16 @@
 module.exports = {
-	"title": "Eleventy Base Blog v8",
-	"url": "https://example.com/",
-	"language": "en",
-	"description": "I am writing about my experiences as a naval navel-gazer.",
+	"title": "TITRE DU SITE",
+	"url": "https://url_du_site.gouv.fr/",
+	"facebook_url": "",
+	"twitter_url": "",
+	"instagram_url": "",
+	"linkedin_url": "",
+	"youtube_url": "",
+	"language": "fr",
+	"description": "DESCRIPTION DU SITE",
 	"author": {
-		"name": "Your Name Here",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"name": "NOM DU SERVICE",
+		"email": "contact@nom_du_service.gouv.fr",
+		"url": "https://url_du_service.gouv.fr/"
 	}
 }

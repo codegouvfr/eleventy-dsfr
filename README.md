@@ -1,111 +1,94 @@
-# eleventy-base-blog v8
+# eleventy-dsfr
 
-A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) site generator (using the [v2.0 release](https://www.11ty.dev/blog/eleventy-v2/)).
+Un dépôt pour démarrer un site statique au [DSFR](https://www.systeme-de-design.gouv.fr/) avec le
+générateur [Eleventy](https://www.11ty.dev/).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/802669dd-d5f8-4d49-963d-6d57b257c2a2/deploy-status)](https://app.netlify.com/sites/eleventy-base-blog/deploys)
+## Prise en main
 
-## Getting Started
-
-1. Clone this Repository
-
-```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
-
-2. Navigate to the directory
+1. Cloner le dépôt :
 
 ```
-cd my-blog-name
+git clone https://github.com/TODO.git my-site-name
 ```
 
-3. Have a look at `eleventy.config.js` to see if you want to configure any Eleventy options differently.
-4. Install dependencies
+2. Naviguer dans le dossier :
+
+```
+cd my-site-name
+```
+
+3. Installer les dépendances :
 
 ```
 npm install
 ```
 
-5. Edit `_data/metadata.js` to change the site data.
-6. Run Eleventy
+4. Modifier le fichier `_data/metadata.js` pour renseigner les informations du site.
+    - Ansi que le fichier `_data/navigationLinks.js` pour remplacer et/ou compléter les liens du menu de navigation.
+    - Compléter les pages obligatoires : `content/fr/accessibilite`, `content/fr/donnees-personnelles`, `content/fr/mentions-legales`
+5. Exécuter Eleventy :
 
-Generate a production-ready build:
+Générer un livrable pour la production :
 
 ```
 npx @11ty/eleventy
 ```
 
-Or build and host locally on a local development server:
+Ou construire un livrable sur le serveur de développement local :
 
 ```
 npx @11ty/eleventy --serve
 ```
 
-Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the internals.
+Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
 
-## Features
+## Implémentation et développement
 
-- Using [Eleventy v2.0](https://www.11ty.dev/blog/eleventy-v2/) with zero-JavaScript output.
-	- Content is exclusively pre-rendered (this is a static site).
-	- Can easily [deploy to a subfolder without changing any content](https://www.11ty.dev/docs/plugins/html-base/)
-	- All URLs are decoupled from the content’s location on the file system.
-	- Configure templates via the [Eleventy Data Cascade](https://www.11ty.dev/docs/data-cascade/)
-- **Performance focused**: four-hundos Lighthouse score out of the box!
-	- [View the Lighthouse report for the latest build](https://eleventy-base-blog.netlify.app/reports/lighthouse/) courtesy of the [Netlify Lighthouse plugin](https://github.com/netlify/netlify-plugin-lighthouse).
-	- _0 Cumulative Layout Shift_
-	- _0ms Total Blocking Time_
-- Local development live reload provided by [Eleventy Dev Server](https://www.11ty.dev/docs/dev-server/).
-- Content-driven [navigation menu](https://www.11ty.dev/docs/plugins/navigation/)
-- [Image optimization](https://www.11ty.dev/docs/plugins/image/) via the `{% image %}` shortcode.
-	- Zero-JavaScript output.
-	- Support for modern image formats automatically (e.g. AVIF and WebP)
-	- Prefers `<img>` markup if possible (single image format) but switches automatically to `<picture>` for multiple image formats.
-	- Automated `<picture>` syntax markup with `srcset` and optional `sizes`
-	- Includes `width`/`height` attributes to avoid [content layout shift](https://web.dev/cls/).
-	- Includes `loading="lazy"` for native lazy loading without JavaScript.
-	- Includes [`decoding="async"`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding)
-	- Images can be co-located with blog post files.
-	- View the [Image plugin source code](https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.images.js)
-- Per page CSS bundles [via `eleventy-plugin-bundle`](https://github.com/11ty/eleventy-plugin-bundle).
-- Built-in [syntax highlighter](https://www.11ty.dev/docs/plugins/syntaxhighlight/) (zero-JavaScript output).
-- Blog Posts
-	- Draft posts: use `draft: true` to mark a blog post as a draft. Drafts are **only** included during `--serve`/`--watch` and are excluded from full builds. View the [Drafts plugin source code](https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.drafts.js).
-	- Automated next/previous links
-	- Accessible deep links to headings
-- Generated Pages
-	- Home, Archive, and About pages.
-	- [Feeds for Atom and JSON](https://www.11ty.dev/docs/plugins/rss/)
-	- `sitemap.xml`
-	- Zero-maintenance tag pages ([View on the Demo](https://eleventy-base-blog.netlify.app/tags/))
-	- Content not found (404) page
+- Ajouter du contenu dans le dossier `content`.
+    - `content/fr/about/index.md` est un exemple de page.
+- Modifier le fichier `eleventy.config.js` pour configurer les paramètres d'Eleventy différemment.
+- Ajouter des composants du DSFR dans le dossier `_includes/components` et des mises en page dans le
+  dossier `_includes/layouts`.
+  - Ce projet utilise trois [mises en page Eleventy](https://www.11ty.dev/docs/layouts/):
+    - `_includes/layouts/base.njk` : la structure HTML de plus haut niveau
+    - `_includes/layouts/home.njk` : le modèle de la page d'accueil (englobé dans `base.njk`)
+    - `_includes/layouts/post.njk` : un modèle d'article de blog (englobé dans `base.njk`)
+- Ajouter des chaînes de caractères localisées dans le dossier `_data/i18n`.
+- Ajouter des styles personnalisés et des images dans le dossier `/public`.
+    - Celui-ci sera copié dans le dossier de sortie (via `addPassthroughCopy` dans le fichier `eleventy.config.js`).
+      Cela signifie que `./public/css/*` persistera dans `./_site/css/*` après la construction du livrable.
+
+## Fonctionnalités
+
+- DSFR :
+  - Installation et mise à jour automatique via `npm`.
+  - Composants déjà implémentés :
+    - [Fil d'Ariane](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/fil-d-ariane)
+    - [Paramètres d'affichage](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/parametre-d-affichage)
+    - [Pied de page](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/pied-de-page)
+    - [En-tête](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/en-tete)
+    - [Navigation principale](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/navigation-principale)
+    - [Lettre d'information et réseaux sociaux](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/lettre-d-information-et-reseaux-sociaux)
+    - [Sélecteur de langue](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/selecteur-de-langue)
+- a11y et responsivity : Respecte les recommandations du DSFR.
+- i18n :
+  - Prise en charge de l'internationalisation des contenus et des textes.
+- Pages déjà générées :
+    - Pages d'accueil, À propos, Contact (en français et en anglais).
+    - [Flux RSS pour Atom et JSON](https://www.11ty.dev/docs/plugins/rss/)
+    - Plan du site et `sitemap.xml`
+    - Page non trouvée (404)
+    - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
 
 ## Demos
 
-- [Netlify](https://eleventy-base-blog.netlify.com/)
-- [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
-- [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
+_TODO_
 
-## Deploy this to your own site
+## Déploiement
 
-Deploy this Eleventy site in just a few clicks on these services:
+- [Configurer la redirection](https://www.11ty.dev/docs/i18n/#distinct-urls-using-implied-default-language)
+  de toutes les pages des URLs dont la langue est celle par défaut.
+  
+_TODO_
 
-- [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-- If you run Eleventy locally you can drag your `_site` folder to [`drop.netlify.com`](https://drop.netlify.com/) to upload it without using `git`.
-- [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
 - Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/) to the web.
-
-### Implementation Notes
-
-- `content/about/index.md` is an example of a content page.
-- `content/blog/` has the blog posts but really they can live in any directory. They need only the `posts` tag to be included in the blog posts [collection](https://www.11ty.dev/docs/collections/).
-- Use the `eleventyNavigation` key (via the [Eleventy Navigation plugin](https://www.11ty.dev/docs/plugins/navigation/)) in your front matter to add a template to the top level site navigation. This is in use on `content/index.njk` and `content/about/index.md`.
-- Content can be in _any template format_ (blog posts needn’t exclusively be markdown, for example). Configure your project’s supported templates in `eleventy.config.js` -> `templateFormats`.
-- The `public` folder in your input directory will be copied to the output folder (via `addPassthroughCopy` in the `eleventy.config.js` file). This means `./public/css/*` will live at `./_site/css/*` after your build completes.
-- Provides two content feeds:
-	- `content/feed/feed.njk`
-	- `content/feed/json.njk`
-- This project uses three [Eleventy Layouts](https://www.11ty.dev/docs/layouts/):
-	- `_includes/layouts/base.njk`: the top level HTML structure
-	- `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-	- `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-- `_includes/postslist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `content/index.njk` has an example of how to use it.
-

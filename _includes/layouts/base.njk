@@ -1,59 +1,42 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+<html lang="{{ page.lang }}" data-fr-scheme="system" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/dsfr.min.css">
+    <link rel="stylesheet" href="/css/utility/utility.min.css">
 
-		{#- Atom and JSON feeds included by default #}
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="theme-color" content="#000091">
+    <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon"><!-- 32×32 -->
+    <link rel="manifest" href="/favicon/manifest.webmanifest" crossorigin="use-credentials">
 
-		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+    {#- Atom and JSON feeds included by default #}
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 
-		{#-
-		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
-		1. You can add to them using `{% css %}`
-		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
-		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
-		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
-		#}
+    <meta name="generator" content="{{ eleventy.generator }}">
 
-		{#- Add an arbitrary string to the bundle #}
-		{%- css %}* { box-sizing: border-box; }{% endcss %}
-		{#- Add the contents of a file to the bundle #}
-		{%- css %}{% include "public/css/index.css" %}{% endcss %}
-		{#- Or add from node_modules #}
-		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
+    <title>{{ title or metadata.title }}</title>
+</head>
+<body>
+{% include "components/header.njk" %}
 
-		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
-		<style>{% getBundle "css" %}</style>
-	</head>
-	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
+<main id="content" class="fr-container fr-py-16v">
+    {{ content | safe }}
+</main>
 
-		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+{% include "components/newsletter_and_follow_us.njk" %}
+{% include "components/footer.njk" %}
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
-		</header>
+{% include "_includes/components/display.njk" %}
 
-		<main id="skip">
-			{{ content | safe }}
-		</main>
+<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 
-		<footer></footer>
-
-		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
-	</body>
+<!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
+<script type="module" src="/js/dsfr.module.min.js"></script>
+<script type="text/javascript" nomodule src="/js/dsfr.nomodule.min.js"></script>
+</body>
 </html>

@@ -33,7 +33,7 @@ jobs:
       - name: Build with Eleventy
         run: |
           npm install
-          npm run build  
+          npm run build-ghpages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 

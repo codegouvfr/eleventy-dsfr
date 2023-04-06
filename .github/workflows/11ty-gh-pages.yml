@@ -34,6 +34,8 @@ jobs:
         run: |
           npm install
           npm run build-ghpages
+      - name: Make fr fallback language
+        run: "mv _site/fr/* _site/ && rm -r _site/fr/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 

@@ -4,7 +4,8 @@
             <div class="fr-footer__brand fr-enlarge-link"><a href="{{ '/' | locale_url_fallback }}"
                                                              title="{{ 'home' | i18n }} - {{ 'service_name' | i18n }}">
                     <p class="fr-logo"> {{ 'service_id' | i18n | safe }} </p></a></div>
-            <div class="fr-footer__content"><p class="fr-footer__content-desc">{{ 'footer_content_description' | i18n }}</p>
+            <div class="fr-footer__content"><p
+                        class="fr-footer__content-desc">{{ 'footer_content_description' | i18n }}</p>
                 <ul class="fr-footer__content-list">
                     <li class="fr-footer__content-item"><a class="fr-footer__content-link" target="_blank"
                                                            href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
@@ -22,15 +23,20 @@
         </div>
         <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
-                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/sitemap/">Plan du site</a>
+                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
+                                                      href="/sitemap/">{{ 'sitemap' | i18n }}</a>
                 </li>
-                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="{{ '/accessibilite/' | locale_url_fallback }}">Accessibilité :
-                        non/partiellement/totalement conforme</a></li>
-                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="{{ '/mentions-legales/' | locale_url_fallback }}">Mentions
-                        légales</a></li>
-                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="{{ '/donnees-personnelles/' | locale_url_fallback }}">Données
-                        personnelles</a></li>
-{#                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="#">Gestion des
+                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
+                                                      href="{{ '/accessibilite/' | locale_url_fallback }}">{{ 'accessibility' | i18n }}
+                        :
+                        {{ 'not_compliant' | i18n }}/{{ 'partially_compliant' | i18n }}/{{ 'fully_compliant' | i18n }}</a></li>
+                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
+                                                      href="{{ '/mentions-legales/' | locale_url_fallback }}">{{ 'legal' | i18n }}</a>
+                </li>
+                <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
+                                                      href="{{ '/donnees-personnelles/' | locale_url_fallback }}">{{ 'personal_data' | i18n }}</a>
+                </li>
+                {# <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="#">Gestion des
                         cookies</a></li> FIXME Uncomment when DSFR cookie component #}
                 <li class="fr-footer__bottom-item">
                     <button class="fr-footer__bottom-link fr-fi-theme-fill fr-link--icon-left"

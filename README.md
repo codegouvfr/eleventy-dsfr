@@ -94,3 +94,12 @@ _TODO_
 _TODO_
 
 - Read more about [Deploying an Eleventy project](https://www.11ty.dev/docs/deployment/) to the web.
+
+### GitHub Pages
+
+En cas d'erreur lors du build :
+```
+Error: Get Pages site failed
+Error: HttpError: Not Found
+```
+Essayer [cette configuration](https://stackoverflow.com/a/73967433).

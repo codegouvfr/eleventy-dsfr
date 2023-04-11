@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "fr",
+        errorMode: "allow-fallback"
     });
 
     // Official plugins
@@ -89,8 +90,8 @@ module.exports = function (eleventyConfig) {
         return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
     });
 
-    eleventyConfig.addFilter("i18n", function i18n(key, lang_override) {
-        const lang = lang_override || this.page.lang;
+    eleventyConfig.addFilter("i18n", function i18n(key, langOverride) {
+        const lang = langOverride || this.page.lang;
         if (!translations[lang][key]) {
             console.warn(chalk.yellow(`[i18n] Could not find '${key}' in '${lang}'.`));
             return key;
@@ -98,18 +99,7 @@ module.exports = function (eleventyConfig) {
         return translations[lang][key];
     });
 
-    eleventyConfig.addFilter("locale_url_fallback", function locale_url_fallback(url, langOverride) {
-        let locale_url;
-        const lang = langOverride || this.page.lang;
-        try {
-            locale_url = eleventyConfig.getFilter("locale_url")(url, lang);
-        } catch (e) {
-            locale_url = `/${lang}/`;
-        }
-        return locale_url;
-    });
-
-    eleventyConfig.addGlobalData("langs", Object.keys(translations));
+    eleventyConfig.addGlobalData("available_langs", Object.keys(translations));
 
     // Customize Markdown library settings:
     eleventyConfig.amendLibrary("md", mdLib => {

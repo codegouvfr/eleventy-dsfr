@@ -4,9 +4,9 @@
     </button>
     <div class="fr-collapse" id="breadcrumb-1">
         <ol class="fr-breadcrumb__list">
-            <li><a class="fr-breadcrumb__link" href="{{ '/' | locale_url_fallback }}">{{ 'home' | i18n }}</a></li>
+            <li><a class="fr-breadcrumb__link" href="{{ '/' | locale_url }}">{{ 'home' | i18n }}</a></li>
             {% for segment in segments %}
-                <li><a class="fr-breadcrumb__link" href="{{ segment.url | locale_url_fallback }}">{{ segment.title }}</a></li>
+                <li><a class="fr-breadcrumb__link" href="{{ segment.url | locale_url }}">{{ segment.title }}</a></li>
             {% endfor %}
             <li><a class="fr-breadcrumb__link" aria-current="page">{{ title }}</a></li>
         </ol>

@@ -1,7 +1,7 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
         <div class="fr-footer__body">
-            <div class="fr-footer__brand fr-enlarge-link"><a href="{{ '/' | locale_url_fallback }}"
+            <div class="fr-footer__brand fr-enlarge-link"><a href="{{ '/' | locale_url }}"
                                                              title="{{ 'home' | i18n }} - {{ 'service_name' | i18n }}">
                     <p class="fr-logo"> {{ 'service_id' | i18n | safe }} </p></a></div>
             <div class="fr-footer__content"><p
@@ -27,14 +27,14 @@
                                                       href="/sitemap/">{{ 'sitemap' | i18n }}</a>
                 </li>
                 <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
-                                                      href="{{ '/accessibilite/' | locale_url_fallback }}">{{ 'accessibility' | i18n }}
+                                                      href="/fr/accessibilite/">{{ 'accessibility' | i18n }}
                         :
                         {{ 'not_compliant' | i18n }}/{{ 'partially_compliant' | i18n }}/{{ 'fully_compliant' | i18n }}</a></li>
                 <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
-                                                      href="{{ '/mentions-legales/' | locale_url_fallback }}">{{ 'legal' | i18n }}</a>
+                                                      href="/fr/mentions-legales/">{{ 'legal' | i18n }}</a>
                 </li>
                 <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link"
-                                                      href="{{ '/donnees-personnelles/' | locale_url_fallback }}">{{ 'personal_data' | i18n }}</a>
+                                                      href="/fr/donnees-personnelles/">{{ 'personal_data' | i18n }}</a>
                 </li>
                 {# <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="#">Gestion des
                         cookies</a></li> FIXME Uncomment when DSFR cookie component #}

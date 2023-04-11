@@ -10,7 +10,7 @@ générateur [Eleventy](https://www.11ty.dev/).
 1. Cloner le dépôt :
 
 ```
-git clone https://github.com/TODO.git my-site-name
+git clone https://github.com/codegouvfr/eleventy-dsfr.git my-site-name
 ```
 
 2. Naviguer dans le dossier :
@@ -84,7 +84,7 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
 
 ## Demos
 
-_TODO_
+Voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
 
 ## Déploiement
 

@@ -1,28 +1,50 @@
 ---
 layout: layouts/base.njk
 ---
-{# Only include the syntax highlighter CSS on blog posts #}
-{%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
-{%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
-<h1>{{ title }}</h1>
+<div>
+    <div>
+        {% include "components/breadcrumb.njk" %}
+    </div>
 
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
+    <ul class="fr-tags-group">
+        {%- for tag in tags | filterTagList %}
+            {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <li><a href="{{ tagUrl }}" class="fr-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+        {%- endfor %}
+    </ul>
 
-{{ content | safe }}
+    <hgroup>
+        {# Only include the syntax highlighter CSS on blog posts #}
+        {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
+        {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
+        <h1>{{ title }}</h1>
+        <p>
+            {{ 'published_on' | i18n }}
+            <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+        </p>
+    </hgroup>
 
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+    {% if image %}
+        <figure class="fr-content-media" role="group" aria-label="© Légende de l‘image">
+            <div class="fr-content-media__img">
+                {% image image.path, image.alt %}
+            </div>
+            <figcaption class="fr-content-media__caption">{{ image.alt }}</figcaption>
+        </figure>
+    {% endif %}
+
+    {{ content | safe }}
+
+    {%- if collections.posts %}
+        {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+        {%- set nextPost = collections.posts | getNextCollectionItem %}
+        {%- if nextPost or previousPost %}
+            <ul class="links-nextprev fr-py-8v">
+                {%- if previousPost %}
+                    <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+                {%- if nextPost %}
+                    <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+            </ul>
+        {%- endif %}
+    {%- endif %}
+</div>

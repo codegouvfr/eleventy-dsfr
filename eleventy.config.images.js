@@ -24,6 +24,7 @@ module.exports = eleventyConfig => {
 
 		// TODO loading=eager and fetchpriority=high
 		let imageAttributes = {
+			class: "fr-responsive-img fr-ratio-16x9",
 			alt,
 			sizes,
 			loading: "lazy",

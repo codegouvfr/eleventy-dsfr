@@ -21,6 +21,7 @@ module.exports = {
     partially_compliant: 'Partially compliant',
     personal_data: 'Personal Data',
     pick_theme: 'Pick a Theme.',
+    published_on: 'Published on',
     see_breadcrumb: 'See Breadcrumb',
     select_lang: 'Select Language',
     service_id: "Intitulé <br>officiel",

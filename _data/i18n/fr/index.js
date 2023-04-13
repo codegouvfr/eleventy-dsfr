@@ -21,6 +21,7 @@ module.exports = {
     partially_compliant: 'Partiellement conforme',
     personal_data: 'Données personnelles',
     pick_theme: 'Choisissez un thème pour personnaliser l’apparence du site.',
+    published_on: 'Publié le',
     see_breadcrumb: 'Voir le fil d’Ariane',
     select_lang: 'Sélectionner une langue',
     service_id: "Intitulé <br>officiel",

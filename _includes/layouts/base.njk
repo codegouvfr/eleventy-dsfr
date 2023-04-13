@@ -24,8 +24,12 @@
 <body>
 {% include "components/header.njk" %}
 
-<main id="content" class="fr-container fr-py-16v">
-    {{ content | safe }}
+<main id="content" class="fr-container">
+    <div class="fr-container">
+        <div class="fr-grid-row">
+            {{ content | safe }}
+        </div>
+    </div>
 </main>
 
 {% include "components/newsletter_and_follow_us.njk" %}

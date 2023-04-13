@@ -27,7 +27,7 @@ ul.links-nextprev li {
 	flex: 1;
 }
 
-ul.links-nextprev li:last-child {
+ul.links-nextprev .link-right {
 	text-align: right;
 }
 

@@ -40,7 +40,7 @@ layout: layouts/base.njk
                 {%- if previousPost %}
                     <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
                 {%- if nextPost %}
-                    <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                    <li class="link-right"><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
             </ul>
         {%- endif %}
     {%- endif %}

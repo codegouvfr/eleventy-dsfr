@@ -1,6 +1,6 @@
 ---
 title: Exemple de mentions légales
-layout: layouts/base.njk
+layout: layouts/home.njk
 description: Mentions légales à compléter
 slugOverride: mentions legales
 ---

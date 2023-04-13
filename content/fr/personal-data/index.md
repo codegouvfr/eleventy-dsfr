@@ -1,6 +1,6 @@
 ---
 title: Exemple
-layout: layouts/base.njk
+layout: layouts/home.njk
 description: A compléter
 slugOverride: donnees personnelles
 ---

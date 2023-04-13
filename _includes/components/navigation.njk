@@ -1,8 +1,9 @@
 <nav class="fr-nav" id="navigation-494" role="navigation" aria-label="{{ 'main_menu' | i18n }}">
     <ul class="fr-nav__list">
         {% for link in navigationLinks[page.lang] %}
+            {% set link_url = link.url | locale_url(lang) %}
             <li class="fr-nav__item">
-                <a class="fr-nav__link" href="{{ link.url | locale_url(lang) }}" target="_self">{{ link.text | i18n }}</a>
+                <a class="fr-nav__link" href="{{ link_url }}" target="_self"{% if link_url == page.url %} aria-current="page"{% endif %}>{{ link.text | i18n }}</a>
             </li>
         {% endfor %}
     </ul>

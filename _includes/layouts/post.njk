@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<div>
+<div class="fr-py-12v">
     <div>
         {% include "components/breadcrumb.njk" %}
     </div>
@@ -36,11 +36,11 @@ layout: layouts/base.njk
         {%- set previousPost = collections.posts | getPreviousCollectionItem %}
         {%- set nextPost = collections.posts | getNextCollectionItem %}
         {%- if nextPost or previousPost %}
-            <ul class="links-nextprev fr-py-8v">
+            <ul class="links-nextprev fr-pt-6w fr-mt-14v">
                 {%- if previousPost %}
                     <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
                 {%- if nextPost %}
-                    <li class="link-right"><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                    <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
             </ul>
         {%- endif %}
     {%- endif %}

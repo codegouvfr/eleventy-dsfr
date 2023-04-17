@@ -102,6 +102,10 @@ module.exports = function (eleventyConfig) {
         return translations[lang][key];
     });
 
+    eleventyConfig.addFilter("paginated_url", function paginated_url(url, pageNumber) {
+        return `${url}/page-${pageNumber}/`;
+    });
+
     eleventyConfig.addGlobalData("available_langs", Object.keys(translations));
 
     // Customize Markdown library settings:

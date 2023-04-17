@@ -1,7 +1,15 @@
 ---
 layout: layouts/home.njk
+pagination:
+  data: collections.posts
+  size: 6
+  reverse: true
+permalink: "fr/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 <h1>Archive</h1>
 
-{% set postslist = collections.posts %}
+{% set postslist = pagination.items %}
 {% include "postslist.njk" %}
+
+{% set pageCount = pagination.pages | length %}
+{% include "components/pagination.njk" %}

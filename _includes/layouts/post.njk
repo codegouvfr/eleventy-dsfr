@@ -1,17 +1,10 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="fr-py-12v">
-    <div>
-        {% include "components/breadcrumb.njk" %}
-    </div>
+<div class="fr-py-8v">
+    {% include "components/breadcrumb.njk" %}
 
-    <ul class="fr-tags-group">
-        {%- for tag in tags | filterTagList %}
-            {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-            <li><a href="{{ tagUrl }}" class="fr-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-        {%- endfor %}
-    </ul>
+    {% include "components/taggroup.njk" %}
 
     <hgroup>
         <h1>{{ title }}</h1>

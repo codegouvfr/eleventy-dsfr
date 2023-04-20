@@ -1,22 +1,32 @@
 ---
+eleventyComputed:
+  title: Tagged "{{ tag.tagName }}"
+layout: layouts/home.njk
 pagination:
-  data: collections
+  data: collections.tags4x4
   size: 1
   alias: tag
-  filter:
-    - all
-    - post
-    - posts
-    - tagList
   addAllPagesToCollections: true
-layout: layouts/home.njk
-eleventyComputed:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag | slugify }}/
+permalink: "/fr/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}page-{{ tag.pageNumber + 1 }}/{% endif %}"
+segments:
+  - url: /blog/
+    title: Blog
 ---
-<h1>Tagged “{{ tag }}”</h1>
+{% include "components/breadcrumb.njk" %}
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+<div class="fr-grid-row fr-grid-row--gutters">
+  <div class="fr-col-12 fr-col-md-3">
+    <div class="fr-sidemenu__title"> {{ 'tags' | i18n }}</div>
+    {% set tags = collections.all | getAllTags | filterTagList %}
+    {% set currentTagName = tag.tagName %}
+    {% include "components/taggroup.njk" %}
+  </div>
+  <div class="fr-col-12 fr-col-md-9">
+    {% set postslist = tag.pageData %}
+    {% include "postslist.njk" %}
+  </div>
+</div>
 
-<p>See <a href="/tags/">all tags</a>.</p>
+{% set tagUrl %}{{ '/tags/'| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
+{% set pagination = pagination | pagination_object(tagUrl) %}
+{% include "components/pagination.njk" %}

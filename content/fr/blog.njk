@@ -2,14 +2,20 @@
 layout: layouts/home.njk
 pagination:
   data: collections.posts
-  size: 6
+  size: 4
   reverse: true
-permalink: "fr/blog/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+permalink: "/fr/blog/{% if pagination.pageNumber %}page-{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
-<h1>Archive</h1>
+<div class="fr-grid-row fr-grid-row--gutters">
+  <div class="fr-col-12 fr-col-md-3">
+    <div class="fr-sidemenu__title"> {{ 'tags' | i18n }}</div>
+    {% set tags = collections.all | getAllTags | filterTagList %}
+    {% include "components/taggroup.njk" %}
+  </div>
+  <div class="fr-col-12 fr-col-md-9">
+    {% set postslist = pagination.items %}
+    {% include "postslist.njk" %}
+  </div>
+</div>
 
-{% set postslist = pagination.items %}
-{% include "postslist.njk" %}
-
-{% set pageCount = pagination.pages | length %}
 {% include "components/pagination.njk" %}

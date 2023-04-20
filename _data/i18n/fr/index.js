@@ -36,6 +36,7 @@ module.exports = {
     subscribe: 'S\'abonner',
     subscribe_newsletter: 'Abonnez-vous à notre lettre d’information',
     system: 'Système',
+    tags: 'Catégories',
     use_system_params: 'Utilise les paramètres système.',
     you_are_here: 'Vous êtes ici',
 };

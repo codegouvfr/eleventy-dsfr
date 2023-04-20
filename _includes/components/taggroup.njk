@@ -1,0 +1,10 @@
+<ul class="fr-tags-group">
+    {%- for tag in tags | filterTagList %}
+        {%- set tagUrl %}{{ '/tags/'| locale_url }}{{ tag | slugify }}/{% endset %}
+        {% if not (tag == currentTagName) %}
+            <li><a href="{{ tagUrl }}" class="fr-tag" target="_self">{{ tag }}{%- if not loop.last %}{% endif %}</a></li>
+        {% else %}
+            <li><p class="fr-tag">{{ tag }}{%- if not loop.last %}{% endif %}</p></li>
+        {% endif %}
+    {%- endfor %}
+</ul>

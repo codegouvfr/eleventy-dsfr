@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
     // App plugins
     eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+    eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "fr",
         errorMode: "allow-fallback"
@@ -100,10 +101,6 @@ module.exports = function (eleventyConfig) {
             return key;
         }
         return translations[lang][key];
-    });
-
-    eleventyConfig.addFilter("paginated_url", function paginated_url(url, pageNumber) {
-        return `${url}/page-${pageNumber}/`;
     });
 
     eleventyConfig.addGlobalData("available_langs", Object.keys(translations));

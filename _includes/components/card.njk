@@ -6,8 +6,7 @@
             <div class="fr-card__start">
                 <ul class="fr-tags-group">
                     {%- for tag in card.tags | filterTagList %}
-                        {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-                        <li class="fr-tag">{{ tag }}{%- if not loop.last %}, {% endif %}</li>
+                        <li><p class="fr-tag" target="_self">{{ tag }}{%- if not loop.last %}{% endif %}</p></li>
                     {%- endfor %}
                 </ul>
                 <p class="fr-card__detail fr-icon-time-fill">
@@ -18,8 +17,8 @@
         </div>
     </div>
     {% if card.imagePath %}
-    <div class="fr-card__header">
-        <div class="fr-card__img">{% image card.imagePath, card.imageAlt %}</div>
-    </div>
+        <div class="fr-card__header">
+            <div class="fr-card__img">{% image card.imagePath, card.imageAlt %}</div>
+        </div>
     {% endif %}
 </div>

@@ -99,6 +99,7 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
       pagination:
         data: collections.posts
         size: 4
+      permalink: "different/{{ page_prefix }}{{ pagination.pageNumber }}/index.html"
       ---
       {% include "components/pagination.njk" %}
       ```

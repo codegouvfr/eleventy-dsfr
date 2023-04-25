@@ -11,5 +11,5 @@ numberOfLatestPostsToShow: 3
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/fr/blog/">the archive</a>.</p>
+    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="{{ "/blog/"| locale_url }}">the archive</a>.</p>
 {% endif %}

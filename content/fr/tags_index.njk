@@ -1,8 +1,8 @@
 ---
-permalink: /fr/tags/
 layout: layouts/home.njk
+permalink: "/{{ lang }}/tags/"
 ---
 <h1>Tags</h1>
 
-{% set tags = collections.all | getAllTags | filterTagList %}
+{% set tags = collections.all | getAllTags %}
 {% include "components/taggroup.njk" %}

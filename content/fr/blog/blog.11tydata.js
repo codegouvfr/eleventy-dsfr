@@ -7,8 +7,8 @@ module.exports = {
     "layout": "layouts/post.njk",
     eleventyComputed: {
         segments: [{
-            url: '/blog/',
-            title: 'Blog'
+            url: "/blog/",
+            title: "Blog"
         }],
         image: data => {
             if (data.image.src) {

@@ -9,32 +9,27 @@ layout: layouts/base.njk
     <hgroup>
         <h1>{{ title }}</h1>
         <p>
-            {{ 'published_on' | i18n }}
+            {{ "published_on" | i18n }}
             <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
         </p>
     </hgroup>
 
     {% if image %}
-        <figure class="fr-content-media" role="group" aria-label="© Légende de l‘image">
-            <div class="fr-content-media__img">
-                {% image image.path, image.alt %}
-            </div>
-            <figcaption class="fr-content-media__caption">{{ image.alt }}</figcaption>
-        </figure>
+        {%  include "components/imagecontent.njk" %}
     {% endif %}
 
     {{ content | safe }}
 
-    {%- if collections.posts %}
-        {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-        {%- set nextPost = collections.posts | getNextCollectionItem %}
-        {%- if nextPost or previousPost %}
+    {% if collections.posts %}
+        {% set previousPost = collections.posts | getPreviousCollectionItem %}
+        {% set nextPost = collections.posts | getNextCollectionItem %}
+        {% if nextPost or previousPost %}
             <ul class="links-nextprev fr-pt-6w fr-mt-14v">
-                {%- if previousPost %}
+                {% if previousPost %}
                     <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-                {%- if nextPost %}
+                {% if nextPost %}
                     <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
             </ul>
-        {%- endif %}
-    {%- endif %}
+        {% endif %}
+    {% endif %}
 </div>

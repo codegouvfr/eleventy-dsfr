@@ -1,14 +1,12 @@
+{# Mandatory variable `card { url: string, title: string, description: string, tags: string[], date: string, imagePath: string, imageAlt: string }` to make it work #}
 <div class="fr-card fr-enlarge-link">
     <div class="fr-card__body">
-        <div class="fr-card__content"><h3 class="fr-card__title"><a
-                        href="{{ card.url }}">{{ card.title }}</a></h3>
+        <div class="fr-card__content">
+            <h3 class="fr-card__title"><a href="{{ card.url | locale_url }}">{{ card.title }}</a></h3>
             <p class="fr-card__desc">{{ card.description }}</p>
             <div class="fr-card__start">
-                <ul class="fr-tags-group">
-                    {%- for tag in card.tags | filterTagList %}
-                        <li><p class="fr-tag" target="_self">{{ tag }}{%- if not loop.last %}{% endif %}</p></li>
-                    {%- endfor %}
-                </ul>
+                {% set tags = card.tags %}
+                {% include "components/taggroup-disabled.njk" %}
                 <p class="fr-card__detail fr-icon-time-fill">
                     <time class="postlist-date"
                           datetime="{{ card.date | htmlDateString }}">{{ card.date | readableDate("LLLL yyyy") }}</time>

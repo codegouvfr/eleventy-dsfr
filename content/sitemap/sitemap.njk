@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 {# List every content page in the project #}
 <ul>
-    {%- for entry in collections.all %}
+    {% for entry in collections.all %}
         <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-    {%- endfor %}
+    {% endfor %}
 </ul>

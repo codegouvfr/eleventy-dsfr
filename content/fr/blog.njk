@@ -4,12 +4,12 @@ pagination:
   data: collections.posts
   size: 4
   reverse: true
-permalink: "/fr/blog/{% if pagination.pageNumber %}page-{{ pagination.pageNumber + 1 }}/{% endif %}"
+permalink: "/{{ lang }}/blog/{% if pagination.pageNumber %}{{ page_prefix }}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 <div class="fr-grid-row fr-grid-row--gutters">
   <div class="fr-col-12 fr-col-md-3">
-    <div class="fr-sidemenu__title"> {{ 'tags' | i18n }}</div>
-    {% set tags = collections.all | getAllTags | filterTagList %}
+    <div class="fr-sidemenu__title"> {{ "tags" | i18n }}</div>
+    {% set tags = collections.all | getAllTags %}
     {% include "components/taggroup.njk" %}
   </div>
   <div class="fr-col-12 fr-col-md-9">

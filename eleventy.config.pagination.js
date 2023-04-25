@@ -1,6 +1,9 @@
+const PAGE_PREFIX = "page-";
+
 const paginatedUrl = (url, pageNumber) => {
-    const trimmedUrl = url.endsWith('/') ? url.slice(0, -1) : url;
+    const trimmedUrl = url.endsWith("/") ? url.slice(0, -1) : url;
     return `${trimmedUrl}/page-${pageNumber}/`
+
 }
 
 const chunk = (arr, size) =>
@@ -9,10 +12,10 @@ const chunk = (arr, size) =>
     );
 
 module.exports = eleventyConfig => {
-    eleventyConfig.addFilter("paginated_url", function paginated_url(url, pageNumber) {
+    eleventyConfig.addFilter("paginated_url", (url, pageNumber) => {
         return paginatedUrl(url, pageNumber);
     });
-    eleventyConfig.addFilter("pagination_object", function pagination_object(pagination, url) {
+    eleventyConfig.addFilter("pagination_object", (pagination, url) => {
         const filteredHrefs = pagination.hrefs.filter(href => href.startsWith(url));
         const pageCount = filteredHrefs.length;
         const pageNumber = pagination.pageNumber % pageCount;
@@ -24,21 +27,19 @@ module.exports = eleventyConfig => {
                 next: currentPageNumber < pageCount ? paginatedUrl(url, currentPageNumber + 1) : "",
                 previous: currentPageNumber > 1 ? paginatedUrl(url, currentPageNumber - 1) : "",
                 first: url,
-                last: paginatedUrl(url, pageCount)
+                last: pageCount > 1 ? paginatedUrl(url, pageCount) : url
             }
         };
     });
 
-    eleventyConfig.addCollection("tags4x4", function (collection) {
+    eleventyConfig.addCollection("tags_4x4", (collection) => {
         let paginationSize = 4;
         let tagMap = [];
-        [...new Set(collection.getAllSorted() // Array of unique tags
+        let tags = collection.getAllSorted()
             .filter(item => item.data.tags) // Filter items without any tag
             .map(item => item.data.tags)
-            .flat()
-            .filter(tag => {
-                return !["all", "posts", "posts", "tagList"].includes(tag); // Remove some tags
-            }))].forEach(tag => {
+            .flat();
+        [...new Set(eleventyConfig.getFilter("filterTagList")(tags))].forEach(tag => {
             const tagItems = collection.getFilteredByTag(tag);
             const pagedItems = chunk(tagItems, paginationSize)
             pagedItems.forEach((pagedItem, pageNumber) => {
@@ -51,4 +52,6 @@ module.exports = eleventyConfig => {
         });
         return tagMap;
     });
+
+    eleventyConfig.addGlobalData("page_prefix", PAGE_PREFIX);
 }

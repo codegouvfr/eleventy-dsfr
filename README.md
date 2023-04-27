@@ -108,7 +108,31 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
       {% set tags = collections.all | getAllTags %}
       {% include "components/taggroup.njk" %}
       ```
-- TODO blog  
+- Ajouter un nouvel article au blog :
+  - Ajouter un nouveau fichier dans `content/blog/[lang]/blog/posts`.
+  - Activer le drapeau `draft` pour éviter de le publier :
+  ```markdown
+  ---
+  draft: true
+  ---
+  ```
+  - Renseigner `image` pour afficher une bannière en haut de l'article :
+  ```markdown
+   ---
+   image:
+     - src: ./possum.png
+       alt: A possum
+   ---
+   ```
+
+### HOW-TOs
+
+### Ajouter une nouvelle traduction pour le blog
+
+- Dupliquer le dossier `content/fr/blog` dans le répertoire de la nouvelle traduction.
+- Vider le sous-dossier `posts` sauf `posts.11tydata.js`.
+- Remplacer les appels aux collections `posts_fr` et `tags_fr_4x4` dans les fichiers `index.njk`, `tags.njk` et `tags_index.njk`
+par des appels aux nouvelles collections localisées automatiquement créées `posts_[lang]` et `tags_[lang]_4x4`.
 
 ### Développement
 

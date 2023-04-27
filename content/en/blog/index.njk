@@ -1,15 +1,16 @@
 ---
 layout: layouts/home.njk
 pagination:
-  data: collections.posts
+  data: collections.posts_en
   size: 4
   reverse: true
+  generatePageOnEmptyData: true
 permalink: "/{{ lang }}/blog/{% if pagination.pageNumber %}{{ page_prefix }}{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 <div class="fr-grid-row fr-grid-row--gutters">
   <div class="fr-col-12 fr-col-md-3">
     <div class="fr-sidemenu__title"> {{ "tags" | i18n }}</div>
-    {% set tags = collections.all | getAllTags %}
+    {% set tags = collections.posts_en | getAllTags %}
     {% include "components/taggroup.njk" %}
   </div>
   <div class="fr-col-12 fr-col-md-9">

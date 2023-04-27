@@ -6,6 +6,7 @@ module.exports = {
     ],
     en: [
         {"text": "home", "url": "/"},
+        {"text": "blog", "url": "/blog/"},
         {"text": "about", "url": "/about/"},
     ]
 }

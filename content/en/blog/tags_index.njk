@@ -1,8 +1,8 @@
 ---
 layout: layouts/home.njk
-permalink: "/{{ lang }}/tags/"
+permalink: "/{{ lang }}/blog/tags/"
 ---
 <h1>Tags</h1>
 
-{% set tags = collections.all | getAllTags %}
+{% set tags = collections.posts_en | getAllTags %}
 {% include "components/taggroup.njk" %}

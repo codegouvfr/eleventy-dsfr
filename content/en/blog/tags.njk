@@ -3,11 +3,10 @@ eleventyComputed:
   title: Tagged "{{ tag.tagName }}"
 layout: layouts/home.njk
 pagination:
-  data: collections.tags_4x4
+  data: collections.tags_en_4x4
   size: 1
   alias: tag
-  addAllPagesToCollections: true
-permalink: "/{{ lang }}/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}"
+permalink: "/{{ lang }}/blog/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}"
 segments:
   - url: /blog/
     title: Blog
@@ -17,7 +16,7 @@ segments:
 <div class="fr-grid-row fr-grid-row--gutters">
   <div class="fr-col-12 fr-col-md-3">
     <div class="fr-sidemenu__title"> {{ "tags" | i18n }}</div>
-    {% set tags = collections.all | getAllTags | filterTagList([tag.tagName]) %}
+    {% set tags = collections.posts_en | getAllTags | filterTagList([tag.tagName]) %}
     {% include "components/taggroup.njk" %}
   </div>
   <div class="fr-col-12 fr-col-md-9">
@@ -29,6 +28,6 @@ segments:
   </div>
 </div>
 
-{% set tagUrl %}{{ "/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
+{% set tagUrl %}{{ "/blog/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
 {% set pagination = pagination | pagination_object(tagUrl) %}
 {% include "components/pagination.njk" %}

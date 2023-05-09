@@ -1,0 +1,12 @@
+{# Mandatory variable `callout { title: string, description: string, link: { url: string, title: string } }` to make it work #}
+<div class="fr-callout">
+    <h3 class="fr-callout__title">{{ callout.title }}</h3>
+    <p class="fr-callout__text">
+        {{ callout.description | safe }}
+    </p>
+    {% if callout.link %}
+    <a class="fr-btn" href="{{ callout.link.url }}">
+        {{ callout.link.title }}
+    </a>
+    {% endif %}
+</div>

@@ -21,6 +21,7 @@
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
+	width: 100%;
 }
 
 table {
@@ -81,4 +82,19 @@ h2 + .header-anchor {
 /* Custom DSFR */
 .fr-pagination__list {
 	justify-content: flex-end !important;
+}
+
+@media (min-width: 48em) {
+	.fr-share__group {
+		justify-content: flex-end !important;
+	}
+}
+
+/* Custom */
+.banner {
+	background: var(--background-alt-green-archipel);
+}
+
+.text-center {
+	text-align: center;
 }

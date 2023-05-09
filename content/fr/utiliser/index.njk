@@ -1,0 +1,20 @@
+---
+title: Renforcer le recours aux logiciels libres et aux communs numériques
+layout: layouts/page.njk
+---
+<h1 class="text-center">{{ title }}</h1>
+<div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
+  {% for tile in tileItems %}
+    <div class="fr-col-12 fr-col-md-4">
+      {% include "components/tile.njk" %}
+    </div>
+  {% endfor %}
+</div>
+{% set callout = {
+    description: "Le <strong>SILL</strong> est publié depuis 2012 : chaque logiciel présent est utilisé par au moins une administration.  En tant qu'agent public inscrit au SILL, vous pouvez solliciter les référents de chaque logiciel qui pourront répondre à vos questions et vous aider dans l'appropriation de ces solutions.",
+    link: {
+        url: "https://sill.code.gouv.fr/add-software",
+        title: "Inscrivez-vous !"
+    }
+} %}
+{% include "components/callout.njk" %}

@@ -1,32 +1,33 @@
+---js
+{
+  pagination: {
+    data: "collections.posts",
+    size: 1,
+    alias: "tag",
+    before: function(paginationData, fullData) {
+      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 10);
+    }
+  },
+  layout: "layouts/page.njk",
+  permalink: "/{{ lang }}/blog/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
+  segments: [{
+    url: "/blog/",
+    title: "Blog"
+  }],
+  eleventyComputed: {
+    title: 'Tagged "{{ tag.tagName }}"'
+  }
+}
 ---
-eleventyComputed:
-  title: Tagged "{{ tag.tagName }}"
-layout: layouts/page.njk
-pagination:
-  data: collections.tags_fr_4x4
-  size: 1
-  alias: tag
-permalink: "/{{ lang }}/blog/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}"
-segments:
-  - url: /blog/
-    title: Blog
----
+<h1 class="text-center">Actualités</h1>
 <div class="fr-container">
-  <div class="fr-grid-row fr-grid-row--gutters">
-    <div class="fr-col-12 fr-col-md-3">
-      <div class="fr-sidemenu__title"> {{ "tags" | i18n }}</div>
-      {% set tags = collections.posts_fr | getAllTags | filterTagList([tag.tagName]) %}
-      {% include "components/taggroup.njk" %}
-    </div>
-    <div class="fr-col-12 fr-col-md-9">
-      <p>
-        <a href="{{ "/blog/"| locale_url }}" class="fr-tag fr-fi-close-line fr-tag--icon-left" target="_self">{{ tag.tagName }}</a>
-      </p>
-      {% set postslist = tag.pageData %}
-      {% include "postslist.njk" %}
-    </div>
+  <h2>Filtré par <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/blog/"| locale_url }}">{{ tag.tagName }}</a></h2>
+  <div class="fr-mb-3w">
+    {% set tags = collections.posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}
+    {% include "components/taggroup.njk" %}
   </div>
-
+  {% set postslist = tag.pageData %}
+  {% include "postslist.njk" %}
   {% set tagUrl %}{{ "/blog/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
   {% set pagination = pagination | pagination_object(tagUrl) %}
   {% include "components/pagination.njk" %}

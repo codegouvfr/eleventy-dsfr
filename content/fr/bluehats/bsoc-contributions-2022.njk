@@ -1,0 +1,28 @@
+---
+title: "BlueHats Semester of Code : les projets qui se sont proposés"
+layout: layouts/page.njk
+segments:
+  - url: /bluehats/
+    title: BlueHats
+  - url: /bluehats/bluehats-semester-of-code/
+    title: BSoC
+showBreadcrumb: true
+---
+<h1 class="text-center">{{ title }}</h1>
+<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-mb-3w">
+    {% asyncAll project in projects %}
+    <div class="fr-col-12 fr-col-md-4">
+        {% set card = {
+            external_url: project.url,
+            title: project.title,
+            description: project.description,
+            imagePath: project.imgSrc,
+            imageAlt: project.title
+        } %}
+        {% include "components/card-external.njk" %}
+    </div>
+    {% endall %}
+</div>
+<p>
+    Découvrez aussi la <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/bluehats/bsoc-promotion-2022/">nouvelle promotion !</a>
+</p>

@@ -1,0 +1,12 @@
+{# Mandatory variable `tile { url: string, title: string, description: string, imagePath: string, imageAlt: string }` to make it work #}
+<div class="fr-tile fr-enlarge-link">
+    <div class="fr-tile__body">
+        {% set tile_url = tile.url | locale_url(lang) or tile.external_url %}
+        {% set url_description %}{{ tile.title }}{% if tile.external_url %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
+        <h4 class="fr-tile__title"><a class="fr-tile__link" href="{{ tile_url }}" title="{{ url_description }}">{{ tile.title }}</a></h4>
+        <p class="fr-tile__desc">{{ tile.description }}</p>
+    </div>
+    {% if tile.imagePath %}
+        <div class="fr-tile__img">{% image tile.imagePath, tile.imageAlt %}</div>
+    {% endif %}
+</div>

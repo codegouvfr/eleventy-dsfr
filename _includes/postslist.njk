@@ -1,7 +1,7 @@
 {# Mandatory variable `postslist: CollectionItem[]` to make it work #}
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
     {% asyncAll post in postslist %}
-    <div class="fr-col fr-col-md-6">
+    <div class="fr-col-12">
         {% set card = {
             url: post.url,
             title: post.data.title,
@@ -9,9 +9,10 @@
             tags: post.data.tags,
             date: post.date,
             imagePath: post.data.image.path,
-            imageAlt: post.data.image.alt
+            imageAlt: post.data.image.alt,
+            badges: post.data.badges
         } %}
-        {% include "components/card.njk" %}
+        {% include "components/card-horizontal.njk" %}
     </div>
     {% endall %}
 </div>

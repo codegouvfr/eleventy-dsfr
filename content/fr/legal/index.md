@@ -1,24 +1,41 @@
 ---
-title: Exemple de mentions légales
+title: Mentions légales
 layout: layouts/page.njk
-description: Mentions légales à compléter
 slugOverride: mentions legales
 showBreadcrumb: true
 ---
 # Mentions légales
 
-## Identification de l'éditeur
+## Éditeur
 
-[ A COMPLETER ]
+Le site `code.gouv.fr` est édité par la mission logiciels libres au sein de la direction interministérielle du numérique (DINUM).
+
+Coordonnées :
+Adresse : DINUM, 20 avenue de Ségur, 75007 Paris
+Teléphone accueil : 01.71.21.01.70
+SIRET : 12000101100010 (secrétariat général du gouvernement)
+SIREN : 120 001 011
 
 ## Directeur de la publication
 
-[ A COMPLETER ]
+Directeur interministériel du numérique.
 
-## Prestataire d'hébergement
+## Hébergement
 
-[ A COMPLETER ]
+Ce site est hébergé par OVH France, 2 rue Kellermann 59100 Roubaix, France.  Téléphone : 09 72 10 10 07
 
-## Traitement des données à caractère personnel
+## Crédits images
 
-[ A COMPLETER ]
+- *Teamwork makes the dream work* par © Dylan Gillis, licence [Unsplash](https://unsplash.com/photos/KdeqA3aTnBY).
+
+## Code source du site
+
+Le [code source du site est disponible sur SourceHut](https://git.sr.ht/~codegouvfr/code.gouv.fr_home).
+
+## Accessibilité
+
+[Voir la déclaration d'accessibilité](/fr/accessibilite/).
+
+## Données personnelles et cookies
+
+[Voir les informations concernant les cookies utilisées sur ce site](/fr/donnees-personnelles/).

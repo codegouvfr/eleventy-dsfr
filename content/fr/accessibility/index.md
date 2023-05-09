@@ -1,107 +1,33 @@
 ---
-title: Exemple de déclaration d’accessibilité
-layout: layouts/page.njk
-description: Déclaration d’accessibilité à compléter
+title: Accessibilité
+layout: layouts/post.njk
 slugOverride: accessibilite
 showBreadcrumb: true
+date: 2021-04-14
 ---
-# Accessibilité
+## Déclaration d’accessibilité
 
-<span class="aModifier">[Nom de l’entité]</span> s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102 du 11 février 2005.
-
-À cette fin, <span class="aModifier">[Nom de l’entité]</span> met en œuvre la stratégie et les actions suivantes :
-
-- Schéma pluriannuel de mise en accessibilité 2022-2024 <span class="aModifier">[url]</span> ;
-- Actions réalisées en 2020-2021 <span class="aModifier">[url]</span> ;
-- Plan d’actions 2022-2024 <span class="aModifier">[url]</span>.
-
-Cette déclaration d’accessibilité s’applique à <span class="aModifier">[www.nomdusite.gouv.fr]</span>.
+Le site `code.gouv.fr` est développé selon les recommandations de la charte graphique de l'État, le système de design de l'État et du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
 
 ## État de conformité
 
-<span class="aModifier">[Nom du site (url du site)]</span> est <strong class="aModifier">non/partiellement/totalement</strong> conforme avec le référentiel général d’amélioration de l’accessibilité (RGAA), version 4 en raison des non-conformités et des dérogations énumérées ci-dessous.
+Le site `code.gouv.fr` est totalement conforme au référentiel général d’amélioration de l’accessibilité.
 
 ### Résultats des tests
 
-L’audit de conformité réalisé par <span class="aModifier">[nom de l’entité qui a réalisé l’audit]</span> révèle que :
-
-- <span class="aModifier">[nn]</span>% des critères du RGAA version 4 sont respectés ;
-- (Facultatif) Le taux moyen de conformité du site s’élève à <span class="aModifier">[nn]</span>% ;
-- (Facultatif) Accès à la grille d’audit RGAA <span class="aModifier">[url]</span> pour télécharger la grille d’audit.
-
-## Contenus non accessibles
-
-### Non-conformités
-
-Exemples :
-
-- La vidéo de présentation de la demande d’aide n’a pas de transcription. Pour toute question sur cette démarche, vous pouvez contacter le NN NN NN NN NN. La version 2020 respectera les critères du RGAA sur les alternatives texte pour les documents multimédias.
-- Le bouton d’envoi du formulaire de déclaration contient un intitulé « Retour » au lieu de « Envoi ». Cette erreur sera corrigée avant le 31 mars 2020
-- La connexion au compte personnel contient une vérification que vous n’êtes pas un robot avec un captcha visuel. Il est possible d’effectuer sa démarche par téléphone ou au guichet pour les personnes empêchées d’accéder à leur compte...
-
-### Dérogations pour charge disproportionnée
-
-Exemple :
-Les archives des comptes rendus des séances du conseil municipal jusqu’en 2010 sont au format PDF image. Il est cependant possible d’en demander un exemplaire texte par courriel
-
-### Contenus non soumis à l’obligation d’accessibilité
-
-Exemples :
-
-- Cartes de l’Institut géographique national associées à l’annuaire
-- Reproduction du manuscrit du Moyen-Âge...
-
-## Établissement de cette déclaration d’accessibilité
-
-Cette déclaration a été établie le <span class="aModifier">[JJ/MM/AAAA]</span>.
-Elle a été mise à jour le <span class="aModifier">[JJ/MM/AAAA]</span>.
-
-### Technologies utilisées pour la réalisation du site
-
-- HTML5
-- CSS
-- ...
-
-### Environnement de test
-
-Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie par la base de référence du RGAA, avec les versions suivantes :
-
-- Firefox et NVDA
-- Safari et VoiceOver
-- ...
-
-### Outils pour évaluer l’accessibilité
-
-- color contrast analyzer
-- inspecteur de code
-- ...
-
-### Pages du site ayant fait l’objet de la vérification de conformité
-
-- page d’accueil <span class="aModifier">[url]</span>
-- page contact <span class="aModifier">[url]</span>
-- page mentions légales <span class="aModifier">[url]</span>
-- page accessibilité <span class="aModifier">[url]</span>
-- page plan du site <span class="aModifier">[url]</span>
-- page d’aide <span class="aModifier">[url]</span>
-- ...
+L’audit de conformité réalisé par [DesignGouv](https://design.numerique.gouv.fr) révèle que 100% des critères du RGAA version 4.1 sont respectés.
 
 ## Retour d’information et contact
 
-Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de <span class="aModifier">[nom du site]</span> pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
+La DINUM s’engage à prendre les moyens nécessaires afin de donner accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par la personne handicapée, que le contenu fasse l’objet d’une dérogation ou non.
 
-- Envoyer un message <span class="aModifier">[url du formulaire en ligne]</span> ;
-- Contacter <span class="aModifier">[Nom de l’entité responsable du service en ligne et coordonnées]</span>.
+La DINUM invite les personnes qui rencontreraient des difficultés à la contacter par courriel à `contact@code.gouv.fr` afin qu’une assistance puisse être apportée (alternative accessible, information et contenu donnés sous une autre forme).
 
-## Voies de recours
+## Défenseur des droits
 
-Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
+Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse rapide de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits. Plusieurs moyens sont à votre disposition :
 
-Plusieurs moyens sont à votre disposition :
-
-- Écrire un message au Défenseur des droits
-- Contacter le délégué du Défenseur des droits dans votre région
-- Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre)
-  Défenseur des droits
-  Libre réponse 71120
-  75342 Paris CEDEX 07
+* un [formulaire de contact](https://www.defenseurdesdroits.fr/nous-contacter),
+* la [liste des délégués de votre région](https://www.defenseurdesdroits.fr/fr/saisir/delegues) avec leurs informations de contact directs,
+* un numéro de téléphone : le 09 69 39 00 00 du lundi au vendredi de 8h00 à 20h00 (coût d’un appel local),
+* une adresse postale dans l’[annuaire de l’administration](https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381).

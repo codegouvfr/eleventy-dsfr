@@ -11,7 +11,7 @@
                        hreflang="{{ page.lang }}" aria-current="true">
                         {{ page.lang | upper }} - {{ "lang_name" | i18n(page.lang) }}</a>
                 </li>
-                {% for lang in available_langs %}
+                {% for lang in availableLangs %}
                     {% if not (lang == page.lang) %}
                         <li>
                             {% set url = page.url | locale_url(lang) %}

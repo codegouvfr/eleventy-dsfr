@@ -89,7 +89,11 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts"].concat(addTags).indexOf(tag) === -1);
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts"].concat(addTags).indexOf(tag) === -1);
+    });
+
+    eleventyConfig.addFilter("stripTags", str => {
+        return (str || "").replace(/<[^>]*>/g, '');
     });
 
     // Customize Markdown library settings:

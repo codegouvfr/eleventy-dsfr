@@ -1,0 +1,25 @@
+---
+title: La FabLibre
+layout: layouts/page.njk
+eleventyNavigation:
+  key: Produits
+  title: La FabLibre
+  parent: Ressources
+  order: 2
+slugOverride: devs
+---
+<h1 class="text-center">{{ title }}</h1>
+<p class="fr-text--heavy text-center">La FabLibre, des briques de code réutilisables.</p>
+<h2 class="fr-h3">Les briques développées par la mission logiciels libres</h2>
+<div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
+  {% asyncAll project in projects %}
+  <div class="fr-col-12 fr-col-md-4">
+    {% set card = {
+      external_url: project.url,
+      title: project.title,
+      description: project.description
+    } %}
+    {% include "components/card-external.njk" %}
+  </div>
+  {% endall %}
+</div>

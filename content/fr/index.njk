@@ -1,18 +1,52 @@
 ---
-layout: layouts/page.njk
+title: Accueil
+layout: layouts/home.njk
 eleventyNavigation:
   key: Accueil
   order: 1
-numberOfLatestPostsToShow: 3
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>{{ latestPostsCount }} derniers article{% if latestPostsCount != 1 %}s{% endif %}</h1>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="{{ "/blog/"| locale_url }}">the archive</a>.</p>
-{% endif %}
+<div class="banner">
+    <div class="fr-container fr-pt-8w fr-pb-6w fr-mb-6w">
+        <div class="fr-grid-row">
+            <div class="fr-col-offset-md-1 fr-col-12 fr-col-sm-12 fr-col-md-6">
+                <h1>Le Service Public du logiciel libre</h1>
+                <p class="fr-text--lead">
+                    <strong>Accompagner </strong>les administrations pour renforcer leur <strong>utilisation </strong>de
+                    logiciels libres et soutenir leurs démarches de <strong>publication </strong>des codes sources.
+                </p>
+            </div>
+            <div class="fr-col-md-4 fr-hidden fr-unhidden-md">
+                <img src="/css/icons/rgaa.svg" width="396" height="271" class="fr-responsive-img" alt="" data-fr-js-ratio="true">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fr-container">
+    <div class="fr-grid-row">
+        <div class="fr-col-12">
+            <h2>Le plan d’action logiciels libres et communs numériques</h2>
+            <p class="fr-text--lg">
+                La <strong>mission logiciels libres </strong>est née du <strong>plan d'action logiciels libres et communs numériques </strong>dont les trois axes sont
+                soutenir le <strong>recours </strong>aux logiciels libres dans l'administration ;
+                développer l'<strong>ouverture </strong>des codes sources du secteur public ;
+                renforcer l'<strong>attractivité </strong>de l'Etat-employeur en s'appuyant sur l'open source.
+            </p>
+            <p>
+                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/plan-action-logiciels-libres-et-communs-numeriques">Consulter le plan d'action</a>
+            </p>
+            <div class="fr-grid-row fr-grid-row--gutters">
+                {% for tile in tileItems %}
+                <div class="fr-col-12 fr-col-md-4">
+                    {% include "components/tile.njk" %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="fr-grid-row fr-grid-row--center fr-pt-6w fr-pb-8v">
+        <div class="fr-col-10">
+            <h2 class="fr-h3">Vos contributions sont les bienvenues&nbsp;!</h2>
+            {% include "components/accordionsgroup.njk" %}
+        </div>
+    </div>
+</div>

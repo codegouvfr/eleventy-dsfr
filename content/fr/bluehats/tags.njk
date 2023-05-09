@@ -1,0 +1,35 @@
+---js
+{
+  pagination: {
+    data: "collections.bluehats_posts",
+    size: 1,
+    alias: "tag",
+    before: function(paginationData, fullData) {
+      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 10);
+    }
+  },
+  layout: "layouts/page.njk",
+  permalink: "/{{ lang }}/bluehats/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
+  segments: [{
+    url: "/blog/",
+    title: "Blog"
+  }],
+  eleventyComputed: {
+    title: 'Tagged "{{ tag.tagName }}"'
+  }
+}
+---
+<h1 class="text-center">Initiatives <code>BlueHats</code></h1>
+<div class="fr-container">
+  <h2>Filtré par <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/bluehats/tags/"| locale_url }}">{{ tag.tagName }}</a></h2>
+  <div class="fr-mb-3w">
+    {% set tags = collections.bluehats_posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}
+    {% set tags_url = "/bluehats/tags/" %}
+    {% include "components/taggroup.njk" %}
+  </div>
+  {% set postslist = tag.pageData %}
+  {% include "postslist.njk" %}
+  {% set tagUrl %}{{ "/bluehats/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
+  {% set pagination = pagination | pagination_object(tagUrl) %}
+  {% include "components/pagination.njk" %}
+</div>

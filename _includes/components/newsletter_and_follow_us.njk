@@ -1,14 +1,25 @@
 {# Works with metadata #}
 <div class="fr-follow">
     <div class="fr-container">
-        <div class="fr-grid-row">
-            <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-grid-row fr-grid-row--top">
+            <div class="fr-col-12 fr-col-md-4">
                 <div class="fr-follow__newsletter">
-                    <div><p class="fr-h5">{{ metadata.newsletter.title or "subscribe_newsletter" | i18n }}</p>
-                        <p class="fr-text--sm">{{ metadata.newsletter.description }}</p>
+                    <div><p class="fr-h5">{{ metadata.newsletter[0].title or "subscribe_newsletter" | i18n }}</p>
+                        <p class="fr-text--sm">{{ metadata.newsletter[0].description }}</p>
                     </div>
                     <div>
-                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter.url }}" target="_blank"> {{ "subscribe" | i18n }}
+                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[0].url }}" target="_blank"> {{ "subscribe" | i18n }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-4">
+                <div class="fr-follow__newsletter">
+                    <div><p class="fr-h5">{{ metadata.newsletter[1].title or "subscribe_newsletter" | i18n }}</p>
+                        <p class="fr-text--sm">{{ metadata.newsletter[1].description }}</p>
+                    </div>
+                    <div>
+                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[1].url }}" target="_blank"> {{ "subscribe" | i18n }}
                         </a>
                     </div>
                 </div>
@@ -22,6 +33,12 @@
                                    title="Facebook - {{ "new_window" | i18n }}"
                                    href="{{ metadata.facebook_url }}" target="_blank">
                                     facebook </a></li>
+                        {% endif %}
+                        {% if metadata.mastodon_url %}
+                            <li><a class="fr-link--mastodon fr-link"
+                                   title="Mastodon - {{ "new_window" | i18n }}"
+                                   href="{{ metadata.mastodon_url }}" target="_blank">
+                                    mastodon </a></li>
                         {% endif %}
                         {% if metadata.twitter_url %}
                             <li><a class="fr-link--twitter fr-link"
@@ -47,6 +64,16 @@
                                    href="{{ metadata.youtube_url }}" target="_blank">
                                     youtube </a></li>
                         {% endif %}
+                    </ul>
+                    <ul class="fr-links-group">
+                        <li><a class="fr-link--github fr-link"
+                               title="GitHub - {{ "new_window" | i18n }}"
+                               href="{{ metadata.github_url }}" target="_blank">
+                                github </a></li>
+                        <li><a class="fr-link--sourcehut fr-link"
+                               title="sourcehut - {{ "new_window" | i18n }}"
+                               href="{{ metadata.sourcehut_url }}" target="_blank">
+                                sourcehut </a></li>
                     </ul>
                 </div>
             </div>

@@ -27,10 +27,8 @@
 <body>
 {% include "components/header.njk" %}
 
-<main id="content" class="fr-container">
-    <div class="fr-container">
-        {{ content | safe }}
-    </div>
+<main id="content">
+    {{ content | safe }}
 </main>
 
 {% include "components/newsletter_and_follow_us.njk" %}

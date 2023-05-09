@@ -1,13 +1,10 @@
 ---
 title: Exemple de déclaration d’accessibilité
-layout: layouts/home.njk
+layout: layouts/page.njk
 description: Déclaration d’accessibilité à compléter
 slugOverride: accessibilite
+segments: true
 ---
-<div>
-{% include "components/breadcrumb.njk" %}
-</div>
-
 # Accessibilité
 
 <span class="aModifier">[Nom de l’entité]</span> s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102 du 11 février 2005.

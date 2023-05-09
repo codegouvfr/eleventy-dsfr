@@ -1,35 +1,37 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="fr-py-8v">
-    {% include "components/breadcrumb.njk" %}
+<div class="fr-container fr-py-8v">
+    <div class="fr-grid-row">
+        <div class="fr-col">
+            {% include "components/taggroup.njk" %}
 
-    {% include "components/taggroup.njk" %}
+            <hgroup>
+                <h1>{{ title }}</h1>
+                <p class="fr-text--xs">
+                    {{ "published_on" | i18n }}
+                    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+                </p>
+            </hgroup>
 
-    <hgroup>
-        <h1>{{ title }}</h1>
-        <p>
-            {{ "published_on" | i18n }}
-            <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-        </p>
-    </hgroup>
+            {% if image %}
+                {% include "components/imagecontent.njk" %}
+            {% endif %}
 
-    {% if image %}
-        {%  include "components/imagecontent.njk" %}
-    {% endif %}
+            {{ content | safe }}
 
-    {{ content | safe }}
-
-    {% if collections.posts %}
-        {% set previousPost = collections.posts | getPreviousCollectionItem %}
-        {% set nextPost = collections.posts | getNextCollectionItem %}
-        {% if nextPost or previousPost %}
-            <ul class="links-nextprev fr-pt-6w fr-mt-14v">
-                {% if previousPost %}
-                    <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-                {% if nextPost %}
-                    <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-            </ul>
-        {% endif %}
-    {% endif %}
+            {% if collections.posts %}
+                {% set previousPost = collections.posts | getPreviousCollectionItem %}
+                {% set nextPost = collections.posts | getNextCollectionItem %}
+                {% if nextPost or previousPost %}
+                    <ul class="links-nextprev fr-pt-6w fr-mt-14v">
+                        {% if previousPost %}
+                            <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+                        {% if nextPost %}
+                            <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                    </ul>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
 </div>

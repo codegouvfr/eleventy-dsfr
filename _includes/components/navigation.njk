@@ -5,7 +5,7 @@
             {% set link_url = link.url | locale_url(lang) %}
             <li class="fr-nav__item">
                 <a class="fr-nav__link" href="{{ link_url }}"
-                   target="_self"{% if link_url == page.url %} aria-current="page"{% endif %}>{{ link.text | i18n }}</a>
+                   target="_self"{% if link_url == page.url %} aria-current="page"{% endif %}>{{ link.text }}</a>
             </li>
         {% endfor %}
     </ul>

@@ -1,3 +1,4 @@
+const path = require("path");
 const chalk = require("chalk");
 
 module.exports = {
@@ -19,7 +20,7 @@ module.exports = {
                     console.warn(chalk.yellow(`[a11y] Missing alternative text for image source ${data.image.src}.`));
                 }
                 return {
-                    path: `${__dirname}/../../${data.page.filePathStem}/../${data.image.src}`,
+                    path: path.resolve(`${data.page.inputPath}/..`, data.image.src),
                     alt: data.image.alt || data.title,
                 }
             } else {

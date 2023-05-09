@@ -1,13 +1,10 @@
 ---
 title: Exemple de mentions légales
-layout: layouts/home.njk
+layout: layouts/page.njk
 description: Mentions légales à compléter
 slugOverride: mentions legales
+segments: true
 ---
-<div>
-{% include "components/breadcrumb.njk" %}
-</div>
-
 # Mentions légales
 
 ## Identification de l'éditeur

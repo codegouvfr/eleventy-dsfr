@@ -1,12 +1,12 @@
 module.exports = {
     fr: [
-        {"text": "home", "url": "/"},
-        {"text": "blog", "url": "/blog/"},
-        {"text": "about", "url": "/a-propos/"},
+        {"text": "Accueil", "url": "/"},
+        {"text": "Blog", "url": "/blog/"},
+        {"text": "À propos", "url": "/a-propos/"},
     ],
     en: [
-        {"text": "home", "url": "/"},
+        {"text": "Home", "url": "/"},
         {"text": "blog", "url": "/blog/"},
-        {"text": "about", "url": "/about/"},
+        {"text": "About", "url": "/about/"},
     ]
 }

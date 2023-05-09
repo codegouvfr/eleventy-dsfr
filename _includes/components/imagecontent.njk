@@ -1,7 +1,7 @@
 {# Mandatory variable `image: { path: string, alt: string }` to make it work #}
 <figure class="fr-content-media" role="group" aria-label="{{ image.alt }}">
     <div class="fr-content-media__img">
-        {% image image.path, image.alt %}
+        {% imageSync image.path, image.alt %}
     </div>
     <figcaption class="fr-content-media__caption">{{ image.alt }}</figcaption>
 </figure>

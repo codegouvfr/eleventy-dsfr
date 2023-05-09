@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<div class="fr-container fr-py-8v">
+    {% if segments %}
+        {% include "components/breadcrumb.njk" %}
+    {% endif %}
+    <div class="fr-grid-row">
+        <div class="fr-col">
+            {{ content | safe }}
+        </div>
+    </div>
+</div>

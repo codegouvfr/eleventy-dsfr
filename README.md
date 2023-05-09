@@ -56,11 +56,11 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
     ---
     ```
   - Utiliser l'une des mises en page via le mot-clé `layout` :
-    - `_includes/layouts/home.njk` pour une page standard
+    - `_includes/layouts/page.njk` pour une page standard
     - `_includes/layouts/post.njk` pour un article de blog
     ```markdown
     ---
-    layout: home.njk
+    layout: page.njk
     title: Un exemple de page
     ---
     # {{ title }}
@@ -120,8 +120,8 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
   ```markdown
    ---
    image:
-     - src: ./possum.png
-       alt: A possum
+     src: ./possum.png
+     alt: A possum
    ---
    ```
 

@@ -66,7 +66,15 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
     # {{ title }}
     ```
   - Inclure un composant :
-    - Fil d'Ariane : renseigner les `segments` et inclure le composant `breadcrumb`
+    - **Accordéon** : renseigner des `accordionItems` et inclure le composant `acccordionsgroup`
+    ```html
+      {% set accordionItems = [{
+          title: "Intitulé accordéon",
+          content: "<p>Contenu</p>"
+      }] %}
+      {% include "components/accordionsgroup.njk" %}
+      ```
+    - **Fil d'Ariane** : renseigner les `segments` et inclure le composant `breadcrumb`
       ```markdown
       ---
       segments:
@@ -75,7 +83,7 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
       ---
       {% include "components/breadcrumb.njk" %}
       ```
-    - Carte : renseigner une `card` et inclure le composant `card`
+    - **Carte** : renseigner une `card` et inclure le composant `card`
       ```html
       {% set card = {
           url: "/blog/firstpost/",
@@ -88,12 +96,12 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
       } %}
       {% include "components/card.njk" %}
       ```
-    - Contenu image : renseigner une `image` et inclure le composant `imagecontent`
+    - **Contenu image** : renseigner une `image` et inclure le composant `imagecontent`
       ```html
       {% set image = { path: "./possum.png", alt: "A possum" } %}
       {% include "components/imagecontent.njk" %}
       ```
-    - Pagination : mettre en place la `pagination` et inclure le composant `pagination`
+    - **Pagination** : mettre en place la `pagination` et inclure le composant `pagination`
       ```md
       ---
       pagination:
@@ -103,7 +111,7 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
       ---
       {% include "components/pagination.njk" %}
       ```
-    - Groupe de tags : renseigner des `tags` et inclure l'un des composants `taggroup`
+    - **Groupe de tags** : renseigner des `tags` et inclure l'un des composants `taggroup`
       ```markdown
       {% set tags = collections.all | getAllTags %}
       {% include "components/taggroup.njk" %}
@@ -152,6 +160,7 @@ par des appels aux nouvelles collections localisées automatiquement créées `p
 - DSFR :
   - Installation et mise à jour automatique via `npm`.
   - Composants déjà implémentés :
+    - [Accordéon](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/accordeon)
     - [Fil d'Ariane](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/fil-d-ariane)
     - [Carte](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/carte)
     - [Paramètres d'affichage](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/parametre-d-affichage)

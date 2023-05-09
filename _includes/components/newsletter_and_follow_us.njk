@@ -4,12 +4,12 @@
         <div class="fr-grid-row">
             <div class="fr-col-12 fr-col-md-8">
                 <div class="fr-follow__newsletter">
-                    <div><p class="fr-h5">{{ "subscribe_newsletter" | i18n }}</p>
-                        <p class="fr-text--sm">{{ "newsletter_description" | i18n }}</p>
+                    <div><p class="fr-h5">{{ metadata.newsletter.title or "subscribe_newsletter" | i18n }}</p>
+                        <p class="fr-text--sm">{{ metadata.newsletter.description }}</p>
                     </div>
                     <div>
-                        <button class="fr-btn" title="{{ "subscribe" | i18n }}"> {{ "subscribe" | i18n }}
-                        </button>
+                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter.url }}" target="_blank"> {{ "subscribe" | i18n }}
+                        </a>
                     </div>
                 </div>
             </div>

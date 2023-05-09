@@ -16,8 +16,6 @@ module.exports = {
     light_theme: "Light Theme",
     main_menu: "Main Menu",
     menu: "Menu",
-    newsletter_description: "Lorem ipsum dolor sit amet, \
-        consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.",
     new_window: "New window",
     next_page: "Next page",
     not_compliant: "Not compliant",

@@ -6,6 +6,9 @@ pagination:
   reverse: true
   generatePageOnEmptyData: true
 permalink: "/{{ lang }}/blog/{% if pagination.pageNumber %}{{ page_prefix }}{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyNavigation:
+  key: Blog
+  order: 2
 ---
 <div class="fr-container">
   <div class="fr-grid-row fr-grid-row--gutters">

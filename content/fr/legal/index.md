@@ -3,7 +3,7 @@ title: Exemple de mentions légales
 layout: layouts/page.njk
 description: Mentions légales à compléter
 slugOverride: mentions legales
-segments: true
+showBreadcrumb: true
 ---
 # Mentions légales
 

@@ -1,4 +1,7 @@
 {# Mandatory variable `segments: { url: string, title: string }[]` to make it work #}
+{% if eleventyNavigation %}
+    {% set segments = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+{% endif %}
 <nav role="navigation" class="fr-breadcrumb" aria-label="{{ "you_are_here" | i18n }}:">
     <button class="fr-breadcrumb__button" aria-expanded="false"
             aria-controls="breadcrumb-1">{{ "see_breadcrumb" | i18n }}

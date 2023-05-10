@@ -3,7 +3,7 @@ title: Exemple de déclaration d’accessibilité
 layout: layouts/page.njk
 description: Déclaration d’accessibilité à compléter
 slugOverride: accessibilite
-segments: true
+showBreadcrumb: true
 ---
 # Accessibilité
 

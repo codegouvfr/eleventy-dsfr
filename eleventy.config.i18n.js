@@ -21,6 +21,10 @@ module.exports = eleventyConfig => {
         return translations[lang][key];
     });
 
+    eleventyConfig.addFilter("filterCollectionLang", (collection, lang) => {
+        return collection.filter(item => item.data.lang === lang);
+    });
+
     eleventyConfig.addGlobalData("available_langs", Object.keys(translations));
 
     // Localised collections

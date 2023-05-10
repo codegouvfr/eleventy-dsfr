@@ -44,7 +44,6 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
 ## Réutilisation
 
 - Modifier le fichier `_data/metadata.js` pour renseigner les informations du site.
-  - Ansi que le fichier `_data/navigationLinks.js` pour remplacer et/ou compléter les liens du menu de navigation.
 - Compléter les pages obligatoires : `content/fr/accessibilite`, `content/fr/donnees-personnelles`, `content/fr/mentions-legales`
 - Ajouter du contenu dans le dossier `content` :
   - Voir `content/fr/about/index.md` pour un exemple de page standard en Markdown.
@@ -132,6 +131,15 @@ Ou exécuter un [mode de débogage](https://www.11ty.dev/docs/debugging/).
      alt: A possum
    ---
    ```
+- Ajouter une page au menu de navigation (gérée via le plugin `eleventy-navigation`) : renseigner le mot-clé `eleventyNavigation`
+  ```markdown
+   ---
+   eleventyNavigation:
+     key: Accueil
+     order: 1
+   ---
+   ```
+  - Pour une navigation de niveau 2, utiliser le mot-clé `parent`.
 
 ### HOW-TOs
 

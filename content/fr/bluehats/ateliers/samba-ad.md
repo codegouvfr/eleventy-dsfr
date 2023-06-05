@@ -7,4 +7,4 @@ video:
   title: "Atelier BlueHats : Présentation de la contribution de l’État à Samba-AD"
 ---
 
-Télécharger le [support de présentation en PDF](/img/20_Jan_2023_-_BlueHats_-_Retex_SAMBA-AD_-_v1.pdf).
+Télécharger le [support de présentation en PDF](/rsrc/20_Jan_2023_-_BlueHats_-_Retex_SAMBA-AD_-_v1.pdf).

@@ -7,6 +7,8 @@
         <p class="fr-tile__desc">{{ tile.description }}</p>
     </div>
     {% if tile.imagePath %}
-        <div class="fr-tile__img">{% image tile.imagePath, tile.imageAlt %}</div>
+        <div class="fr-tile__img">
+            <img src="{{ tile.imagePath }}" class="fr-responsive-img" data-fr-js-ratio="true">
+        </div>
     {% endif %}
 </div>

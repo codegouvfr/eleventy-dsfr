@@ -5,7 +5,7 @@ eleventyNavigation:
   key: Accueil
   order: 1
 ---
-<div class="banner">
+<div class="banner-primary">
     <div class="fr-container fr-pt-8w fr-pb-6w fr-mb-6w">
         <div class="fr-grid-row">
             <div class="fr-col-offset-md-1 fr-col-12 fr-col-sm-12 fr-col-md-6">
@@ -15,8 +15,8 @@ eleventyNavigation:
                     logiciels libres et soutenir leurs démarches de <strong>publication </strong>des codes sources.
                 </p>
             </div>
-            <div class="fr-col-md-4 fr-hidden fr-unhidden-md">
-                <img src="/css/icons/rgaa.svg" width="396" height="271" class="fr-responsive-img" alt="" data-fr-js-ratio="true">
+            <div class="fr-col-md-4 fr-hidden fr-unhidden-md col-center">
+                <img src="/icons/binaire-256.png" data-fr-js-ratio="true">
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@ eleventyNavigation:
                 <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/plan-action-logiciels-libres-et-communs-numeriques">Consulter le plan d'action</a>
             </p>
             <div class="fr-grid-row fr-grid-row--gutters">
-                {% for tile in tileItems %}
+                {% for tile in actions %}
                 <div class="fr-col-12 fr-col-md-4">
                     {% include "components/tile.njk" %}
                 </div>

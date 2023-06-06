@@ -21,25 +21,26 @@ module.exports = {
         {
             url: "/fr/bluehats/tags/gazette/",
             title: "La gazette : le libre par et pour l'administration",
-            description: `
-La gazette BlueHats est la contribution de la DINUM au mouvement BlueHats.  Cette lettre bimestrielle partage des informations sur l'utilisation et le développement de logiciels libres dans et pour l'administration.  Elle sert aussi à donner une vue d'ensemble des activités du réseau de compagnonnage BlueHats.  En la lisant, vous découvrirez des projets que vous pourrez tester ou suivre ; en y contribuant, vous partagerez vos initiatives et vos découvertes.`
+            description: "La gazette BlueHats est une lettre d'information bimestrielle autour des logiciels libres par et pour les administrations publiques.",
+            imagePath: "/icons/interface-64.png"
         },
         {
             url: "/fr/bluehats/tags/atelier/",
             title: "Les ateliers",
-            description: `
-Les ateliers BlueHats sont des visioconférences ou des agents publics présentent des logiciels libres qu'ils utilisent ou développent.  Ils se tiennent un ou deux vendredi par mois de 11h à 12h30.
-Tout le monde peut y accéder en ligne.`
+            description: "Les ateliers BlueHats sont des visioconférences publiques consacrées à l'utilisation de logiciels libres par des administrations.",
+            imagePath: "/icons/conference-64.png"
         },
         {
             url: "/fr/bluehats/tags/rencontre/",
             title: "Les rencontres",
-            description: "Les rencontres BlueHats sont des événements en présentiel où les BlueHats se retrouve pour faire connaissance et collaborer. Ces rencontres peuvent prendre différentes formes : Sprint Open Source, journées BlueHats lors de salons, etc."
+            description: "Les rencontres BlueHats sont des événements en présentiel où les BlueHats se retrouve pour faire connaissance et collaborer.  Ces rencontres peuvent prendre différentes formes : Sprint Open Source, journées BlueHats lors de salons, etc.",
+            imagePath: "/icons/businessman-64.png"
         },
         {
             url: "/fr/bluehats/bluehats-semester-of-code/",
             title: "BlueHats Semester of Code",
-            description: "En partenariat avec CentraleSupélec, la DINUM propose un programme de stages pour développer les contributions de l'administration à des logiciels libres."
+            description: "En partenariat avec CentraleSupélec, la DINUM propose un programme de stages pour développer les contributions de l'administration à des logiciels libres.",
+            imagePath: "/icons/coding-2-64.png"
         }
     ],
     accordionItems: [
@@ -60,6 +61,13 @@ Tout le monde peut y accéder en ligne.`
 <p>Vous souhaitez proposer un atelier BlueHats 🧢 ?  <a href="mailto:contact@code.gouv.fr">Contactez-nous !</a></p>`
         }
     ],
+    tagDescriptions: {
+      gazette: `La gazette BlueHats est la contribution de la DINUM au mouvement BlueHats. Cette lettre bimestrielle partage des informations sur l'utilisation et le développement de logiciels libres dans et pour l'administration. Elle sert aussi à donner une vue d'ensemble des activités du réseau de compagnonnage BlueHats. En la lisant, vous découvrirez des projets que vous pourrez tester ou suivre ; en y contribuant, vous partagerez vos initiatives et vos découvertes.`,
+      atelier: `Les ateliers BlueHats sont des visioconférences ou des agents publics présentent des logiciels libres qu'ils utilisent ou développent. Ils se tiennent un ou deux vendredi par mois de 11h à 12h30.
+<br /><br />
+Tout le monde peut y accéder en ligne via ce lien. Ils sont aussi visibles en rediffusion sur la chaîne BlueHats d'Etalab.`,
+      rencontre: `Les rencontres BlueHats sont des moments d'échange et de coopération en présentiel consacrés à toutes les personnes qui s'intéressent aux logiciels libres pour les administrations publiques.`
+    },
     projects: [
         {
             url: "https://man.sr.ht/~codegouvfr/logiciels-libres/bsoc2022/jabref.md",

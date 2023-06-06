@@ -90,11 +90,54 @@ h2 + .header-anchor {
 	}
 }
 
+/** Missing icons **/
+.fr-follow .fr-link--mastodon:before,
+.fr-follow .fr-link--peertube:before,
+.fr-follow .fr-link--github:before,
+.fr-follow .fr-link--sourcehut:before {
+	background-color: currentColor !important;
+	content: "" !important;
+	display: inline-block !important;
+	flex: 0 0 auto !important;
+	height: var(--icon-size) !important;
+	-webkit-mask-size: 100% 100% !important;
+	mask-size: 100% 100% !important;
+	vertical-align: calc((.75em - var(--icon-size))*.5) !important;
+	width: var(--icon-size) !important;
+}
+
+.fr-follow .fr-link--mastodon:before {
+	-webkit-mask-image: url(icons/logo/mastodon-fill.svg) !important;
+	mask-image: url(icons/logo/mastodon-fill.svg) !important;
+}
+
+.fr-follow .fr-link--peertube:before {
+	-webkit-mask-image: url(../icons/logo/peertube.svg) !important;
+	mask-image: url(../icons/logo/peertube.svg) !important;
+}
+
+.fr-follow .fr-link--github:before {
+	-webkit-mask-image: url(icons/logo/github-fill.svg) !important;
+	mask-image: url(icons/logo/github-fill.svg) !important;
+}
+
+.fr-follow .fr-link--sourcehut:before {
+	-webkit-mask-image: url(../icons/logo/sourcehut.svg) !important;
+	mask-image: url(../icons/logo/sourcehut.svg) !important;
+}
+
 /* Custom */
-.banner {
+.banner-primary {
 	background: var(--background-alt-green-archipel);
+}
+.banner-secondary {
+	background: var(--background-alt-grey);
 }
 
 .text-center {
 	text-align: center;
+}
+
+.col-center {
+	justify-content: center;
 }

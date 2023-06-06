@@ -1,5 +1,5 @@
 module.exports = {
-    tileItems: [
+    utilisations: [
         {
             url: false,
             external_url: "https://sill.code.gouv.fr/",

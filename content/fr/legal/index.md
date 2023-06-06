@@ -26,7 +26,8 @@ Ce site est hébergé par OVH France, 2 rue Kellermann 59100 Roubaix, France.  T
 
 ## Crédits images
 
-- *Teamwork makes the dream work* par © Dylan Gillis, licence [Unsplash](https://unsplash.com/photos/KdeqA3aTnBY).
+- [Gradient icons created by srip](https://www.flaticon.com/authors/srip/gradient)
+- [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
 
 ## Code source du site
 

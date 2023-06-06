@@ -23,17 +23,17 @@ eleventyNavigation:
             </p>
         </div>
         <div class="fr-col-12 fr-col-sm-12 fr-col-md-4">
-            <img class="fr-responsive-img" src="/img/bluehats-communaute.jpg" alt="Rejoignez la communauté">
+            <img class="fr-responsive-img" src="/icons/hat-256.png" alt="Rejoignez la communauté">
         </div>
     </div>
 </div>
-<div class="banner">
-    <div class="fr-container fr-pt-3w fr-pb-3w">
+<div class="banner-secondary">
+    <div class="fr-container fr-pt-6w fr-pb-6w">
         <h1 class="text-center"><code>BlueHats</code>, c'est quoi ?</h1>
         <div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
-            {% for card in initiatives %}
+            {% for tile in initiatives %}
                 <div class="fr-col-12 fr-col-md-6">
-                    {% include "components/card.njk" %}
+                    {% include "components/tile.njk" %}
                 </div>
             {% endfor %}
         </div>

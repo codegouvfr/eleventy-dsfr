@@ -15,11 +15,11 @@ const paginatedUrl = (url, pageNumber) => {
 }
 
 module.exports = eleventyConfig => {
-    eleventyConfig.addFilter("paginated_url", (url, pageNumber) => {
+    eleventyConfig.addFilter("paginatedUrl", (url, pageNumber) => {
         return paginatedUrl(url, pageNumber);
     });
 
-    eleventyConfig.addFilter("pagination_object", (pagination, url) => {
+    eleventyConfig.addFilter("buildPagination", (pagination, url) => {
         const filteredHrefs = pagination.hrefs.filter(href => href.startsWith(url));
         const pageCount = filteredHrefs.length;
         const pageNumber = filteredHrefs.findIndex(href => href === pagination.hrefs[pagination.pageNumber]);
@@ -37,7 +37,7 @@ module.exports = eleventyConfig => {
     });
 
     eleventyConfig.addFilter("paginateCollectionTags", function paginateCollection(collection, paginationSize) {
-        collection.sort(function(a, b) {
+        collection.sort(function (a, b) {
             return b.date - a.date; // sort by date - descending
         });
         const entryTags = collection.map(entry => entry.data.tags)
@@ -59,5 +59,5 @@ module.exports = eleventyConfig => {
         return tagMap;
     });
 
-    eleventyConfig.addGlobalData("page_prefix", PAGE_PREFIX);
+    eleventyConfig.addGlobalData("pagePrefix", PAGE_PREFIX);
 }

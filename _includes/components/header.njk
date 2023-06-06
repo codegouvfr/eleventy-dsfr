@@ -5,17 +5,15 @@
             <div class="fr-header__body-row">
                 <div class="fr-header__brand fr-enlarge-link">
                     <div class="fr-header__brand-top">
-                        <div class="fr-header__logo"><p class="fr-logo">République<br />française</p></div>
+                        <div class="fr-header__logo"><p class="fr-logo">République<br/>française</p></div>
                         <div class="fr-header__navbar">
-                            <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-491"
-                                    aria-haspopup="menu" id="button-492"
-                                    title="{{ "menu" | i18n }}"> {{ "menu" | i18n }}
+                            <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-491" aria-haspopup="menu" id="button-492" title="{{ "menu" | i18n }}">
+                                {{ "menu" | i18n }}
                             </button>
                         </div>
                     </div>
                     <div class="fr-header__service">
-                        <a href="{{ "/" | locale_url }}"
-                           title="{{ "home" | i18n }} - {{ metadata.title }} - {{ metadata.service }}">
+                        <a href="{{ "/" | locale_url }}" title="{{ "home" | i18n }} - {{ metadata.title }} - {{ metadata.service }}">
                             <p class="fr-header__service-title"> {{ metadata.title }} </p>
                         </a>
                         <p class="fr-header__service-tagline">{{ metadata.description }}</p>
@@ -38,8 +36,9 @@
     </div>
     <div class="fr-header__menu fr-modal" id="modal-491" aria-labelledby="button-492">
         <div class="fr-container">
-            <button class="fr-btn--close fr-btn" aria-controls="modal-491"
-                    title="{{ "close" | i18n }}"> {{ "close" | i18n }}</button>
+            <button class="fr-btn--close fr-btn" aria-controls="modal-491" title="{{ "close" | i18n }}">
+                {{ "close" | i18n }}
+            </button>
             <div class="fr-header__menu-links"></div>
             {% include "components/navigation.njk" %}
         </div>

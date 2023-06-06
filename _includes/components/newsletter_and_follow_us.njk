@@ -4,22 +4,26 @@
         <div class="fr-grid-row fr-grid-row--top">
             <div class="fr-col-12 fr-col-md-4">
                 <div class="fr-follow__newsletter">
-                    <div><p class="fr-h5">{{ metadata.newsletter[0].title or "subscribe_newsletter" | i18n }}</p>
+                    <div>
+                        <p class="fr-h5">{{ metadata.newsletter[0].title or "subscribe_newsletter" | i18n }}</p>
                         <p class="fr-text--sm">{{ metadata.newsletter[0].description }}</p>
                     </div>
                     <div>
-                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[0].url }}" target="_blank"> {{ "subscribe" | i18n }}
+                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[0].url }}" target="_blank">
+                            {{ "subscribe" | i18n }}
                         </a>
                     </div>
                 </div>
             </div>
             <div class="fr-col-12 fr-col-md-4">
                 <div class="fr-follow__newsletter">
-                    <div><p class="fr-h5">{{ metadata.newsletter[1].title or "subscribe_newsletter" | i18n }}</p>
+                    <div>
+                        <p class="fr-h5">{{ metadata.newsletter[1].title or "subscribe_newsletter" | i18n }}</p>
                         <p class="fr-text--sm">{{ metadata.newsletter[1].description }}</p>
                     </div>
                     <div>
-                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[1].url }}" target="_blank"> {{ "subscribe" | i18n }}
+                        <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter[1].url }}" target="_blank">
+                            {{ "subscribe" | i18n }}
                         </a>
                     </div>
                 </div>

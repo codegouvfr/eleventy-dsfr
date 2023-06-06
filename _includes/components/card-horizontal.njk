@@ -8,24 +8,23 @@
                 {% set tags = card.tags %}
                 {% include "components/taggroup-disabled.njk" %}
                 <p class="fr-card__detail fr-icon-time-fill">
-                    <time class="postlist-date"
-                          datetime="{{ card.date | htmlDateString }}">{{ card.date | readableDate("LLLL yyyy") }}</time>
+                    <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
+                        {{ card.date | readableDate("LLLL yyyy") }}
+                    </time>
                 </p>
             </div>
         </div>
     </div>
-        <div class="fr-card__header">
-            {% if card.badges %}
-                <ul class="fr-badges-group">
-                    {% for badge in card.badges %}
-                        <li>
-                            <p class="fr-badge fr-badge--green-emeraude">{{ badge }}</p>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-            {% if card.imagePath %}
+    <div class="fr-card__header">
+        {% if card.badges %}
+            <ul class="fr-badges-group">
+                {% for badge in card.badges %}
+                    <li><p class="fr-badge fr-badge--green-emeraude">{{ badge }}</p></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% if card.imagePath %}
             <div class="fr-card__img">{% image card.imagePath, card.imageAlt %}</div>
-            {% endif %}
-        </div>
+        {% endif %}
+    </div>
 </div>

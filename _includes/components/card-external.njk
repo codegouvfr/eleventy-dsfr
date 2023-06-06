@@ -1,4 +1,4 @@
-{# Mandatory variable `card { external_url: string, title: string, description: string, tags: string[], date: string, imagePath: string, imageAlt: string }` to make it work #}
+{# Mandatory variable `card { externalUrl: string, title: string, description: string, tags: string[], date: string, imagePath: string, imageAlt: string }` to make it work #}
 <div class="fr-card">
     <div class="fr-card__body">
         <div class="fr-card__content">
@@ -9,8 +9,9 @@
                 {% include "components/taggroup-disabled.njk" %}
                 {% if card.date %}
                     <p class="fr-card__detail fr-icon-time-fill">
-                        <time class="postlist-date"
-                              datetime="{{ card.date | htmlDateString }}">{{ card.date | readableDate("LLLL yyyy") }}</time>
+                        <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
+                            {{ card.date | readableDate("LLLL yyyy") }}
+                        </time>
                     </p>
                 {% endif %}
             </div>
@@ -18,9 +19,9 @@
         <div class="fr-card__footer">
             <ul class="fr-links-group">
                 <li>
-                    {% set url_description %}{% if card.url_description %}En savoir plus sur {{ card.url_description }}{% else %}En savoir plus{% endif %}{% endset %}
-                    <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.external_url }}" target="_blank" title="{{ url_description }} - {{ "new_window" | i18n }}">
-                        {{ url_description }}
+                    {% set urlDescription %}{% if card.urlDescription %}En savoir plus sur {{ card.urlDescription }}{% else %}En savoir plus{% endif %}{% endset %}
+                    <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.externalUrl }}" target="_blank" title="{{ urlDescription }} - {{ "new_window" | i18n }}">
+                        {{ urlDescription }}
                     </a>
                 </li>
             </ul>

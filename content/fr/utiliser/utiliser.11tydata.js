@@ -2,7 +2,7 @@ module.exports = {
     utilisations: [
         {
             url: false,
-            external_url: "https://sill.code.gouv.fr/",
+            externalUrl: "https://sill.code.gouv.fr/",
             title: "Le socle interministériel de logiciels libres (SILL)",
             description: "Le catalogue de référence des logiciels libres utilisés dans l'administration."
         },

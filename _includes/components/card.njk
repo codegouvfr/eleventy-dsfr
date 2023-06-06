@@ -6,14 +6,15 @@
             <p class="fr-card__desc">{{ card.description }}</p>
             <div class="fr-card__start">
                 {% if card.tags %}
-                {% set tags = card.tags %}
+                    {% set tags = card.tags %}
                 {% endif %}
                 {% include "components/taggroup-disabled.njk" %}
                 {% if card.date %}
-                <p class="fr-card__detail fr-icon-time-fill">
-                    <time class="postlist-date"
-                          datetime="{{ card.date | htmlDateString }}">{{ card.date | readableDate("LLLL yyyy") }}</time>
-                </p>
+                    <p class="fr-card__detail fr-icon-time-fill">
+                        <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
+                            {{ card.date | readableDate("LLLL yyyy") }}
+                        </time>
+                    </p>
                 {% endif %}
             </div>
         </div>

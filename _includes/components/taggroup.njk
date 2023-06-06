@@ -1,8 +1,8 @@
 {# Mandatory variable `tags: string[]` to make it work #}
-{# Optionnal variables `tags_url: string` #}
+{# Optionnal variables `tagsUrl: string` #}
 <ul class="fr-tags-group">
     {% for tag in tags | filterTagList %}
-        {% set tagUrl %}{{ (tags_url or "/blog/tags/") | locale_url }}{{ tag | slugify }}/{% endset %}
+        {% set tagUrl %}{{ (tagsUrl or "/blog/tags/") | locale_url }}{{ tag | slugify }}/{% endset %}
         <li>
             <a href="{{ tagUrl }}" class="fr-tag">{{ tag }}</a>
         </li>

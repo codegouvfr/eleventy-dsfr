@@ -8,7 +8,7 @@ module.exports = {
         },
         {
             url: false,
-            external_url: "https://code.gouv.fr/public/",
+            externalUrl: "https://code.gouv.fr/public/",
             title: "Publier",
             description: "Développer et accompagner l’ouverture et la libération des codes sources de l'administration.",
             imagePath: "/icons/programing-64.png"

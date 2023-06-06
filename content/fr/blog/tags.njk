@@ -1,5 +1,6 @@
 ---js
 {
+  title: "Actualités",
   pagination: {
     data: "collections.posts",
     size: 1,
@@ -9,7 +10,7 @@
     }
   },
   layout: "layouts/page.njk",
-  permalink: "/{{ lang }}/blog/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ page_prefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
+  permalink: "/{{ lang }}/blog/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ pagePrefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
   segments: [{
     url: "/blog/",
     title: "Blog"
@@ -19,7 +20,7 @@
   }
 }
 ---
-<h1>Actualités</h1>
+<h1>{{ title }}</h1>
 <div class="fr-container">
   <h2>Filtré par <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/blog/"| locale_url }}">{{ tag.tagName }}</a></h2>
   <div class="fr-mb-3w">
@@ -29,6 +30,6 @@
   {% set postslist = tag.pageData %}
   {% include "postslist.njk" %}
   {% set tagUrl %}{{ "/blog/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
-  {% set pagination = pagination | pagination_object(tagUrl) %}
+  {% set pagination = pagination | buildPagination(tagUrl) %}
   {% include "components/pagination.njk" %}
 </div>

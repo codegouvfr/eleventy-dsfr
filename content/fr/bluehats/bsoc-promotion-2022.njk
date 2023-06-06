@@ -13,8 +13,8 @@ showBreadcrumb: true
     {% asyncAll person in people %}
     <div class="fr-col-12">
         {% set card = {
-            external_url: person.projectUrl,
-            url_description: person.projectName,
+            externalUrl: person.projectUrl,
+            urlDescription: person.projectName,
             title: person.name,
             description: person.description,
             imagePath: person.imgSrc,

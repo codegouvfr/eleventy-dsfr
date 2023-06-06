@@ -35,9 +35,21 @@ layout: layouts/base.njk
                 {% if nextPost or previousPost %}
                     <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w">
                         {% if previousPost %}
-                            <li><a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% else %}<li></li>{% endif %}
+                            <li>
+                                <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">
+                                    {{ previousPost.data.title }}
+                                </a>
+                            </li>
+                        {% else %}
+                            <li></li>
+                        {% endif %}
                         {% if nextPost %}
-                            <li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                            <li>
+                                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">
+                                    {{ nextPost.data.title }}
+                                </a>
+                            </li>
+                        {% endif %}
                     </ul>
                 {% endif %}
             {% endif %}

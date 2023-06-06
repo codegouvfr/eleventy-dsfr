@@ -8,13 +8,13 @@ segments:
     title: Utiliser
 showBreadcrumb: true
 ---
-{% set callout_description %}
+{% set calloutDescription %}
 <p>Vous pouvez consulter la <a href="https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres.md" target="_blank" title="Liste des bénéficiaires des marchés support et expertise logiciels libres - Lien externe">liste des bénéficiaires de ces marchés logiciels libres</a> et <a href="/fr/contact">nous écrire</a> pour connaître le coordinateur de votre établissement, s'il est bénéficiaire.</p>
 <br />
 <p>Vous pouvez aussi consulter la <a href="https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres-liste-logiciels.md" target="_blank" title="Liste des logiciels libres concernés par le marché de support logiciels libres - Lien externe">liste des logiciels libres concernés par le marché de support logiciels libres</a> ainsi que les <a href="https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres-liste-contributions.md" target="_blank" title="Liste des logiciels libres concernés par le marché de support logiciels libres - Lien externe">contributions faites aux projets libres</a> via le marché.</p>
 {% endset %}
 {% set callout = {
-	description: callout_description
+	description: calloutDescription
 } %}
 {% include "components/callout.njk" %}
 

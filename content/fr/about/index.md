@@ -16,7 +16,7 @@ description: 'Voici des informations pour <a href="https://man.sr.ht/~codegouvfr
 
 Ce site présente les ressources publiées et mises en oeuvre dans le cadre du [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
 
-Son code source est disponible [sur ce dépôt](https://git.sr.ht/~codegouvfr/code.gouv.fr_home).
+Son code source est disponible [sur ce dépôt](https://github.com/codegouvfr/codegouv-website).
 
 ## Equipe
 

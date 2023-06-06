@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-dsfr",
-	"version": "1.0.0",
-	"description": "Une base de code pour déployer un site/blog statique avec Eleventy et le DSFR.",
+	"name": "code.gouv.fr",
+	"version": "1.1.0",
+	"description": "Mission logiciels libres et communs numériques",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-preproduction": "npx @11ty/eleventy",
@@ -12,18 +12,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:codegouvfr/eleventy-dsfr.git"
+		"url": "git@github.com:codegouvfr/codegouv-website.git"
 	},
 	"author": {
-		"name": "",
-		"email": "",
-		"url": ""
+		"name": "Mission logiciels libres (DINUM)",
+		"email": "contact@code.gouv.fr",
+		"url": "https://code.gouv.fr/mission/"
 	},
 	"license": "etalab-2.0",
 	"engines": {
 		"node": ">=14"
 	},
-	"homepage": "TODO github page",
+	"homepage": "https://code.gouv.fr/",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.0",
 		"@11ty/eleventy-img": "^3.0.0",

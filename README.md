@@ -4,11 +4,9 @@
 
 # Site code.gouv.fr
 
-Ce dépôt contient les éléments nécessaires à la publication du site
-[code.gouv.fr](https://code.gouv.fr).
+Ce dépôt contient les éléments nécessaires à la publication du site [code.gouv.fr](https://code.gouv.fr).
 
-Il a été construit à partir de [ce site
-modèle](https://github.com/etalab/eleventy-dsfr/).
+Il a été construit à partir de [ce site modèle](https://github.com/codegouvfr/eleventy-dsfr/).
 
 ## Installation et lancement
 
@@ -24,18 +22,7 @@ Le site est déployé en préproduction sur [preprod.codegouv.studio](http://pre
 
 # Contributions
 
-Pour discuter d'évolutions éditoriales ou pour des retours devant
-rester confidentiels, écrivez à
-[contact@code.gouv.fr](mailto:contact@code.gouv.fr).
-
-Pour des corrections de bug, envoyez vos correctifs (*patches*) à la
-liste publique
-[~codegouvfr/logiciels-libres@lists.sr.ht](mailto:~codegouvfr/logiciels-libres@lists.sr.ht).
-
-**Attention** à configurer votre copie locale du dépôt de façon à ce
-que les correctifs envoyés sur la liste soient bien liés à ce dépôt :
-
-`git config format.subjectPrefix 'PATCH code.gouv.fr'`
+Pour discuter d'évolutions éditoriales ou pour des retours devant rester confidentiels, écrivez à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
 
 ## Licences
 

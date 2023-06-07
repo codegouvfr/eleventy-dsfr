@@ -12,7 +12,6 @@ Le site `code.gouv.fr` est édité par la mission logiciels libres au sein de la
 
 Coordonnées :
 Adresse : DINUM, 20 avenue de Ségur, 75007 Paris
-Teléphone accueil : 01.71.21.01.70
 SIRET : 12000101100010 (secrétariat général du gouvernement)
 SIREN : 120 001 011
 

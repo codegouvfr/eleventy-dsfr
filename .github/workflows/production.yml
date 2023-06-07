@@ -1,9 +1,9 @@
-name: Deploy code.gouv.fr website to preproduction
+name: Deploy code.gouv.fr website to production
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["production"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
       - name: Build with Eleventy
         run: |
           npm install
-          npm run build-preproduction
+          npm run build-production
       - name: Index site for pagefind
         run: npm run postbuild
       - uses: actions/upload-artifact@v3
@@ -47,6 +47,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-av --delete"
           SOURCE: _site/
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST_PROD }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER_PROD }}
+          TARGET: ${{ secrets.REMOTE_TARGET_PROD }}

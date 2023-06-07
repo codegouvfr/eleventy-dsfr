@@ -4,7 +4,7 @@
 	"description": "Mission logiciels libres et communs numériques",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
-		"build-preproduction": "npx @11ty/eleventy",
+		"build-production": "npx @11ty/eleventy",
 		"postbuild": "npx -y pagefind --source _site/",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",

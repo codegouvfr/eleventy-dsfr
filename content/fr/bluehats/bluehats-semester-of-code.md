@@ -2,8 +2,8 @@
 title: "Apprenez à contribuer à des logiciels libres !"
 layout: layouts/post.njk
 image:
-  src: "./bsoc2022/bsoc-aac-2022.png"
-  alt: BlueHats Semester of Code
+  path: "./bsoc2022/bsoc-aac-2022.png"
+  alt: Illustration qui appelle à candidater à un stage avec CentraleSupélec sur l'un des nombreux projets et contient l'adresse du site et du compte twitter
 segments:
   - url: /bluehats/
     title: BlueHats

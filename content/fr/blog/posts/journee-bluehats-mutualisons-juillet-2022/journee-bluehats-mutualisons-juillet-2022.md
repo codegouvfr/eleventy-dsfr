@@ -3,8 +3,8 @@ title: Journée BlueHats « Mutualisons ! » le 1er juillet 2022
 description: "Retrouvons-nous en présentiel pour progresser sur la manière de rendre nos productions logicielles plus collaboratives et augmenter leurs réutilisations dans l'administration."
 date: 2022-06-02
 image:
-  src: ./bluehats-communaute.jpg
-  alt: Rejoignez la communauté BlueHats
+  path: ./bluehats-communaute.jpg
+  alt: Illustration qui appelle à rejoindre la communauté BlueHats
 tags: bluehats
 ---
 

@@ -3,7 +3,8 @@ title: L’engagement des ministères sur l’ouverture des codes sources et l�
 description: "L’engagement des ministères sur l’ouverture des codes sources et l’utilisation de logiciels libres : retour sur les feuilles de route publiées en septembre 2021"
 date: 2022-03-31
 image:
-  src: ./pelle-fdr.png
+  path: ./pelle-fdr.png
+  alt: Illustration contenant le titre de l'article
 ---
 
 Le 27 septembre dernier, 14 ministères ont [publié](https://www.data.gouv.fr/fr/datasets/feuilles-de-route-ministerielles-sur-la-politique-de-la-donnee-des-algorithmes-et-des-codes-sources/) leurs feuilles de route sur la politique de la donnée, des algorithmes et des codes sources.

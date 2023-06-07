@@ -8,7 +8,7 @@
             description: post.data.description,
             tags: post.data.tags,
             date: post.date,
-            imagePath: post.data.image.path,
+            imagePath: post.data.image.path | resolvePath(post),
             imageAlt: post.data.image.alt,
             badges: post.data.badges
         } %}

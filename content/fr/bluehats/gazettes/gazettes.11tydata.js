@@ -15,10 +15,14 @@ module.exports = {
             title: "Blog"
         }],
         image: data => {
-            return {
-                path: path.resolve(`${data.page.inputPath}/../gazette.png`),
-                alt: "Gazette BlueHats"
-            };
+            if (!data.image) {
+                return {
+                    path: path.resolve("./public/img/gazette.png"),
+                    alt: 'Illustration contenant le titre "Gazette BlueHats"'
+                }
+            } else {
+                return data.image;
+            }
         }
     }
 };

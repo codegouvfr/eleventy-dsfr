@@ -14,10 +14,14 @@ module.exports = {
             title: "Blog"
         }],
         image: data => {
-            return {
-                path: path.resolve(`${data.page.inputPath}/../atelier.png`),
-                alt: "Atelier BlueHats"
-            };
+            if (!data.image) {
+                return {
+                    path: path.resolve("./public/img/atelier.png"),
+                    alt: 'Illustration contenant le titre "Atelier BlueHats"'
+                }
+            } else {
+                return data.image;
+            }
         },
         badges: data => {
             const postTime = new Date(data.page.date).getTime();

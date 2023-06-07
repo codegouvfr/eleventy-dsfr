@@ -3,7 +3,8 @@ title: "Rencontres sur les enjeux du logiciel libre dans la recherche : ouvrir e
 description: "Le groupe de travail Logiciels libres du comité pour la science ouverte et le pôle logiciels libres d’Etalab vous convient à une série de trois rencontres en janvier et février 2022 sur les enjeux d’ouverture et de valorisation des codes sources de la recherche."
 date: 2021-11-02
 image:
-  src: ./floss-esr-2022.png
+  path: ./floss-esr-2022.png
+  alt: Illustration contenant le titre de l'article et les dates clefs (décrites dans l'article)
 tags:
   - bluehats 
   - ESR

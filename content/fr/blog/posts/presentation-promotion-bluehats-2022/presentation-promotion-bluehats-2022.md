@@ -3,8 +3,8 @@ title: Présentation de la promotion BlueHats 2022-2023
 description: "Accompagner des étudiants dans la contribution à des logiciels libres"
 date: 2022-09-26
 image:
-  src: ./promotion-bluehats-2022.jpg
-  alt: Photo de la promotion BlueHats 2022
+  path: ./promotion-bluehats-2022.jpg
+  alt: Photo de la promotion des étudiants et étudiante BlueHats 2022, accompagnés de Laure Lucchesi, directrice d'Etalab, Bastien Guerry, chef du pôle logiciels libres, et Hélène Jonin
 tags: bluehats
 ---
 

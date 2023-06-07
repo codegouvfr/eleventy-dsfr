@@ -3,8 +3,8 @@ title: Retour sur la journée BlueHats « Mutualisons ! » du 1er juillet 202
 description: "Comment faire de la publication des codes sources un levier de mutualisation entre administrations ?"
 date: 2022-09-19
 image:
-  src: ./bluehats-07-2022.jpg
-  alt: Photo des BlueHats
+  path: ./bluehats-07-2022.jpg
+  alt: Photo de quelques BlueHats présents à la journée, avec un chapeau bleu
 ---
 
 `>>` **Nous vous invitons à télécharger et explorer le [compte-rendu de la journée (PDF de 7.5Mo)](/rsrc/compte-rendu-journee-bluehats-mutualisons-1er-juillet-2022-version-1.0.pdf) qui fourmille de retours d'expérience, de réflexions et de perspectives.**
@@ -20,7 +20,7 @@ Toutes ces questions étaient au cœur de la [rencontre BlueHats](/posts/journee
 Le pôle logiciels libres d'Etalab a récemment accueilli dans son équipe Hélène Jonin, développeuse et ancienne [Entrepreneuse d'intérêt général](https://eig.etalab.gouv.fr/personnes/helene-jonin/) pour le [programme VITAM](https://www.programmevitam.fr/), chargée de communautés et de contribution, qui travaillera justement à faire de la question du libre un levier de mutualisation dans l'administration.
 
 <p>
-{% image "./photo-tri.jpg", "Les participants trient leurs idées" %}
+{% imageContent "./photo-tri.jpg", "Les participants trient leurs idées" %}
 </p>
 
 *Cette journée était animée par [La Dérivation](https://dérivation.fr/), une agence d'éducation populaire autour des questions numériques, que nous remercions pour l'animation de cette journée et pour la rédaction du compte-rendu.*

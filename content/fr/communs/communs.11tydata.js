@@ -32,24 +32,24 @@ L’association Infoclimat produit, collecte et met à disposition des données 
             title: "transport.data.gouv.fr",
             description: `
 Le Point d’Accès National aux données de transport a pour but de rassembler les données de toute l’offre de mobilité à travers la France.`,
-            imgSrc: "./transport.jpg"
+            imagePath: "./transport.jpg"
         }, {
             url: "https://adresse.data.gouv.fr",
             title: "adresse.data.gouv.fr",
             description: `
 Référencer l’intégralité des adresses du territoire et les rendre utilisables par tous : que vous soyez une commune, une entreprise ou un simple citoyen, vous pouvez contribuer.`,
-            imgSrc: "./bal.jpg"
+            imagePath: "./bal.jpg"
         }, {
             url: "https://datagir.ademe.fr",
             title: "datagir.ademe.fr",
             description: `
 Datagir vous accompagne dans la compréhension et l’intégration de données environnementales avec des ressources libres d’utilisation, pour que communs numériques riment avec accélération de la transition écologique.`,
-            imgSrc: "./datagir.jpg"
+            imagePath: "./datagir.jpg"
         }, {
             url: "https://acceslibre.beta.gouv.fr",
             title: "acceslibre.beta.gouv.fr",
             description: `
 Acceslibre collecte et met à disposition les informations essentielles à une personne en situation de handicap pour savoir si le lieu ouvert au public dans lequel elle souhaite se rendre lui est accessible.  La base de données est sous licence ouverte 2.0 et chacun peut y contribuer et la réutiliser.`,
-            imgSrc: "./acceslibre.jpg"
+            imagePath: "./acceslibre.jpg"
         }]
 };

@@ -3,7 +3,8 @@ title: Le SILL et code.gouv.fr font peau neuve
 description: "Le SILL a fait l'objet d'une refonte complète et code.gouv.fr évolue pour exposer de nouvelles données."
 date: 2022-05-11
 image:
-  src: ./peauneuve.png
+  path: ./peauneuve.png
+  alt: Illustration contenant le titre de l'article
 tags: ressources
 ---
 
@@ -14,7 +15,7 @@ tags: ressources
 C'est le catalogue historique des [logiciels libres](https://fr.wikipedia.org/wiki/Logiciel_libre) recommandés par l'administration et pour tous les organismes publics.  C'est aussi et surtout une communautés de *référents* : tout agent public peut se porter référent de son administration pour un ou plusieurs logiciels libres.  En endossant ce rôle, il garantit que le ou les logiciels ont un usage significatif dans son administration et il tient à jour les fiches de ces logiciels pour les autres administrations, en précisant notamment la version minimale recommandée.
 
 <p>
-  {% image "./sill.png", "Capture d'écran du SILL" %}
+  {% imageContent "./sill.png", "Capture d'écran du SILL" %}
 </p>
 
 ### Les nouveautés
@@ -38,7 +39,7 @@ Voici une capture d'écran d'un navigateur donnant accès à une distribution GN
 La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à venir.  Si vous voulez nous aider à ajouter de nouveaux logiciels, rendez-vous sur [ce dépôt](https://github.com/etalab/helm-charts-sill).
 
 <p>
-  {% image "./chromium.png", "Capture d'écran de Chromium tournant dans une distribution GNU/Linux" %}
+  {% imageContent "./chromium.png", "Capture d'écran de Chromium tournant dans une distribution GNU/Linux" %}
 </p>
 
 ## code.gouv.fr expose de nouvelles données
@@ -46,7 +47,7 @@ La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à
 [code.gouv.fr](https://code.gouv.fr/public/) permet de parcourir tous les codes sources publiés par des organismes publics.  Les administrations y trouveront des applications et des bibliothèques développées par d'autres administrations ; les citoyens pourront se plonger dans les productions des administrations qui ouvrent leurs codes par souci de transparence ou de mutualisation.
 
 <p>
-  {% image "./codegouvfr.png", "Capture d'écran de la page d'accueil de code.gouv.fr" %}
+  {% imageContent "./codegouvfr.png", "Capture d'écran de la page d'accueil de code.gouv.fr" %}
 </p>
 
 ### Les évolutions principales de code.gouv.fr

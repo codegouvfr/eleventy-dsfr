@@ -3,7 +3,8 @@ title: "Partenariat pour un gouvernement ouvert : quels engagements autour des 
 description: Le 17 décembre 2021, la ministre de la transformation et de la fonction publiques, Amélie de Montchalin, a présenté le 3ème plan d’action national du Partenariat pour un gouvernement ouvert.
 date: 2022-02-03
 image:
-  src: ./pgo-visuel.png
+  path: ./pgo-visuel.png
+  alt: Illustration contenant le titre de l'article
 ---
 
 Le 17 décembre 2021, la ministre de la transformation et de la fonction publiques, Amélie de Montchalin, a présenté le 3ème plan d’action national du Partenariat pour un gouvernement ouvert.

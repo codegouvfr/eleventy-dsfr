@@ -1,4 +1,4 @@
-{# Mandatory variable `tile { url: string, title: string, description: string, imagePath: string, imageAlt: string }` to make it work #}
+{# Mandatory variable `tile { url: string, title: string, description: string, imageSrc: string, imageAlt: string }` to make it work #}
 <div class="fr-tile fr-enlarge-link">
     <div class="fr-tile__body">
         {% set tileUrl = tile.url | locale_url(lang) or tile.externalUrl %}
@@ -10,9 +10,9 @@
         </h4>
         <p class="fr-tile__desc">{{ tile.description }}</p>
     </div>
-    {% if tile.imagePath %}
+    {% if tile.imageSrc %}
         <div class="fr-tile__img">
-            <img src="{{ tile.imagePath }}" class="fr-responsive-img" data-fr-js-ratio="true">
+            <img src="{{ tile.imageSrc }}" class="fr-responsive-img" data-fr-js-ratio="true">
         </div>
     {% endif %}
 </div>

@@ -9,7 +9,7 @@
                 {% include "components/taggroup-disabled.njk" %}
                 <p class="fr-card__detail fr-icon-time-fill">
                     <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
-                        {{ card.date | readableDate("LLLL yyyy") }}
+                        {{ card.date | readableDate }}
                     </time>
                 </p>
             </div>

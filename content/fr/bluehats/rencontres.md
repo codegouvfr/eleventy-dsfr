@@ -3,7 +3,7 @@ eleventyNavigation:
   key: Rencontres
   url: /fr/bluehats/tags/rencontre/
   parent: Les BlueHats 🧢
-  order: 3
+  order: 4
 permalink: false
 ---
 <h2>Les rencontres</h2>

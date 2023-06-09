@@ -2,8 +2,9 @@
 layout: layouts/page.njk
 slugOverride: mission
 eleventyNavigation:
-  key: À propos
-  order: 4
+  key: Mission
+  parent: À propos
+  order: 1
 ---
 {% set callout = {
 title: "Vous souhaitez suivre tous les sujets liés au logiciel libre dans l'administration ?",

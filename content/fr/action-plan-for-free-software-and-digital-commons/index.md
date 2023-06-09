@@ -6,6 +6,7 @@ slugOverride: plan action logiciels libres et communs numeriques
 eleventyNavigation:
   key: Le plan d'action
   parent: À propos
+  order: 3
 ---
 
 *[Read the english version.](/en/action-plan-for-free-software-and-digital-commons/)*

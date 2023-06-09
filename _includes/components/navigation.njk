@@ -9,15 +9,10 @@
                     <a class="fr-nav__link" href="{{ linkUrl }}"{% if linkUrl == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
                 {% else %}
                     <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-{{ loop.index }}">
-                        {{ link.key }}
+                        {{ link.title }}
                     </button>
                     <div class="fr-collapse fr-menu" id="menu-{{ loop.index }}">
                         <ul class="fr-menu__list">
-                            <li>
-                                <a class="fr-nav__link" href="{{ linkUrl }}"{% if linkUrl == page.url %} aria-current="page"{% endif %}>
-                                    {{ link.title }}
-                                </a>
-                            </li>
                             {% for sublink in link.children %}
                                 <li>
                                     {% set sublinkUrl = sublink.url | locale_url(lang) or sublink.externalUrl %}

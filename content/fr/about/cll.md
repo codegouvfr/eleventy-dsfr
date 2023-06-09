@@ -5,6 +5,7 @@ permalink: /mission/cll/
 eleventyNavigation:
   key: Le conseil logiciels libres
   parent: À propos
+  order: 2
 ---
 Le [conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum) est une instance mise en place et animée par la DINUM.
 

@@ -17,11 +17,12 @@ eleventyNavigation:
     {% asyncAll communNumerique in communsNumeriques %}
     <div class="fr-col-12 fr-col-md-4">
         {% set card = {
+            url: false,
             externalUrl: communNumerique.url,
             title: communNumerique.title,
             description: communNumerique.description
         } %}
-        {% include "components/card-external.njk" %}
+        {% include "components/card.njk" %}
     </div>
     {% endall %}
 </div>
@@ -31,13 +32,14 @@ eleventyNavigation:
     {% asyncAll communNumerique in admCommunsNumeriques %}
     <div class="fr-col-12 fr-col-md-4">
         {% set card = {
+            url: false,
             externalUrl: communNumerique.url,
             title: communNumerique.title,
             description: communNumerique.description,
             imagePath: communNumerique.imagePath,
             imageAlt: communNumerique.title
         } %}
-        {% include "components/card-external.njk" %}
+        {% include "components/card.njk" %}
     </div>
     {% endall %}
 </div>

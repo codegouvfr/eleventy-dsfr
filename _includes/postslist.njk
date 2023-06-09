@@ -10,9 +10,10 @@
             date: post.date,
             imagePath: post.data.image.path | resolvePath(post),
             imageAlt: post.data.image.alt,
-            badges: post.data.badges
+            badges: post.data.badges,
+            orientation: "horizontal"
         } %}
-        {% include "components/card-horizontal.njk" %}
+        {% include "components/card.njk" %}
     </div>
     {% endall %}
 </div>

@@ -15,11 +15,12 @@ slugOverride: devs
   {% asyncAll project in projects %}
   <div class="fr-col-12 fr-col-md-4">
     {% set card = {
+      url: false,
       externalUrl: project.url,
       title: project.title,
       description: project.description
     } %}
-    {% include "components/card-external.njk" %}
+    {% include "components/card.njk" %}
   </div>
   {% endall %}
 </div>

@@ -13,14 +13,16 @@ showBreadcrumb: true
     {% asyncAll person in people %}
     <div class="fr-col-12">
         {% set card = {
+            url: false,
             externalUrl: person.projectUrl,
-            urlDescription: person.projectName,
+            urlDescription: "En savoir plus sur " + person.projectName,
             title: person.name,
             description: person.description,
             imagePath: person.imagePath,
-            imageAlt: person.name
+            imageAlt: person.name,
+            orientation: "horizontal"
         } %}
-        {% include "components/card-external-horizontal.njk" %}
+        {% include "components/card.njk" %}
     </div>
     {% endall %}
 </div>

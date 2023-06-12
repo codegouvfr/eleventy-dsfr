@@ -5,7 +5,7 @@ layout: layouts/base.njk
     {% if showBreadcrumb %}
         {% include "components/breadcrumb.njk" %}
     {% endif %}
-    <div class="fr-grid-row">
+    <div class="fr-grid-row" data-pagefind-body>
         <div class="fr-col-12">
             {% set tagsUrl = "/bluehats/tags/" %}
             {% include "components/taggroup.njk" %}
@@ -55,7 +55,7 @@ layout: layouts/base.njk
                 {% set previousPost = collections.bluehats_posts | filterCollectionLang | getPreviousCollectionItem %}
                 {% set nextPost = collections.bluehats_posts | filterCollectionLang | getNextCollectionItem %}
                 {% if nextPost or previousPost %}
-                    <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w">
+                    <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w" data-pagefind-ignore>
                         {% if previousPost %}
                             <li>
                                 <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">

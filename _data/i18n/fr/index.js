@@ -1,6 +1,7 @@
 module.exports = {
     about: "À propos",
     accessibility: "Accessibilité",
+    back_to_top: "Haut de page",
     blog: "Blog",
     close: "Fermer",
     copy: "Copier dans le presse-papier",

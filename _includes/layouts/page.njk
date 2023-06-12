@@ -5,7 +5,7 @@ layout: layouts/base.njk
     {% if showBreadcrumb %}
         {% include "components/breadcrumb.njk" %}
     {% endif %}
-    <div class="fr-grid-row">
+    <div class="fr-grid-row" data-pagefind-body>
         <div class="fr-col-12">
             {{ content | safe }}
         </div>

@@ -1,6 +1,6 @@
 {# Mandatory variable `tags: string[]` to make it work #}
 {# Optional variable `tagsUrl: string` #}
-<ul class="fr-tags-group">
+<ul class="fr-tags-group" data-pagefind-ignore>
     {% for tag in tags | filterTagList %}
         {% set tagUrl %}{{ (tagsUrl or "/blog/tags/") | locale_url }}{{ tag | slugify }}/{% endset %}
         <li>

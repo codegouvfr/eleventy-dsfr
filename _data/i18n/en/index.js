@@ -1,6 +1,7 @@
 module.exports = {
     about: "About",
     accessibility: "Accessibility",
+    back_to_top: "Back to Top",
     blog: "Blog",
     close: "Close",
     copy: "Copy",

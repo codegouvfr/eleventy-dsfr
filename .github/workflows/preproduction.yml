@@ -25,6 +25,8 @@ jobs:
         run: |
           npm install
           npm run build-preproduction
+      - name: Index site for pagefind
+        run: npm run postbuild
       - uses: actions/upload-artifact@v3
         with:
           name: site

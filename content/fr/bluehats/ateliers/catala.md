@@ -1,7 +1,7 @@
 ---
 title: Présentation de Catala
 date: 2022-05-20
-description: Interventions de Denis Merigoux
+description: Intervention de Denis Merigoux
 video:
   src: https://tube.numerique.gouv.fr/videos/embed/7aee5d57-fd06-4635-bb7e-0c5849089dd6
   title: "Atelier BlueHats de présentation du langage Catala"

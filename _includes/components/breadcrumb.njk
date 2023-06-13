@@ -1,4 +1,3 @@
-{# Works with eleventyNavigation or mandatory variable `segments: { url: string, title: string }[]` to make it work #}
 {% if eleventyNavigation %}
     {% set segments = collections.all | filterCollectionLang | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
 {% endif %}

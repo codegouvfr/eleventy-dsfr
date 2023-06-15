@@ -3,41 +3,43 @@ title: Gazette BlueHats 🧢 n°22
 date: 2023-06-15
 ---
 
-# Nouvelles de la mission logiciels libres
+# 🚀 Nouvelles de la mission logiciels libres
 
-- Mise à jour du site du socle interministériel de logiciels libres : https://sill.code.gouv.fr ([source](https://github.com/codegouvfr/sill-web/)).
-- Mise à jour du site principal de https://code.gouv.fr ([source](https://github.com/codegouvfr/codegouv-website)).
-- Ajout d'Eleventy DSFR à la liste des [logiciels libres maintenus par la mission](https://code.gouv.fr/fr/devs/).
+- Mise à jour du site du socle interministériel des logiciels libres : <https://sill.code.gouv.fr> ([source](https://github.com/codegouvfr/sill-web/)).
+- Mise à jour du site principal de <https://code.gouv.fr> ([source](https://github.com/codegouvfr/codegouv-website)).
+- Ajout d'eleventy-dsfr ([source](https://github.com/codegouvfr/eleventy-dsfr)) à la liste des [logiciels libres maintenus par la mission](https://code.gouv.fr/fr/devs/).
 - Un point sur l'actualité de la mission lors de l'émission « Libre à vous ! » enregistrée fin mai, à [réécouter en podcast](https://www.libreavous.org/177-la-mission-logiciels-libres-de-la-dinum " ") ou à [lire en ligne](https://www.librealire.org/emission-libre-a-vous-diffusee-mardi-30-mai-2023-sur-radio-cause-commune).
 - Une proposition de définition de ce qu'est un [Open Source Programme Office](https://code.gouv.fr/fr/blog/definition-ospo/).
 
-# Publications
+# 📖 Publications
 ## Forges de l’ESR – Définition, usages, limitations rencontrées et analyse des besoins
 
 *Le rapport porte sur les forges logicielles utilisées dans les établissements de l’Enseignement supérieur et de la Recherche (ESR). Son propos est de faire un premier état des lieux des forges logicielles utilisées dans l’ESR français et d’identifier les moyens de rendre plus visibles les productions logicielles issues de la science ouverte.*
 
-`>>` Consulter la [page de présentation du rapport](https://www.ouvrirlascience.fr/forges-de-lesr-definition-usages-limitations-rencontrees-et-analyse-des-besoins/)
-`>>` Télécharger [le rapport en pdf](https://hal-lara.archives-ouvertes.fr/hal-04098702/file/20230509-Forges%20etatdeslieux.pdf)
+[Consulter la page de présentation du rapport](https://www.ouvrirlascience.fr/forges-de-lesr-definition-usages-limitations-rencontrees-et-analyse-des-besoins/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+[Télécharger le rapport en pdf](https://hal-lara.archives-ouvertes.fr/hal-04098702v2/file/etatdeslieux.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 ## Nouvelle version de la Good Governance Initiative handbook
 
-L'OSPO Alliance publie une nouvelle de son « Memento de Bonne Gouvernance Open Source ».
+L'OSPO Alliance publie une nouvelle version de son « Mémento de Bonne Gouvernance Open Source ».
 
-`>>` Site web : https://ospo-alliance.org/ggi/
-`>>` Français : https://ospo-alliance.org/docs/ggi_handbook_v1.1_fr.pdf
+[Consulter le site web](https://ospo-alliance.org/ggi/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-# Événements
+[Consulter le mémento en français](https://ospo-alliance.org/docs/ggi_handbook_v1.1_fr.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+# 📅 Événements
 ## PG Day France
 
-Le PG Day France est la conférence annuelle de la 19-20 communauté francophone de PostgreSQL.
+Le PG Day France est la conférence annuelle de la communauté francophone de PostgreSQL.
 
-Cette année, l’événement se tiendra le 19-20 juin à Strasbourg. Une centaine de participants sont attendus pour deux jours d'échanges autour de PostgreSQL et de son écosystème. 
+Cette année, l’événement se tiendra le **19-20 juin** à **Strasbourg**. Une centaine de participants sont attendus pour deux jours d'échanges autour de PostgreSQL et de son écosystème. 
 
-`>>` Retrouvez le programme complet sur le site de l’événement : https://pgday.fr/programme
+[Retrouvez le programme complet sur le site de l’événement](https://pgday.fr/programme){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
                
-La conférence débutera le lundi 19 à 14h et se terminera le mardi 20 à 17h30. Nous vous invitons à une soirée le lundi soir pour rencontrer les orateurs, les partenaires, les membres de l'association PostgreSQLFr, etc. L'entrée à cette soirée est incluse dans votre inscription à la conférence.
+La conférence débutera le **lundi 19 à 14h** et se terminera le **mardi 20 à 17h30**. Nous vous invitons à une soirée le lundi soir pour rencontrer les orateurs, les partenaires, les membres de l'association PostgreSQLFr, etc. L'entrée à cette soirée est incluse dans votre inscription à la conférence.
 
-Rendez-vous en juin à Strasbourg !
+*Rendez-vous en juin à Strasbourg !*
 
 ## Journée GitLab
 
@@ -45,7 +47,7 @@ Gitlab est un outil qui devient incontournable dans les laboratoires de recherch
 
 Elle s'adresse à tous les publics (nul besoin d'être un expert en git ou un développeur). Elle aura lieu le 29 juin 2023 dans l'amphi du CNRS à Paris. Les inscriptions sont gratuites mais obligatoires pour accéder au site. La journée sera également retransmise en direct et enregistrée.
 
-`>>` Programme et inscription : https://gtdonnees-gitlab2023.sciencesconf.org/
+Programme et inscription sur le site <https://gtdonnees-gitlab2023.sciencesconf.org/>{.fr-link}
 
 ## Rencontres Scenari
 
@@ -53,22 +55,22 @@ Comme chaque année, l'[association Scenari](https://scenari.org/co/association.
 
 Pour cette édition 2023, c'est le Conservatoire national des arts et métiers (Cnam) qui accueillera la communauté à Paris.
 
-[Scenari](https://scenari.software/), c'est un ensemble de logiciels s (codes source dans le bloc "code source" sur la page de chaque outil sur https://download.scenari.software/) dédiés à la création collaborative structurée, et publication/diffusion de contenus multimédias et multisupports. Ils sont très utilisés dans le domaine de la formation et de la documentation, mais servent aussi pour l'audiovisuel, la qualité, ou les clés de déterminations, ... On écrit le contenu une seule fois, et Scenari se charge de le publier sous différents formats en optimisant l'accessibilité, le design, et l'adaptation aux dispositifs mobiles.
+[Scenari](https://scenari.software/), c'est un ensemble de logiciels (codes source dans le bloc "code source" sur la page de chaque outil sur <https://download.scenari.software/>) dédiés à la création collaborative structurée, et publication/diffusion de contenus multimédias et multisupports. Ils sont très utilisés dans le domaine de la formation et de la documentation, mais servent aussi pour l'audiovisuel, la qualité, ou les clés de déterminations, etc. On écrit le contenu une seule fois, et Scenari se charge de le publier sous différents formats en optimisant l'accessibilité, le design, et l'adaptation aux dispositifs mobiles.
 
 Les Rencontres Scenari, c'est surtout un moment de convivialité et de découverte. C'est aussi l'occasion de connaître de nouvelles fonctionnalités et de nouveaux usages grâce à des ateliers et des conférences.
 
 La participation d'intervenant⋅e⋅s du secteur public sera taguée @BlueHats.
 
-`>>` Programme et inscription (tarif préférentiels jusqu'au 15 mai) sur le site des Rencontres 2023 : https://scenari.org/rencontres2023/
+Programme et inscription (tarif préférentiels jusqu'au 15 mai) sur le site des Rencontres 2023 <https://scenari.org/rencontres2023/>{.fr-link}
 
-# Recrutements
+# 💻 Recrutements
 ## Le Parc national des Écrins #recrute un·e développeur·euse-mainteneur·euse web et base de données #GeoNature.
 
 GeoNature est un ensemble d'outils web et mobiles permettant de saisir, gérer et diffuser des données faune et flore. Le projet regroupe désormais une communauté d’une centaine de structures qui collaborent autour de cet outil, animée par le parc national.
 
-`>>` Voir les annonces sur [www.ecrins-parcnational.fr](https://www.ecrins-parcnational.fr/contrat-projet-developpeuse-mainteneusedeveloppeur-mainteneur-web-base-donnees-geonature), [www.linkedin.com](https://www.linkedin.com/posts/camille-monchicourt-b22550175_contrat-de-projet-d%C3%A9veloppeuse-mainteneuse-activity-7067108641291526144-d4VG), [mastodon.social](https://mastodon.social/@camillemonchicourt/110423674471141086) et [twitter.com](https://twitter.com/GeoNature2/status/1661349387144949763).
+Voir les annonces sur [www.ecrins-parcnational.fr](https://www.ecrins-parcnational.fr/contrat-projet-developpeuse-mainteneusedeveloppeur-mainteneur-web-base-donnees-geonature){.fr-link}, [www.linkedin.com](https://www.linkedin.com/posts/camille-monchicourt-b22550175_contrat-de-projet-d%C3%A9veloppeuse-mainteneuse-activity-7067108641291526144-d4VG){.fr-link}, [mastodon.social](https://mastodon.social/@camillemonchicourt/110423674471141086){.fr-link} et [twitter.com](https://twitter.com/GeoNature2/status/1661349387144949763){.fr-link}.
 
-# Revue de presse
+# 📰 Revue de presse
 
 - [Initiez-vous à Linux](https://www.francenum.gouv.fr/formations/initiez-vous-linux), francenum.gouv.fr
 - [Ils ont des chapeaux bleus retour sur le projet BlueHats semester](https://www.centralesupelec.fr/fr/ils-ont-des-chapeaux-bleus-retour-sur-le-projet-blue-hats-semester), centralesupelec.fr, Juin 2023

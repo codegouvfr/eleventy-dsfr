@@ -36,6 +36,7 @@
 		"chalk": "^4.1.2",
 		"luxon": "^3.2.1",
 		"markdown-it-anchor": "^8.6.6",
+        "markdown-it-attrs": "^4.1.6",
         "markdown-it-container": "^3.0.0",
         "node-retrieve-globals": "^2.0.8",
 		"pagefind": "^0.12.0"

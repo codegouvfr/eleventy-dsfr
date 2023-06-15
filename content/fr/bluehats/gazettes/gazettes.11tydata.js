@@ -8,7 +8,7 @@ module.exports = {
     permalink: function (data) {
         return `/${data.lang}/bluehats/${data.page.fileSlug}/`;
     },
-    description: "Un condensé des dernières actualités BlueHats",
+    description: "Un condensé des dernières actualités BlueHats.",
     eleventyComputed: {
         segments: [{
             url: "/blog/",

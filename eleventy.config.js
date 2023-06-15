@@ -1,5 +1,6 @@
 const {DateTime} = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItContainer = require("markdown-it-container");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -107,6 +108,29 @@ module.exports = function (eleventyConfig) {
             }),
             level: [1, 2, 3, 4],
             slugify: eleventyConfig.getFilter("slugify")
+        });
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'quote', {
+            validate: function(params) {
+                return params.trim().match(/^quote\s*$/);
+            },
+
+            render: function (tokens, idx) {
+                var m = tokens[idx].info.trim().match(/^quote\s*$/);
+
+                if (tokens[idx].nesting === 1) {
+                    // opening tag
+                    return `
+<figure class="fr-quote fr-quote--column">
+  <blockquote>
+`;
+                } else {
+                    // closing tag
+                    return '</blockquote></figure>\n';
+                }
+            }
         });
     });
 

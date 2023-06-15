@@ -13,7 +13,7 @@ tags: OSPO
 
 Un *Open Source Programme Office* est une entité dans une institution qui définit et met en œuvre une stratégie *open source*.
 
-Les OSPO naissent dans le monde de l'entreprise au cours des années 2000 et se répandent réellement une dizaine d'années plus tard [1].  Cet essor coïncide avec celui des logiciels libres, devenus des outils incontournables pour les entreprises du numérique : que ce soit pour les questions d'innovation, de standardisation, de contournement des monopoles ou, pour les gouvernements, sur les questions de transparence et de souveraineté numérique.
+Les OSPO naissent dans le monde de l'entreprise au cours des années 2000 et se répandent réellement une dizaine d'années plus tard [1]. Cet essor coïncide avec celui des logiciels libres, devenus des outils incontournables pour les entreprises du numérique : que ce soit pour les questions d'innovation, de standardisation, de contournement des monopoles ou, pour les gouvernements, sur les questions de transparence et de souveraineté numérique.
 
 En 2020, la [Commission européenne](https://joinup.ec.europa.eu/collection/ec-ospo) annonce la création de son OSPO ; en 2021, c'est au tour de l'[Organisation mondiale de la santé](https://socialimpact.github.com/insights/world-health-organization-OSPO-launch/).  De façon générale, 2020 marque un tournant : les administrations européennes tentent de s'emparer de ce concept et de mettre en place leur stratégie *open source*.
 
@@ -53,11 +53,9 @@ Il faut ensuite attendre 2021 pour qu'une stratégie *open source* soit [publié
 
 La création de cette entité fait suite à la [circulaire du Premier ministre](https://www.legifrance.gouv.fr/circulaire/id/45162) d'avril 2021, laquelle endosse l'une des recommandations du [rapport sur la politique publique de la donnée, des algorithmes et des codes sources (dit « rapport Bothorel »)](https://www.gouvernement.fr/rapport/11979-rapport-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources) énoncée comme suit :
 
-{% set quote = {
-text : "Créer un Open Source Program Office (OSPO) ou une mission logiciels libres au sein de TECH.GOUV, chargée d’aider l’administration à ouvrir et à réutiliser les codes sources publics, d’identifier les enjeux de mutualisation et de créer des liens avec les communautés open source exsitantes et d’accompagner les talents français dans ce domaine."
-} %}
-{% include "components/quote.njk" %}
-
+::: quote
+Créer un Open Source Program Office (OSPO) ou une mission logiciels libres au sein de TECH.GOUV, chargée d’aider l’administration à ouvrir et à réutiliser les codes sources publics, d’identifier les enjeux de mutualisation et de créer des liens avec les communautés open source exsitantes et d’accompagner les talents français dans ce domaine.
+:::
 
 Cette recommandation reprend deux des propositions faites par l'[Association pour la Promotion et la Recherche en Informatique Libre (April)](https://www.april.org) et l'[Union des entreprises du logiciel libre et du numérique ouvert (CNLL)](https://cnll.fr) lors de la consultation publique lancée par la mission Bothorel.
 

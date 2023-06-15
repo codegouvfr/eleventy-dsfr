@@ -96,6 +96,10 @@ h2 + .header-anchor {
     }
 }
 
+.fr-responsive-img.fr-ratio-auto {
+    object-fit: contain;
+}
+
 /** Missing icons **/
 .fr-follow .fr-link--mastodon:before,
 .fr-follow .fr-link--peertube:before,

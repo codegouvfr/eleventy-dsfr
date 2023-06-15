@@ -12,7 +12,7 @@ const getOptions = widths => {
 
 const getImageAttributes = (cls, alt, sizes) => {
     return {
-        class: `fr-responsive-img ${cls}`,
+        class: `fr-responsive-img fr-ratio-auto ${cls}`,
         alt,
         sizes,
         loading: "lazy",

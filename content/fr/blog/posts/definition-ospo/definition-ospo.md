@@ -51,10 +51,10 @@ Il faut ensuite attendre 2021 pour qu'une stratégie *open source* soit [publié
 
 La création de cette entité fait suite à la [circulaire du Premier ministre](https://www.legifrance.gouv.fr/circulaire/id/45162) d'avril 2021, laquelle endosse l'une des recommandations du [rapport sur la politique publique de la donnée, des algorithmes et des codes sources (dit « rapport Bothorel »)](https://www.gouvernement.fr/rapport/11979-rapport-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources) énoncée comme suit :
 
-::: quote
+:::quote
 Créer un Open Source Program Office (OSPO) ou une mission logiciels libres au sein de TECH.GOUV, chargée d’aider l’administration à ouvrir et à réutiliser les codes sources publics, d’identifier les enjeux de mutualisation et de créer des liens avec les communautés open source exsitantes et d’accompagner les talents français dans ce domaine.
 :::
-
+\
 Cette recommandation reprend deux des propositions faites par l'[Association pour la Promotion et la Recherche en Informatique Libre (April)](https://www.april.org) et l'[Union des entreprises du logiciel libre et du numérique ouvert (CNLL)](https://cnll.fr) lors de la consultation publique lancée par la mission Bothorel.
 
 ## La mission logiciels libres en 2023

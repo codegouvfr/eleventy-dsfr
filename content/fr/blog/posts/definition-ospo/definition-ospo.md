@@ -37,7 +37,7 @@ Un OSPO, c'est une **équipe** qui est garante d'une **stratégie** *open source
 2. **La stratégie** : l'équipe définit la stratégie *open source* (le quoi et le pourquoi) ainsi que sa mise en œuvre (le comment).
 3. **Les ressources** : l'équipe développe et partage des outils et de la documentation sur les logiciels libres, les licences libres, les bonnes pratiques de publication de code source, de développement, de mise en place d'une gouvernance, etc.
 4. **La communauté** : un OSPO répond aux besoins d'une communauté au sein de l'organisation, communauté qui peut rassembler des profils aux compétences variées.  Cette communauté est essentielle à la mise en œuvre de la stratégie *open source* définie par l'OSPO.
-5. **L'écosystème FLOSS (*Free Libre Open Source Software*)** : s'impliquer dans le logiciel libre ne peut se faire en vase clos et exige qu'on soit en contact/en lien avec les communautés *open source* en général.  L'équipe peut donc inciter ses membres et les membres de sa communauté à interagir avec tout l'écosystème FLOSS (associations, entreprises, etc.).
+5. **L'écosystème FLOSS (*Free Libre Open Source Software*)** : s'impliquer dans le logiciel libre ne peut se faire en vase clos et exige qu'on soit en lien avec les communautés *open source* en général.  L'équipe peut donc inciter ses membres et les membres de sa communauté à interagir avec tout l'écosystème FLOSS (associations, entreprises, etc.).
 
 {% imageContent "./pyramide-ospo-500-tmp.png", "Illustration représentant les 5 étapes de la construction sous forme de pyramide", [500] %}
 

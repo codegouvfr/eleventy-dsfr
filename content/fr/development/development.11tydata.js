@@ -1,10 +1,5 @@
 module.exports = {
     projects: [{
-        url: "https://www.onyxia.sh",
-        title: "Onyxia",
-        description: `
-La stack data science moderne rendue accessible`
-    }, {
         url: "https://github.com/codegouvfr/react-dsfr",
         title: "react-dsfr",
         description: `

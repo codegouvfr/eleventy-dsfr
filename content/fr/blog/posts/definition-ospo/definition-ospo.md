@@ -17,11 +17,9 @@ Les OSPO naissent dans le monde de l'entreprise au cours des années 2000 et se 
 
 En 2020, la [Commission européenne](https://joinup.ec.europa.eu/collection/ec-ospo) annonce la création de son OSPO ; en 2021, c'est au tour de l'[Organisation mondiale de la santé](https://socialimpact.github.com/insights/world-health-organization-OSPO-launch/).  De façon générale, 2020 marque un tournant : les administrations européennes tentent de s'emparer de ce concept et de mettre en place leur stratégie *open source*.
 
-{% set callout = {
-description: 'Vous trouverez des ressources sur les OSPO mises à disposition par des communautés <a href="https://todogroup.org/#" target="_blank">TODO Group</a>, <a href="https://ospo.zone/" target="_blank">OSPO Alliance</a> [2], <a href="https://ospoplusplus.org/" target="_blank">OSPO++</a>) et des laboratoires d\'idées <a href="https://openforumeurope.org/" target="_blank">OpenForum Europe</a>) qui portent la notion.'
-} %}
-{% include "components/callout.njk" %}
-
+:::callout
+Vous trouverez des ressources sur les OSPO mises à disposition par des communautés ([TODO Group](https://todogroup.org/#), [OSPO Alliance](https://ospo.zone/) [2], [OSPO++](https://ospoplusplus.org/)) et des laboratoires d'idées ([OpenForum Europe](https://openforumeurope.org/)) qui portent la notion.
+:::
 
 ## Une définition générique
 

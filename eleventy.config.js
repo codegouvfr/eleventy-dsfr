@@ -9,6 +9,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
 
+const customMarkdownContainers = require("./markdown-custom-containers");
+
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
     // For example, `./public/css/` ends up in `_site/css/`
@@ -112,26 +114,11 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItContainer, 'quote', {
-            validate: function(params) {
-                return params.trim().match(/^quote\s*$/);
-            },
+        mdLib.use(markdownItContainer, 'callout', customMarkdownContainers.callout(mdLib));
+    });
 
-            render: function (tokens, idx) {
-                var m = tokens[idx].info.trim().match(/^quote\s*$/);
-
-                if (tokens[idx].nesting === 1) {
-                    // opening tag
-                    return `
-<figure class="fr-quote fr-quote--column">
-  <blockquote>
-`;
-                } else {
-                    // closing tag
-                    return '</blockquote></figure>\n';
-                }
-            }
-        });
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'quote', customMarkdownContainers.quote(mdLib));
     });
 
     // Automatically strip all leading or trailing whitespace

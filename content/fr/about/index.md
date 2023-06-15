@@ -6,12 +6,9 @@ eleventyNavigation:
   parent: À propos
   order: 1
 ---
-{% set callout = {
-title: "Vous souhaitez suivre tous les sujets liés au logiciel libre dans l'administration ?",
-description: 'Voici des informations pour <a href="https://man.sr.ht/~codegouvfr/logiciels-libres/veille.md" target="_blank" title="Organiser votre veille sur le logiciel libre dans l\'administration - Lien externe">organiser votre veille</a>.'
-} %}
-{% include "components/callout.njk" %}
-
+:::callout Vous souhaitez suivre tous les sujets liés au logiciel libre dans l'administration ?
+Voici des informations pour [organiser votre veille](https://man.sr.ht/~codegouvfr/logiciels-libres/veille.md).
+:::
 
 # À propos
 
@@ -23,12 +20,9 @@ Son code source est disponible [sur ce dépôt](https://github.com/codegouvfr/co
 
 Le plan d'action est piloté par la [mission logiciels libres](https://speakerdeck.com/bluehats/dinum) et les actions sont conjointement portées avec les missions [LABEL](https://catalogue.numerique.gouv.fr) et TALENTS de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
 
-{% set callout = {
-title: "Besoin d'un accompagnement ?",
-description: 'Pour toute demande d\'accompagnement, n\'hésitez pas à consulter <a href="https://man.sr.ht/~codegouvfr/logiciels-libres/offre-de-services.md" target="_blank" title="Offre de services du pôle logiciels libres - Lien externe">notre offre de services</a> et à <a href="/fr/contact/">nous contacter</a>.'
-} %}
-{% include "components/callout.njk" %}
-
+:::callout Besoin d'un accompagnement ?
+Pour toute demande d'accompagnement, n'hésitez pas à consulter [notre offre de services](https://man.sr.ht/~codegouvfr/logiciels-libres/offre-de-services.md) et à [nous contacter](/fr/contact/).
+:::
 
 ## Code public ([/public](https://code.gouv.fr/public))
 

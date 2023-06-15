@@ -21,7 +21,7 @@
 }
 ---
 <h1>{{ title }}</h1>
-<div class="fr-container">
+<div class="fr-container" data-pagefind-ignore>
   <h2>Filtré par <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/blog/"| locale_url }}">{{ tag.tagName }}</a></h2>
   <div class="fr-mb-3w">
     {% set tags = collections.posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}

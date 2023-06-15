@@ -51,7 +51,7 @@ module.exports = eleventyConfig => {
         ${eleventyImage.generateHTML(metadata, getImageAttributes(cls, alt, sizes))}
     </div>
     <figcaption class="fr-content-media__caption">${alt}</figcaption>
-</figure>`;
+</figure>\n`;
     });
 
     // Synchronous method for Nunjucks macros

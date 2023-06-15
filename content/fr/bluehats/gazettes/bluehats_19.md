@@ -9,7 +9,6 @@ Cette année encore, les `#BlueHats` se retrouvent pour partager des retours d'e
 
 {% imageContent "./bluehats-10-2022.png", "Illustration pour l'événement contenant un titre, une description, la date, le lieu, et l'adresse de la page bluehats du site" %}
 
-
 ## Revoir les derniers ateliers BlueHats
 
 Vous n'avez pas pu venir ?  Tout est en ligne.

@@ -19,8 +19,6 @@ Toutes ces questions étaient au cœur de la [rencontre BlueHats](/posts/journee
 
 Le pôle logiciels libres d'Etalab a récemment accueilli dans son équipe Hélène Jonin, développeuse et ancienne [Entrepreneuse d'intérêt général](https://eig.etalab.gouv.fr/personnes/helene-jonin/) pour le [programme VITAM](https://www.programmevitam.fr/), chargée de communautés et de contribution, qui travaillera justement à faire de la question du libre un levier de mutualisation dans l'administration.
 
-<p>
 {% imageContent "./photo-tri.jpg", "Les participants trient leurs idées" %}
-</p>
 
 *Cette journée était animée par [La Dérivation](https://dérivation.fr/), une agence d'éducation populaire autour des questions numériques, que nous remercions pour l'animation de cette journée et pour la rédaction du compte-rendu.*

@@ -41,7 +41,6 @@ Un OSPO, c'est une **équipe** qui est garante d'une **stratégie** *open source
 
 {% imageContent "./pyramide-ospo-500-tmp.png", "Illustration représentant les 5 étapes de la construction sous forme de pyramide", [500] %}
 
-
 # L'OSPO de la DINUM : la mission logiciels libres et communs numériques
 
 Pour donner une image plus concrète de ces critères, examinons le cas de la mission logiciels libres de la [DINUM](https://www.numerique.gouv.fr/dinum/), qui tient lieu d'OSPO pour l'administration centrale.

@@ -11,6 +11,7 @@ date: 2023-06-15
 - Un point sur l'actualité de la mission lors de l'émission « Libre à vous ! » enregistrée fin mai, à [réécouter en podcast](https://www.libreavous.org/177-la-mission-logiciels-libres-de-la-dinum " ") ou à [lire en ligne](https://www.librealire.org/emission-libre-a-vous-diffusee-mardi-30-mai-2023-sur-radio-cause-commune).
 - Une proposition de définition de ce qu'est un [Open Source Programme Office](https://code.gouv.fr/fr/blog/definition-ospo/).
 
+<br/>
 # 📖 Publications
 ## Forges de l’ESR – Définition, usages, limitations rencontrées et analyse des besoins
 
@@ -28,6 +29,8 @@ L'OSPO Alliance publie une nouvelle version de son « Mémento de Bonne Gouvern
 
 [Consulter le mémento en français](https://ospo-alliance.org/docs/ggi_handbook_v1.1_fr.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
+
+<br/>
 # 📅 Événements
 ## PG Day France
 
@@ -63,6 +66,8 @@ La participation d'intervenant⋅e⋅s du secteur public sera taguée @BlueHats.
 
 Programme et inscription (tarif préférentiels jusqu'au 15 mai) sur le site des Rencontres 2023 <https://scenari.org/rencontres2023/>{.fr-link}
 
+
+<br/>
 # 💻 Recrutements
 ## Le Parc national des Écrins #recrute un·e développeur·euse-mainteneur·euse web et base de données #GeoNature.
 
@@ -70,6 +75,8 @@ GeoNature est un ensemble d'outils web et mobiles permettant de saisir, gérer e
 
 Voir les annonces sur [www.ecrins-parcnational.fr](https://www.ecrins-parcnational.fr/contrat-projet-developpeuse-mainteneusedeveloppeur-mainteneur-web-base-donnees-geonature){.fr-link}, [www.linkedin.com](https://www.linkedin.com/posts/camille-monchicourt-b22550175_contrat-de-projet-d%C3%A9veloppeuse-mainteneuse-activity-7067108641291526144-d4VG){.fr-link}, [mastodon.social](https://mastodon.social/@camillemonchicourt/110423674471141086){.fr-link} et [twitter.com](https://twitter.com/GeoNature2/status/1661349387144949763){.fr-link}.
 
+
+<br/>
 # 📰 Revue de presse
 
 - [Initiez-vous à Linux](https://www.francenum.gouv.fr/formations/initiez-vous-linux), francenum.gouv.fr

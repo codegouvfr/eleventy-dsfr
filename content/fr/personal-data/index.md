@@ -1,13 +1,10 @@
 ---
 title: Exemple
-layout: layouts/base.njk
+layout: layouts/page.njk
 description: A compléter
 slugOverride: donnees personnelles
+showBreadcrumb: true
 ---
-<div>
-{% include "components/breadcrumb.njk" %}
-</div>
-
 # Données personnelles
 
 [ A COMPLETER ]

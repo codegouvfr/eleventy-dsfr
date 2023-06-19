@@ -1,6 +1,5 @@
 const {DateTime} = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
-const chalk = require("chalk")
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -9,21 +8,20 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
 
-const translations = require('./_data/i18n');
-
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
     // For example, `./public/css/` ends up in `_site/css/`
     eleventyConfig.addPassthroughCopy({
         "./public/": "/",
-        './node_modules/@gouvfr/dsfr/dist/favicon': '/favicon',
-        './node_modules/@gouvfr/dsfr/dist/fonts': '/css/fonts',
-        './node_modules/@gouvfr/dsfr/dist/icons': '/css/icons',
-        './node_modules/@gouvfr/dsfr/dist/dsfr.min.css': '/css/dsfr.min.css',
-        './node_modules/@gouvfr/dsfr/dist/utility/utility.min.css': '/css/utility/utility.min.css',
-        './node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js': '/js/dsfr.module.min.js',
-        './node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js': '/js/dsfr.nomodule.min.js',
-        './node_modules/@gouvfr/dsfr/dist/artwork': '/artwork'
+        "./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css",
+        "./node_modules/@gouvfr/dsfr/dist/favicon": "/favicon",
+        "./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
+        "./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
+        "./node_modules/@gouvfr/dsfr/dist/dsfr.min.css": "/css/dsfr.min.css",
+        "./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css": "/css/utility/utility.min.css",
+        "./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js": "/js/dsfr.module.min.js",
+        "./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js": "/js/dsfr.nomodule.min.js",
+        "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork"
     });
 
     // Run Eleventy when these files change:
@@ -35,6 +33,8 @@ module.exports = function (eleventyConfig) {
     // App plugins
     eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+    eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
+    eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "fr",
         errorMode: "allow-fallback"
@@ -50,14 +50,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
 
     // Filters
-    eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
+    eleventyConfig.addFilter("readableDate", function readableDate(dateObj, format, zone) {
         // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-        return DateTime.fromJSDate(dateObj, {zone: zone || "utc"}).toFormat(format || "dd LLLL yyyy");
+        return DateTime.fromJSDate(dateObj, {zone: zone || "utc"})
+            .setLocale(this.page.lang)
+            .toFormat(format || "dd LLLL yyyy");
     });
 
-    eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
         // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-        return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat("yyyy-LL-dd");
     });
 
     // Get the first `n` elements of a collection.
@@ -86,20 +88,9 @@ module.exports = function (eleventyConfig) {
         return Array.from(tagSet);
     });
 
-    eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts"].concat(addTags).indexOf(tag) === -1);
     });
-
-    eleventyConfig.addFilter("i18n", function i18n(key, langOverride) {
-        const lang = langOverride || this.page.lang;
-        if (!translations[lang][key]) {
-            console.warn(chalk.yellow(`[i18n] Could not find '${key}' in '${lang}'.`));
-            return key;
-        }
-        return translations[lang][key];
-    });
-
-    eleventyConfig.addGlobalData("available_langs", Object.keys(translations));
 
     // Customize Markdown library settings:
     eleventyConfig.amendLibrary("md", mdLib => {
@@ -117,6 +108,8 @@ module.exports = function (eleventyConfig) {
 
     // Automatically strip all leading or trailing whitespace
     // to prevent Markdown lib from rendering with wrapping into paragraphs
+    // instead of using Nunjucks special syntax. Learn more:
+    // https://mozilla.github.io/nunjucks/templating.html#whitespace-control
     eleventyConfig.setNunjucksEnvironmentOptions({
         trimBlocks: true,
         lstripBlocks: true,

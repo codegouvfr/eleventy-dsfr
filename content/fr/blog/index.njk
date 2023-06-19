@@ -1,0 +1,26 @@
+---
+layout: layouts/page.njk
+pagination:
+  data: collections.posts_fr
+  size: 4
+  reverse: true
+  generatePageOnEmptyData: true
+permalink: "/{{ lang }}/blog/{% if pagination.pageNumber %}{{ page_prefix }}{{ pagination.pageNumber + 1 }}/{% endif %}"
+eleventyNavigation:
+  key: Blog
+  order: 2
+---
+<div class="fr-container">
+  <div class="fr-grid-row fr-grid-row--gutters">
+    <div class="fr-col-12 fr-col-md-3">
+      <div class="fr-sidemenu__title"> {{ "tags" | i18n }}</div>
+      {% set tags = collections.posts_fr | getAllTags %}
+      {% include "components/taggroup.njk" %}
+    </div>
+    <div class="fr-col-12 fr-col-md-9">
+      {% set postslist = pagination.items %}
+      {% include "postslist-horizontal.njk" %}
+      {% include "components/pagination.njk" %}
+    </div>
+  </div>
+</div>

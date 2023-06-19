@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-okaidia.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
     <link rel="stylesheet" href="/css/dsfr.min.css">
     <link rel="stylesheet" href="/css/utility/utility.min.css">
 
@@ -24,14 +27,14 @@
 <body>
 {% include "components/header.njk" %}
 
-<main id="content" class="fr-container fr-py-16v">
+<main id="content">
     {{ content | safe }}
 </main>
 
 {% include "components/newsletter_and_follow_us.njk" %}
 {% include "components/footer.njk" %}
 
-{% include "_includes/components/display.njk" %}
+{% include "components/display.njk" %}
 
 <!-- Current page: {{ page.url | htmlBaseUrl }} -->
 

@@ -14,8 +14,8 @@ permalink: /feed/feed.json
 		"url": "{{ metadata.author.url }}"
 	},
 	"items": [
-		{%- for post in collections.posts | reverse %}
-		{%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
+		{% for post in collections.posts | reverse %}
+		{% set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
 		{
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
@@ -24,6 +24,6 @@ permalink: /feed/feed.json
 			"date_published": "{{ post.date | dateToRfc3339 }}"
 		}
 		{% if not loop.last %},{% endif %}
-		{%- endfor %}
+		{% endfor %}
 	]
 }

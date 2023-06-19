@@ -1,6 +1,11 @@
 module.exports = {
 	"title": "TITRE DU SITE",
 	"url": "https://url_du_site.gouv.fr/",
+	"newsletter": {
+		"url": "",
+		"title": "",
+		"description": ""
+	},
 	"facebook_url": "",
 	"twitter_url": "",
 	"instagram_url": "",

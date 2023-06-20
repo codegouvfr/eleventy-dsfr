@@ -1,9 +1,10 @@
 ---
 layout: layouts/page.njk
-slugOverride: a propos
 eleventyNavigation:
-  key: À propos
-  title: Présentation
-  order: 3
+  key: Présentation
+  parent: À propos
+  order: 1
 ---
 # À propos
+
+Nous sommes la mission logiciels libres.

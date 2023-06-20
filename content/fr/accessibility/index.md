@@ -1,6 +1,6 @@
 ---
 title: Exemple de déclaration d’accessibilité
-layout: layouts/page.njk
+layout: layouts/post.njk
 description: Déclaration d’accessibilité à compléter
 slugOverride: accessibilite
 showBreadcrumb: true

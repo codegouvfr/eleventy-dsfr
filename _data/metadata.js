@@ -1,21 +1,28 @@
 module.exports = {
-	"title": "TITRE DU SITE",
-	"url": "https://url_du_site.gouv.fr/",
-	"newsletter": {
-		"url": "",
-		"title": "",
-		"description": ""
-	},
-	"facebook_url": "",
-	"twitter_url": "",
-	"instagram_url": "",
-	"linkedin_url": "",
-	"youtube_url": "",
-	"language": "fr",
-	"description": "DESCRIPTION DU SITE",
-	"author": {
-		"name": "NOM DU SERVICE",
-		"email": "contact@nom_du_service.gouv.fr",
-		"url": "https://url_du_service.gouv.fr/"
-	}
+    title: "Nom du site / service",
+    url: "https://url_du_site.gouv.fr/",
+    newsletter: [
+        {
+            url: "",
+            title: "",
+            description: ""
+        }
+    ],
+    facebook_url: "",
+    mastodon_url: "",
+    twitter_url: "",
+    instagram_url: "",
+    linkedin_url: "",
+    youtube_url: "",
+    peertube_url: "",
+    github_url: "",
+    sourcehut_url: "",
+    language: "fr",
+    description: "baseline - précisions sur l‘organisation",
+    author: {
+        name: "Nom du service",
+        email: "contact@nom_du_service.gouv.fr",
+        url: "https://url_du_service.gouv.fr/"
+    },
+    service: "Nom de l’entité (ministère, secrétariat d‘état, gouvernement)"
 }

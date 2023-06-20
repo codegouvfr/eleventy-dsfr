@@ -1,44 +1,38 @@
 ---
-title: Mentions légales
+title: Exemple de mentions légales
 layout: layouts/page.njk
+description: Mentions légales à compléter
 slugOverride: mentions legales
 showBreadcrumb: true
 ---
 # Mentions légales
 
-## Éditeur
+## Identification de l'éditeur
 
-Le site `code.gouv.fr` est édité par la mission logiciels libres au sein de la direction interministérielle du numérique (DINUM).
-
-Coordonnées :
-
-    Adresse : DINUM, 20 avenue de Ségur, 75007 Paris
-    SIRET : 12000101100010 (secrétariat général du gouvernement)
-    SIREN : 120 001 011
+[ A COMPLETER ]
 
 ## Directeur de la publication
 
-Directeur interministériel du numérique.
+[ A COMPLETER ]
 
-## Hébergement
+## Prestataire d'hébergement
 
-Ce site est hébergé par OVH France, 2 rue Kellermann 59100 Roubaix, France.
+[ A COMPLETER ]
 
-Téléphone : 09 72 10 10 07
+## Crédits
 
-## Crédits images
+- [1F3DB.svg](https://openmoji.org/data/color/svg/1F3DB.svg) par [Martin Wehl](https://openmoji.org/library/#author=Martin%20Wehl) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
 
-- [Gradient icons created by srip](https://www.flaticon.com/authors/srip/gradient)
-- [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
+[ A COMPLETER ]
 
 ## Code source du site
 
-Le [code source du site est disponible sur GitHub](https://github.com/codegouvfr/codegouv-website).
+[ A COMPLETER ]
 
 ## Accessibilité
 
 [Voir la déclaration d'accessibilité](/fr/accessibilite/).
 
-## Données personnelles et cookies
+## Traitement des données à caractère personnel
 
 [Voir les informations concernant les cookies utilisées sur ce site](/fr/donnees-personnelles/).

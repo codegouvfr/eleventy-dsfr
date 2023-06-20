@@ -9,14 +9,13 @@ eleventyNavigation:
     <div class="fr-container fr-pt-8w fr-pb-6w fr-mb-6w">
         <div class="fr-grid-row">
             <div class="fr-col-offset-md-1 fr-col-12 fr-col-sm-12 fr-col-md-6">
-                <h1>Le Service Public du logiciel libre</h1>
+                <h1>Un exemple de site institutionnel</h1>
                 <p class="fr-text--lead">
-                    <strong>Accompagner </strong>les administrations pour renforcer leur <strong>utilisation </strong>de
-                    logiciels libres et soutenir leurs démarches de <strong>publication </strong>des codes sources.
+                  Ce site statique, généré avec <a href="https://www.11ty.dev/" target="_blank"><strong>eleventy</strong></a>, utilise le <a href="https://www.systeme-de-design.gouv.fr/" target="_blank"><strong>Système de Design de l'État</strong></a>.
                 </p>
             </div>
             <div class="fr-col-md-4 fr-hidden fr-unhidden-md col-center">
-                <img src="/icons/binaire-256.png" alt="">
+                <img src="/icons/1F3DB.svg" alt="" width="256">
             </div>
         </div>
     </div>
@@ -24,29 +23,10 @@ eleventyNavigation:
 <div class="fr-container">
     <div class="fr-grid-row">
         <div class="fr-col-12">
-            <h2>Le plan d’action logiciels libres et communs numériques</h2>
+            <h2>{{ pTitle }}</h2>
             <p class="fr-text--lg">
-                La <strong>mission logiciels libres </strong>est née du <strong>plan d'action logiciels libres et communs numériques </strong>dont les trois axes sont
-                soutenir le <strong>recours </strong>aux logiciels libres dans l'administration ;
-                développer l'<strong>ouverture </strong>des codes sources du secteur public ;
-                renforcer l'<strong>attractivité </strong>de l'Etat-employeur en s'appuyant sur l'open source.
+              {{ pDescription | safe }}
             </p>
-            <p>
-                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/plan-action-logiciels-libres-et-communs-numeriques">Consulter le plan d'action</a>
-            </p>
-            <div class="fr-grid-row fr-grid-row--gutters">
-                {% for tile in actions %}
-                <div class="fr-col-12 fr-col-md-4">
-                    {% include "components/tile.njk" %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div class="fr-grid-row fr-grid-row--center fr-pt-6w fr-pb-8v">
-        <div class="fr-col-10">
-            <h2 class="fr-h3">Vos contributions sont les bienvenues&nbsp;!</h2>
-            {% include "components/accordionsgroup.njk" %}
         </div>
     </div>
 </div>

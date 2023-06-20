@@ -1,14 +1,17 @@
 <div class="fr-share">
-    <ul class="fr-share__group">
-        <li>
-            <a class="fr-share__link fr-share__link--mail" href="mailto:?subject={{ "share_link_on" | i18n }} {{ metadata.url }}&body={{ title }} {{ page.url | url }}" title="{{ "share_by_email" | i18n }}" target="_blank">
-                {{ "share_by_email" | i18n }}
-            </a>
-        </li>
-        <li>
-            <button class="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier" onclick="navigator.clipboard.writeText(window.location);alert('{{ "copied" | i18n }}');">
-                {{ "copy" | i18n }}
-            </button>
-        </li>
-    </ul>
+  <ul class="fr-share__group">
+    <li>
+      <a class="fr-share__link fr-share__link--mail"
+         href="mailto:?subject={{ "share_link_on" | i18n }} {{ metadata.url }}&body={{ title }} {{ page.url | url }}"
+         title="{{ "share_by_email" | i18n }}" target="_blank">
+        {{ "share_by_email" | i18n }}
+      </a>
+    </li>
+    <li>
+      <button class="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier"
+              onclick="navigator.clipboard.writeText(window.location);alert('{{ "copied" | i18n }}');">
+        {{ "copy" | i18n }}
+      </button>
+    </li>
+  </ul>
 </div>

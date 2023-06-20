@@ -102,7 +102,7 @@ h2 + .header-anchor {
 
 /** Properly render text in Markdown callout containers **/
 div.fr-callout__text p {
-    font-size:  inherit;
+    font-size: inherit;
     line-height: inherit;
 }
 

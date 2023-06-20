@@ -1,5 +1,5 @@
 ---
-title: Résultats de la recherche
+title: Search Results
 layout: layouts/base.njk
 ---
 <div class="fr-container fr-py-8v">
@@ -7,7 +7,7 @@ layout: layouts/base.njk
     <div class="fr-col-12">
       <h1>{{ title }}</h1>
       <div class="fr-container">
-        <p><span id="result-count">0</span> résultats</p>
+        <p><span id="result-count">0</span> {{ "results" | i18n }}</p>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" id="search-results">
         </div>
       </div>

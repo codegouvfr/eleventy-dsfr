@@ -1,5 +1,7 @@
 const {DateTime} = require("luxon");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require("markdown-it-attrs");
+const markdownItContainer = require("markdown-it-container");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -7,6 +9,8 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
+
+const customMarkdownContainers = require("./markdown-custom-containers");
 
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
@@ -89,7 +93,11 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts"].concat(addTags).indexOf(tag) === -1);
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts"].concat(addTags).indexOf(tag) === -1);
+    });
+
+    eleventyConfig.addFilter("stripTags", str => {
+        return (str || "").replace(/<[^>]*>/g, '');
     });
 
     // Customize Markdown library settings:
@@ -104,6 +112,18 @@ module.exports = function (eleventyConfig) {
             level: [1, 2, 3, 4],
             slugify: eleventyConfig.getFilter("slugify")
         });
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItAttrs);
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'callout', customMarkdownContainers.callout(mdLib));
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'quote', customMarkdownContainers.quote(mdLib));
     });
 
     // Automatically strip all leading or trailing whitespace

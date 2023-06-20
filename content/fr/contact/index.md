@@ -1,8 +1,11 @@
 ---
 layout: layouts/page.njk
+title: Contacts
 eleventyNavigation:
   key: Contact
   parent: À propos
-showBreadcrumb: true
+  order: 2
 ---
 # Contact
+
+<contact@code.gouv.f>

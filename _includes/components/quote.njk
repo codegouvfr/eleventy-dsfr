@@ -1,0 +1,11 @@
+<figure class="fr-quote fr-quote--column">
+  <blockquote{% if quote.sourceUrl %} cite="{{ quote.sourceUrl }}"{% endif %}>
+    <p>«&nbsp;{{ quote.text }}&nbsp;»</p>
+  </blockquote>
+  <figcaption>
+    <p class="fr-quote__author">{{ quote.author }}</p>
+    <ul class="fr-quote__source">
+      <li><cite>{{ quote.source }}</cite></li>
+    </ul>
+  </figcaption>
+</figure>

@@ -1,48 +1,62 @@
-{# Works with metadata and eleventyNavigation #}
 <header role="banner" class="fr-header">
-    <div class="fr-header__body">
-        <div class="fr-container">
-            <div class="fr-header__body-row">
-                <div class="fr-header__brand fr-enlarge-link">
-                    <div class="fr-header__brand-top">
-                        <div class="fr-header__logo"><p class="fr-logo"> {{ "service_id" | i18n | safe }} </p></div>
-                        <div class="fr-header__navbar">
-                            <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-491"
-                                    aria-haspopup="menu" id="button-492"
-                                    title="{{ "menu" | i18n }}"> {{ "menu" | i18n }}
-                            </button>
-                        </div>
-                    </div>
-                    <div class="fr-header__service">
-                        <a href="{{ "/" | locale_url }}"
-                           title="{{ "home" | i18n }} - {{ "site_title" | i18n }} - {{ "service_name" | i18n }}">
-                            <p class="fr-header__service-title"> {{ "site_title" | i18n }} </p>
-                        </a>
-                        <p class="fr-header__service-tagline">{{ "site_description" | i18n }}</p>
-                    </div>
-                </div>
-                <div class="fr-header__tools">
-                    <div class="fr-header__tools-links">
-                        <ul class="fr-btns-group">
-                            <li>
-                                <button class="fr-btn fr-fi-theme-fill fr-link--icon-left"
-                                        aria-controls="fr-theme-modal"
-                                        data-fr-opened="false">{{ "display_params" | i18n }}
-                                </button>
-                            </li>
-                        </ul>
-                        {% include "components/translate.njk" %}
-                    </div>
-                </div>
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo"><p class="fr-logo">République<br/>française</p></div>
+            <div class="fr-header__navbar">
+              <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-491" aria-haspopup="menu"
+                      id="button-492" title="{{ "menu" | i18n }}">
+                {{ "menu" | i18n }}
+              </button>
             </div>
+          </div>
+          <div class="fr-header__service">
+            <a href="{{ "/" | locale_url }}"
+               title="{{ "home" | i18n }} - {{ metadata.title }} - {{ metadata.service }}">
+              <p class="fr-header__service-title"> {{ metadata.title }} </p>
+            </a>
+            <p class="fr-header__service-tagline">{{ metadata.description }}</p>
+          </div>
         </div>
-    </div>
-    <div class="fr-header__menu fr-modal" id="modal-491" aria-labelledby="button-492">
-        <div class="fr-container">
-            <button class="fr-btn--close fr-btn" aria-controls="modal-491"
-                    title="{{ "close" | i18n }}"> {{ "close" | i18n }}</button>
-            <div class="fr-header__menu-links"></div>
-            {% include "components/navigation.njk" %}
+        <div class="fr-header__tools">
+          <div class="fr-header__tools-links">
+            <ul class="fr-links-group">
+              <li>
+                <a class="fr-link fr-icon-rss-line" href="/feed/feed.json">Flux RSS</a>
+              </li>
+            </ul>
+            {% include "components/translate.njk" %}
+          </div>
+          <div class="fr-header__search fr-modal" id="modal-474">
+            <div class="fr-container fr-container-lg--fluid">
+              <button class="fr-btn--close fr-btn" aria-controls="modal-474" title="Fermer">
+                Fermer
+              </button>
+              <div class="fr-search-bar" id="header-search" role="search">
+                <label class="fr-label" for="search-784-input">
+                  Recherche
+                </label>
+                <input class="fr-input" placeholder="Rechercher" type="search" id="search-784-input"
+                       name="search-784-input">
+                <button class="fr-btn" title="Rechercher">
+                  Rechercher
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="modal-491" aria-labelledby="button-492">
+    <div class="fr-container">
+      <button class="fr-btn--close fr-btn" aria-controls="modal-491" title="{{ "close" | i18n }}">
+        {{ "close" | i18n }}
+      </button>
+      <div class="fr-header__menu-links"></div>
+      {% include "components/navigation.njk" %}
+    </div>
+  </div>
 </header>

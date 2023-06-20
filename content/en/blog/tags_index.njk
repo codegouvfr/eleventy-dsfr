@@ -1,8 +1,8 @@
 ---
+title: Tags
 layout: layouts/page.njk
 permalink: "/{{ lang }}/blog/tags/"
 ---
-<h1>Tags</h1>
-
-{% set tags = collections.posts_en | getAllTags %}
+<h1>{{ title }}</h1>
+{% set tags = collections.posts | filterCollectionLang | getAllTags %}
 {% include "components/taggroup.njk" %}

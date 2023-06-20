@@ -1,33 +1,31 @@
-{# Works with eleventyNavigation #}
 <nav class="fr-nav" id="navigation-494" role="navigation" aria-label="{{ "main_menu" | i18n }}">
-    {% set navigationLinks = collections.all | filterCollectionLang(lang) | eleventyNavigation %}
-    <ul class="fr-nav__list">
-        {% for link in navigationLinks %}
-            {% set link_url = link.url | locale_url(lang) %}
-            <li class="fr-nav__item">
-                {% if not link.children | length %}
-                    <a class="fr-nav__link" href="{{ link_url }}"
-                       target="_self"{% if link_url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
-                {% else %}
-                    <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-{{ loop.index }}">
-                        {{ link.key }}</button>
-                    <div class="fr-collapse fr-menu" id="menu-{{ loop.index }}">
-                        <ul class="fr-menu__list">
-                            <li>
-                                <a class="fr-nav__link" href="{{ link_url }}"
-                                   target="_self"{% if link_url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
-                            </li>
-                            {% for sublink in link.children %}
-                                <li>
-                                    {% set sublink_url = sublink.url | locale_url(lang) %}
-                                    <a class="fr-nav__link" href="{{ sublink_url }}"
-                                       target="_self"{% if sublink_url == page.url %} aria-current="page"{% endif %}>{{ sublink.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ul>
+  {% set navigationLinks = collections.all | filterCollectionLang | eleventyNavigation %}
+  <ul class="fr-nav__list">
+    {% for link in navigationLinks %}
+      {% set linkUrl = link.url | locale_url(lang) %}
+      <li class="fr-nav__item">
+        {% if not link.children | length %}
+          <a class="fr-nav__link" href="{{ linkUrl }}"{% if linkUrl == page.url %} aria-current="page"{% endif %}>
+            {{ link.title }}
+          </a>
+        {% else %}
+          <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-{{ loop.index }}">
+            {{ link.title }}
+          </button>
+          <div class="fr-collapse fr-menu" id="menu-{{ loop.index }}">
+            <ul class="fr-menu__list">
+              {% for sublink in link.children %}
+                <li>
+                  {% set sublinkUrl = sublink.url | locale_url(lang) or sublink.externalUrl %}
+                  <a class="fr-nav__link" href="{{ sublinkUrl }}" {% if sublink.externalUrl %} target="_blank"{% endif %}{% if sublinkUrl == page.url %} aria-current="page"{% endif %}>
+                    {{ sublink.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </nav>

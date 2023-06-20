@@ -76,5 +76,5 @@ Où en seront les OSPO des pays membres de l'Union européenne dans un an ?  Au
 ### Références
 
 - [1] Voices of open source, "[What is an Open Source Program Office and why you should have one](https://blog.opensource.org/what-is-an-open-source-program-office-and-why-you-should-have-one/)", 2022.
-- [2] OSPO Alliance, "[The Goog Governance Initiative Handbook v1.2](https://ospo.zone/ggi/)", 2023.
+- [2] OSPO Alliance, "[The Good Governance Initiative Handbook v1.2](https://ospo.zone/ggi/)", 2023.
 - [3] [OpenForum Europe, "OSPO : a new tool for digital government", 2022](https://openforumeurope.org/wp-content/uploads/2022/06/The-OSPO-A-New-Tool-for-Digital-Government-2.pdf); nous traduisons de l'anglais.

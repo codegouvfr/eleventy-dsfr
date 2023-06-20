@@ -10,10 +10,6 @@ module.exports = {
     },
     description: "Un condensé des dernières actualités BlueHats.",
     eleventyComputed: {
-        segments: [{
-            url: "/blog/",
-            title: "Blog"
-        }],
         image: data => {
             if (!data.image) {
                 return {

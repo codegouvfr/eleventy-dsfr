@@ -1,17 +1,18 @@
 <div class="fr-tile fr-enlarge-link">
-    <div class="fr-tile__body">
-        {% set tileUrl = tile.url | locale_url or tile.externalUrl %}
-        {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
-        <h4 class="fr-tile__title">
-            <a class="fr-tile__link" href="{{ tileUrl }}" title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank"{% endif %}>
-                {{ tile.title }}
-            </a>
-        </h4>
-        <p class="fr-tile__desc">{{ tile.description | safe }}</p>
+  <div class="fr-tile__body">
+    {% set tileUrl = tile.url | locale_url or tile.externalUrl %}
+    {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
+    <h4 class="fr-tile__title">
+      <a class="fr-tile__link" href="{{ tileUrl }}"
+         title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank"{% endif %}>
+        {{ tile.title }}
+      </a>
+    </h4>
+    <p class="fr-tile__desc">{{ tile.description | safe }}</p>
+  </div>
+  {% if tile.imageSrc %}
+    <div class="fr-tile__img">
+      <img src="{{ tile.imageSrc }}" alt="" class="fr-responsive-img">
     </div>
-    {% if tile.imageSrc %}
-        <div class="fr-tile__img">
-            <img src="{{ tile.imageSrc }}" alt="" class="fr-responsive-img">
-        </div>
-    {% endif %}
+  {% endif %}
 </div>

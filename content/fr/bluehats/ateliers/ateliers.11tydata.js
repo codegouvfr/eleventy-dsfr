@@ -9,10 +9,6 @@ module.exports = {
         return `/${data.lang}/bluehats/${data.page.fileSlug}/`;
     },
     eleventyComputed: {
-        segments: [{
-            url: "/blog/",
-            title: "Blog"
-        }],
         image: data => {
             if (!data.image) {
                 return {

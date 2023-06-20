@@ -10,9 +10,9 @@ slugOverride: doc
 ---
 <h1 class="text-center">{{ title }}</h1>
 <div class="fr-grid-row fr-grid-row--gutters fr-py-3w fr-grid-row--center">
-    {% for tile in docs %}
-        <div class="fr-col-12 fr-col-md-4">
-            {% include "components/tile.njk" %}
-        </div>
-    {% endfor %}
+  {% for tile in docs %}
+    <div class="fr-col-12 fr-col-md-4">
+      {% include "components/tile.njk" %}
+    </div>
+  {% endfor %}
 </div>

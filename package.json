@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "postbuild": "npx -y pagefind --source _site/",
+    "build-ghpages": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",

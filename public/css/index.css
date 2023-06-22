@@ -100,6 +100,10 @@ h2 + .header-anchor {
     object-fit: contain;
 }
 
+.fr-quote__image img {
+    object-fit: cover;
+}
+
 /** Properly render text in Markdown callout containers **/
 div.fr-callout__text p {
     font-size: inherit;

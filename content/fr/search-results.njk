@@ -3,16 +3,16 @@ title: Résultats de la recherche
 layout: layouts/base.njk
 ---
 <div class="fr-container fr-py-8v">
-    <div class="fr-grid-row">
-        <div class="fr-col-12">
-            <h1>{{ title }}</h1>
-            <div class="fr-container">
-                <p><span id="result-count">0</span> résultats</p>
-                <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" id="search-results">
-                </div>
-            </div>
+  <div class="fr-grid-row">
+    <div class="fr-col-12">
+      <h1>{{ title }}</h1>
+      <div class="fr-container">
+        <p><span id="result-count">0</span> résultats</p>
+        <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" id="search-results">
         </div>
+      </div>
     </div>
-    {% include "components/back_to_top.njk" %}
+  </div>
+  {% include "components/back_to_top.njk" %}
 </div>
 <script type="text/javascript" src="/js/search-results.js"></script>

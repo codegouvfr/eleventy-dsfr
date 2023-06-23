@@ -37,7 +37,7 @@ Un OSPO, c'est une **équipe** qui est garante d'une **stratégie** *open source
 4. **La communauté** : un OSPO répond aux besoins d'une communauté au sein de l'organisation, communauté qui peut rassembler des profils aux compétences variées.  Cette communauté est essentielle à la mise en œuvre de la stratégie *open source* définie par l'OSPO.
 5. **L'écosystème FLOSS (*Free Libre Open Source Software*)** : s'impliquer dans le logiciel libre ne peut se faire en vase clos et exige qu'on soit en lien avec les communautés *open source* en général.  L'équipe peut donc inciter ses membres et les membres de sa communauté à interagir avec tout l'écosystème FLOSS (associations, entreprises, etc.).
 
-{% imageContent "./pyramide-ospo-500-tmp.png", "Illustration représentant les 5 étapes de la construction sous forme de pyramide", [500] %}
+{% imageContent "./pyramide-ospo.svg", "Illustration représentant les 5 étapes de la construction sous forme de pyramide", [500] %}
 
 # L'OSPO de la DINUM : la mission logiciels libres et communs numériques
 
@@ -54,7 +54,7 @@ La création de cette entité fait suite à la [circulaire du Premier ministre](
 :::quote
 Créer un Open Source Program Office (OSPO) ou une mission logiciels libres au sein de TECH.GOUV, chargée d’aider l’administration à ouvrir et à réutiliser les codes sources publics, d’identifier les enjeux de mutualisation et de créer des liens avec les communautés open source exsitantes et d’accompagner les talents français dans ce domaine.
 :::
-\
+
 Cette recommandation reprend deux des propositions faites par l'[Association pour la Promotion et la Recherche en Informatique Libre (April)](https://www.april.org) et l'[Union des entreprises du logiciel libre et du numérique ouvert (CNLL)](https://cnll.fr) lors de la consultation publique lancée par la mission Bothorel.
 
 ## La mission logiciels libres en 2023

@@ -10,22 +10,23 @@ showBreadcrumb: true
 ---
 <h1 class="text-center">{{ title }}</h1>
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
-    {% asyncAll person in people %}
-    <div class="fr-col-12">
-        {% set card = {
-            url: false,
-            externalUrl: person.projectUrl,
-            urlDescription: "En savoir plus sur " + person.projectName,
-            title: person.name,
-            description: person.description,
-            imagePath: person.imagePath,
-            imageAlt: person.name,
-            orientation: "horizontal"
-        } %}
-        {% include "components/card.njk" %}
-    </div>
-    {% endall %}
+  {% asyncAll person in people %}
+  <div class="fr-col-12">
+    {% set card = {
+      url: false,
+      externalUrl: person.projectUrl,
+      urlDescription: "En savoir plus sur " + person.projectName,
+      title: person.name,
+      description: person.description,
+      imagePath: person.imagePath,
+      imageAlt: person.name,
+      orientation: "horizontal"
+    } %}
+    {% include "components/card.njk" %}
+  </div>
+  {% endall %}
 </div>
 <p>
-    Découvrez aussi les <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/bluehats/bsoc-contributions-2022/">projets qui se sont proposés</a>
+  Découvrez aussi les <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right"
+                         href="/fr/bluehats/bsoc-contributions-2022/">projets qui se sont proposés</a>
 </p>

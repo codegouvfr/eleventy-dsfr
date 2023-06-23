@@ -10,10 +10,6 @@
   },
   layout: "layouts/page.njk",
   permalink: "/{{ lang }}/bluehats/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ pagePrefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
-  segments: [{
-    url: "/blog/",
-    title: "Blog"
-  }],
   eleventyComputed: {
     title: 'Tagged "{{ tag.tagName }}"'
   }

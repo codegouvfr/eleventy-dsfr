@@ -2,79 +2,81 @@
 layout: layouts/base.njk
 ---
 <div class="fr-container fr-py-8v">
-    {% if showBreadcrumb %}
-        {% include "components/breadcrumb.njk" %}
-    {% endif %}
-    <div class="fr-grid-row" data-pagefind-body>
-        <div class="fr-col-12">
-            {% set tagsUrl = "/bluehats/tags/" %}
-            {% include "components/taggroup.njk" %}
-            <div class="fr-grid-row">
-                <div class="fr-col-12 fr-col-md-9">
-                    <hgroup>
-                        <h1>{{ title }}</h1>
-                        <p class="fr-text--xs">
-                            {{ "published_on" | i18n }}
-                            <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-                        </p>
-                    </hgroup>
-                </div>
-                <div class="fr-col-12 fr-col-md-3">
-                    {% include "components/share.njk" %}
-                </div>
-            </div>
-
-            {% if description %}
-                <p class="fr-text--lead">
-                    {{ description | safe }}
-                </p>
-            {% endif %}
-
-            {{ content | safe }}
-
-            {% if video %}
-                <figure class="fr-content-media" role="group">
-                    <div class="fr-content-media__img">
-                        <iframe class="fr-responsive-vid" title="{{ video.title }}" src="{{ video.src }}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-                    </div>
-                    <figcaption class="fr-content-media__caption">{{ video.title }}</figcaption>
-                </figure>
-            {% endif %}
-
-
-            {% if slides %}
-                <figure class="fr-content-media" role="group">
-                    <div class="fr-content-media__img">
-                        <iframe class="fr-responsive-vid" title="{{ slides.title }}" src="{{ slides.src }}" mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="0"></iframe>
-                    </div>
-                    <figcaption class="fr-content-media__caption">Support de présentation</figcaption>
-                </figure>
-            {% endif %}
-
-            {% if collections.bluehats_posts %}
-                {% set previousPost = collections.bluehats_posts | filterCollectionLang | getPreviousCollectionItem %}
-                {% set nextPost = collections.bluehats_posts | filterCollectionLang | getNextCollectionItem %}
-                {% if nextPost or previousPost %}
-                    <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w" data-pagefind-ignore>
-                        {% if previousPost %}
-                            <li>
-                                <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">
-                                    {{ previousPost.data.title }}
-                                </a>
-                            </li>
-                        {% else %}
-                            <li></li>
-                        {% endif %}
-                        {% if nextPost %}
-                            <li>
-                                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">
-                                    {{ nextPost.data.title }}
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
-                {% endif %}
-            {% endif %}
+  {% if showBreadcrumb %}
+    {% include "components/breadcrumb.njk" %}
+  {% endif %}
+  <div class="fr-grid-row" data-pagefind-body>
+    <div class="fr-col-12">
+      {% set tagsUrl = "/bluehats/tags/" %}
+      {% include "components/taggroup.njk" %}
+      <div class="fr-grid-row">
+        <div class="fr-col-12 fr-col-md-9">
+          <hgroup>
+            <h1>{{ title }}</h1>
+            <p class="fr-text--xs">
+              {{ "published_on" | i18n }}
+              <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+            </p>
+          </hgroup>
         </div>
+        <div class="fr-col-12 fr-col-md-3">
+          {% include "components/share.njk" %}
+        </div>
+      </div>
+
+      {% if description %}
+        <p class="fr-text--lead">
+          {{ description | safe }}
+        </p>
+      {% endif %}
+
+      {{ content | safe }}
+
+      {% if video %}
+        <figure class="fr-content-media" role="group">
+          <div class="fr-content-media__img">
+            <iframe class="fr-responsive-vid" title="{{ video.title }}" src="{{ video.src }}" frameborder="0"
+                    allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+          </div>
+          <figcaption class="fr-content-media__caption">{{ video.title }}</figcaption>
+        </figure>
+      {% endif %}
+
+
+      {% if slides %}
+        <figure class="fr-content-media" role="group">
+          <div class="fr-content-media__img">
+            <iframe class="fr-responsive-vid" title="{{ slides.title }}" src="{{ slides.src }}"
+                    mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="0"></iframe>
+          </div>
+          <figcaption class="fr-content-media__caption">Support de présentation</figcaption>
+        </figure>
+      {% endif %}
+
+      {% if collections.bluehats_posts %}
+        {% set previousPost = collections.bluehats_posts | filterCollectionLang | getPreviousCollectionItem %}
+        {% set nextPost = collections.bluehats_posts | filterCollectionLang | getNextCollectionItem %}
+        {% if nextPost or previousPost %}
+          <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w" data-pagefind-ignore>
+            {% if previousPost %}
+              <li>
+                <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">
+                  {{ previousPost.data.title }}
+                </a>
+              </li>
+            {% else %}
+              <li></li>
+            {% endif %}
+            {% if nextPost %}
+              <li>
+                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">
+                  {{ nextPost.data.title }}
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+        {% endif %}
+      {% endif %}
     </div>
+  </div>
 </div>

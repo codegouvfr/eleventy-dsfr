@@ -89,6 +89,7 @@ Voir les annonces sur [www.ecrins-parcnational.fr](https://www.ecrins-parcnation
 - [Public sector software catalogues: work in progress](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/public-sector-software-catalogues), juin 2023
 - https://acteurspublics.fr/articles/les-universites-ont-desormais-leur-bouquet-doutils-numeriques-collaboratifs
 - [La politique et les actions d’Abbeville en faveur du logiciel libre](https://www.librealire.org/emission-libre-a-vous-diffusee-mardi-16-mai-2023-sur-radio-cause-commune#La-politique-et-les-actions-d-Abbeville-en-faveur-du-logiciel-nbsp), librealire.org, mai 2023
+- [The Cyber Resilience Act and Open Source Software](https://openforumeurope.org/event/the-cyber-resilience-act-and-open-source-software/), openforumeurope.org, Mai 2023
 - [Le Cyber Resilience Act de l’Union européenne menace l’avenir du logiciel libre](https://linuxfr.org/news/le-cyber-resilience-act-de-l-union-europeenne-menace-l-avenir-du-logiciel-libre), linux.org, Avril 2023
 - [Le Cyber Resilience Act : une épée de Damoclès sur le logiciel libre](https://www.april.org/le-cyber-resilience-act-une-epee-de-damocles-sur-le-logiciel-libre), april.org, Avril 2023
 - [Itinéraires numériques. Le temps du débat, cnnumerique.fr](https://cnnumerique.fr/nos-travaux/itineraires-numeriques-le-temps-du-debat), 2023

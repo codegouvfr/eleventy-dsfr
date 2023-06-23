@@ -190,7 +190,7 @@ par des appels aux nouvelles collections localisées automatiquement créées `p
     - Page non trouvée (404)
     - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
 
-## Demos
+## Démos
 
 Voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
 

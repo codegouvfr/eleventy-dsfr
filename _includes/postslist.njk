@@ -1,6 +1,6 @@
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" data-pagefind-ignore>
   {% asyncAll post in postslist %}
-  <div class="fr-col-12">
+  <div class="fr-col-12 fr-col-md-4">
     {% set card = {
       url: post.url,
       title: post.data.title,
@@ -9,8 +9,7 @@
       date: post.date,
       imagePath: post.data.image.path | resolvePath(post),
       imageAlt: post.data.image.alt,
-      badges: post.data.badges,
-      orientation: "horizontal"
+      badges: post.data.badges
     } %}
     {% include "components/card.njk" %}
   </div>

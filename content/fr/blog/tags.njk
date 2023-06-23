@@ -1,12 +1,12 @@
 ---js
 {
-  title: "Actualités",
+  title: "Documentation",
   pagination: {
     data: "collections.posts",
     size: 1,
     alias: "tag",
     before: function(paginationData, fullData) {
-      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 10);
+      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 6);
     }
   },
   layout: "layouts/page.njk",

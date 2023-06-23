@@ -210,3 +210,14 @@ Error: Get Pages site failed
 Error: HttpError: Not Found
 ```
 Essayer [cette configuration](https://stackoverflow.com/a/73967433).
+
+## Exemple d'utilisation
+
+`eleventy-dsfr` est utilisé pour le site [code.gouv.fr](https://code.gouv.fr/fr).
+
+## Licence
+
+Le dépôt est publié sous licence MIT pour le code et sous licence
+Etalab 2.0 pour les autres contenus.
+
+Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/fr/) de la DINUM.

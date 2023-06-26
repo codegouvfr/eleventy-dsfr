@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Présentation
   parent: À propos
   order: 1
+slugOverride: a propos
 ---
 # À propos
 

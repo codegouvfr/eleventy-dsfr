@@ -38,6 +38,10 @@ code {
     font-family: var(--font-family-monospace);
 }
 
+pre[class*="language-"] {
+    margin-bottom: 1.5em !important;
+}
+
 pre:not([class*="language-"]) {
     margin: .5em 0;
     line-height: 1.375; /* 22px /16 */

@@ -6,45 +6,31 @@ tags:
   - DSFR
   - composant
 ---
-Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md` en utilisant la [syntaxe Nunjucks correspondante (Includes)](https://www.11ty.dev/docs/languages/nunjucks/#supported-features).
+Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
-## Pré-requis
-
-[Voir aussi comment utiliser des données dans eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
-
-## Utilisation
-
-Requiert la déclaration d'un **objet `accordionItems`** (tableau), au format :
-```json
-[
-  {
-    "title": "string",
-    "content": "HTML string"
-  }
-]
-```
-
-### Exemple d'utilisation
+## Exemple d'utilisation
 
 ```njk
 {% raw %}
-{% set accordionItems = [{
-  title: "Intitulé accordéon",
-  content: "<p>Contenu</p>"
-}] %}
-{% include "components/accordionsgroup.njk" %}
+{% from "components/component.njk" import component with context %}
+{{ component('accordionsgroup', {
+    items: [{
+        title: "Intitulé accordéon",
+        content: "<p>Contenu HTML</p>"
+    }]
+}) }}
 {% endraw %}
 ```
 
 ## Rendu
 
-{% set accordionItems = [{
-    title: "Intitulé accordéon",
-    content: "<p>Contenu</p>"
-}] %}
-<div>
-    {% include "components/accordionsgroup.njk" %}
-</div>
+{% from "components/component.njk" import component with context %}
+{{ component('accordionsgroup', {
+    items: [{
+        title: "Intitulé accordéon",
+        content: "<p>Contenu HTML</p>"
+    }]
+}) }}
 
 <br>
 

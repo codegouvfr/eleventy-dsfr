@@ -6,46 +6,47 @@ tags:
   - DSFR
   - composant
 ---
-Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md` en utilisant la [syntaxe Nunjucks correspondante (Includes)](https://www.11ty.dev/docs/languages/nunjucks/#supported-features).
-
-## Pré-requis
-
-[Voir aussi comment utiliser des données dans eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
 ## Utilisation
 
-Requiert la déclaration d'un **objet `segments`** (tableau), au format :
-```json
-[
-  {
-    "url": "string",
-    "title": "string"
-  }
-]
-```
-
-### Exemple d'utilisation
+### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
 ```njk
 {% raw %}
-{% set segments = [{
-  url: "/blog/",
-  title: "Blog"
-}] %}
-{% include "components/breadcrumb.njk" %}
+{% from "components/component.njk" import component with context %}
+{{ component('breadcrumb', {
+    segments: [{
+        url: "/blog/",
+        title: "Blog"
+    }]
+}) }}
 {% endraw %}
 ```
 
+### Exemple d'utilisation dans un article de blog ou une page
+
+```yaml
+{% raw %}
+---
+segments:
+    - url: "/blog/"
+    - title: "Blog"
+showBreadcrumb: true
+---
+{% endraw %}
+```
+
+[Voir aussi comment utiliser des données dans Eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
 ## Rendu
 
-{% set segments = [{
-    url: "/blog/",
-    title: "Documentation"
-}] %}
-<div>
-    {% include "components/breadcrumb.njk" %}
-</div>
-
-<br>
+{% from "components/component.njk" import component with context %}
+{{ component('breadcrumb', {
+    segments: [{
+        url: "/blog/",
+        title: "Blog"
+    }]
+}) }}
 
 [Voir aussi la page du composant sur le site du DSFR](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/fil-d-ariane){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

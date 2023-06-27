@@ -1,3 +1,4 @@
+{% if not accordionItems %}{% set accordionItems = params.items %}{% endif %}
 <div class="fr-accordions-group">
   {% for accordionItem in accordionItems %}
     <section class="fr-accordion">

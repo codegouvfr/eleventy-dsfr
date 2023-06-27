@@ -6,11 +6,7 @@ tags:
   - DSFR
   - composant
 ---
-Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md` en utilisant la [syntaxe Nunjucks correspondante (Includes)](https://www.11ty.dev/docs/languages/nunjucks/#supported-features).
-
-## Pré-requis
-
-[Voir aussi comment utiliser des données dans eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
 ## Utilisation
 
@@ -24,43 +20,29 @@ Seul le texte est disponible.
 :::
 ```
 
-### Dans un fichier Nunjucks `.njk`
-
-Requiert la déclaration d'un **objet `quote`**, au format :
-```json
-{
-  "sourceUrl": "string",
-  "text": "string",
-  "author": "string",
-  "source": "string"
-}
-```
-
-### Exemple d'utilisation :
+### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
 ```njk
 {% raw %}
-{% set quote = {
-  sourceUrl: "/",
-  text: "Lorem [...] elit ut.",
-  author: "Auteur",
-  source: "Ouvrage"
-} %}
-{% include "components/quote.njk" %}
+{% from "components/component.njk" import component with context %}
+{{ component('quote', {
+    sourceUrl: "/",
+    text: "Lorem [...] elit ut.",
+    author: "Auteur",
+    source: "Ouvrage"
+}) }}
 {% endraw %}
 ```
 
-## Rendu :
+## Rendu
 
-{% set quote = {
-sourceUrl: "/",
-text: "Lorem [...] elit ut.",
-author: "Auteur",
-source: "Ouvrage"
-} %}
-<div>
-    {% include "components/quote.njk" %}
-</div>
+{% from "components/component.njk" import component with context %}
+{{ component('quote', {
+    sourceUrl: "/",
+    text: "Lorem [...] elit ut.",
+    author: "Auteur",
+    source: "Ouvrage"
+}) }}
 
 <br>
 

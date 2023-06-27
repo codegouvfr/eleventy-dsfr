@@ -6,15 +6,23 @@ tags:
   - DSFR
   - composant
 ---
-Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md` en utilisant la [syntaxe Nunjucks correspondante (Includes)](https://www.11ty.dev/docs/languages/nunjucks/#supported-features).
+Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
-## Pré-requis
+## Exemple d'utilisation
 
-[Voir aussi comment utiliser des données dans eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+```njk
+{% raw %}
+{% from "components/component.njk" import component with context %}
+{{ component('tile', {
+    url: "/",
+    title: "Titre MD bold",
+    description: "Description."
+}) }}
+{% endraw %}
+```
 
-## Utilisation
+Le format complet de l'objet en paramètre est le suivant :
 
-Requiert la déclaration d'un **objet `tile`**, au format :
 ```json
 {
   "url": "string",
@@ -27,28 +35,15 @@ Requiert la déclaration d'un **objet `tile`**, au format :
 
 Si `tile.externalUrl` est utilisé, `tile.url` doit être `null`.
 
-### Exemple d'utilisation
-
-```njk
-{% raw %}
-{% set tile = {
-  url: "/",
-  title: "Titre MD bold",
-  description: "Description."
-} %}
-{% include "components/tile.njk" %}
-{% endraw %}
-```
-
 ## Rendu
 
-{% set tile = {
+{% from "components/component.njk" import component with context %}
+<div>
+{{ component('tile', {
     url: "/",
     title: "Titre MD bold",
     description: "Description."
-} %}
-<div>
-    {% include "components/tile.njk" %}
+}) }}
 </div>
 
 <br>

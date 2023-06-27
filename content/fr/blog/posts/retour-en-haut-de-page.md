@@ -6,11 +6,7 @@ tags:
   - DSFR
   - composant
 ---
-Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md` en utilisant la [syntaxe Nunjucks correspondante (Includes)](https://www.11ty.dev/docs/languages/nunjucks/#supported-features).
-
-## Pré-requis
-
-[Voir aussi comment utiliser des données dans eleventy](https://www.11ty.dev/docs/data/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
 ## Exemple d'utilisation
 
@@ -23,7 +19,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ## Rendu
 
 <div>
-    {% include "components/back_to_top.njk" %}
+{% include "components/back_to_top.njk" %}
 </div>
 
 <br>

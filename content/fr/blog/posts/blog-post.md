@@ -17,3 +17,11 @@ image:
 ```
 
 **Note :** La variable `src` correspond au chemin relatif du fichier depuis l'emplacement de la page dans le dépôt.
+
+Le fil d'Ariane peut être affiché automatiquement si la variable `showBreadcrumb` du cartouche est positionnée :
+
+```markdown
+---
+showBreadcrumb: true
+---
+```

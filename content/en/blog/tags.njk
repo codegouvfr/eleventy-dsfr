@@ -24,5 +24,5 @@
   {% include "postslist.njk" %}
   {% set tagUrl %}{{ "/blog/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
   {% set pagination = pagination | buildPagination(tagUrl) %}
-  {% include "components/pagination.njk" %}
+  {% include "templates/pagination.njk" %}
 </div>

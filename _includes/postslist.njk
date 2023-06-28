@@ -8,12 +8,11 @@
       description: post.data.description,
       tags: post.data.tags,
       date: post.date,
-      badges: ["label badge"],
+      badges: post.data.badges,
       image: {
         path : post.data.image.path,
         alt: post.data.image.alt
-      },
-      badges: post.data.badges
+      }
     }) }}
   </div>
   {% endall %}

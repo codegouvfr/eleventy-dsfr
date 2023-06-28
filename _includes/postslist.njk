@@ -10,7 +10,7 @@
       date: post.date,
       badges: post.data.badges,
       image: {
-        path : post.data.image.path,
+        path: post.data.image.path | resolvePath(post),
         alt: post.data.image.alt
       }
     }) }}

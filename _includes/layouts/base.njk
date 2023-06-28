@@ -25,16 +25,16 @@
   <title>{{ title or metadata.title }}</title>
 </head>
 <body id="top">
-{% include "components/header.njk" %}
+{% include "templates/header.njk" %}
 
 <main id="content">
   {{ content | safe }}
 </main>
 
-{% include "components/newsletter_and_follow_us.njk" %}
-{% include "components/footer.njk" %}
+{% include "templates/newsletter_and_follow_us.njk" %}
+{% include "templates/footer.njk" %}
 
-{% include "components/display.njk" %}
+{% include "templates/display.njk" %}
 
 <!-- Current page: {{ page.url | htmlBaseUrl }} -->
 

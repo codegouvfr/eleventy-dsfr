@@ -1,3 +1,4 @@
+{% if not tile %}{% set tile = params %}{% endif %}
 <div class="fr-tile fr-enlarge-link">
   <div class="fr-tile__body">
     {% set tileUrl = tile.url | locale_url or tile.externalUrl %}

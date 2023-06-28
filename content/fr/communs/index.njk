@@ -39,8 +39,10 @@ eleventyNavigation:
       externalUrl: communNumerique.url,
       title: communNumerique.title,
       description: communNumerique.description,
-      imagePath: communNumerique.imagePath,
-      imageAlt: communNumerique.title
+      image: {
+        path: communNumerique.imagePath,
+        alt: communNumerique.title
+      }
     } %}
     {% include "components/card.njk" %}
   </div>

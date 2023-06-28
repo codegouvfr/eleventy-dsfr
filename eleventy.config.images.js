@@ -56,13 +56,14 @@ module.exports = eleventyConfig => {
 
     // Synchronous method for Nunjucks macros
     eleventyConfig.addNunjucksShortcode("imageSync", function imageShortcode(src, alt, widths, sizes, cls = "") {
+        let file = relativeToInputPath(this.page.inputPath, src);
         const options = getOptions(widths);
         options["outputDir"] = path.join(eleventyConfig.dir.output, "img"); // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
         // generate images, while this is async we don’t wait
-        eleventyImage(src, options);
+        eleventyImage(file, options);
 
         // get metadata even if the images are not fully generated yet
-        let metadata = eleventyImage.statsSync(src, options);
+        let metadata = eleventyImage.statsSync(file, options);
         return eleventyImage.generateHTML(metadata, getImageAttributes(cls, alt, sizes));
     });
 

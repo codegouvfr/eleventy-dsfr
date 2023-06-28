@@ -48,7 +48,7 @@
       </ul>
     {% endif %}
     {% if card.image.path %}
-      <div class="fr-card__img">{% imageSync card.image.path | resolvePath(page), card.image.alt %}</div>
+      <div class="fr-card__img">{% imageSync card.image.path, card.image.alt %}</div>
     {% endif %}
   </div>
 </div>

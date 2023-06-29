@@ -15,10 +15,12 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 Seul le texte est disponible.
 
 ```md
-:::quote
+:::quote /img/placeholder.1x1.png
 « Lorem [...] elit ut. »
 :::
 ```
+
+Le chemin de l'image (optionnelle) est son url dans le site.
 
 ### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
@@ -29,7 +31,8 @@ Seul le texte est disponible.
     sourceUrl: "/",
     text: "Lorem [...] elit ut.",
     author: "Auteur",
-    source: "Ouvrage"
+    source: "Ouvrage",
+    imageSrc: "/img/placeholder.1x1.png"
 }) }}
 {% endraw %}
 ```
@@ -41,7 +44,8 @@ Seul le texte est disponible.
     sourceUrl: "/",
     text: "Lorem [...] elit ut.",
     author: "Auteur",
-    source: "Ouvrage"
+    source: "Ouvrage",
+    imageSrc: "/img/placeholder.1x1.png"
 }) }}
 
 <br>

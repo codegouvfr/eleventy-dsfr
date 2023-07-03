@@ -20,6 +20,7 @@ générateur [Eleventy](https://www.11ty.dev/).
 - **Recherche** : Utilise [pagefind](https://pagefind.app/) pour la recherche.
 - **Pagination** : Utilise le [système de pagination d'Eleventy](https://www.11ty.dev/docs/pagination/) et gère la pagination de second niveau.
 - **Flux RSS** : Utilise le [plugin RSS d'Eleventy](https://www.11ty.dev/docs/plugins/rss/).
+- **Calendrier** : Utiliser la bibliothèque [ics](https://www.npmjs.com/package/ics) pour générer un calendrier [`calendar.ics`](https://codegouvfr.github.io/eleventy-dsfr/calendar.ics) à la racine du site, à partir du fichier [`events.json`](_data/events.json) (voir aussi [son format](https://github.com/adamgibbons/ics#attributes)).
 - **Mesure d'audience** : Intègre la solution [matomo](public/js/matomo.js).
 - **Pages déjà générées** :
     - Pages d'accueil, À propos, section Blog (en français et en anglais).

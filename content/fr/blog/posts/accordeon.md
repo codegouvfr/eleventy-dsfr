@@ -13,7 +13,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('accordionsgroup', {
+{{ component("accordionsgroup", {
     items: [{
         title: "Intitulé accordéon",
         content: "<p>Contenu HTML</p>"
@@ -25,7 +25,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ## Rendu
 
 {% from "components/component.njk" import component with context %}
-{{ component('accordionsgroup', {
+{{ component("accordionsgroup", {
     items: [{
         title: "Intitulé accordéon",
         content: "<p>Contenu HTML</p>"

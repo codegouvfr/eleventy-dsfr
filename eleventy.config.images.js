@@ -68,6 +68,6 @@ module.exports = eleventyConfig => {
     });
 
     eleventyConfig.addFilter("resolvePath", (imagePath, page) => {
-        return imagePath ? path.resolve(`${page.inputPath}/..`, imagePath) : undefined;
+        return imagePath ? path.resolve(page.inputPath, "..", imagePath) : undefined;
     });
 };

@@ -43,13 +43,6 @@ module.exports = {
 <p>Vous souhaitez proposer un atelier BlueHats 🧢 ?  <a href="mailto:contact@code.gouv.fr">Contactez-nous !</a></p>`
         }
     ],
-    tagDescriptions: {
-        gazette: `La gazette BlueHats est la contribution de la DINUM au mouvement BlueHats. Cette lettre bimestrielle partage des informations sur l'utilisation et le développement de logiciels libres dans et pour l'administration. Elle sert aussi à donner une vue d'ensemble des activités du réseau de compagnonnage BlueHats. En la lisant, vous découvrirez des projets que vous pourrez tester ou suivre ; en y contribuant, vous partagerez vos initiatives et vos découvertes.`,
-        atelier: `Les ateliers BlueHats sont des visioconférences ou des agents publics présentent des logiciels libres qu'ils utilisent ou développent. Ils se tiennent un ou deux vendredi par mois de 11h à 12h30.
-<br /><br />
-Tout le monde peut y accéder en ligne via <a href="https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b" target="_blank">ce lien</a>. Ils sont aussi visibles en rediffusion sur <a href="https://tube.numerique.gouv.fr/a/logicielslibres/video-channels" target="_blank">la chaîne BlueHats d'Etalab</a>.`,
-        rencontre: `Les rencontres BlueHats sont des moments d'échange et de coopération en présentiel consacrés à toutes les personnes qui s'intéressent aux logiciels libres pour les administrations publiques.`
-    },
     projects: [
         {
             url: "https://man.sr.ht/~codegouvfr/logiciels-libres/bsoc2022/jabref.md",

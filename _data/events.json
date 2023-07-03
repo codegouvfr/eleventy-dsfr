@@ -1,14 +1,14 @@
 [
   {
-    "title": "1er commit",
-    "description": "1er commit pour eleventy-dsfr.",
+    "title": "Présentation des évolutions d'atlaSanté",
+    "description": "",
     "busyStatus": "FREE",
     "start": [
-      2023, 6, 19, 15, 19
+      2023, 7, 7, 11, 0
     ],
     "duration": {
-      "minutes": 50
+      "minutes": 90
     },
-    "categories": ["code"]
+    "categories": ["bluehats", "atelier"]
   }
 ]

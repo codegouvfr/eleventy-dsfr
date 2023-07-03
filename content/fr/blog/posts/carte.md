@@ -13,7 +13,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('card', {
+{{ component("card", {
     url: "/",
     title: "Intitulé carte",
     description: "La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur. Elle fait généralement partie d'une collection ou liste d’aperçus de contenu similaires. La carte n’est jamais présentée de manière isolée.",
@@ -56,7 +56,7 @@ Si `card.externalUrl` est utilisé, `card.url` doit être `null`. `card.urlDescr
 
 {% from "components/component.njk" import component with context %}
 <div>
-{{ component('card', {
+{{ component("card", {
     url: "/",
     title: "Intitulé carte",
     description: "La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur. Elle fait généralement partie d'une collection ou liste d’aperçus de contenu similaires. La carte n’est jamais présentée de manière isolée.",

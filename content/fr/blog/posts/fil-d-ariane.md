@@ -15,7 +15,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('breadcrumb', {
+{{ component("breadcrumb", {
     segments: [{
         url: "/blog/",
         title: "Blog"
@@ -42,7 +42,7 @@ showBreadcrumb: true
 ## Rendu
 
 {% from "components/component.njk" import component with context %}
-{{ component('breadcrumb', {
+{{ component("breadcrumb", {
     segments: [{
         url: "/blog/",
         title: "Blog"

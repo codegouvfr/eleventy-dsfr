@@ -27,7 +27,7 @@ Le chemin de l'image (optionnelle) est son url dans le site.
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('quote', {
+{{ component("quote", {
     sourceUrl: "/",
     text: "Lorem [...] elit ut.",
     author: "Auteur",
@@ -40,7 +40,7 @@ Le chemin de l'image (optionnelle) est son url dans le site.
 ## Rendu
 
 {% from "components/component.njk" import component with context %}
-{{ component('quote', {
+{{ component("quote", {
     sourceUrl: "/",
     text: "Lorem [...] elit ut.",
     author: "Auteur",

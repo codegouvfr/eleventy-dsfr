@@ -25,7 +25,7 @@ Contenu **Mardown**
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('callout', {
+{{ component("callout", {
     title: "Titre mise en avant",
     description: "Contenu <strong>HTML</strong>",
     link: {
@@ -39,7 +39,7 @@ Contenu **Mardown**
 ## Rendu
 
 {% from "components/component.njk" import component with context %}
-{{ component('callout', {
+{{ component("callout", {
     title: "Titre mise en avant",
     description: "Contenu <strong>HTML</strong>",
     link: {

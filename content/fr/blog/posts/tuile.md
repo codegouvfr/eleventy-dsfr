@@ -13,7 +13,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 ```njk
 {% raw %}
 {% from "components/component.njk" import component with context %}
-{{ component('tile', {
+{{ component("tile", {
     url: "/",
     title: "Titre MD bold",
     description: "Description."
@@ -39,7 +39,7 @@ Si `tile.externalUrl` est utilisé, `tile.url` doit être `null`.
 
 {% from "components/component.njk" import component with context %}
 <div>
-{{ component('tile', {
+{{ component("tile", {
     url: "/",
     title: "Titre MD bold",
     description: "Description."

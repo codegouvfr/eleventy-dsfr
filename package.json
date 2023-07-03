@@ -37,6 +37,7 @@
     "markdown-it-anchor": "^8.6.6",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-container": "^3.0.0",
-    "pagefind": "^0.12.0"
+    "pagefind": "^0.12.0",
+    "ics": "^3.2.0"
   }
 }

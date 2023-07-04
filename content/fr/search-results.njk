@@ -16,6 +16,6 @@ layout: layouts/base.njk
   {% include "components/back_to_top.njk" %}
 </div>
 <script>
-    const PAGEFIND_URL = "{{ "/_pagefind/pagefind.js" | addPathPrefixToFullUrl }}";
+    const PAGEFIND_URL = "{{ "/_pagefind/pagefind.js" | htmlBaseUrl }}";
 </script>
 <script type="text/javascript" src="/js/search-results.js"></script>

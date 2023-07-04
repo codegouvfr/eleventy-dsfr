@@ -28,7 +28,7 @@ slugOverride: a propos
 ---
 ```
 
-Par exemple, pour la page [À propos](/fr/a-propos), le fichier en français est [`content/fr/about/index.md`](content/fr/about/index.md), le fichier en anglais est [`content/en/about/index.md`](content/en/about/index.md).
+Par exemple, pour la page [À propos](/fr/a-propos), le fichier en français est [`content/fr/about/index.md`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/fr/about/index.md), le fichier en anglais est [`content/en/about/index.md`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/en/about/index.md).
 L'url en français est [/fr/a-propos](/fr/a-propos), l'url en anglais est [/en/about](/en/about).
 
 ## Navigation
@@ -36,7 +36,7 @@ L'url en français est [/fr/a-propos](/fr/a-propos), l'url en anglais est [/en/a
 [Voir le système de navigation d'Eleventy](https://www.11ty.dev/docs/plugins/navigation/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 Pour mettre en place une navigation de niveau 2, positionner la variable `parent` avec la valeur de la `key` du parent.
-Par exemple, dans le fichier [`content/fr/about/index.md`](content/fr/about/index.md) :
+Par exemple, dans le fichier [`content/fr/about/index.md`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/fr/about/index.md) :
 
 ```yaml
 ---
@@ -47,7 +47,7 @@ eleventyNavigation:
 ---
 ```
 
-Et dans le fichier [`content/fr/about.md`](content/fr/about.md) :
+Et dans le fichier [`content/fr/about.md`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/fr/about.md) :
 
 ```yaml
 ---
@@ -65,7 +65,7 @@ permalink: false
 [Voir le système de pagination d'Eleventy](https://www.11ty.dev/docs/pagination/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 Pour mettre en place la pagination pour les tags, utiliser le filtre `paginateCollectionTags` dans une fonction de [callback `before`](https://www.11ty.dev/docs/pagination/#the-before-callback) dans un cartouche Javascript.
-Par exemple, dans le fichier [`content/fr/blog/tags.njk`](content/fr/blog/tags.njk) :
+Par exemple, dans le fichier [`content/fr/blog/tags.njk`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/fr/blog/tags.njk) :
 
 ```javascript
 ---js

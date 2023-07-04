@@ -10,7 +10,7 @@
     const resultCounter = document.querySelector(RESULT_COUNT_SELECTOR);
 
     const getSearchResults = async () => {
-        const pagefind = await import("/_pagefind/pagefind.js");
+        const pagefind = await import(PAGEFIND_URL);
         const queryParams = new URLSearchParams(window.location.search);
         const search = await pagefind.search(queryParams.get(SEARCH_PARAM));
         return search.results;

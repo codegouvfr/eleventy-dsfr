@@ -1,3 +1,5 @@
+const SEARCH_PARAM = "term";
+
 (() => {
     const SEARCH_SELECTOR = "#header-search";
 

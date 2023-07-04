@@ -6,7 +6,7 @@ tags:
   - layout
   - contenu
 ---
-La mise en page [`post.njk`](_includes/layouts/post.njk) utilisée pour les articles de blog, permet l'ajout d'une bannière en haut, via la variable `image` du cartouche :
+La mise en page [`post.njk`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/_includes/layouts/post.njk) utilisée pour les articles de blog, permet l'ajout d'une bannière en haut, via la variable `image` du cartouche :
 
 ```markdown
 ---

@@ -43,7 +43,7 @@ eleventyNavigation:
       {{ component("table", {
         title: "Événements passés",
         headers: ["Date", "Titre"],
-        data: events | previousEvents | pluck(["start", "title"]) | applyFilter([["readableEventDate", "dd LLLL yyyy HH:mm"]])
+        data: events | previousEvents | filterEvents(["code"]) | pluck(["start", "title"]) | applyFilter([["readableEventDate", "dd LLLL yyyy HH:mm"]])
       }) }}
     </div>
   </div>

@@ -1,3 +1,4 @@
+{% if not card %}{% set card = params %}{% endif %}
 <div class="fr-card{% if not card.externalUrl %} fr-enlarge-link{% endif %}{% if card.orientation == 'horizontal' %} fr-card--horizontal-tier{% endif %}">
   <div class="fr-card__body">
     <div class="fr-card__content">
@@ -46,8 +47,8 @@
         {% endfor %}
       </ul>
     {% endif %}
-    {% if card.imagePath %}
-      <div class="fr-card__img">{% image card.imagePath, card.imageAlt %}</div>
+    {% if card.image.path %}
+      <div class="fr-card__img">{% imageSync card.image.path, card.image.alt %}</div>
     {% endif %}
   </div>
 </div>

@@ -23,10 +23,10 @@
     {% set tagsUrl = "/bluehats/tags/" %}
     {% include "components/taggroup.njk" %}
   </div>
-  <p>{{ tagDescriptions[tag.tagName] | safe }}</p>
+  {% include "./" + tag.tagName + ".njk" ignore missing %}
   {% set postslist = tag.pageData %}
   {% include "postslist.njk" %}
   {% set tagUrl %}{{ "/bluehats/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
   {% set pagination = pagination | buildPagination(tagUrl) %}
-  {% include "components/pagination.njk" %}
+  {% include "templates/pagination.njk" %}
 </div>

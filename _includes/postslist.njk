@@ -1,18 +1,20 @@
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" data-pagefind-ignore>
   {% asyncAll post in postslist %}
   <div class="fr-col-12">
-    {% set card = {
+    {% from "components/component.njk" import component with context %}
+    {{ component("card", {
       url: post.url,
       title: post.data.title,
       description: post.data.description,
       tags: post.data.tags,
       date: post.date,
-      imagePath: post.data.image.path | resolvePath(post),
-      imageAlt: post.data.image.alt,
       badges: post.data.badges,
+      image: {
+        path: post.data.image.path | resolvePath(post),
+        alt: post.data.image.alt
+      },
       orientation: "horizontal"
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>

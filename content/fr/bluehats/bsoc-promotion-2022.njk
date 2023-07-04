@@ -18,8 +18,10 @@ showBreadcrumb: true
       urlDescription: "En savoir plus sur " + person.projectName,
       title: person.name,
       description: person.description,
-      imagePath: person.imagePath,
-      imageAlt: person.name,
+      image: {
+        path: person.imagePath,
+        alt: person.name
+      },
       orientation: "horizontal"
     } %}
     {% include "components/card.njk" %}

@@ -1,4 +1,3 @@
-const SEARCH_RESULTS_URL = `/${document.documentElement.lang}/search-results/`;
 const SEARCH_PARAM = "term";
 
 (() => {
@@ -9,7 +8,9 @@ const SEARCH_PARAM = "term";
     const searchBtn = searchBox.querySelector("button");
 
     const search = () => {
-        location.href = `${SEARCH_RESULTS_URL}?${SEARCH_PARAM}=${searchInput.value}`;
+        const searchResultsUrl = new URL(SEARCH_RESULTS_URL, window.location.origin);
+        searchResultsUrl.searchParams.append(SEARCH_PARAM, searchInput.value);
+        window.location.href = searchResultsUrl;
     }
 
     searchInput.addEventListener("keydown", async (event) => {

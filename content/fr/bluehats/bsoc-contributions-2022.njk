@@ -17,8 +17,10 @@ showBreadcrumb: true
       externalUrl: project.url,
       title: project.title,
       description: project.description,
-      imagePath: project.imagePath,
-      imageAlt: project.title
+      image: {
+        path: project.imagePath,
+        alt: project.title
+      }
     } %}
     {% include "components/card.njk" %}
   </div>

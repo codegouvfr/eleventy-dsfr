@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Présentation des évolutions d'atlaSanté",
+    "description": "",
+    "busyStatus": "FREE",
+    "start": [
+      2023, 7, 7, 11, 0
+    ],
+    "duration": {
+      "minutes": 90
+    },
+    "categories": ["bluehats", "atelier"]
+  }
+]

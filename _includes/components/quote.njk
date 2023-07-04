@@ -1,3 +1,4 @@
+{% if not quote %}{% set quote = params %}{% endif %}
 <figure class="fr-quote fr-quote--column">
   <blockquote{% if quote.sourceUrl %} cite="{{ quote.sourceUrl }}"{% endif %}>
     <p>«&nbsp;{{ quote.text }}&nbsp;»</p>

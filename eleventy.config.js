@@ -35,9 +35,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
     // App plugins
+    eleventyConfig.addPlugin(require("./eleventy.config.calendar.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
+    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "fr",
@@ -54,6 +55,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
 
     // Filters
+    eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {
+        return DateTime.fromFormat(dateStr, format || "yyyy-LL-dd", {zone: zone || "utc"}).toJSDate();
+    });
+
     eleventyConfig.addFilter("readableDate", function readableDate(dateObj, format, zone) {
         // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
         return DateTime.fromJSDate(dateObj, {zone: zone || "utc"})
@@ -93,7 +98,24 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts"].concat(addTags).indexOf(tag) === -1);
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts"]
+            .concat(addTags)
+            .indexOf(tag) === -1);
+    });
+
+    eleventyConfig.addFilter("pluck", (array, keys) => {
+        return (array || []).map(object => keys.map(key => object[key]));
+    });
+
+    eleventyConfig.addFilter("applyFilter", function applyFilter(table, filters) {
+        return (table || [])
+            .map((row) => {
+                return (row || []).map((col, i) => {
+                    const filter = eleventyConfig.getFilter(filters[i]?.[0]);
+                    return filter?.call(this, col, ...filters[i].slice(1)) || col;
+                })
+
+            })
     });
 
     eleventyConfig.addFilter("stripTags", str => {

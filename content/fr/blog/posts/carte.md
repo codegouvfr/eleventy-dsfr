@@ -49,7 +49,7 @@ Le format complet de l'objet en paramètre est le suivant :
 }
 ```
 
-Si `card.externalUrl` est utilisé, `card.url` doit être `null`. `card.urlDescription` peut alors être utilisé pour nommer le lien.
+Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDescription` peut alors être utilisé pour nommer le lien.
 `imagePath` est le chemin de l'image dans le système de fichier (et non pas son url dans le site).
 
 ## Rendu

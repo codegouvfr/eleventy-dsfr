@@ -33,7 +33,7 @@ Le format complet de l'objet en paramètre est le suivant :
 }
 ```
 
-Si `tile.externalUrl` est utilisé, `tile.url` doit être `null`.
+Si `tile.externalUrl` est utilisé, `tile.url` doit être `false`.
 
 ## Rendu
 

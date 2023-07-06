@@ -6,6 +6,8 @@
     "start": [
       2023, 7, 7, 11, 0
     ],
+    "startInputType": "local",
+    "startOutputType": "local",
     "duration": {
       "minutes": 90
     },

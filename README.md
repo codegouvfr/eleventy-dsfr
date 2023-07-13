@@ -3,12 +3,6 @@
 ![build-preprod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouv-website/preproduction.yml?label=Deploiement%20en%20préprod)
 ![build-prod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouv-website/production.yml?label=Deploiement%20en%20prod)
 
-**Note** : Le dépôt de référence est [github.com/codegouvfr/codegouv-website](https://github.com/codegouvfr/codegouv-website). Il existe un mirroir [git.sr.ht/~codegouvfr/codegouv-website](https://git.sr.ht/~codegouvfr/codegouv-website) qui peut être utilisé pour les développements, mais il faut dans ce cas configurer votre remote pour push dans les deux dépôts à la fois. Soit :
-```bash
-git remote set-url origin --push --add git@github.com:codegouvfr/codegouv-website.git
-git remote set-url origin --push --add git@git.sr.ht:~codegouvfr/codegouv-website
-```
-
 # Site code.gouv.fr
 
 Ce dépôt contient les éléments nécessaires à la publication du site [code.gouv.fr](https://code.gouv.fr/).

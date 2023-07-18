@@ -44,6 +44,13 @@ module.exports = eleventyConfig => {
         return (events || []).filter(event => compareEventDate(event) > 0);
     });
 
+    eleventyConfig.addFilter("filterEvents", (events, categories = []) => {
+        return (events || []).filter(event => {
+            const categoriesIntersection = (event.categories || []).filter(category => categories.includes(category));
+            return categoriesIntersection.length > 0;
+        });
+    });
+
     eleventyConfig.addFilter("readableEventDate", function readableEventDate(eventDate, format, zone) {
         const jsEventDate = DateTime.fromFormat(eventDate.join(" "), "yyyy L d HH m", {zone: zone || "utc"}).toJSDate();
         return eleventyConfig.getFilter("readableDate").call(this, jsEventDate, format, zone);

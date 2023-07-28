@@ -7,7 +7,7 @@ date: 2023-07-28
 
 ## En français
 
-- [Retour sur le BlueHats Semester of Code 2022](https://code.gouv.fr/fr/blog/bsoc-retour-2022/), code.gouv.fr, juin 2023
+- [Retour sur le BlueHats Semester of Code 2022](https://code.gouv.fr/fr/blog/bsoc-retour-2022/), code.gouv.fr, juin 2023.
 - [Logiciels libres et mutualisation : quand Paris montre l'exemple](https://acteurspublics.fr/articles/logiciels-libres-et-mutualisation-quand-paris-montre-lexemple), acteurspublics.fr, juillet 2023.
 - [Suite collaborative souveraine : le discours de la méthode de la Dinum](https://www.cio-online.com/actualites/lire-suite-collaborative-souveraine-le-discours-de-la-methode-de-la-dinum-14978.html), cio-online.com, juin 2023.
 - [Comment l’UE perçoit l’open source en France](https://www.silicon.fr/comment-ue-percoit-open-source-france-469390.html), silicon.fr, juillet 2023.
@@ -15,6 +15,8 @@ date: 2023-07-28
 - [15 logiciels open source entrés cette année au SILL](https://www.silicon.fr/15-logiciels-open-source-sill-468648.html), silicon.fr, juin 2023.
 - [Il y a les logiciels libres recommandés par l'État](https://www.generation-nt.com/actualites/logiciels-libres-recommandes-etat-nouveau-design-sill-2037031), generation-nt.com, juin 2023.
 - [Vidéo : Vers un Etat partenaire des communs numériques (AIC, DINUM)](https://video-streaming.orange.fr/high-tech-science/aic-vers-un-etat-partenaire-des-communs-numeriques-CNT0000024Z70N.html), orange.fr, mai 2023.
+
+<br/>
 
 ## En anglais
 

@@ -20,6 +20,7 @@ date: 2023-07-28
 
 ## En anglais
 
+- [OSOR Awards 2023](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/osor-awards-2023), joinup.ec.europa.eu, juillet 2023.
 - [France’s Dinum new roadmap moves furthers towards the development of a sovereign cloud workspace](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/frances-dinum-roadmap-towards-sovereign-cloud), joinup.ec.europa.eu, juin 2023.
 - [The indispensable role of Open Source within the European Commission](https://abilian.com/en/news/eu-ospo-2023/), abilian.com, juin 2023.
 - [Germany: dPhoenix on the road to failure?](https://fsfe.org/news/2023/news-20230606-01.fr.html), fsfe.org, juin 2023. 

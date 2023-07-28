@@ -7,6 +7,7 @@ date: 2023-07-28
 
 ## En français
 
+- [Retour sur le BlueHats Semester of Code 2022](https://code.gouv.fr/fr/blog/bsoc-retour-2022/), code.gouv.fr, juin 2023
 - [Logiciels libres et mutualisation : quand Paris montre l'exemple](https://acteurspublics.fr/articles/logiciels-libres-et-mutualisation-quand-paris-montre-lexemple), acteurspublics.fr, juillet 2023.
 - [Suite collaborative souveraine : le discours de la méthode de la Dinum](https://www.cio-online.com/actualites/lire-suite-collaborative-souveraine-le-discours-de-la-methode-de-la-dinum-14978.html), cio-online.com, juin 2023.
 - [Comment l’UE perçoit l’open source en France](https://www.silicon.fr/comment-ue-percoit-open-source-france-469390.html), silicon.fr, juillet 2023.

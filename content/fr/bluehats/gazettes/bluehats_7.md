@@ -47,21 +47,19 @@ Utilisé par la mairie de Barcelone depuis plusieurs années, c’est la premiè
 `>>` En savoir plus : <https://opensourcepolitics.eu/actualites/open-source-politics-deploie-une-plateforme-de-petitions-pour-le-senat>
 
 
-## Du nouveau sur code.etalab.gouv.fr et sill.code.gouv.fr
+## Du nouveau sur code.etalab.gouv.fr et code.gouv.fr/sill
 
-La plateforme [code.etalab.gouv.fr](https://code.etalab.gouv.fr) publiée par Etalab a été mise à jour, et passe en version beta. Au menu:
+La plateforme [code.etalab.gouv.fr](https://code.gouv.fr/public) publiée par Etalab a été mise à jour, et passe en version beta. Au menu:
 
--   un meilleur repérage des [dépendances logicielles](https://code.etalab.gouv.fr/fr/deps) ; la possibilité de filtrer les dépôts par dépendance - par exemple, voici [les dépôts qui dépendent de pandas](https://code.etalab.gouv.fr/fr/repos?d=pandas) ; l'affichage de dépôts aux dépendances similaires, lorsque cela paraît pertinent - par exemple, voiri [les dépôts qui ont des dépendances proches du dépôt de l'INRIA "spoon"](https://code.etalab.gouv.fr/fr/deps?repo=https%3A%2F%2Fgithub.com%2FINRIA%2Fspoon) ;
--   l'ajout des liens vers les politiques de contributions open source associées aux comptes d'organisation - par exemple, les comptes d'organisation des [incubateurs](https://code.etalab.gouv.fr/fr/groups?q=incubateur) pointent vers la politique définie par [beta.gouv.fr](https://beta.gouv.fr) ;
+-   un meilleur repérage des [dépendances logicielles](https://code.gouv.fr/public/#/deps) ; la possibilité de filtrer les dépôts par dépendance - par exemple, voici [les dépôts qui dépendent de pandas](https://code.gouv.fr/public/#/repos?d=pandas) ; l'affichage de dépôts aux dépendances similaires, lorsque cela paraît pertinent - par exemple, voiri [les dépôts qui ont des dépendances proches du dépôt de l'INRIA "spoon"](https://code.gouv.fr/public/#/deps?repo=https%3A%2F%2Fgithub.com%2FINRIA%2Fspoon) ;
+-   l'ajout des liens vers les politiques de contributions open source associées aux comptes d'organisation - par exemple, les comptes d'organisation des [incubateurs](https://code.gouv.fr/public/#/groups?q=incubateur) pointent vers la politique définie par [beta.gouv.fr](https://beta.gouv.fr) ;
 -   la possibilité de filtrer les dépôts selon qu'ils appartiennent à une organisation de l'ESR (enseignement supérieur et recherche) ou non (via le menu "Options").
 
-Du côté du Socle Interministériel de Logiciels Libres (SILL), une nouvelle liste est disponible, celle des services utilisant certains des logiciels libres référencés.  Cette liste s'appelle « [PAPILLON](https://sill.code.gouv.fr/fr/papillon) » pour « Portail Administratif des Plateformes Intégrant des Logiciels Libres et Ouvertes au plus grand Nombre » - bien sûr, il nous plaît d'imaginer les [CHATONS](https://chatons.org/) courrir après ce PAPILLON.
-
-`>>` Voir la [liste des services de PAPILLON](https://sill.code.gouv.fr/fr/papillon)
+Du côté du Socle Interministériel de Logiciels Libres (SILL), une nouvelle liste est disponible, celle des services utilisant certains des logiciels libres référencés.  Cette liste s'appelle « PAPILLON » pour « Portail Administratif des Plateformes Intégrant des Logiciels Libres et Ouvertes au plus grand Nombre » - bien sûr, il nous plaît d'imaginer les [CHATONS](https://chatons.org/) courrir après ce PAPILLON.
 
 `>>` Enrichir cette liste via [ce dépôt](https://github.com/etalab/papillon)
 
-Autre nouveauté du SILL, lorsqu'un [contributeur](https://sill.code.gouv.fr/fr/contributors) du SILL a une politique d'utilisation de logiciels libres, nous affichons un lien vers cette politique.
+Autre nouveauté du SILL, lorsqu'un contributeur du SILL a une politique d'utilisation de logiciels libres, nous affichons un lien vers cette politique.
 
 
 ## Focus sur la plateforme OLKi pour le partage de données dans le Fediverse
@@ -140,7 +138,7 @@ Citons ensuite, « L'Open source en pratique », un wébinaire de [Maël Thomas]
 ## Revue de presse
 
 -   Il y a quelques [propositions relatives au logiciel libre](https://etats-generaux-du-numerique.education.gouv.fr/search?filter%5Bdecidim_scope_id%5D=&filter%5Bresource_type%5D=Decidim%3A%3AProposals%3A%3AProposal&filter%5Bterm%5D=logiciel+libre&utf8=%E2%9C%93) dans les États généraux du numérique pour l'éducation, organisés par le MENJ.
--   La plateforme [code.etalab.gouv.fr](https://code.etalab.gouv.fr) a été référencée dans le projet [digitalpublicgoods.net](https://digitalpublicgoods.net/explore/#code.etalab.gouv.fr).
+-   La plateforme [code.etalab.gouv.fr](https://code.gouv.fr/public) a été référencée dans le projet [digitalpublicgoods.net](https://digitalpublicgoods.net/explore/#code.etalab.gouv.fr).
 -   [L'Université de Osnabrück adopte BigBlueButton](https://www.rz.uni-osnabrueck.de/homeoffice/bigbluebutton.html) (juin 2020, en allemand)
 -   [Ouverture des données et des codes sources publics : l’État souhaite accélérer](https://www.actualitesdudroit.fr/browse/tech-droit/donnees/27986/ouverture-des-donnees-et-des-codes-sources-publics-l-etat-souhaite-accelerer) (actualitesdudroit.fr, juin 2020)
 -   [Les recommandations de la délégation au numérique éducatif de Poitiers citent le logiciel libre](http://ww2.ac-poitiers.fr/dane/spip.php?article911) (ac-poitiers.fr, juillet 2020)
@@ -148,6 +146,6 @@ Citons ensuite, « L'Open source en pratique », un wébinaire de [Maël Thomas]
 -   [Le Socle interministériel de logiciels libres, indispensable outil éthique en période de crise !](https://www.journaldunet.com/solutions/dsi/1492889-chamilo-la-plateforme-lms-europeenne-integre-le-sill-socle-interministeriel-de-logiciels-libres/) (juillet 2020)
 -   [Algorithmes : une essentielle prise en compte de la dimension éthique](https://www.lagazettedescommunes.com/692391/algorithmes-une-essentielle-prise-en-compte-de-la-dimension-ethique/) (lagazette.fr, août 2020)
 -   [Construire la résilience économique et la souveraineté numérique grâce aux écosystèmes libres](https://www.latribune.fr/opinions/tribunes/construire-la-resilience-economique-et-la-souverainete-numerique-grace-aux-ecosystemes-libres-855436.html) (latribune.fr, août 2020)
--   Amazon propose une nouvelle page [Open Government Solutions](https://aws.amazon.com/fr/government-education/government/open-government-solutions/digital-services-and-code/?open-government-solutions-cards.sort-by=item.additionalFields.sortOrder&open-government-solutions-cards.sort-order=asc&awsm.page-open-government-solutions-cards=1&awsf.open-government-solutions-filter-location=location%23france) qui liste les ressources mises à disposition par l'administration française, dont le [SILL](https://sill.code.gouv.fr/) et [code.etalab.gouv.fr](https://code.etalab.gouv.fr).
+-   Amazon propose une nouvelle page [Open Government Solutions](https://aws.amazon.com/fr/government-education/government/open-government-solutions/digital-services-and-code/?open-government-solutions-cards.sort-by=item.additionalFields.sortOrder&open-government-solutions-cards.sort-order=asc&awsm.page-open-government-solutions-cards=1&awsf.open-government-solutions-filter-location=location%23france) qui liste les ressources mises à disposition par l'administration française, dont le [SILL](https://code.gouv.fr/sill) et [code.etalab.gouv.fr](https://code.gouv.fr/public).
 -   [Why governments should adopt and invest in FOSS](http://jamesmcm.github.io/blog/2020/09/12/foss-government/) (septembre 2020, [discussion sur HN](https://news.ycombinator.com/item?id=24461364))
 -   [Comment Georges Wilson a tué Gatsby.js](https://medialab.sciencespo.fr/actu/comment-georges-wilson-a-tue-gatsbyjs/) (medialab.sciencespo.fr, septembre 2020)

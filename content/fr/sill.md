@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
   key: Le SILL
-  externalUrl: https://sill.code.gouv.fr/
+  externalUrl: https://code.gouv.fr/sill/
   parent: Ressources
   order: 4
 permalink: false

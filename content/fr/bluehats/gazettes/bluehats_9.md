@@ -45,7 +45,7 @@ Voir aussi cette sélection de logiciels libres pour la recherche : [CZI: Essent
 
 ## Focus infra : Web-Conférence de l’Éducation avec BigBlueButton
 
-Le service de la Direction du numérique pour l’éducation (DNE) a lancé, après une phase d’expérimentation qui dura du printemps à l’été 2020, un service de webconférence basée sur le logiciel libre [BigBlueButton](https://bigbluebutton.org/), référencé au [SILL](https://sill.code.gouv.fr/fr/software?id=196).
+Le service de la Direction du numérique pour l’éducation (DNE) a lancé, après une phase d’expérimentation qui dura du printemps à l’été 2020, un service de webconférence basée sur le logiciel libre [BigBlueButton](https://bigbluebutton.org/), référencé au [SILL](https://code.gouv.fr/sill/detail?name=BigBlueButton).
 
 Ces Web-conférences se déclinent en plusieurs versions à destination des différents établissements scolaires ([écoles](https://visio-ecoles.education.fr), [collèges](https://visio-colleges.education.fr) et [lycées](https://visio-lycees.education.fr)) pour répondre aux spécificités de chaque niveau ; toutes utilisent le système de salle d’attente qui permet de valider les élèves autorisés à entrer dans le cours.  À ces instances s'en ajoute une dédiée aux [agents](https://visio-agents.education.fr).
 

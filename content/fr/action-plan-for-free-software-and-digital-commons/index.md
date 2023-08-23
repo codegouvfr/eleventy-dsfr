@@ -23,7 +23,7 @@ Les actions sont conjointement portées par le pôle d’expertise logiciels lib
 
 1. Référencer des solutions libres et open source (dans [le catalogue GouvTech](https://catalogue.numerique.gouv.fr)).
 
-2. Référencer les logiciels libres et les communs numériques significativement utilisés par l’administration et y développer l’échange d’expertise interne (dans le [socle interministériel de logiciels libres - SILL](https://sill.code.gouv.fr)), en incluant ces actions :
+2. Référencer les logiciels libres et les communs numériques significativement utilisés par l’administration et y développer l’échange d’expertise interne (dans le [socle interministériel de logiciels libres - SILL](https://code.gouv.fr/sill)), en incluant ces actions :
 
    - Mettre en avant des bibliothèques libres et open source significativement utilisées ;
    - Réutiliser des codes sources développés par d’autres administrations ;

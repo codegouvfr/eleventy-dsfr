@@ -7,7 +7,7 @@ date: 2022-06-16
 
 ### Le Wikipédia des ressources pédagogiques
 
-Lors du séminaire national [Moodle](https://sill.code.gouv.fr/software?name=Moodle) qui s'est déroulé à Strasbourg le 19 mai dernier, Audran Le Baron, directeur du numérique pour l'éducation, a évoqué « le rêve de bâtir, d’avoir bâti dans cinq ans le Wikipédia des ressources pédagogiques des programmes français ». Son discours s'articule autour de la thématique du « libre éducatif », et insiste sur la nécessité d'encourager l’utilisation de logiciels et ressources éducatives libres.
+Lors du séminaire national [Moodle](https://code.gouv.fr/sill/detail?name=Moodle) qui s'est déroulé à Strasbourg le 19 mai dernier, Audran Le Baron, directeur du numérique pour l'éducation, a évoqué « le rêve de bâtir, d’avoir bâti dans cinq ans le Wikipédia des ressources pédagogiques des programmes français ». Son discours s'articule autour de la thématique du « libre éducatif », et insiste sur la nécessité d'encourager l’utilisation de logiciels et ressources éducatives libres.
 
 `>>` [Intervention du directeur de la DNE à la Journée du Libre Éducatif #JDLE](https://blog.apps.education.fr/articles/dne-jdle-2022-05-21t143101559z)
 `>>` [Revoir l'internvention](https://tube-institutionnel.apps.education.fr/w/jjfkwsmZXHLUNW8xvEo2Sv)
@@ -36,7 +36,7 @@ sphinx-lint est un outil de relecture de documentation, son but est de chercher 
 PeerTube a annoncé la sortie de sa version 4.2 ainsi que le lot de nouveautés qui l'accompagnent. Parmi celles-ci, sont mentionnées des fonctionnalités d'édition vidéo financées par la DNE du MENJ dans le cadre du projet [apps.education.fr](https://apps.education.fr), la possibilité d'obtenir les statistiques des vidéos publiées ainsi que des évolutions sur la création et le visionnage de directs.
 
 `>>` [Voir l'annonce de cette nouvelle version](https://joinpeertube.org/news#release-4.2)
-`>>` [La fiche PeerTube du socle interministériel de logiciels libres](https://sill.code.gouv.fr/software?name=Peertube)
+`>>` [La fiche PeerTube du socle interministériel de logiciels libres](https://code.gouv.fr/sill/detail?name=Peertube)
 
 ## Focus livre : « Exploitons les données publiques » d'Olivier Ricou
 

@@ -18,7 +18,7 @@ C'est le catalogue historique des [logiciels libres](https://fr.wikipedia.org/wi
 
 ### Les nouveautés
 
-- **Tous les agents publics** peuvent se créer un compte sur le site [sill.code.gouv.fr](https://sill.code.gouv.fr) : si le nom de domaine de votre courriel professionnel n'est pas prévalidé, il suffit de [nous écrire](mailto:contact@code.gouv.fr).
+- **Tous les agents publics** peuvent se créer un compte sur le site [code.gouv.fr/sill](https://code.gouv.fr/sill) : si le nom de domaine de votre courriel professionnel n'est pas prévalidé, il suffit de [nous écrire](mailto:contact@code.gouv.fr).
 
 - Une fois inscrit, un agent public peut accéder aux courriels des référents d'un logiciel libre : il peut ainsi les solliciter directement pour un avis.
   
@@ -30,9 +30,9 @@ C'est le catalogue historique des [logiciels libres](https://fr.wikipedia.org/wi
 
 ### Embarquement immédiat !
 
-Vous souhaitez **tester des logiciels libres** ?  En tant qu'agent public, votre compte sur [sill.code.gouv.fr](https://sill.code.gouv.fr) vous donne la possibilité de tester certains logiciels directement depuis votre navigateur.
+Vous souhaitez **tester des logiciels libres** ?  En tant qu'agent public, votre compte sur [code.gouv.fr/sill](https://code.gouv.fr/sill) vous donne la possibilité de tester certains logiciels directement depuis votre navigateur.
 
-Voici une capture d'écran d'un navigateur donnant accès à une distribution GNU/Linux dans laquelle est affichée le navigateur web [Chromium](https://sill.code.gouv.fr/catalogue?software=Chromium).
+Voici une capture d'écran d'un navigateur donnant accès à une distribution GNU/Linux dans laquelle est affichée le navigateur web [Chromium](https://code.gouv.fr/sill/detail?name=Chromium).
 
 La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à venir.  Si vous voulez nous aider à ajouter de nouveaux logiciels, rendez-vous sur [ce dépôt](https://github.com/etalab/helm-charts-sill).
 

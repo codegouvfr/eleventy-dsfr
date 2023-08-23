@@ -73,6 +73,6 @@ Voir notre [page avec tous les flux RSS](https://code.gouv.fr/public/#/feeds).
 1. [codegouvfr-sources](https://git.sr.ht/~codegouvfr/codegouvfr-sources) référence les comptes d'organisation ouverts par des organismes publics sur sr.ht (SourceHut), github.com, gitlab.com ou des forges GitLab locales.
 2. [codegouvfr-fetch-data](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data) récupère les données des organisations et des dépôts à partir de cette liste.
 3. [codegouvfr-consolidate-data](https://git.sr.ht/~codegouvfr/codegouvfr-consolidate-data) consolide les données en y ajoutant des informations.
-4. [code.gouv.fr](https://git.sr.ht/~codegouvfr/code.gouv.fr) expose les données.
+4. [codegouvfr-public](https://git.sr.ht/~codegouvfr/codegouvfr-public) expose les données.
 
 Nous ne référençons pour l'instant que les comptes de sr.ht (SourceHut), github.com, gitlab.com et des instances GitLab locales : si vous pouvez aider à référencer des comptes qui publient sur d'autres forges ([SourceHut](https://sourcehut.org/), [BitBucket](https://bitbucket.org), instances [Gogs](https://gogs.io) ou [Gitea](https://gitea.io), etc.), n'hésitez pas à [contribuer](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data).

@@ -5,7 +5,7 @@ date: 2020-11-18
 
 ## Le calendrier des ateliers #BlueHats
 
-Depuis juillet 2020, et à l'initiative des référents du [Socle Interministériel de Logiciels Libres](https://sill.code.gouv.fr/fr/software), des wébinaires en ligne sont régulièrement organisés pour présenter des logiciels libres utilisés dans l'administration.
+Depuis juillet 2020, et à l'initiative des référents du [Socle Interministériel de Logiciels Libres](https://code.gouv.fr/sill), des wébinaires en ligne sont régulièrement organisés pour présenter des logiciels libres utilisés dans l'administration.
 
 Le prochain atelier aura lieu ce vendredi 20 novembre à 11h en visio et portera sur [XWiki](https://www.xwiki.org/xwiki/bin/view/Main/WebHome).  Les ateliers suivants porteront sur Prodige et AtlaSanté, l'association Exodus Privacy, le projet OpenMole, les JDEV et la plateforme vidéo “Constellation”, ainsi que la solution Tuleap.
 

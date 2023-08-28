@@ -70,7 +70,7 @@ N’hésitez pas non plus à vous approprier cette ressource pour vos propres pr
 
 Sur le SILL, deux nouveaux filtres sont apparus, l'un pour trouver les solutions développées dans le cadre d'une mission de service public et l'autre pour trouver les solutions faisant partie du marché de support logiciels libres.  Un lien permet désormais de trouver une solution dans le nouveau [catalogue GouvTech](https://catalogue.numerique.gouv.fr/), si elle y figure et vous pouvez désormais [télécharger le SILL en PDF](https://www.mim-libre.fr/wp-content/uploads/2021/06/sill-2021.pdf).
 
-Sur [code.etalab.gouv.fr](https://code.etalab.gouv.fr), vous pouvez réduire la liste des dépôts à ceux qui sont hébergés dans une forge particulière et télécharger un fichier `csv` ne contenant que les dépôts de la vue filtrée que vous avez définie.
+Sur [code.etalab.gouv.fr](https://code.gouv.fr/public), vous pouvez réduire la liste des dépôts à ceux qui sont hébergés dans une forge particulière et télécharger un fichier `csv` ne contenant que les dépôts de la vue filtrée que vous avez définie.
 
 
 ## Offres d'emploi

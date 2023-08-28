@@ -24,7 +24,7 @@ module.exports = {
         {
             title: "Vous êtes un agent public et souhaitez référencer dans le SILL un logiciel libre utilisé dans votre administration ?",
             content: `
-<p><a href="https://sill.code.gouv.fr/add-software" target="_blank">Inscrivez-vous !</a></p>
+<p><a href="https://code.gouv.fr/sill/add-software" target="_blank">Inscrivez-vous !</a></p>
             `
         },
         {

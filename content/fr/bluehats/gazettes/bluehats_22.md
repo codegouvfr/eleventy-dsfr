@@ -5,7 +5,7 @@ date: 2023-06-15
 
 # 🚀 Nouvelles de la mission logiciels libres
 
-- Mise à jour du site du socle interministériel des logiciels libres : <https://sill.code.gouv.fr> ([source](https://github.com/codegouvfr/sill-web/)).
+- Mise à jour du site du socle interministériel des logiciels libres : <https://code.gouv.fr/sill> ([source](https://github.com/codegouvfr/sill-web/)).
 - Mise à jour du site principal de <https://code.gouv.fr> ([source](https://github.com/codegouvfr/codegouv-website)).
 - Ajout d'eleventy-dsfr ([source](https://github.com/codegouvfr/eleventy-dsfr)) à la liste des [logiciels libres maintenus par la mission](https://code.gouv.fr/fr/devs/).
 - Un point sur l'actualité de la mission lors de l'émission « Libre à vous ! » enregistrée fin mai, à [réécouter en podcast](https://www.libreavous.org/177-la-mission-logiciels-libres-de-la-dinum " ") ou à [lire en ligne](https://www.librealire.org/emission-libre-a-vous-diffusee-mardi-30-mai-2023-sur-radio-cause-commune).

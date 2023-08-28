@@ -29,7 +29,7 @@ LemonLDAP::NG s'est progressivement diffusé dans l'administration, faisant ains
 
 Dans le cadre de la politique de contribution de l'État aux logiciels libres, la DINSIC collecte la liste des comptes d'organisation et des forges via lesquelles des organismes publics partagent des codes sources.
 
-Etalab a lancé le site [code.etalab.gouv.fr](https://code.etalab.gouv.fr) qui permet de parcourir la liste de ces comptes et des dépôts de codes sources publiés.
+Etalab a lancé le site [code.etalab.gouv.fr](https://code.gouv.fr/public) qui permet de parcourir la liste de ces comptes et des dépôts de codes sources publiés.
 
 [Lire le blogpost d'Etalab](https://www.etalab.gouv.fr/code-etalab-gouv-fr-les-codes-sources-de-logiciels-publies-par-des-organismes-publics) et [relayez le tweet d'annonce](https://twitter.com/Etalab/status/1181857984030351360).
 

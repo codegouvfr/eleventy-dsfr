@@ -48,7 +48,7 @@ Les dépendances sont les bibliothèques, venant du secteur public ou non, requi
 
 Le socle interministériel de logiciels libres est la liste des logiciels libres recommandés pour toutes les administrations.  Chaque logiciel de cette liste est aujourd'hui en usage dans au moins une administration, et dispose d'un « référent SILL » prêt à aider les autres administrations dans son utilisation.
 
-Si vous souhaitez référencer de nouveaux logiciels libres utilisés dans vos administrations, rendez-vous sur [le site de gestion du SILL](https://sill.code.gouv.fr).
+Si vous souhaitez référencer de nouveaux logiciels libres utilisés dans vos administrations, rendez-vous sur [le site de gestion du SILL](https://code.gouv.fr/sill).
 
 Les services en ligne référencés sur le site sont tous des instances de logiciels libres mises à la disposition des agents publics.
 
@@ -58,7 +58,7 @@ Ces données sont publiées sous [licence Ouverte 2.0](https://spdx.org/licenses
 
 * La liste des organisations en [csv](https://code.gouv.fr/data/organizations/csv/all.csv) et [json](https://code.gouv.fr/data/organizations/json/all.json).
 * La liste des dépôts en [csv](https://code.gouv.fr/data/repositories/csv/all.csv) et [json](https://code.gouv.fr/data/repositories/json/all.json).
-* Les données du socle interministériel de logiciels libres  et du catalogue de services : [sill.json](https://sill.code.gouv.fr/api/sill.json), [sill.tsv](https://code.gouv.fr/data/sill.tsv), [sill.pdf](https://code.gouv.fr/data/sill.pdf), [sill.md](https://code.gouv.fr/data/sill.md) et [sill.org](https://code.gouv.fr/data/sill.org).
+* Les données du socle interministériel de logiciels libres  et du catalogue de services : [sill.json](https://code.gouv.fr/sill/api/sill.json), [sill.tsv](https://code.gouv.fr/data/sill.tsv), [sill.pdf](https://code.gouv.fr/data/sill.pdf), [sill.md](https://code.gouv.fr/data/sill.md) et [sill.org](https://code.gouv.fr/data/sill.org).
 
 Ces données, collectées depuis [libraries.io](https://libraries.io/terms), sont publiées sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) :
 
@@ -73,6 +73,6 @@ Voir notre [page avec tous les flux RSS](https://code.gouv.fr/public/#/feeds).
 1. [codegouvfr-sources](https://git.sr.ht/~codegouvfr/codegouvfr-sources) référence les comptes d'organisation ouverts par des organismes publics sur sr.ht (SourceHut), github.com, gitlab.com ou des forges GitLab locales.
 2. [codegouvfr-fetch-data](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data) récupère les données des organisations et des dépôts à partir de cette liste.
 3. [codegouvfr-consolidate-data](https://git.sr.ht/~codegouvfr/codegouvfr-consolidate-data) consolide les données en y ajoutant des informations.
-4. [code.gouv.fr](https://git.sr.ht/~codegouvfr/code.gouv.fr) expose les données.
+4. [codegouvfr-public](https://git.sr.ht/~codegouvfr/codegouvfr-public) expose les données.
 
 Nous ne référençons pour l'instant que les comptes de sr.ht (SourceHut), github.com, gitlab.com et des instances GitLab locales : si vous pouvez aider à référencer des comptes qui publient sur d'autres forges ([SourceHut](https://sourcehut.org/), [BitBucket](https://bitbucket.org), instances [Gogs](https://gogs.io) ou [Gitea](https://gitea.io), etc.), n'hésitez pas à [contribuer](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data).

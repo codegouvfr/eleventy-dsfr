@@ -19,7 +19,7 @@ Un beau programme d'ateliers en perspective !
 
 ## Autour du socle interministériel de logiciels libres
 
-En juillet dernier, nous avons partagé via [Mastodon](https://mastodon.social/web/@CodeGouvFr/108684058331200603) et [via Twitter](https://twitter.com/codegouvfr/status/1549732039808749571) quelques nouvelles du [SILL](https://sill.code.gouv.fr/), mentionnant quelques logiciels libres parmi ceux qui ont intégré le catalogue depuis la refonte en mai.
+En juillet dernier, nous avons partagé via [Mastodon](https://mastodon.social/web/@CodeGouvFr/108684058331200603) et [via Twitter](https://twitter.com/codegouvfr/status/1549732039808749571) quelques nouvelles du [SILL](https://code.gouv.fr/sill), mentionnant quelques logiciels libres parmi ceux qui ont intégré le catalogue depuis la refonte en mai.
 
 Voici quelques articles qui ont repris cette information :
 
@@ -30,7 +30,7 @@ Voici quelques articles qui ont repris cette information :
 - [L’État publie la liste officielle des logiciels libres recommandés](https://www.solutions-numeriques.com/letat-publie-la-liste-officielle-des-logiciels-libres-recommandes/), solutions-numeriques.com, août 2022
 - [Logiciels libres : les nouveaux venus au SILL 2.0](https://www.silicon.fr/logiciels-libres-nouveaux-venus-sill-444409.html), silicon.fr, juillet 2022.
 
-`>>` [La page de documentation du SILL](https://man.sr.ht/~codegouvfr/logiciels-libres/sill.md)
+`>>` [La page de documentation du SILL](https://github.com/codegouvfr/sill-docs/blob/main/sill.md)
 
 ## Autour de code.gouv.fr
 
@@ -40,7 +40,7 @@ Trois nouveautés pour [code.gouv.fr](https://code.gouv.fr/public/) :
 - La page consacrée au [socle interministériel de logiciels libres](https://code.gouv.fr/public/#/sill) permet, lorsqu'on clique sur le lien "Prestataires", d'afficher la liste de ceux identifiés par l'[ADULLACT et](https://adullact.org) et par le [CNLL](https://cnll.fr/), deux acteurs de l'écosystème membres du [conseil logiciels libres](https://man.sr.ht/~codegouvfr/logiciels-libres/conseil-logiciels-libres.md) animé par le pôle logiciels libres.
 - `code.gouv.fr` propose enfin un nouvel onglet [Versions taguées](https://code.gouv.fr/public/#/tags) pour suivre les mises à jour de certains dépôts : ceux qui ont un fichier `publiccode.yml`, un `CONTRIBUTING.md` ou ceux à partir desquels sont publiées des [bibliothèques](https://code.gouv.fr/public/#/libs).
 
-Vos retours sur `code.gouv.fr` sont toujours les bienvenus par mail [privé](contact@code.gouv.fr) ou [public](https://lists.sr.ht/~codegouvfr/codegouvfr-devel).
+Vos retours sur `code.gouv.fr` sont toujours les bienvenus par mail [privé](contact@code.gouv.fr) ou [public](https://lists.sr.ht/~codegouvfr/dev).
 
 ## Arrivée d'Hélène Jonin au pôle logiciels libres
 
@@ -132,7 +132,7 @@ Après le succès de la gazette BlueHats (déjà 2200 inscrits), le pôle logici
 
 Vous êtes DSI et souhaitez partager avec nous les questions que vous vous posez sur le logiciel libre et open source ?  Envoyez-nous un mail [dès aujourd'hui](mailto:contact@code.gouv.fr).
 
-`>>` [Vous inscrire à la lettre « DSI Libre »](https://code.gouv.fr/newsletters/subscribe/logiciels-libres-dsi@mail.etalab.studio)
+`>>` [Vous inscrire à la lettre « DSI Libre »](https://code.gouv.fr/newsletters/subscribe/logiciels-libres-dsi@mail.codegouv.fr)
 
 ## Invitation à la gazette numérique de l'Etat
 

@@ -34,7 +34,7 @@ module.exports = {
         {
             title: "Vous souhaitez participer à la gazette BlueHats ?",
             content: `
-<p>N'hésitez pas à <a href="https://code.gouv.fr/newsletters/subscribe/bluehats@mail.etalab.studio">vous inscrire</a> à la gazette BlueHats et à proposer des informations en nous <a href="mailto:contact@code.gouv.fr">envoyant un courriel</a>.</p>`
+<p>N'hésitez pas à <a href="https://code.gouv.fr/newsletters/subscribe/bluehats@mail.codegouv.fr">vous inscrire</a> à la gazette BlueHats et à proposer des informations en nous <a href="mailto:contact@code.gouv.fr">envoyant un courriel</a>.</p>`
         },
         {
             title: "Vous souhaitez participer à un atelier BlueHats ?",

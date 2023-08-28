@@ -47,7 +47,7 @@ Le prix comporte plusieurs catégories qui distinguent les projets selon leurs d
 
 ## Le focus SILL
 
-Après une évolution, l'[assistant RGAA](https://sill.code.gouv.fr/fr/software?id=13) réapparaît dans le socle interministériel de logiciels libres en version 1.2.x.  Il a été mis à jour avec la dernière version 4.1 du référentiel général pour l'amélioration de l'accessibilité (RGAA).
+Après une évolution, l'[assistant RGAA](https://code.gouv.fr/sill/detail?name=Assistant%20RGAA) réapparaît dans le socle interministériel de logiciels libres en version 1.2.x.  Il a été mis à jour avec la dernière version 4.1 du référentiel général pour l'amélioration de l'accessibilité (RGAA).
 
 L'assistant RGAA est une extension pour navigateur web (Firefox ou Chrome) qui permet de faciliter les tests de vérification des règles d'accessibilité définies dans le RGAA sur la page affichée.  Il permet en outre d'avoir à disposition, en local, tous les critères et les tests du RGAA avec leur méthodologie.
 
@@ -59,8 +59,8 @@ Il est disponible au téléchargement dans les magasins d'extensions de [Firefox
 ## Les contributions du mois
 
 -   Des chercheurs ont contribué à une [analyse de risque](https://gitlab.inria.fr/stopcovid19/stopcovid-android/-/issues/79) sur les statistiques TousAntiCovid.  Voir [l'article de 01net.com](https://www.01net.com/actualites/l-application-tousanticovid-peut-faire-fuiter-des-donnees-personnelles-2047120.html) pour des éléments de contexte.
--   [Nicolas Carpi](https://science.curie.fr/members/nicolas-carpi/) a ajouté [des tests](https://github.com/etalab/code.etalab.gouv.fr/pull/89) pour le code qui est derrière le site [code.etalab.gouv.fr](https://code.etalab.gouv.fr)
--   [Julien Palard](https://mdk.fr/) a contribué au dépôt listant [les noms de domaines des organismes publics](https://github.com/etalab/noms-de-domaine-organismes-publics).
+-   [Nicolas Carpi](https://science.curie.fr/members/nicolas-carpi/) a ajouté [des tests](https://github.com/etalab/code.etalab.gouv.fr/pull/89) pour le code qui est derrière le site [code.etalab.gouv.fr](https://code.gouv.fr/public)
+-   [Julien Palard](https://mdk.fr/) a contribué au dépôt listant [les noms de domaines des organismes publics](https://github.com/etalab/noms-de-domaine-organismes-secteur-public).
 
 Merci à ces personnes qui améliorent les dépôts du secteur public !
 

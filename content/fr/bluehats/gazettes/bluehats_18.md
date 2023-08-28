@@ -132,7 +132,7 @@ Après le succès de la gazette BlueHats (déjà 2200 inscrits), le pôle logici
 
 Vous êtes DSI et souhaitez partager avec nous les questions que vous vous posez sur le logiciel libre et open source ?  Envoyez-nous un mail [dès aujourd'hui](mailto:contact@code.gouv.fr).
 
-`>>` [Vous inscrire à la lettre « DSI Libre »](https://code.gouv.fr/newsletters/subscribe/logiciels-libres-dsi@mail.etalab.studio)
+`>>` [Vous inscrire à la lettre « DSI Libre »](https://code.gouv.fr/newsletters/subscribe/logiciels-libres-dsi@mail.codegouv.fr)
 
 ## Invitation à la gazette numérique de l'Etat
 

@@ -117,6 +117,7 @@ module.exports = function (eleventyConfig) {
             .concat(addTags)
             .indexOf(tag) === -1);
     });
+
     eleventyConfig.addFilter("stripTags", str => {
         return (str || "").replace(/<[^>]*>/g, '');
     });

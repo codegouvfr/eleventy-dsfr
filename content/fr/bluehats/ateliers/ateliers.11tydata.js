@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     tags: [
-        "bluehats_posts", "atelier"
+        "bluehats_posts", "atelier", "event"
     ],
     layout: "layouts/bluehats-post.njk",
     permalink: function (data) {

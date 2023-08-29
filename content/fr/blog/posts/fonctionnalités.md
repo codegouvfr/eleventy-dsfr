@@ -84,10 +84,10 @@ Par exemple, dans le fichier [`content/fr/blog/tags.njk`](https://github.com/cod
 
 ## Calendrier
 
-La présence des fichiers de template dans [`content/calendar`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/calendar) assure la création d'un fichier de calendrier [`calendar.ics`](/calendar.ics) à la racine du site.
+La présence des fichiers de template dans [`content/calendar`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/calendar) assure la création d'un fichier de calendrier global [`calendar.ics`](/calendar.ics) à la racine du site, et des fichiers de calendrier `.ics` correspondants aux événements.
 
-Les articles libellés avec `event` y sont automatiquement ajoutés, et leurs fichiers d'événement de calendrier correspondant `.ics` sont automatiquement créés.
+Les articles libellés avec `event` sont automatiquement ajoutés au calendrier, et leurs fichiers d'événement de calendrier `.ics` correspondants sont automatiquement créés.
 
-Il existe le composant bouton [`add_to_calendar`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/_includes/components/add_to_calendar.njk) qui contient le lien vers le téléchargement du fichier d'événement.
+Il existe un composant bouton `add_to_calendar` qui contient un lien vers le téléchargement du fichier d'événement.
 
 [Voir un exemple d'événement](/fr/blog/evenement/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

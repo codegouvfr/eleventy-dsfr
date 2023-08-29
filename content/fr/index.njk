@@ -30,21 +30,5 @@ eleventyNavigation:
         {{ pDescription | safe }}
       </p>
     </div>
-    <div class="fr-col-12">
-      {% from "components/component.njk" import component with context %}
-      {{ component("table", {
-        title: "Prochains événements",
-        headers: ["Date", "Titre"],
-        data: events | nextEvents | pluck(["start", "title"]) | applyFilter([["readableEventDate", "dd LLLL yyyy HH:mm"]])
-      }) }}
-    </div>
-    <div class="fr-col-12">
-      {% from "components/component.njk" import component with context %}
-      {{ component("table", {
-        title: "Événements passés",
-        headers: ["Date", "Titre"],
-        data: events | previousEvents | filterEvents(["code"]) | pluck(["start", "title"]) | applyFilter([["readableEventDate", "dd LLLL yyyy HH:mm"]])
-      }) }}
-    </div>
   </div>
 </div>

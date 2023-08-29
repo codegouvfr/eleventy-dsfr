@@ -3,11 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/prism-okaidia.css">
-  <link rel="stylesheet" href="/css/prism-diff.css">
-  <link rel="stylesheet" href="/css/dsfr.min.css">
-  <link rel="stylesheet" href="/css/utility/utility.min.css">
 
   <meta name="description" content="{{ description or metadata.description }}">
   <meta name="theme-color" content="#000091">
@@ -19,6 +14,15 @@
   {#- Atom and JSON feeds included by default #}
   <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
   <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+  <link rel="stylesheet" href="/css/dsfr.min.css">
+  <link rel="stylesheet" href="/css/utility/utility.min.css">
+
+  {%- css %}{% include "public/css/index.css" %}{% endcss %}
+  {%- css %}{% include "public/css/prism-diff.css" %}{% endcss %}
+  {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
+
+  <style>{% getBundle "css" %}</style>
 
   <meta name="generator" content="{{ eleventy.generator }}">
 
@@ -38,10 +42,13 @@
 
 <!-- Current page: {{ page.url | htmlBaseUrl }} -->
 
-<script>
-    const SEARCH_RESULTS_URL = "{{ "/search-results/" | locale_url(page.lang) | htmlBaseUrl }}";
-</script>
-<script type="text/javascript" src="/js/search.js"></script>
+{% js "body" %}
+  <script>
+      const SEARCH_RESULTS_URL = "{{ "/search-results/" | locale_url(page.lang) | htmlBaseUrl }}";
+  </script>
+  <script type="text/javascript" src="/js/search.js"></script>
+{% endjs %}
+{% getBundle "js", "body" %}
 <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
 <script type="module" src="/js/dsfr.module.min.js"></script>
 <script type="text/javascript" nomodule src="/js/dsfr.nomodule.min.js"></script>

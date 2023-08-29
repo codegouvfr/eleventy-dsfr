@@ -17,7 +17,6 @@ module.exports = function (eleventyConfig) {
     // For example, `./public/css/` ends up in `_site/css/`
     eleventyConfig.addPassthroughCopy({
         "./public/": "/",
-        "./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css",
         "./node_modules/@gouvfr/dsfr/dist/favicon": "/favicon",
         "./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
         "./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
@@ -51,8 +50,8 @@ module.exports = function (eleventyConfig) {
         preAttributes: {tabindex: 0}
     });
     eleventyConfig.addPlugin(pluginNavigation);
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginBundle);
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
     // Filters
     eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {
@@ -69,6 +68,22 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("htmlDateString", (dateObj) => {
         // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
         return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat("yyyy-LL-dd");
+    });
+
+    eleventyConfig.addFilter("getYear", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).year;
+    });
+    eleventyConfig.addFilter("getMonth", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).month;
+    });
+    eleventyConfig.addFilter("getDay", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).day;
+    });
+    eleventyConfig.addFilter("getHour", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).hour;
+    });
+    eleventyConfig.addFilter("getMinute", (dateObj) => {
+        return DateTime.fromJSDate(dateObj, {zone: "utc"}).minute;
     });
 
     // Get the first `n` elements of a collection.
@@ -98,24 +113,9 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts"]
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "bluehats_post", "bluehats_posts", "event"]
             .concat(addTags)
             .indexOf(tag) === -1);
-    });
-
-    eleventyConfig.addFilter("pluck", (array, keys) => {
-        return (array || []).map(object => keys.map(key => object[key]));
-    });
-
-    eleventyConfig.addFilter("applyFilter", function applyFilter(table, filters) {
-        return (table || [])
-            .map((row) => {
-                return (row || []).map((col, i) => {
-                    const filter = eleventyConfig.getFilter(filters[i]?.[0]);
-                    return filter?.call(this, col, ...filters[i].slice(1)) || col;
-                })
-
-            })
     });
 
     eleventyConfig.addFilter("stripTags", str => {

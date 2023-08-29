@@ -1,0 +1,25 @@
+---
+pagination:
+  data: collections.event
+  size: 1
+permalink: "calendar/{{ pagination.items[0].data.title | slugify }}-{{ pagination.items[0].data.date | htmlDateString }}.ics"
+---
+{% set event %}
+  {% set currentEvent = pagination.items[0] %}
+  {% set year = currentEvent.data.date | getYear %}
+  {% set month = currentEvent.data.date | getMonth %}
+  {% set day = currentEvent.data.date | getDay %}
+  {% set hour = currentEvent.data.date | getHour %}
+  {% set minute = currentEvent.data.date | getMinute %}
+  {
+  "start": [
+  {{ year }}, {{ month }}, {{ day }}, {{ hour }}, {{ minute }}
+  ],
+  "duration": { "minutes": {{ currentEvent.data.duration or 0 }} },
+  "title": "{{ currentEvent.data.title }}",
+  "description": "{{ currentEvent.data.description }}",
+  "location": "{{ currentEvent.data.location }}",
+  "organizer": { "name": "{{ metadata.author.name }}", "email": "{{ metadata.author.email }}" }
+  }
+{% endset %}
+{{ event | createEvent }}

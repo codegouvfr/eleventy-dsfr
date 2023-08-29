@@ -50,8 +50,8 @@ module.exports = function (eleventyConfig) {
         preAttributes: {tabindex: 0}
     });
     eleventyConfig.addPlugin(pluginNavigation);
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(pluginBundle);
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
     // Filters
     eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {

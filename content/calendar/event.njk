@@ -2,7 +2,7 @@
 pagination:
   data: collections.event
   size: 1
-permalink: "calendar/{{ pagination.items[0].data.title | slugify }}.ics"
+permalink: "calendar/{{ pagination.items[0].data.title | slugify }}-{{ pagination.items[0].data.date | htmlDateString }}.ics"
 ---
 {% set event %}
   {% set currentEvent = pagination.items[0] %}
@@ -15,7 +15,7 @@ permalink: "calendar/{{ pagination.items[0].data.title | slugify }}.ics"
   "start": [
   {{ year }}, {{ month }}, {{ day }}, {{ hour }}, {{ minute }}
   ],
-  "duration": { "minutes": {{ currentEvent.data.duration }} },
+  "duration": { "minutes": {{ currentEvent.data.duration or 0 }} },
   "title": "{{ currentEvent.data.title }}",
   "description": "{{ currentEvent.data.description }}",
   "location": "{{ currentEvent.data.location }}",

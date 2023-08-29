@@ -21,7 +21,7 @@ module.exports = {
     description: "baseline - précisions sur l‘organisation",
     author: {
         name: "Nom du service",
-        email: "contact@nom_du_service.gouv.fr",
+        email: "contact@nom.du.service.gouv.fr",
         url: "https://url_du_service.gouv.fr/"
     },
     service: "Nom de l’entité (ministère, secrétariat d‘état, gouvernement)"

@@ -81,3 +81,11 @@ Par exemple, dans le fichier [`content/fr/blog/tags.njk`](https://github.com/cod
   }
 ---
 ```
+
+## Calendrier
+
+La présence des fichiers de template dans [`content/calendar`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/calendar) assure la création d'un fichier de calendrier [`calendar.ics`](/calendar.ics) à la racine du site.
+
+Les articles libellés avec `event` y sont automatiquement ajoutés, et leurs fichiers d'événement de calendrier correspondant `.ics` sont automatiquement créés.
+
+[Voir un exemple d'événement](/fr/blog/evenement/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

@@ -7,8 +7,10 @@ location: online
 tags:
 - event
 ---
-Voici un exemple d'événement qui sera ajouté au calendrier global accessible à l'adresse [/calendar.ics](/calendar.ics), et dont on peut télécharger l'événement de calendrier correspondant à l'adresse [/calendar/evenement-exemple.ics](/calendar/evenement-exemple.ics).
+Voici un exemple d'événement qui sera ajouté au calendrier global accessible à l'adresse [/calendar.ics](/calendar.ics), et dont on peut télécharger l'événement de calendrier correspondant à l'adresse [/calendar/evenement-exemple-2023-09-10.ics](/calendar/evenement-exemple-2023-09-10.ics).
 
-[Ajouter au calendrier](/calendar/evenement-exemple.ics){.fr-btn}
+<p>
+    {% include "components/add_to_calendar.njk" %}
+</p>
 
 [Voir la section sur la fonctionnalité de calendrier](/fr/blog/fonctionnalités/#calendrier){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

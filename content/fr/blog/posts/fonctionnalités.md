@@ -88,4 +88,6 @@ La présence des fichiers de template dans [`content/calendar`](https://github.c
 
 Les articles libellés avec `event` y sont automatiquement ajoutés, et leurs fichiers d'événement de calendrier correspondant `.ics` sont automatiquement créés.
 
+Il existe le composant bouton [`add_to_calendar`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/_includes/components/add_to_calendar.njk) qui contient le lien vers le téléchargement du fichier d'événement.
+
 [Voir un exemple d'événement](/fr/blog/evenement/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

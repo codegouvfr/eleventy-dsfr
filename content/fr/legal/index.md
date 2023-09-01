@@ -4,8 +4,6 @@ layout: layouts/page.njk
 slugOverride: mentions legales
 showBreadcrumb: true
 ---
-# Mentions légales
-
 ## Éditeur
 
 Le site `code.gouv.fr` est édité par la mission logiciels libres au sein de la direction interministérielle du numérique (DINUM).

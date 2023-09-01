@@ -7,6 +7,7 @@ layout: layouts/base.njk
   {% endif %}
   <div class="fr-grid-row" data-pagefind-body>
     <div class="fr-col-12">
+      {% if title %}<h1>{{ title }}</h1>{% endif %}
       {{ content | safe }}
     </div>
   </div>

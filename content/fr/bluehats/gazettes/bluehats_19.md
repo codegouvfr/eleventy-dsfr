@@ -5,7 +5,7 @@ date: 2022-10-21
 
 ## Retrouvez-nous au salon Open Source Experience le 8 novembre
 
-Cette année encore, les `#BlueHats` se retrouvent pour partager des retours d'expérience sur l'utilisation de logiciels libres dans l'administration.  Retrouver [le programme détaillé sur notre blog](https://communs.numerique.gouv.fr/posts/annonce-programme-journee-bluehats-2022/).
+Cette année encore, les `#BlueHats` se retrouvent pour partager des retours d'expérience sur l'utilisation de logiciels libres dans l'administration.  Retrouver [le programme détaillé sur notre blog](/fr/blog/annonce-programme-journee-bluehats-2022/).
 
 {% imageContent "./bluehats-10-2022.png", "Illustration pour l'événement contenant un titre, une description, la date, le lieu, et l'adresse de la page bluehats du site" %}
 
@@ -13,13 +13,13 @@ Cette année encore, les `#BlueHats` se retrouvent pour partager des retours d'e
 
 Vous n'avez pas pu venir ?  Tout est en ligne.
 
-- [Présentation de NixOS et son écosystème](https://communs.numerique.gouv.fr/ateliers/nixos/)
-- [Présentation de Locokit](https://communs.numerique.gouv.fr/ateliers/locokit/)
-- [Présentation de Docusaurus](https://communs.numerique.gouv.fr/ateliers/docusaurus/)
+- [Présentation de NixOS et son écosystème](/fr/bluehats/nixos/)
+- [Présentation de Locokit](/fr/bluehats/locokit/)
+- [Présentation de Docusaurus](/fr/bluehats/docusaurus/)
 
 ## Le BlueHats Semester of Code, c'est parti !
 
-Ils sont six étudiants à contribuer à six logiciels libres pendant six mois : découvrez le pourquoi du comment de ce [programme BlueHats Semester of Code](https://communs.numerique.gouv.fr/posts/presentation-promotion-bluehats-2022/) et [faites connaissances avec les étudiants](https://communs.numerique.gouv.fr/bluehats/bsoc-promotion-2022/) !
+Ils sont six étudiants à contribuer à six logiciels libres pendant six mois : découvrez le pourquoi du comment de ce [programme BlueHats Semester of Code](/fr/blog/presentation-promotion-bluehats-2022/) et [faites connaissances avec les étudiants](/fr/bluehats/bsoc-promotion-2022/) !
 
 ## Les événements à ne pas manquer
 

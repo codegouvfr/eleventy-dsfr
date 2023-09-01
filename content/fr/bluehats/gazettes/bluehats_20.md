@@ -7,14 +7,14 @@ date: 2022-12-23
 
 Le 8 novembre 2022, les BlueHats se sont retrouvés lors du salon Open Source Experience pour partager leurs expériences d'utilisation et de développement de logiciels libres dans l'administration.
 
-`>>` [Retrouvez toutes les interventions en ligne](https://communs.numerique.gouv.fr/rencontres/journee-2022/)
+`>>` [Retrouvez toutes les interventions en ligne](/fr/bluehats/journee-2022/)
 `>>` [Retour sur une année d'action de la mission logiciels libres](https://tube.numerique.gouv.fr/w/scCJPR5rBQG5VypufAMExh)
 
 ## Revoir les deux derniers ateliers BlueHats
 
-Le 9 décembre a eu lieu [un atelier sur @codegouvfr/react-dsfr](https://communs.numerique.gouv.fr/ateliers/react-dsfr/).  Cette bibliothèque, publiée par la mission logiciels libres, facilite l'adoption du système de design de l'État et vient d'être annoncée publiquement sur [Mastodon](https://mastodon.social/@CodeGouvFr/109552721184450656) et [Twitter](https://twitter.com/codegouvfr/status/1605607912117772304).
+Le 9 décembre a eu lieu [un atelier sur @codegouvfr/react-dsfr](/fr/bluehats/react-dsfr/).  Cette bibliothèque, publiée par la mission logiciels libres, facilite l'adoption du système de design de l'État et vient d'être annoncée publiquement sur [Mastodon](https://mastodon.social/@CodeGouvFr/109552721184450656) et [Twitter](https://twitter.com/codegouvfr/status/1605607912117772304).
 
-Le 28 octobre a eu lieu [un atelier BlueHats sur Trunk Data Platform](https://communs.numerique.gouv.fr/ateliers/tdp/).  La construction de cette distribution libre d'Hadoop a pour objectif d’assurer l’autonomie et la souveraineté dans le domaine du Big Data et de réaliser des économies considérables par rapport aux solutions existantes.
+Le 28 octobre a eu lieu [un atelier BlueHats sur Trunk Data Platform](/fr/bluehats/tdp/).  La construction de cette distribution libre d'Hadoop a pour objectif d’assurer l’autonomie et la souveraineté dans le domaine du Big Data et de réaliser des économies considérables par rapport aux solutions existantes.
 
 ## Annonce de la convention DINUM/OW2
 

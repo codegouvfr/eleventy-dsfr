@@ -1,6 +1,6 @@
 ---
 title: "Présentations de la journée BlueHats 🧢 2019"
-date: 2021-12-11
+date: 2019-12-11
 image:
   path: ./Bluehats_PARIS-SUMMIT.jpg
   alt: Illustration pour l'événement contenant un titre et une date

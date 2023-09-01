@@ -1,0 +1,332 @@
+---
+title: Liste des logiciels libres du marché de support interministériel
+date: 2022-01-18
+layout: layouts/post.njk
+segments:
+  - url: /utiliser/
+    title: Utiliser
+  - url: /utiliser/marches-interministeriels-support-expertise-logiciels-libres/
+    title: Marchés
+showBreadcrumb: true
+---
+
+Pour le détail des versions inclues dans le marché, sollicitez votre coordinateur ministériel.  Si vous ne connaissez pas votre coordinateur ministériel, envoyez un mail à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
+
+## Logiciels libres au marché de support
+
+- Ansible
+- Apache Directory
+- Apache Hadoop
+- Apache kafka
+- Apache Oozie
+- Apache Ranger
+- Apache Spark
+- Apache superset
+- Apache Tez
+- Asqatasun
+- AWX
+- BAREOS
+- Bigbluebutton
+- bootstrap
+- COLLABORA online
+- CUPS
+- Docker
+- Dovecot
+- Fluentd
+- Gitlab
+- gravitee
+- Gunicorn
+- InfluxDB
+- Information System Designer
+- IntelliJ
+- jsch
+- Kali Linux
+- Linstor
+- Logstash
+- Maarch Courrier
+- Maarch RM
+- Memcached
+- Metricbeat
+- Moodle
+- Nats.io
+- Noyau CentOS
+- Noyau Debian
+- Noyau Ubuntu
+- Peertube
+- Peertube
+- phpBB
+- PhpMyAdmin
+- pmd
+- portainer
+- Prodftpd
+- Promotheus
+- PulseAudio
+- Rabbitmq-server
+- RocketChat
+- Scenari
+- SCENARI greffons
+- Selenium plugin
+- Sendmail
+- SnakeTail
+- Solr
+- SPIP
+- Spring Boot
+- SuiteCRM
+- SuiteCRM
+- SURICATA
+- Symfony
+- tcpdump
+- The Hive
+- TrueNAS CORE
+- VAULT
+- Wekan
+- XRDP
+- Zend engine
+
+## Logiciels libres critiques au marché de support
+
+- 389 Directory Server
+- ActiveMQ
+- Alfresco community
+- Amavisd-new
+- AngularJS
+- ANT
+- Antlr
+- Apache Commons
+- Apache HTTP Server
+- Apache XML Security
+- Audit
+- AwStats
+- AXIS
+- Bacula
+- BouncyCastle
+- Bugzilla
+- Cargo
+- Castor
+- Centreon
+- cglib
+- c-icap
+- ClamAV
+- Cobbler
+- Cyrus IMAP
+- Datafaris
+- DataLift
+- DBUnit
+- Display Tag
+- Dojo
+- dom4j
+- Drbd
+- Drbdlinks
+- Driver JDBC pour postgresql
+- Drools Expert
+- Drupal-core
+- DSpace
+- Eclipse
+- ehcache
+- ElasticSearch
+- Explorer++
+- Filezilla client
+- Filezilla serveur
+- Firebird
+- Firefox
+- FOP
+- FPDF
+- FPDI
+- Framadate
+- Freeradius
+- Func
+- Fusion Forge
+- Fusion Inventory
+- GanttProject
+- Gatling
+- GeoServer
+- GFS2
+- Git
+- Glibc
+- GLPI
+- GnuCobol
+- GnuPG
+- Grafana
+- Gridlex
+- GRR
+- HAProxy
+- HAVP
+- heartbeat
+- Hibernate
+- Horde
+- Ibatis
+- ImageMagick
+- ISC BIND
+- ISC DHCP
+- itext
+- Jasperreports
+- JasperStudio
+- jaxen
+- jaxrpc
+- JAX-WS RI
+- JBoss
+- Jenkins
+- Jersey
+- Jfrog Artifactory
+- Jmeter
+- Joget
+- Joomla !
+- Jquery UI
+- JSTL
+- Junit
+- Kanboard
+- Keepalived
+- Keepass
+- Keycloak
+- Kubernetes
+- LemonLDAP::NG
+- libnss-pgsql
+- libpcap
+- LibreOffice
+- Libvirt
+- Limesurvey
+- Log4j
+- Logback
+- logrotate
+- Lucene
+- LVM
+- LVS (Linux Virtual Server) / Ipvsadm
+- Mantis
+- MariaDB
+- Matomo (Ex. Piwik)
+- Maven et plugins
+- MBeanMonitor
+- MediaWiki
+- Metabase
+- Metrics
+- MinIO
+- MIT Kerberos
+- MongoDB
+- mPDF
+- Mx4j
+- MyFaces
+- MySQL
+- NAGIOS
+- Neo4j
+- Neo4J-OGM
+- Nextcloud
+- Nexus
+- NFS
+- Nginx
+- nmap
+- NodeJS
+- nss_ldap
+- Ntp
+- NVDA
+- OCS inventory NG
+- OpenDKIM
+- OpenDMARC
+- OpenFire (anciennement Wildfire)
+- Open Jdk
+- OpenLDAP
+- OpenNebula
+- OpenSC
+- OpenSearchServer
+- OpenSSH (dont sftp server)
+- OpenSSL
+- OpenSTA
+- OpenVpn
+- OpenVSwitch
+- Ora2pg
+- OSWorkflow
+- OWASP CSRF Guard
+- Owasp Java HTML Sanitizer
+- Papyrus
+- Passbolt CE
+- Pdftk
+- Pentaho CE
+- Perl
+- Petals
+- PgAdmin
+- PHP
+- Postfix
+- PostgreSQL
+- PrimeFace
+- ProjectLibre
+- Proxmox backup server
+- Proxmox VE
+- Publik
+- Puppet
+- Putty
+- pyspf
+- Python
+- QGis
+- Quartz
+- R
+- Rancher
+- Redis
+- Redmine
+- regexp
+- Repmgr
+- Roundcube
+- rrdtool
+- RShiny
+- rspamd
+- RStudio
+- rsync
+- rsyslog
+- Rundeck
+- saaj
+- SabreDAV
+- Samba
+- ServiceMix
+- Shorewall
+- Sl4j
+- Slony-I
+- Smarty
+- Snort
+- SoapUI
+- Sogo
+- Sonar
+- Spamassassin
+- Spring Framework
+- Squash TM
+- SQUID
+- SQUIDGUARD
+- SQuirreL SQL
+- StatusNet
+- Struts 1
+- Struts 2
+- Stunnel
+- Sumatra
+- SVN
+- Sympa
+- syslog-ng
+- sysstat (sar & isag)
+- Talend Open Studio
+- Tanaguru
+- TestLink
+- TFTP-SERVER
+- Thunderbird
+- Tomcat
+- Torque
+- Tortoise SVN
+- UltraVNC
+- Varnish
+- Veyon
+- Virt-manager
+- vsftpd
+- Webmin
+- WinPT
+- WinSCP3
+- Wordpress
+- Wsdl4j
+- WSO2 API Management
+- XADES4j
+- Xalan-Java
+- Xdoclet
+- Xerces2 Java
+- XMLBeans
+- XML Graphics Common
+- XMLsec
+- xmltask
+- XWiki
+- Zabbix
+- Zammad
+- ZooKeeper
+- Z-Push

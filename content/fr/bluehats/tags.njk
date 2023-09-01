@@ -10,14 +10,11 @@
   },
   layout: "layouts/page.njk",
   permalink: "/{{ lang }}/bluehats/tags/{{ tag.tagName | slugify }}/{% if tag.pageNumber %}{{ pagePrefix }}{{ tag.pageNumber + 1 }}/{% endif %}",
-  eleventyComputed: {
-    title: 'Tagged "{{ tag.tagName }}"'
-  }
 }
 ---
 <h1>Initiatives <code>BlueHats</code></h1>
 <div class="fr-container" data-pagefind-ignore>
-  <h2>Filtré par <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/bluehats/tags/"| locale_url }}">{{ tag.tagName }}</a></h2>
+  <h2>{{ "filtered_by" | i18n }} <a class="fr-tag fr-fi-close-line fr-tag--icon-left" href="{{ "/bluehats/tags/"| locale_url }}">{{ tag.tagName }}</a></h2>
   <div class="fr-mb-3w">
     {% set tags = collections.bluehats_posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}
     {% set tagsUrl = "/bluehats/tags/" %}

@@ -9,7 +9,7 @@ L'équipe du pôle logiciels libres d'Etalab grandit et recherche un·e chargé�
 
 Cette personne sera notamment en charge d'aider les projets publics qui le souhaitent à devenir plus collaboratifs et elle valorisera et soutiendra les contributions de l'administration aux logiciels libres.
 
-Retrouvez la [description complète du poste](https://communs.numerique.gouv.fr/a-propos/recrutement-communautes-contributions/) et n'hésitez pas à envoyer vos CV et lettres de motivation à candidatures-DINUM@pm.gouv.fr.
+Retrouvez la [description complète du poste](/fr/mission/recrutement-communautes-contributions/) et n'hésitez pas à envoyer vos CV et lettres de motivation à candidatures-DINUM@pm.gouv.fr.
 
 `>>` Aidez-nous à [relayer l'annonce de @codegouvfr](https://twitter.com/codegouvfr/status/1473212075883352064)
 
@@ -25,9 +25,9 @@ Ce plan, qui doit contribuer à la transformation numérique de l'administration
 
 Il est porté par la direction interministérielle du numérique et piloté par un nouveau pôle logiciels libres à Etalab, s'appuyant par ailleurs sur les missions LABEL et TALENTS du programme TECH.GOUV.
 
-Le site du plan d'action : [communs.numerique.gouv.fr](https://communs.numerique.gouv.fr)
+Le site du plan d'action : [communs.numerique.gouv.fr](/fr/)
 
-Ce lancement s'accompagne d'une refonte du portail [code.gouv.fr](https://code.gouv.fr), autrefois accessible via [code.etalab.gouv.fr](https://code.etalab.gouv.fr), qui liste les codes sources publiés dans le secteur public.
+Ce lancement s'accompagne d'une refonte du portail [code.gouv.fr](/fr/), autrefois accessible via `code.etalab.gouv.fr`, qui liste les codes sources publiés dans le secteur public.
 
 Pour suivre les annonces liées au plan d'action : [codegouvfr](https://twitter.com/codegouvfr)
 
@@ -83,7 +83,7 @@ Voici les nouveautés du côté du SILL :
 
 Bienvenue à nos nouveaux référents !
 
-Les explications détaillées sur le SILL ont migré vers [cette page](https://github.com/codegouvfr/sill-docs/blob/main/sill.md).
+Les explications détaillées sur le SILL ont migré vers [cette page](/fr/doc/sill/).
 
 
 ### Remise du prix « Territoires numériques libres » de l'Adullact
@@ -198,11 +198,11 @@ Le 14 décembre, Sabine Guillaume et Bastien Guerry, respectivement cheffe de la
 
 ### Retour sur la dernière journée BlueHats et prochains ateliers
 
-Le 9 novembre s'est tenue une journée BlueHats au salon Open Source Experience qui a fait salle comble !  Merci à tous ceux qui se sont mobilisés pour partager leurs expériences d'utilisation de logiciels libres dans l'administration.  Retrouvez [les interventions de cette journée sur cette page](https://communs.numerique.gouv.fr/rencontres/journee-2021/).
+Le 9 novembre s'est tenue une journée BlueHats au salon Open Source Experience qui a fait salle comble !  Merci à tous ceux qui se sont mobilisés pour partager leurs expériences d'utilisation de logiciels libres dans l'administration.  Retrouvez [les interventions de cette journée sur cette page](/fr/bluehats/journee-2021/).
 
 Le prochain atelier BlueHats aura lieu le 14 janvier avec une présentation de « la stratégie Open Source externe de RTE et de sa stratégie interne avec l’initiative DevStudio, afin de permettre à tout salarié de bien développer. »
 
-`>>` Retrouvez les ateliers BlueHats passés et à venir <https://communs.numerique.gouv.fr/ateliers/>
+`>>` Retrouvez les ateliers BlueHats passés et à venir <https://code.gouv.fr/fr/bluehats/tags/atelier/>
 
 
 ### JLA, le comparateur de licences libres

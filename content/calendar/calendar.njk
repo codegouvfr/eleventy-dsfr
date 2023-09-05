@@ -13,7 +13,7 @@ permalink: /calendar.ics
     "start": [
     {{ year }}, {{ month }}, {{ day }}, {{ hour }}, {{ minute }}
     ],
-    "duration": { "minutes": {{ event.data.duration or 0 }} },
+    "duration": { "minutes": {{ event.data.duration or 1440 }} },
     "title": "{{ event.data.title }}",
     "description": "{{ event.data.description }}",
     "location": "{{ event.data.location }}",

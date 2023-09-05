@@ -131,23 +131,23 @@ div.fr-callout__text p {
 }
 
 .fr-follow .fr-link--mastodon:before {
-    -webkit-mask-image: url(icons/logo/mastodon-fill.svg) !important;
-    mask-image: url(icons/logo/mastodon-fill.svg) !important;
+    -webkit-mask-image: url(/css/icons/logo/mastodon-fill.svg) !important;
+    mask-image: url(/css/icons/logo/mastodon-fill.svg) !important;
 }
 
 .fr-follow .fr-link--peertube:before {
-    -webkit-mask-image: url(../icons/logo/peertube.svg) !important;
-    mask-image: url(../icons/logo/peertube.svg) !important;
+    -webkit-mask-image: url(/icons/logo/peertube.svg) !important;
+    mask-image: url(/icons/logo/peertube.svg) !important;
 }
 
 .fr-follow .fr-link--github:before {
-    -webkit-mask-image: url(icons/logo/github-fill.svg) !important;
-    mask-image: url(icons/logo/github-fill.svg) !important;
+    -webkit-mask-image: url(/css/icons/logo/github-fill.svg) !important;
+    mask-image: url(/css/icons/logo/github-fill.svg) !important;
 }
 
 .fr-follow .fr-link--sourcehut:before {
-    -webkit-mask-image: url(../icons/logo/sourcehut.svg) !important;
-    mask-image: url(../icons/logo/sourcehut.svg) !important;
+    -webkit-mask-image: url(/icons/logo/sourcehut.svg) !important;
+    mask-image: url(/icons/logo/sourcehut.svg) !important;
 }
 
 .fr-tile__link:after {

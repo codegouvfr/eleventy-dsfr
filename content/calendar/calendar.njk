@@ -10,10 +10,13 @@ permalink: /calendar.ics
     {% set hour = event.data.date | getHour %}
     {% set minute = event.data.date | getMinute %}
     {
-    "start": [
-    {{ year }}, {{ month }}, {{ day }}, {{ hour }}, {{ minute }}
-    ],
-    "duration": { "minutes": {{ event.data.duration or 1440 }} },
+    {% if hour == 0 and minute == 0 %}
+    "start": [ {{ year }}, {{ month }}, {{ day }} ],
+    "end": [ {{ year }}, {{ month }}, {{ day + 1 }} ],
+    {% else %}
+    "start": [ {{ year }}, {{ month }}, {{ day }}, {{ hour }}, {{ minute }} ],
+    "duration": { "minutes": {{ event.data.duration or 60 }} },
+    {% endif %}
     "title": "{{ event.data.title }}",
     "description": "{{ event.data.description }}",
     "location": "{{ event.data.location }}",

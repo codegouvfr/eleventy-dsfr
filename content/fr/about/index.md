@@ -18,7 +18,7 @@ Son code source est disponible [sur ce dépôt](https://github.com/codegouvfr/co
 
 ## Equipe
 
-Le plan d'action est piloté par la mission logiciels libres et les actions sont conjointement portées avec les missions [LABEL](https://catalogue.numerique.gouv.fr) et TALENTS de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
+Le plan d'action est piloté par la mission logiciels libres de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
 
 [Voir la présentation en ligne](https://speakerdeck.com/bluehats/dinum){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
@@ -36,7 +36,7 @@ Les produits peuvent être des sites web, des contenus et ressources, des servic
 
 - [code.gouv.fr](/fr/): le site de présentation du plan d'action logiciels libres et communs numériques.
 - [code.gouv.fr/public](https://code.gouv.fr/public): le site pour trouver des codes sources publiés par les administrations.
-- [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](/fr/doc/sill/).
+- [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
 
 ### Logiciels et bibliothèques de code
 
@@ -47,8 +47,8 @@ Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les 
 
 ### Ressources
 
-- La [gazette BlueHats](/fr/bluehats/tags/gazette/)
-- Les [ateliers BlueHats](/fr/bluehats/tags/atelier/)
+- La [gazette BlueHats](/fr/bluehats/tags/gazette/).
+- Les [ateliers BlueHats](/fr/bluehats/tags/atelier/).
 - Les [guides](/fr/doc/) de la mission logiciels libres.
 - Les [interventions](/fr/doc/ressources/#interventions-de-la-mission-logiciels-libres-en-francais) de la mission logiciels libres.
 
@@ -60,10 +60,7 @@ Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les 
 
 ## L'offre de services de la mission logiciels libres
 
-La mission logiciels libres de la DINUM aide les administrations
-publiques sur tous les sujets concernant l'ouverture de leurs codes
-sources, l'utilisation de logiciels libres et le recrutement de
-compétences liées au logiciel libre (utilisation et ouverture).
+La mission logiciels libres de la DINUM aide les administrations publiques sur tous les sujets concernant l'ouverture de leurs codes sources, l'utilisation de logiciels libres et le recrutement de compétences liées au logiciel libre (utilisation et ouverture).
 
 [Voir la page dédiée](/fr/mission/offre-de-services/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
@@ -121,18 +118,6 @@ Les BlueHats sont toutes les personnes qui souhaitent montrer qu'elles contribue
 
 Les membres de la mission logiciels libres ont le droit de prendre sur leur temps de travail à hauteur de 20% maximum pour contribuer à des logiciels libres.  Parmi eux:
 
-- https://github.com/InseeFrLab/onyxia-web
-- https://github.com/InseeFrLab/keycloakify
-- https://github.com/InseeFrLab/onyxia-ui
-- https://github.com/garronej/tss-react
-- https://github.com/garronej/ts-ci
-- https://github.com/garronej/redux-clean-architecture
-- https://github.com/garronej/denoify
-- https://github.com/garronej/evt
-- https://github.com/garronej/tsafe
-- https://github.com/garronej/cra-envs
-- https://github.com/garronej/powerhooks
-- https://github.com/thieryw/gitlanding
 - https://git.sr.ht/~bzg/woof
 - https://git.sr.ht/~bzg/subscribe/
 - https://git.sr.ht/~bzg/choices
@@ -140,12 +125,9 @@ Les membres de la mission logiciels libres ont le droit de prendre sur leur temp
 
 ## Ressources (glossaire, interventions, liens externes, etc.)
 
-- [Glossaire](/fr/doc/glossaire/) de la mission logiciels libres
+- [Glossaire](/fr/doc/glossaire/) de la mission logiciels libres.
 - Pour les autres ressources, voir la [page dédiée](/fr/doc/ressources/).
 
 ## Politique de contribution aux logiciels libres de l'Etat (2018-2021)
 
 Cette politique de contribution est en cours de remplacement par les [guides](/fr/doc/) de la mission logiciels libres mais elle est toujours valable et vous pouvez [la consulter](/pocos/index.md).
-
-<!-- # Projets auxquels contribue la mission logiciels libres -->
-

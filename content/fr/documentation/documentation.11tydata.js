@@ -32,7 +32,7 @@ module.exports = {
     ],
     docs: [
         {
-            url: "/doc/sill/",
+            url: "https://code.gouv.fr/sill/readme",
             title: "Présentation du socle interministériel de logiciels libres",
             description: ``
         }, {
@@ -44,11 +44,6 @@ module.exports = {
             url: false,
             externalUrl: "https://code.gouv.fr/public/#/about",
             title: "Présentation de code.gouv.fr/public",
-            description: ``
-        },
-        {
-            url: "/doc/glossaire/",
-            title: "Glossaire pour code.gouv.fr/public",
             description: ``
         }
     ]

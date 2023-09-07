@@ -9,7 +9,7 @@ date: 2022-04-25
 
 Le conseil d'expertise et de mobilisation logiciels libres est une instance animée par le pôle logiciels libres de la DINUM qui réunit des acteurs de l'administration publique et des acteurs de l'écosystème libre pour que tous contribuent à la réussite du [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
 
-`>>` Retrouvez [la page du conseil](/fr/mission/cll/) sur le wiki du pôle logiciel libre
+`>>` Retrouvez [la page du conseil](/fr/mission/conseil-logiciels-libres/) sur le wiki du pôle logiciel libre
 `>>` Consultez le [diaporama de présentation des acteurs du conseil](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum)
 
 ### BlueHats Semester of Code : les projets volontaires

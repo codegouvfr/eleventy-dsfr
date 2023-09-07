@@ -84,7 +84,7 @@ La présentation ci-dessus détaille sa composition et les attentes des parties 
 
 [Voir la présentation en ligne du conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-[Voir la page dédiée pour plus de détails](/fr/mission/cll/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+[Voir la page dédiée pour plus de détails](/fr/mission/conseil-logiciels-libres/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 ## Présentation des ateliers BlueHats animés par la mission
 

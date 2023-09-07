@@ -17,7 +17,7 @@ Il *met en oeuvre* des [produits](/fr/mission/#les-produits-de-la-mission-logici
 
 Il *contribue* au mouvement BlueHats : les ateliers, la gazette et le programme BlueHats Semester of Code.
 
-Il *anime* le [conseil d'expertise et de mobilisation logiciels libres](/fr/mission/cll/), qui réunit des administrations et des acteurs de l'écosystème du logiciel libre, et qui doit contribuer à la réussite du plan d'action.
+Il *anime* le [conseil d'expertise et de mobilisation logiciels libres](/fr/mission/conseil-logiciels-libres/), qui réunit des administrations et des acteurs de l'écosystème du logiciel libre, et qui doit contribuer à la réussite du plan d'action.
 
 ## Engagements
 

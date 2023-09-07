@@ -21,7 +21,7 @@ Le premier trimestre est consacré à un travail de refonte du socle interminist
 
 ## Le conseil logiciels libres s'élargit
 
-Le [conseil logiciels libres](/fr/mission/cll/) s'élargit et accueille un agent de la Gendarmerie nationale ainsi que deux personnes du Conseil National du numérique.
+Le [conseil logiciels libres](/fr/mission/conseil-logiciels-libres/) s'élargit et accueille un agent de la Gendarmerie nationale ainsi que deux personnes du Conseil National du numérique.
 
 `>>` [Découvrez les membres du conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum)
 

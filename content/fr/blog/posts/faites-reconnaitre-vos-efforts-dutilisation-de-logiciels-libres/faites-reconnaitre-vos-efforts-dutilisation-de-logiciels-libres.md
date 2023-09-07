@@ -4,8 +4,9 @@ description: "La saison des prix est ouverte !"
 date: 2023-09-07
 tags: Prix
 image:
-  path: "./osor15.png"
-  alt: "Capture d'écran du prix OSOR 15"
+  path: "./giorgio-trovato.jpg"
+  alt: "Image représentant une coupe - © Giorgio Trovato - https://unsplash.com/fr/photos/_XTY6lD8jgM"
+  hide: True
 ---
 
 Vous travaillez dans une collectivité, une administration centrale ou déconcentrée et vous souhaitez faire reconnaître vos efforts d'utilisation de logiciels libres ?  Voici trois occasions de le faire d'ici la fin de l'année !
@@ -22,7 +23,7 @@ Toutes les informations sont à retrouver [sur leur site](https://joinup.ec.euro
 
 ## Candidatez au « Prix du service public engagé »
 
-{% imageContent "./acteursdulibre2.png", "Capture d'écran du site du prix du service public engagé dans le cadre des récompenses remises pour lesacteursdulibre.com", [1000] %}
+{% imageContent "./acteursdulibre.png", "Capture d'écran du site du prix du service public engagé dans le cadre des récompenses remises pour lesacteursdulibre.com", [1000] %}
 
 Remis depuis 2022 lors du salon Open Source Experience dans le cadre du concours « Acteurs du Libre », le prix du service public engagé vise à « récompenser les administrations qui incitent leurs services à renforcer l’utilisation de logiciels libres et qui s’appuient sur l’écosystème open source professionnel par exemple via l’achat de la solution entreprise ou commerciale d’un éditeur Open Source ou par la délégation d’un projet complet et important à une ESN Open Source. »
 

@@ -131,8 +131,8 @@ Si le stage ne vous convient pas, nous pouvons au bout de trois mois envisager d
 
 # Ressources
 
-- La [présentation](https://pad.incubateur.net/nKKJkNejTAqhii1SZdCWDA) donnée par les étudiants lors du salon Open Source Experience en novembre 2022.
-- La [présentation](https://pad.incubateur.net/nKKJkNejTAqhii1SZdCWDA) donnée par les étudiants lors de l'événement de restitution de février 2023.
+- La [présentation](https://pad.incubateur.net/s/Q8eZObzL5) donnée par les étudiants lors du salon Open Source Experience en novembre 2022.
+- La [présentation](https://pad.incubateur.net/s/2p5pdf_QB) donnée par les étudiants lors de l'événement de restitution de février 2023.
 - Les [idées collectées](https://github.com/blue-hats/bluehats-soc#propositions-de-stage) à l'automne 2021 lors du premier appel à idées pour le BlueHats Semester of Code - cet appel n'a pas permis de mobiliser des étudiants.
 
 ## Autres projets inspirants à l'international

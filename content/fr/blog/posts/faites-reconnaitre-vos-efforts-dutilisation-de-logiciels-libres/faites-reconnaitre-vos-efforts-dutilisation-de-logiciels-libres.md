@@ -2,7 +2,12 @@
 title: "Faites connaître vos progrès dans l'utilisation des logiciels libres !"
 description: "La saison des prix est ouverte !"
 date: 2023-09-07
-tags: Prix
+tags: 
+- Prix
+- OSOR
+- ADULLACT
+- OSX
+- Europe
 image:
   path: ./giorgio-trovato.jpg
   alt: "Image représentant une coupe - © Giorgio Trovato - unsplash.com/fr/photos/_XTY6lD8jgM"

@@ -5,7 +5,7 @@ date: 2023-09-07
 tags: Prix
 image:
   path: "./giorgio-trovato.jpg"
-  alt: "Image représentant une coupe - © Giorgio Trovato - https://unsplash.com/fr/photos/_XTY6lD8jgM"
+  alt: "Image représentant une coupe - © Giorgio Trovato - unsplash.com/fr/photos/_XTY6lD8jgM"
   hide: True
 ---
 

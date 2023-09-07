@@ -10,7 +10,7 @@ date: 2022-06-16
 Lors du séminaire national [Moodle](https://code.gouv.fr/sill/detail?name=Moodle) qui s'est déroulé à Strasbourg le 19 mai dernier, Audran Le Baron, directeur du numérique pour l'éducation, a évoqué « le rêve de bâtir, d’avoir bâti dans cinq ans le Wikipédia des ressources pédagogiques des programmes français ». Son discours s'articule autour de la thématique du « libre éducatif », et insiste sur la nécessité d'encourager l’utilisation de logiciels et ressources éducatives libres.
 
 `>>` [Intervention du directeur de la DNE à la Journée du Libre Éducatif #JDLE](https://blog.apps.education.fr/articles/dne-jdle-2022-05-21t143101559z)
-`>>` [Revoir l'internvention](https://tube-institutionnel.apps.education.fr/w/jjfkwsmZXHLUNW8xvEo2Sv)
+`>>` [Revoir l'intervention](https://tube-institutionnel.apps.education.fr/w/jjfkwsmZXHLUNW8xvEo2Sv)
 
 ### Des élèves contributeurs de communs numériques
 
@@ -46,7 +46,7 @@ Cela implique un passage par les licences ouvertes qui permettent la constructio
 
 Pour les plus motivés, l'essai finit par les outils disponibles pour le traitement des données avec un aperçu de Python sous Jupyter.
 
-`>>` Le site du livre : [http://opendata.ricou.eu.org](opendata.ricou.eu.org)
+`>>` Le site du livre : [http://opendata.ricou.eu.org](http://opendata.ricou.eu.org)
 
 ## Focus article : « Logiciels libres : à la recherche du bien commun »
 
@@ -63,7 +63,7 @@ Les auteurs reviennent sur l’utilisation historique des logiciels libres jusqu
 
 Vendredi 10 juin, Thomas Magnin-Feysot et Emmanuelle Helly ont présenté l'outil libre GeoRivière. Il vise à organiser les données et à accompagner les techniciens dans leurs tâches courantes de gestion et de suivi des cours d'eau.  Les intervenants ont présenté l'outil et ses différentes fonctionnalités, ainsi que des possibilités de déploiement et d’utilisation sur votre territoire.
 
-`>>` Voir [cette page](https://communs.numerique.gouv.fr/ateliers/georiviere/) pour le revoir cet atelier ou [celle-ci](https://communs.numerique.gouv.fr/ateliers/) pour voir tous les autres
+`>>` Voir [cette page](/fr/bluehats/georiviere/) pour le revoir cet atelier ou [celle-ci](/fr/bluehats/tags/atelier/) pour voir tous les autres
 
 **Ne manquez pas le prochain atelier du 24 juin !**
 
@@ -130,7 +130,7 @@ L'Initiative pour la Recherche et l'Innovation sur le Logiciel Libre présente s
 
 ### Côté administrations
 
-- [Le SILL et code.gouv.fr font peau neuve](https://communs.numerique.gouv.fr/posts/le-sill-et-codegouvfr-font-peau-neuve/), communs.numerique.gouv.fr, mai 2022.
+- [Le SILL et code.gouv.fr font peau neuve](/fr/blog/le-sill-et-codegouvfr-font-peau-neuve/), communs.numerique.gouv.fr, mai 2022.
 - [Découvrez FileSender, le service de référence dans la communauté Education-Recherche](https://www.renater.fr/Filesender-service-de-reference-dans-ESR), renater.fr.
 - [Épisode #5 : Lutter contre l'obsolescence grâce au logiciel libre](https://ecoresponsable.numerique.gouv.fr/publications/videos-vers-un-numerique-ecoresponsable/episode-5-lutter-obsolescence-grace-au-logiciel-libre/), ecoresponsable.numerique.gouv.fr, juin 2022.
 - [Une « pastille » qui donne du liant aux outils de travail collaboratif des agents de l’État](https://www.numerique.gouv.fr/actualites/une-pastille-qui-donne-du-liant-aux-outils-de-travail-collaboratif-des-agents-de-letat/), numerique.gouv.fr, juin 2022.

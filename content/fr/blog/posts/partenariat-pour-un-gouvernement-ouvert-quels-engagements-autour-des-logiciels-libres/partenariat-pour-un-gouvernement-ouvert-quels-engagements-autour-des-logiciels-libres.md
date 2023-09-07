@@ -25,7 +25,7 @@ Dans une perspective de mutualisation des ressources et des moyens à l’échel
 MEAE, Liasse des engagements, p. 6.
 </blockquote>
 
-Dans le prolongement de cet engagement, le MEAE a affirmé sa volonté de poursuivre l’amélioration continue du logiciel libre Open Terms Archive (cf. [Liasse des engagements](https://www.modernisation.gouv.fr/files/2021-12/Liasse%20des%20engagements%203e%20plan%20d%27action%20national%20Partenariat%20pour%20un%20gouvernement%20ouvert_0.pdf), p. 10), projet initié en septembre 2020 et a fait l’objet d’un [atelier BlueHats](https://communs.numerique.gouv.fr/ateliers/open-terms-archive/). Ce commun numérique est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des grands fournisseurs de services en ligne.
+Dans le prolongement de cet engagement, le MEAE a affirmé sa volonté de poursuivre l’amélioration continue du logiciel libre Open Terms Archive (cf. [Liasse des engagements](https://www.modernisation.gouv.fr/files/2021-12/Liasse%20des%20engagements%203e%20plan%20d%27action%20national%20Partenariat%20pour%20un%20gouvernement%20ouvert_0.pdf), p. 10), projet initié en septembre 2020 et a fait l’objet d’un [atelier BlueHats](/fr/bluehats/open-terms-archive/). Ce commun numérique est un outil libre et ouvert de suivi et d’archivage des évolutions des conditions générales d’utilisation des grands fournisseurs de services en ligne.
 
 # Les logiciels libres pour la science ouverte
 
@@ -35,7 +35,7 @@ Le Ministère de l’Enseignement supérieur, de la Recherche et de l’Innovati
 
 La Direction interministérielle du numérique et le Ministère de la Transformation et de la Fonction publiques annoncent des engagements forts pour l’ouverture des codes sources du secteur public et l’utilisation de logiciels libres dans les administrations.
 
-Le premier concerne par la mise en oeuvre de la plateforme [code.gouv.fr](https://code.gouv.fr) (cf. [Liasse des engagements](https://www.modernisation.gouv.fr/files/2021-12/Liasse%20des%20engagements%203e%20plan%20d%27action%20national%20Partenariat%20pour%20un%20gouvernement%20ouvert_0.pdf), p. 166). Inaugurée en novembre 2021, elle permet d’identifier et de suivre les codes sources publiés par les administrations et vise à favoriser l’apport de contributions extérieures.
+Le premier concerne par la mise en oeuvre de la plateforme [code.gouv.fr](/fr/) (cf. [Liasse des engagements](https://www.modernisation.gouv.fr/files/2021-12/Liasse%20des%20engagements%203e%20plan%20d%27action%20national%20Partenariat%20pour%20un%20gouvernement%20ouvert_0.pdf), p. 166). Inaugurée en novembre 2021, elle permet d’identifier et de suivre les codes sources publiés par les administrations et vise à favoriser l’apport de contributions extérieures.
 
 <blockquote>
 « Code.gouv.fr renforce la transparence de l’information, permet à la société civile de plus facilement cibler des codes sources auxquels elle veut contribuer et engage l’administration sur la qualité des codes sources qu’elle publie et utilise dans ses services. »

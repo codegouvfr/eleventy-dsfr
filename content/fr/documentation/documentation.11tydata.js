@@ -1,5 +1,8 @@
 module.exports = {
-    docs: [
+    permalink: function (data) {
+        return `/fr/doc/${this.slugify(data.page.fileSlug)}/`;
+    },
+    guides: [
         {
             url: false,
             externalUrl: "https://guides.etalab.gouv.fr/logiciels/",
@@ -25,6 +28,28 @@ module.exports = {
             externalUrl: "https://www.legifrance.gouv.fr/circulaire/id/45162",
             title: "Circulaire relative à la politique publique de la donnée, des algorithmes et des codes sources",
             description: `Une nouvelle impulsion pour l'ouverture des codes sources de toutes les administrations.`
+        }
+    ],
+    docs: [
+        {
+            url: "/doc/sill/",
+            title: "Présentation du socle interministériel de logiciels libres",
+            description: ``
+        }, {
+            url: "/doc/licences-libres-dinum/",
+            title: "Les licences libres acceptées pour les logiciels du SILL",
+            description: ``
+        },
+        {
+            url: false,
+            externalUrl: "https://code.gouv.fr/public/#/about",
+            title: "Présentation de code.gouv.fr/public",
+            description: ``
+        },
+        {
+            url: "/doc/glossaire/",
+            title: "Glossaire pour code.gouv.fr/public",
+            description: ``
         }
     ]
 };

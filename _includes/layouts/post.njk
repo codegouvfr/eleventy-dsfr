@@ -23,7 +23,7 @@ layout: layouts/base.njk
         </div>
       </div>
 
-      {% if image %}
+      {% if not image.hide %}
         {% imageContent image.path, image.alt %}
       {% endif %}
 

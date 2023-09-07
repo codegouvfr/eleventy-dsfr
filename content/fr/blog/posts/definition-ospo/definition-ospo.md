@@ -3,7 +3,7 @@ title: "Qu'est-ce qu'un Open Source Programme Office (OSPO) ?"
 description: "Une tentative de définition d'un OSPO."
 date: 2023-06-14
 image:
-  path: "./ospo.png"
+  path: ./ospo.png
   alt: "Illustration contenant le titre de l'article"
 tags: OSPO
 ---

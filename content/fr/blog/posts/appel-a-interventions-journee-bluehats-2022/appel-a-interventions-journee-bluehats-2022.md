@@ -3,7 +3,7 @@ title: "Appel à interventions pour la journée #BlueHats du 8 novembre 2022 au 
 description: "Appel à interventions pour la journée #BlueHats du 8 novembre 2022 au salon Open Source Experience"
 date: 2022-10-04
 image:
-  path: "./bluehats-10-2022.png"
+  path: ./bluehats-10-2022.png
   alt: Illustration pour l'événement contenant un titre, une description, la date, le lieu, et l'adresse de la page bluehats du site
 tags: bluehats
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Pourquoi la mission logiciels libres d'Etalab utilise SourceHut"
-description: "Nous expliquons ce choix"
+title: "Pourquoi la mission logiciels libres d'Etalab utilise la forge logicielle SourceHut"
+description: "Parmi les forges dont le code source est entièrement libre, SourceHut est la seule qui propose à la fois de l'intégration continue et des listes de discussion.  Explications détaillées de ce choix."
 date: 2021-12-05
 tags: 
 - Forge

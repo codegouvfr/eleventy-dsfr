@@ -7,9 +7,9 @@ date: 2023-06-15
 
 - Mise à jour du site du socle interministériel des logiciels libres : <https://code.gouv.fr/sill> ([source](https://github.com/codegouvfr/sill-web/)).
 - Mise à jour du site principal de <https://code.gouv.fr> ([source](https://github.com/codegouvfr/codegouv-website)).
-- Ajout d'eleventy-dsfr ([source](https://github.com/codegouvfr/eleventy-dsfr)) à la liste des [logiciels libres maintenus par la mission](https://code.gouv.fr/fr/devs/).
+- Ajout d'eleventy-dsfr ([source](https://github.com/codegouvfr/eleventy-dsfr)) à la liste des [logiciels libres maintenus par la mission](/fr/devs/).
 - Un point sur l'actualité de la mission lors de l'émission « Libre à vous ! » enregistrée fin mai, à [réécouter en podcast](https://www.libreavous.org/177-la-mission-logiciels-libres-de-la-dinum " ") ou à [lire en ligne](https://www.librealire.org/emission-libre-a-vous-diffusee-mardi-30-mai-2023-sur-radio-cause-commune).
-- Une proposition de définition de ce qu'est un [Open Source Programme Office](https://code.gouv.fr/fr/blog/definition-ospo/).
+- Une proposition de définition de ce qu'est un [Open Source Programme Office](/fr/blog/definition-ospo/).
 
 <br/>
 

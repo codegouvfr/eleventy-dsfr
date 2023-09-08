@@ -5,9 +5,9 @@ date: 2023-03-03
 
 ## Des nouvelles de la mission logiciels libres
 
-La mission logiciels libres rassemble désormais ses publications sur le site [code.gouv.fr](https://code.gouv.fr).  Vous y retrouverez la page principale, le [socle interministériel de logiciels libres](https://code.gouv.fr/sill), la page consacrée aux [dépôts de code source des administrations](https://code.gouv.fr/public/) et celle vous permettant de gérer [vos abonnements à nos infolettres](https://code.gouv.fr/newsletters/).
+La mission logiciels libres rassemble désormais ses publications sur le site [code.gouv.fr](/fr/).  Vous y retrouverez la page principale, le [socle interministériel de logiciels libres](https://code.gouv.fr/sill), la page consacrée aux [dépôts de code source des administrations](https://code.gouv.fr/public/) et celle vous permettant de gérer [vos abonnements à nos infolettres](https://code.gouv.fr/newsletters/).
 
-Nous en avons aussi profité pour créer deux espaces : l'un consacré aux projets libres que la mission maintient, seule ou avec d'autres administrations (voir [code.gouv.fr/dev/](https://code.gouv.fr/dev/) et l'autre consacré à toute notre documentation (voir [code.gouv.fr/doc/](https://code.gouv.fr/doc/).
+Nous en avons aussi profité pour créer deux espaces : l'un consacré aux projets libres que la mission maintient, seule ou avec d'autres administrations (voir [code.gouv.fr/devs/](/fr/devs/) et l'autre consacré à toute notre documentation (voir [code.gouv.fr/doc/](/fr/doc/).
 
 Si vous êtes développeurs, les deux espaces de référence pour suivre nos travaux sont nos comptes [SourceHut](https://sr.ht/~codegouvfr/) et [GitHub](https://github.com/codegouvfr/).
 
@@ -17,17 +17,17 @@ Notre adresse de contact a changé aussi, vous pouvez nous joindre pour toute qu
 
 Le premier trimestre est consacré à un travail de refonte du socle interministériel de logiciels libres en fonction de retours que vous avez été nombreux à nous remonter.  Merci pour votre aide !
 
-`>>` [Téléchargez le résumé de l'étude (PDF)](https://man.sr.ht/~codegouvfr/logiciels-libres/docs/SILL-recherche-utilisateur-T4-2022.pdf)
+`>>` [Téléchargez le résumé de l'étude (PDF)](/rsrc//SILL-recherche-utilisateur-T4-2022.pdf)
 
 ## Le conseil logiciels libres s'élargit
 
-Le [conseil logiciels libres](https://man.sr.ht/~codegouvfr/logiciels-libres/conseil-logiciels-libres.md) s'élargit et accueille un agent de la Gendarmerie nationale ainsi que deux personnes du Conseil National du numérique.
+Le [conseil logiciels libres](/fr/mission/conseil-logiciels-libres/) s'élargit et accueille un agent de la Gendarmerie nationale ainsi que deux personnes du Conseil National du numérique.
 
 `>>` [Découvrez les membres du conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum)
 
 Un membre du conseil a publié une note de synthèse sur le thème « Apports du logiciel libre à la durabilité des équipements ».
 
-`>>` [Lire la note en PDF](https://man.sr.ht/~codegouvfr/logiciels-libres/docs/2023_01_RapportIndiceDurabilite.pdf)
+`>>` [Lire la note en PDF](/rsrc/2023_01_RapportIndiceDurabilite.pdf)
 
 Cette note a nourri une discussion au sein du conseil qui a permis à la DINUM d'émettre un avis en répondant positivement à la question : « Pensez-vous que de rendre possible l'installation d'un système d'exploitation libre augmente la durabilité des ordinateurs (portables ou non) et des smartphones ? »
 

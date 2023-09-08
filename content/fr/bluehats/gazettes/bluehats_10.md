@@ -9,7 +9,7 @@ Introduit par M. Eric Bothorel, député et responsable d'une mission relative �
 
 Débats d'idées, retours d'expériences ou interviews, la thématique est abordée dans ses nombreuses dimensions et toute sa richesse. C'est un beau panorama de la question du Libre que nous vous partageons avec plaisir. Ce numéro ne manquera pas de nourrir vos réflexions. Que ses nombreux contributeurs en soient chaleureusement remerciés !
 
-`>>` Accéder au numéro : <http://amue.fr/presentation/articles/article/la-collection-numerique-parlons-libre/>
+`>>` Accéder au numéro : <https://amue.fr/presentation/articles/article/la-collection-numerique-parlons-libre/>
 
 ## Rencontres Open Source & acteurs publics mardi 13 avril
 

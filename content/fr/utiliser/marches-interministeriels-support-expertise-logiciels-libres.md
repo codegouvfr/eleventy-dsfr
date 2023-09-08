@@ -1,6 +1,5 @@
 ---
 title: Marchés interministériels support et expertise à l'usage des logiciels libres
-linkTitle: Marchés interministériels support et expertise à l'usage des logiciels libres
 date: 2022-01-18
 layout: layouts/post.njk
 segments:
@@ -9,9 +8,9 @@ segments:
 showBreadcrumb: true
 ---
 :::callout
-Vous pouvez consulter la [liste des bénéficiaires de ces marchés logiciels libres](https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres.md) et [nous écrire](/fr/contact) pour connaître le coordinateur de votre établissement, s'il est bénéficiaire.
+Vous pouvez consulter la [liste des bénéficiaires de ces marchés logiciels libres](../marches-logiciels-libres/) et [nous écrire](/fr/contact) pour connaître le coordinateur de votre établissement, s'il est bénéficiaire.
 <br><br>
-Vous pouvez aussi consulter la [liste des logiciels libres concernés par le marché de support logiciels libres](https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres-liste-logiciels.md) ainsi que les [contributions faites aux projets libres](https://man.sr.ht/~codegouvfr/logiciels-libres/marches-logiciels-libres-liste-contributions.md) via le marché.
+Vous pouvez aussi consulter la [liste des logiciels libres concernés par le marché de support logiciels libres](../marches-logiciels-libres-liste-logiciels/) ainsi que les [contributions faites aux projets libres](../marches-logiciels-libres-liste-contributions/) via le marché.
 :::
 
 La Direction Générale des Finances Publiques (DGFIP) est pilote de deux marchés interministériels à l’usage des logiciels libres. Ces deux marchés ont pour objet de couvrir l’ensemble du cycle de vie d’un logiciel libre au sein du système d'information (SI) :

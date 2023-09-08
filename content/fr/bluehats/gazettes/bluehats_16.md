@@ -7,9 +7,9 @@ date: 2022-04-25
 
 ### Présentation du conseil logiciels libres
 
-Le conseil d'expertise et de mobilisation logiciels libres est une instance animée par le pôle logiciels libres de la DINUM qui réunit des acteurs de l'administration publique et des acteurs de l'écosystème libre pour que tous contribuent à la réussite du [plan d'action logiciels libres et communs numériques](https://communs.numerique.gouv.fr/plan-action-logiciels-libres-et-communs-numeriques/).
+Le conseil d'expertise et de mobilisation logiciels libres est une instance animée par le pôle logiciels libres de la DINUM qui réunit des acteurs de l'administration publique et des acteurs de l'écosystème libre pour que tous contribuent à la réussite du [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
 
-`>>` Retrouvez [la page du conseil](https://man.sr.ht/~codegouvfr/logiciels-libres/conseil-logiciels-libres.md) sur le wiki du pôle logiciel libre
+`>>` Retrouvez [la page du conseil](/fr/mission/conseil-logiciels-libres/) sur le wiki du pôle logiciel libre
 `>>` Consultez le [diaporama de présentation des acteurs du conseil](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum)
 
 ### BlueHats Semester of Code : les projets volontaires
@@ -18,25 +18,25 @@ Le pôle logiciels libres a publié la liste des projets libres volontaires pour
 
 Merci à tous ces porteurs de projets de proposer des idées de contributions aussi riches !
 
-`>>` [BlueHats Semester of Code : les projets qui attendent les étudiants](https://communs.numerique.gouv.fr/bluehats/bsoc-contributions-2022/)
-`>>` La page de [présentation générale du BSOC](https://man.sr.ht/~codegouvfr/logiciels-libres/bluehats-semester-of-code.md) sur notre wiki
+`>>` [BlueHats Semester of Code : les projets qui attendent les étudiants](/fr/bluehats/bsoc-contributions-2022/)
+`>>` La page de [présentation générale du BSOC](/fr/bluehats/bsoc-presentation-2022/)
 
 ### Retour sur les rencontres sur les enjeux du logiciel libre dans la recherche
 
 Nous avons publié une page avec tous les livrables de ce wébinaire co-organisé par le pôle logiciels libres et le groupe de travail logiciels libres du Comité pour la science ouverte.
 
-`>>` [Rencontres sur les enjeux du logiciel libre dans la recherche](https://communs.numerique.gouv.fr/rencontres/floss-esr-2022/)
+`>>` [Rencontres sur les enjeux du logiciel libre dans la recherche](/fr/blog/rencontres-sur-les-enjeux-du-logiciel-libre-dans-la-recherche-ouvrir-et-promouvoir-les-codes-sources-produits-par-la-recherche/)
 
 ### Les ateliers BlueHats : ça continue !
 
 Depuis la dernière gazette BlueHats, quatre ateliers BlueHats :
 
--   [25 février 2022](https://communs.numerique.gouv.fr/ateliers/eupl/) : Présentation de la licence européenne publique (EUPL)
--   [11 mars 2022](https://communs.numerique.gouv.fr/ateliers/squash-tm/) : Les tests fonctionnels à l'Agirc Arrco avec Squash TM
--   [8 avril 2022](https://communs.numerique.gouv.fr/ateliers/france-brevets/) : Présentation de France Brevets
--   [22 avril 2022](https://communs.numerique.gouv.fr/ateliers/demarches-simplifiees/) : Présentation de Démarches simplifiées
+-   [25 février 2022](/fr/bluehats/eupl/) : Présentation de la licence européenne publique (EUPL)
+-   [11 mars 2022](/fr/bluehats/squash-tm/) : Les tests fonctionnels à l'Agirc Arrco avec Squash TM
+-   [8 avril 2022](/fr/bluehats/france-brevets/) : Présentation de France Brevets
+-   [22 avril 2022](/fr/bluehats/demarches-simplifiees/) : Présentation de Démarches simplifiées
 
-En plus de ces ateliers, retrouvez la [présentation de l'OSPO Alliance et de la Good Governance Initiative](https://communs.numerique.gouv.fr/ateliers/ospo-alliance-good-governance-initiative/) faite lors du conseil logiciels libres du 8 avril 2022.
+En plus de ces ateliers, retrouvez la [présentation de l'OSPO Alliance et de la Good Governance Initiative](/fr/bluehats/ospo-alliance-good-governance-initiative/) faite lors du conseil logiciels libres du 8 avril 2022.
 
 Ne manquez pas les prochains ateliers :
 
@@ -45,7 +45,7 @@ Ne manquez pas les prochains ateliers :
 -   10 juin 2022 à 11h : Présentation de GéoRivière
 -   24 juin 2022 à 11h : Présentation des marchés de support et d’expertise logiciels libres
 
-`>>` Retrouvez [toutes les informations sur les ateliers BlueHats](https://communs.numerique.gouv.fr/ateliers/)
+`>>` Retrouvez [toutes les informations sur les ateliers BlueHats](/fr/bluehats/tags/atelier/)
 
 ### Suivez-nous sur Mastodon
 

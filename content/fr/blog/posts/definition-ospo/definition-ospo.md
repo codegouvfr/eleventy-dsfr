@@ -3,7 +3,7 @@ title: "Qu'est-ce qu'un Open Source Programme Office (OSPO) ?"
 description: "Une tentative de définition d'un OSPO."
 date: 2023-06-14
 image:
-  path: "./ospo.png"
+  path: ./ospo.png
   alt: "Illustration contenant le titre de l'article"
 tags: OSPO
 ---
@@ -47,7 +47,7 @@ Pour donner une image plus concrète de ces critères, examinons le cas de la mi
 
 En 2016 est promulgée la loi [Pour une République numérique](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033202746) qui encourage l'administration à utiliser des logiciels libres et rend obligatoire par défaut l'ouverture des données, parmi lesquelles figurent les codes sources des produits de l'administration.
 
-Il faut ensuite attendre 2021 pour qu'une stratégie *open source* soit [publiée](https://code.gouv.fr/plan-action-logiciels-libres-et-communs-numeriques/) et incarnée dans le pôle logiciels libres d'Etalab, devenu aujourd'hui [mission logiciels libres et communs numériques](https://code.gouv.fr/) de la DINUM.
+Il faut ensuite attendre 2021 pour qu'une stratégie *open source* soit [publiée](/fr/plan-action-logiciels-libres-et-communs-numeriques/) et incarnée dans le pôle logiciels libres d'Etalab, devenu aujourd'hui [mission logiciels libres et communs numériques](/fr/mission/) de la DINUM.
 
 La création de cette entité fait suite à la [circulaire du Premier ministre](https://www.legifrance.gouv.fr/circulaire/id/45162) d'avril 2021, laquelle endosse l'une des recommandations du [rapport sur la politique publique de la donnée, des algorithmes et des codes sources (dit « rapport Bothorel »)](https://www.gouvernement.fr/rapport/11979-rapport-sur-la-politique-publique-de-la-donnee-des-algorithmes-et-des-codes-sources) énoncée comme suit :
 
@@ -61,10 +61,10 @@ Cette recommandation reprend deux des propositions faites par l'[Association pou
 
 Comment la mission logiciels libres de la DINUM s'approprie-t-elle ce concept d'OSPO ?
 
-1. La mission logiciels libres se compose en 2023 de 3 équivalents temps plein : le chef de la mission (qui s'occupe de l'animation de la communauté interne et externe, de programmes de collaboration entre l'État et des projets libres, de mettre en œuvre la stratégie de la mission), d'une développeuse (animatrice du programme [BlueHats Semester of Code](https://code.gouv.fr/fr/bluehats/bluehats-semester-of-code) et responsable de [code.gouv.fr](https://code.gouv.fr)) et d'un développeur (développement de briques libres pour l'administration et responsable de [code.gouv.fr/sill](https://code.gouv.fr/sill).)
-2. Sa stratégie est présentée dans le [plan d'action logiciels libres et communs numériques](https://code.gouv.fr/plan-action-logiciels-libres-et-communs-numeriques/) publié en novembre 2021. Cette stratégie a pour ambition de mieux utiliser les logiciels libres et les communs numériques ; de développer et d'accompagner la publication des codes sources ; de s’appuyer sur les logiciels libres et *open source* et les communs numériques pour renforcer l’attractivité de l’État-employeur.
-3. Les ressources : [le socle interministériel de logiciels libres](https://code.gouv.fr/sill) ; [la liste des dépôts publiés par des administrations](https://code.gouv.fr/public/#/repos) ; [les produits développés par la mission](https://code.gouv.fr/dev/) ; [la documentation](https://code.gouv.fr/doc/).
-4. La communauté : l'équipe de la mission travaille en lien avec les AMDAC (administrateurs ministériels des données, algorithmes et codes sources) de chaque ministère afin de les aiguiller sur la question des données, des algorithmes et des codes sources, ainsi qu'avec la communauté [BlueHats](https://code.gouv.fr/bluehats/) qui rassemble tous les agents publics qui s'intéressent et/ou contribuent au fait de mettre le logiciel libre au cœur de la transformation numérique du secteur public.
+1. La mission logiciels libres se compose en 2023 de 3 équivalents temps plein : le chef de la mission (qui s'occupe de l'animation de la communauté interne et externe, de programmes de collaboration entre l'État et des projets libres, de mettre en œuvre la stratégie de la mission), d'une développeuse (animatrice du programme [BlueHats Semester of Code](/fr/bluehats/bluehats-semester-of-code) et responsable de [code.gouv.fr](/fr/)) et d'un développeur (développement de briques libres pour l'administration et responsable de [code.gouv.fr/sill](https://code.gouv.fr/sill).)
+2. Sa stratégie est présentée dans le [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/) publié en novembre 2021. Cette stratégie a pour ambition de mieux utiliser les logiciels libres et les communs numériques ; de développer et d'accompagner la publication des codes sources ; de s’appuyer sur les logiciels libres et *open source* et les communs numériques pour renforcer l’attractivité de l’État-employeur.
+3. Les ressources : [le socle interministériel de logiciels libres](https://code.gouv.fr/sill) ; [la liste des dépôts publiés par des administrations](https://code.gouv.fr/public/#/repos) ; [les produits développés par la mission](/fr/mission/#les-produits-de-la-mission-logiciels-libres) ; [la documentation](/fr/doc/).
+4. La communauté : l'équipe de la mission travaille en lien avec les AMDAC (administrateurs ministériels des données, algorithmes et codes sources) de chaque ministère afin de les aiguiller sur la question des données, des algorithmes et des codes sources, ainsi qu'avec la communauté [BlueHats](/fr/bluehats/) qui rassemble tous les agents publics qui s'intéressent et/ou contribuent au fait de mettre le logiciel libre au cœur de la transformation numérique du secteur public.
 5. Le lien avec l'écosystème FLOSS : la mission anime le [conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum) qui rassemble une variété d'acteurs.
 
 ## Ouverture

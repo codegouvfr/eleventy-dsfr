@@ -24,7 +24,7 @@ C'est le catalogue historique des [logiciels libres](https://fr.wikipedia.org/wi
   
 - Si votre administration déploie un logiciel libre sur les postes des agents ou dans ses systèmes d'information, vous pouvez en devenir référent.  Il suffit pour cela de vous proposer comme référent via l'interface.  Si le logiciel existe déjà, vous devrez indiquer le cas d'usage qui en est fait dans votre administration ; s'il n'est pas encore dans le SILL, vous pourrez renseigner sa fiche.
 
-- Les fiches sont plus riches : elles indiquent notamment si le logiciel libre est présent dans les [marchés interministériels support et expertise](https://communs.numerique.gouv.fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/), s'il y a une fiche équivalente sur le [Comptoir du Libre](https://comptoir-du-libre.org/fr/) maintenu par l'ADULLACT, s'il a fait l'objet d'un [atelier BlueHats](https://communs.numerique.gouv.fr/ateliers/) ou d'une [fiche dédiée](https://git.sr.ht/~codegouvfr/sill/tree/master/item/fiches/).
+- Les fiches sont plus riches : elles indiquent notamment si le logiciel libre est présent dans les [marchés interministériels support et expertise](/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/), s'il y a une fiche équivalente sur le [Comptoir du Libre](https://comptoir-du-libre.org/fr/) maintenu par l'ADULLACT, s'il a fait l'objet d'un [atelier BlueHats](/fr/bluehats/tags/atelier/) ou d'une [fiche dédiée](https://git.sr.ht/~codegouvfr/sill/tree/master/item/fiches/).
 
 - En particulier, le SILL affiche désormais une liste de **prestataires** que vous pouvez solliciter, une information que nous collectons depuis les données exposées par le [Comptoir du Libre](https://comptoir-du-libre.org/fr/users/providers).
 
@@ -50,7 +50,7 @@ La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à
 
 - Nous avons ajouté de **nouveaux filtres de recherche** : les organisations par ministère ou autre institution de rattachement ; les dépôts selon qu'ils ont un fichier `CONTRIBUTING.md` à la racine ; les dépôts à partir desquels sont publiés des bibliothèques ; les dépendances selon leur type.
 
-- Nous référençons désormais les codes sources hébergés sur la forge [SourceHut](https://sourcehut.org/), notamment ceux du pôles logiciels libres (par ici pour les [explications](https://man.sr.ht/~codegouvfr/logiciels-libres/pourquoi-sourcehut.md)).
+- Nous référençons désormais les codes sources hébergés sur la forge [SourceHut](https://sourcehut.org/), notamment ceux du pôles logiciels libres (par ici pour les [explications](https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut/)).
 
 - Nous avons amélioré la détection des [dépendances](https://code.gouv.fr/public/#/deps) et nous avons ajouté celles de l'écosystème [Rust](https://code.gouv.fr/public/#/repos?language=Rust) à partir des fichiers `Cargo.toml`.
 

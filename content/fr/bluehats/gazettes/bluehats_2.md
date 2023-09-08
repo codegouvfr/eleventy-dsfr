@@ -107,7 +107,7 @@ Depuis 2016, l’association ADULLACT et ses partenaires organisent l’attribut
 
 Latitudes est une association qui cherche à connecter les acteurs du monde de l'intérêt général et ceux de l'innovation technologique en mettant en oeuvre des projets sur lesquels s'engagent les membres de la communauté de Latitudes, pour la plupart issus d'un réseau d'écoles d'ingénieur.  Latitudes encourage la publication des réalisations en logiciels libres et est notamment en lien avec le 110 bis, le lab d'innovation de l'éducation nationale.
 
-Latitudes a lancé un [appel à projets](http://www.latitudes.cc/appel-a-projets) auquel vous pouvez répondre jusqu'au 20 juin.
+Latitudes a lancé un [appel à projets](https://www.latitudes.cc/appel-a-projets) auquel vous pouvez répondre jusqu'au 20 juin.
 
 ## Evénements
 

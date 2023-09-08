@@ -1,16 +1,16 @@
 ---
+title: À propos
 layout: layouts/page.njk
-slugOverride: mission
+permalink: /fr/mission/
 eleventyNavigation:
   key: Mission
   parent: À propos
   order: 1
 ---
-:::callout Vous souhaitez suivre tous les sujets liés au logiciel libre dans l'administration ?
-Voici des informations pour [organiser votre veille](https://man.sr.ht/~codegouvfr/logiciels-libres/veille.md).
-:::
 
-# À propos
+:::callout Vous souhaitez suivre les activités de la mission logiciels libres ?
+Voici des informations pour [organiser votre veille](/fr/contact/veille/).
+:::
 
 Ce site présente les ressources publiées et mises en oeuvre dans le cadre du [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
 
@@ -18,61 +18,116 @@ Son code source est disponible [sur ce dépôt](https://github.com/codegouvfr/co
 
 ## Equipe
 
-Le plan d'action est piloté par la [mission logiciels libres](https://speakerdeck.com/bluehats/dinum) et les actions sont conjointement portées avec les missions [LABEL](https://catalogue.numerique.gouv.fr) et TALENTS de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
+Le plan d'action est piloté par la mission logiciels libres de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
 
-:::callout Besoin d'un accompagnement ?
-Pour toute demande d'accompagnement, n'hésitez pas à consulter [notre offre de services](https://man.sr.ht/~codegouvfr/logiciels-libres/offre-de-services.md) et à [nous contacter](/fr/contact/).
-:::
+[Voir la présentation en ligne](https://speakerdeck.com/bluehats/dinum){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Code public ([/public](https://code.gouv.fr/public))
+[Télécharger le livret PDF de présentation](/rsrc/pole-logiciels-libres-produits-bluehats.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-Tout code source obtenu ou développé par un organisme remplissant une mission de service public est considéré comme un document administratif, relevant des obligations de publication en open data.
+[Voir les objectifs, engagements et rituels de la mission logiciels libres](/fr/mission/mission-logiciels-libres-engagements-et-rituels/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-De nombreux organismes publient déjà des codes sources : nous les présentons sur ce site de façon à faciliter leur découverte et à encourager les administrations à les réutiliser ou à y contribuer.
+## Les produits de la mission logiciels libres
 
-### Qu'est-ce qu'un « dépôt de code source » ?
+Nous articulons tout ce que nous faisons autour de *produits* (logiciels, services en ligne, ressources).  Ceux-ci servent notre mission et reflètent nos [engagements](/fr/mission/mission-logiciels-libres-engagements-et-rituels/#engagements).
 
-Le *code source* est la version lisible par un humain d'un programme informatique. Un *dépôt de code source* est l'ensemble des fichiers d'un programme.  Tous les dépôts référencés sur ce site utilisent le logiciel de gestion de versions Git.
+Les produits peuvent être des sites web, des contenus et ressources, des services web ou des logiciels.
 
-Ce site ne référence que les dépôts publiés via un *compte d'organisation* GitHub ou un groupe public sur gitlab.com ou une instance GitLab : les dépôts publiés via des comptes personnels ne sont pas pris en compte.
+### Sites web
 
-Pour d'autres précisions sur les termes techniques de ce site, [consultez ce glossaire](https://man.sr.ht/~codegouvfr/logiciels-libres/glossary.fr.md).
+- [code.gouv.fr](/fr/): le site de présentation du plan d'action logiciels libres et communs numériques.
+- [code.gouv.fr/public](https://code.gouv.fr/public): le site pour trouver des codes sources publiés par les administrations.
+- [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
 
-#### Bibliothèques et dépendances
+### Logiciels et bibliothèques de code
 
-Les bibliothèques référencées sur ce site sont des bibliothèques logicielles distribuées via des plateformes dédiées (npmjs.com, pypi.org, etc.) et développées à partir des dépôts référencés.
+Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les maintenir dans la durée :
 
-Les dépendances sont les bibliothèques, venant du secteur public ou non, requises par les dépôts référencés.  Nous ne listons que les dépendances de premier niveau, pas les dépendances de dépendances.
+- [react-dsfr](https://github.com/codegouvfr/react-dsfr) : une bibliothèque de composants React au DSFR.
+- [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) : un dépôt pour démarrer un site statique au DSFR avec le générateur Eleventy.
 
-### Logiciels libres du SILL et services en ligne
+### Ressources
 
-Le socle interministériel de logiciels libres est la liste des logiciels libres recommandés pour toutes les administrations.  Chaque logiciel de cette liste est aujourd'hui en usage dans au moins une administration, et dispose d'un « référent SILL » prêt à aider les autres administrations dans son utilisation.
+- La [gazette BlueHats](/fr/bluehats/tags/gazette/).
+- Les [ateliers BlueHats](/fr/bluehats/tags/atelier/).
+- Les [guides](/fr/doc/) de la mission logiciels libres.
+- Les [interventions](/fr/doc/ressources/#interventions-de-la-mission-logiciels-libres-en-francais) de la mission logiciels libres.
 
-Si vous souhaitez référencer de nouveaux logiciels libres utilisés dans vos administrations, rendez-vous sur [le site de gestion du SILL](https://code.gouv.fr/sill).
+### Services web
 
-Les services en ligne référencés sur le site sont tous des instances de logiciels libres mises à la disposition des agents publics.
+- [publiccode-editor.etalab.studio](https://publiccode-editor.etalab.studio/): le site permettant de créer un fichier `publiccode.yml`.
 
-### Où télécharger les données ?
+<!-- # Logiciels -->
 
-Ces données sont publiées sous [licence Ouverte 2.0](https://spdx.org/licenses/etalab-2.0.html) :
+## L'offre de services de la mission logiciels libres
 
-* La liste des organisations en [csv](https://code.gouv.fr/data/organizations/csv/all.csv) et [json](https://code.gouv.fr/data/organizations/json/all.json).
-* La liste des dépôts en [csv](https://code.gouv.fr/data/repositories/csv/all.csv) et [json](https://code.gouv.fr/data/repositories/json/all.json).
-* Les données du socle interministériel de logiciels libres  et du catalogue de services : [sill.json](https://code.gouv.fr/sill/api/sill.json), [sill.tsv](https://code.gouv.fr/data/sill.tsv), [sill.pdf](https://code.gouv.fr/data/sill.pdf), [sill.md](https://code.gouv.fr/data/sill.md) et [sill.org](https://code.gouv.fr/data/sill.org).
+La mission logiciels libres de la DINUM aide les administrations publiques sur tous les sujets concernant l'ouverture de leurs codes sources, l'utilisation de logiciels libres et le recrutement de compétences liées au logiciel libre (utilisation et ouverture).
 
-Ces données, collectées depuis [libraries.io](https://libraries.io/terms), sont publiées sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) :
+[Voir la page dédiée](/fr/mission/offre-de-services/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-* La liste des bibliothèques en [csv](https://code.gouv.fr/data/libraries/csv/all.csv) et [json](https://code.gouv.fr/data/libraries/json/all.json).
+## Groupe de travail logiciels libres au sein du réseau des AMDAC
 
-### Comment suivre les mises à jour ?
+La DINUM anime un groupe de travail logiciels libres pour les administrateurs ministériels des données, des algorithmes et des codes sources.
 
-Voir notre [page avec tous les flux RSS](https://code.gouv.fr/public/#/feeds).
+[Voir la page dédiée](/fr/mission/gtt-ll-amdac/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-### Comment ces données sont-elles construites ?
+## Conseil d'expertise et de mobilisation logiciels libres
 
-1. [codegouvfr-sources](https://git.sr.ht/~codegouvfr/codegouvfr-sources) référence les comptes d'organisation ouverts par des organismes publics sur sr.ht (SourceHut), github.com, gitlab.com ou des forges GitLab locales.
-2. [codegouvfr-fetch-data](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data) récupère les données des organisations et des dépôts à partir de cette liste.
-3. [codegouvfr-consolidate-data](https://git.sr.ht/~codegouvfr/codegouvfr-consolidate-data) consolide les données en y ajoutant des informations.
-4. [codegouvfr-public](https://git.sr.ht/~codegouvfr/codegouvfr-public) expose les données.
+La DINUM anime un conseil d'expertise et de mobilisation autour du plan d'action logiciels libres et communs numériques. Ce conseil vise à favoriser l'entraide entre administrations et l'accès à des services proposés par l'écosystème.
 
-Nous ne référençons pour l'instant que les comptes de sr.ht (SourceHut), github.com, gitlab.com et des instances GitLab locales : si vous pouvez aider à référencer des comptes qui publient sur d'autres forges ([SourceHut](https://sourcehut.org/), [BitBucket](https://bitbucket.org), instances [Gogs](https://gogs.io) ou [Gitea](https://gitea.io), etc.), n'hésitez pas à [contribuer](https://git.sr.ht/~codegouvfr/codegouvfr-fetch-data).
+Il réunit d'un côté des agents publics d'administrations engagées dans l'utilisation et le développement de logiciels libres, de l'autre des acteurs de l'écosystème : associations et fondations rassemblant des citoyens, des collectivités et des entreprises.
+
+Son rôle est d'être un espace d'échange entre différents acteurs du logiciel libre visant ensemble la réussite du [plan d'action logiciels libres](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
+
+Le conseil peut se saisir de toute question à l'intersection entre le logiciel libre et la transformation numérique de l'administration et remonter à la DINUM un avis consultatif que le conseil décide ou non de rendre public.  Si vous souhaitez présenter au conseil un sujet sur lequel celui-ci pourrait émettre un avis, vous pouvez l'envoyer par mail au pôle logiciels libres qui le relaiera.
+
+La présentation ci-dessus détaille sa composition et les attentes des parties prenantes.
+
+[Voir la présentation en ligne du conseil logiciels libres](https://speakerdeck.com/bluehats/presentation-du-conseil-logiciels-libres-anime-par-la-dinum){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+[Voir la page dédiée pour plus de détails](/fr/mission/conseil-logiciels-libres/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+## Présentation des ateliers BlueHats animés par la mission
+
+Les [ateliers BlueHats](/fr/bluehats/tags/atelier/) animés par la mission logiciels libres permettent de découvrir des solutions libres déployées dans des administrations.
+
+Chaque agent public est invité à proposer un atelier BlueHats en [nous
+écrivant](mailto:contact@code.gouv.fr).
+
+[Voir le dépôt dédié](https://github.com/blue-hats/ateliers/blob/main/ateliers.org){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+## Présentation du programme "BlueHats Semester of Code"
+
+`BlueHats Semester of Code` est un programme de stages de 6 mois permettant de contribuer à des logiciels libres utilisés dans les administrations.  Il est destiné aux étudiants de CentraleSupélec de 2ème année en césure.
+
+[Voir la page dédiée](/fr/bluehats/bluehats-semester-of-code/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+## Marchés interministériels de support et d'expertise logiciels libres
+
+- [Présentation](/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/) des marchés interministériels de support et d'expertise logiciels libres.
+- [Études de veille sur des logiciels libres](https://gitlab.adullact.net/marche-sll/etudes-de-veille/) publiées dans le cadre du marché.
+- Liste des [bénéficiaires des marchés de support et d'expertise](/fr/utiliser/marches-logiciels-libres/).
+- Liste des logiciels libres concernés par les marchés de support et d'expertise [web](/fr/utiliser/marches-logiciels-libres-liste-logiciels/) ou [csv](/rsrc/marches-logiciels-libres-liste-logiciels.csv).
+
+## Où échanger avec d'autres agents publics libristes et la communauté BlueHats ?
+
+Les BlueHats sont toutes les personnes qui souhaitent montrer qu'elles contribuent à des logiciels libres développés et/ou utilisés par l'administration publique : les agents publics impliqués dans le développement de ces logiciels, bien sûr, mais aussi les citoyens qui reconnaissent que leurs actions pour des logiciels libres aide les projets de l'administration.
+
+[Voir la page dédiée](/fr/contact/espaces-communication-bluehats/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+## Logiciels libres auxquels la mission contribue
+
+Les membres de la mission logiciels libres ont le droit de prendre sur leur temps de travail à hauteur de 20% maximum pour contribuer à des logiciels libres.  Parmi eux:
+
+- https://git.sr.ht/~bzg/woof
+- https://git.sr.ht/~bzg/subscribe/
+- https://git.sr.ht/~bzg/choices
+- https://git.savannah.gnu.org/cgit/emacs/org-mode.git/
+
+## Ressources (glossaire, interventions, liens externes, etc.)
+
+- [Glossaire](/fr/doc/glossaire/) de la mission logiciels libres.
+- Pour les autres ressources, voir la [page dédiée](/fr/doc/ressources/).
+
+## Politique de contribution aux logiciels libres de l'Etat (2018-2021)
+
+Cette politique de contribution est en cours de remplacement par les [guides](/fr/doc/) de la mission logiciels libres mais elle est toujours valable et vous pouvez [la consulter](https://man.sr.ht/~codegouvfr/logiciels-libres/archives/pocos/index.md).

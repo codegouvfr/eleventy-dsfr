@@ -4,7 +4,7 @@ module.exports = {
     tags: [
         "bluehats_posts", "rencontre", "event"
     ],
-    layout: "layouts/post.njk",
+    layout: "layouts/bluehats-post.njk",
     permalink: function (data) {
         return `/${data.lang}/bluehats/${data.page.fileSlug}/`;
     },

@@ -68,4 +68,4 @@ C’est ainsi que nous avons construit des communautés avec aujourd'hui plus de
 
 Pour en savoir plus, lisez le retour sur le workshop GeoNature, outil de gestion et de diffusion de données de biodiversité :
 
-`>>` <http://www.ecrins-parcnational.fr/actualite/geeks-geonature-carburent>
+`>>` <https://www.ecrins-parcnational.fr/actualite/geeks-geonature-carburent>

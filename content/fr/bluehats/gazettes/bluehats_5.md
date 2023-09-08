@@ -28,7 +28,7 @@ Enfin, la communauté des référents SILL s'est élargie : si vous êtes agent 
 
 *Un témoignage de Cédric Frayssinet, chargé de Missions DANE, référent Usages & Outils.*
 
-La Délégation Académique au Numérique Éducatif (DANE) est un service du [Rectorat de Lyon](http://dane.ac-lyon.fr). Il est piloté par un DAN, 2 DAN adjoints et composé d’une grosse dizaine d’enseignants en mi-temps. Ce fonctionnement permet une meilleure prise en compte des usages du numérique dans les établissements scolaires.
+La Délégation Académique au Numérique Éducatif (DANE) est un service du [Rectorat de Lyon](https://dane.ac-lyon.fr). Il est piloté par un DAN, 2 DAN adjoints et composé d’une grosse dizaine d’enseignants en mi-temps. Ce fonctionnement permet une meilleure prise en compte des usages du numérique dans les établissements scolaires.
 
 Depuis toujours, la DANE de Lyon s’est positionnée en faveur des logiciels libres.  Outre l’aspect éthique qui concerne encore trop peu de monde, ce sont les seuls logiciels que tous les élèves peuvent installer et utiliser chez eux, sans contraintes et en respectant les enjeux de la protection des données personnelles.
 

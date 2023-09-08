@@ -76,7 +76,7 @@ Retrouvez nos autres interventions sur la [page dédiée de notre wiki](/fr/doc/
 - Retrouvez un entretien avec Bastien Guerry dans le numéro d'[IGN Magazine (hiver 2022 - PDF)](https://www.ign.fr/publications-de-l-ign/institut/kiosque/publications/IGN_Magazine/105/ign_mag_105.pdf) ainsi qu'une rubrique « Les logiciels libres, des atouts pour la recherche et l’enseignement »
 - Un [article sur linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6887744635700097024/) de Valentin Olive avec un retour sur la rencontre sur les enjeux du logiciel libre dans la recherche du 14 janvier.
 - L'école CentraleSupélec évoque son partenariat avec la DINUM pour le BlueHats Semester of Code [sur son site](https://www.linkedin.com/posts/centralesupelec_d%C3%A9veloppement-de-logiciels-libres-lancez-vous-activity-6897829796701724672-QR7u/) et [ce post linkedin](https://www.centralesupelec.fr/fr/lancez-vous-dans-le-logiciel-libre-avec-centralesupelec-et-etalab).
-- [La gazette du cloud de janvier 2022](https://news.gandi.net/fr/nl/la-gazette-du-cloud-janvier-22/) publiée par gandi.net mentionne l'argumentaire du pôle logiciels libres où nous expliquons [pourquoi nous utilisons SourceHut](https://man.sr.ht/~codegouvfr/logiciels-libres/pourquoi-sourcehut.md) pour publier une partie de nos codes sources.
+- [La gazette du cloud de janvier 2022](https://news.gandi.net/fr/nl/la-gazette-du-cloud-janvier-22/) publiée par gandi.net mentionne l'argumentaire du pôle logiciels libres où nous expliquons [pourquoi nous utilisons SourceHut](https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut/) pour publier une partie de nos codes sources.
 
 ### En France
 

@@ -77,7 +77,7 @@ Une belle occasion pour constater que la croissance des utilisateurs, leur impli
 
 La communauté Geotrek atteint désormais une certaine maturité et de plus en plus de structures trouvent leur place (et leur compte !) dans ce modèle horizontal, collectif, transversal et qui réunit des opérateurs issus de différents réseaux.
 
-Pour en savoir plus, [lire l’article du Parc national des Ecrins sur les rencontres Geotrek 2019](http://www.ecrins-parcnational.fr/actualite/geotrek-coulisses-portails-randonnee).
+Pour en savoir plus, [lire l’article du Parc national des Ecrins sur les rencontres Geotrek 2019](https://www.ecrins-parcnational.fr/actualite/geotrek-coulisses-portails-randonnee).
 
 ## Revue de presse
 

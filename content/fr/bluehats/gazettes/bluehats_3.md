@@ -112,7 +112,7 @@ Dans un contexte d'acteurs du spatial, cette journée se propose d'éclairer les
 
 ### 7 et 8 novembre : Rencontres Geotrek (Nîmes)
 
-Dans la continuité des précédentes Rencontres, le Comité de pilotage de [Geotrek](http://geotrek.fr/) ([dépôt de code](https://github.com/GeotrekCE?language=html)) - une suite logicielle de webmapping, composée d'un outil métier SIG, d'un site internet et d'une application mobile - propose aux utilisateurs et aux partenaires intéressés par l'outil de se réunir pour partager des retours d'expérience, découvrir les nouveautés et participer à des ateliers.
+Dans la continuité des précédentes Rencontres, le Comité de pilotage de [Geotrek](https://geotrek.fr/) ([dépôt de code](https://github.com/GeotrekCE?language=html)) - une suite logicielle de webmapping, composée d'un outil métier SIG, d'un site internet et d'une application mobile - propose aux utilisateurs et aux partenaires intéressés par l'outil de se réunir pour partager des retours d'expérience, découvrir les nouveautés et participer à des ateliers.
 
 `>>` [Lire le \*programme en PDF](https://geotrek.ecrins-parcnational.fr/rencontres/2019/Rencontres-Geotrek-2019-Programme.pdf)\* et rendez-vous sur [la page d'inscription](https://framaforms.org/inscription-rencontres-geotrek-2019-1569231468) avant le 22 octobre\*.
 

@@ -50,7 +50,7 @@ La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à
 
 - Nous avons ajouté de **nouveaux filtres de recherche** : les organisations par ministère ou autre institution de rattachement ; les dépôts selon qu'ils ont un fichier `CONTRIBUTING.md` à la racine ; les dépôts à partir desquels sont publiés des bibliothèques ; les dépendances selon leur type.
 
-- Nous référençons désormais les codes sources hébergés sur la forge [SourceHut](https://sourcehut.org/), notamment ceux du pôles logiciels libres (par ici pour les [explications](https://man.sr.ht/~codegouvfr/logiciels-libres/pourquoi-sourcehut.md)).
+- Nous référençons désormais les codes sources hébergés sur la forge [SourceHut](https://sourcehut.org/), notamment ceux du pôles logiciels libres (par ici pour les [explications](https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut/)).
 
 - Nous avons amélioré la détection des [dépendances](https://code.gouv.fr/public/#/deps) et nous avons ajouté celles de l'écosystème [Rust](https://code.gouv.fr/public/#/repos?language=Rust) à partir des fichiers `Cargo.toml`.
 

@@ -130,4 +130,4 @@ Les membres de la mission logiciels libres ont le droit de prendre sur leur temp
 
 ## Politique de contribution aux logiciels libres de l'Etat (2018-2021)
 
-Cette politique de contribution est en cours de remplacement par les [guides](/fr/doc/) de la mission logiciels libres mais elle est toujours valable et vous pouvez [la consulter](https://man.sr.ht/~codegouvfr/logiciels-libres/pocos/index.md).
+Cette politique de contribution est en cours de remplacement par les [guides](/fr/doc/) de la mission logiciels libres mais elle est toujours valable et vous pouvez [la consulter](https://man.sr.ht/~codegouvfr/logiciels-libres/archives/pocos/index.md).

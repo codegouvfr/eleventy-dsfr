@@ -27,7 +27,7 @@ You can read the english translation of the French [action plan for Free Softwar
 
 # Contribution Policy for Free Software of the State (2018-2021)
 
-- [Contribution Policy for Free Software of the State (2018-2021)](https://man.sr.ht/~codegouvfr/logiciels-libres/pocos/index.en.md)
+- [Contribution Policy for Free Software of the State (2018-2021)](https://man.sr.ht/~codegouvfr/logiciels-libres/archives/pocos/index.en.md)
 
 # License of this document
 

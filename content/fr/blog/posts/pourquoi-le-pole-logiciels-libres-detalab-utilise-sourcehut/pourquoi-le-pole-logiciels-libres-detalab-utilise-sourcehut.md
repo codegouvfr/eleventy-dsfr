@@ -12,7 +12,7 @@ image:
   alt: "Capture d'écran de sourcehut.org"
 ---
 
-*Read this blog post in english [here](https://man.sr.ht/~codegouvfr/logiciels-libres/why-sourcehut.md)*
+*Read this blog post in english [here](https://man.sr.ht/~codegouvfr/logiciels-libres/archives/why-sourcehut.md)*
 
 Pour publier ses codes sources, chaque administration est libre de choisir entre plusieurs options, présentées en mai 2018 dans la [politique de contribution de l'Etat aux logiciels libres](https://www.numerique.gouv.fr/publications/politique-logiciel-libre/), politique qui sera mise à jour en 2022.
 

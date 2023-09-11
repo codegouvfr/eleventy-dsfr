@@ -37,7 +37,7 @@ module.exports = {
             title: "Présentation du socle interministériel de logiciels libres",
             description: ``
         }, {
-            url: "/doc/licences-libres-dinum/",
+            url: "/fr/doc/licences-libres-dinum/",
             title: "Les licences libres acceptées pour les logiciels du SILL",
             description: ``
         },

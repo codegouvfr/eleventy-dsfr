@@ -3,7 +3,7 @@ title: À propos
 layout: layouts/page.njk
 permalink: /fr/mission/
 eleventyNavigation:
-  key: Mission
+  key: La mission logiciels libres
   parent: À propos
   order: 1
 ---

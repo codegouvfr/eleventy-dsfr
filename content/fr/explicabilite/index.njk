@@ -1,0 +1,34 @@
+---
+title: Outils pour expliquer les décisions administratives
+layout: layouts/page.njk
+eleventyNavigation:
+  key: Explicabilité
+  parent: Ressources
+  order: 9
+---
+{% set callout = {
+  description: "Cette page recense les outils logiciels pouvant aider les administrations à mettre en œuvre l'explication des décisions administratives lorsque celles-ci reposent sur des algorithmes opérés par des programmes informatiques"
+} %}
+{% include "components/callout.njk" %}
+
+<h2>Différents outils, différentes finalités</h2>
+<p></p>
+
+<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
+  {% asyncAll outilExplicabilite in outilsExplicabilite %}
+  <div class="fr-col-12 fr-col-md-4">
+    {% set card = {
+      url: false,
+      externalUrl: outilExplicabilite.url,
+      title: outilExplicabilite.title,
+      description: outilExplicabilite.description
+    } %}
+    {% include "components/card.njk" %}
+  </div>
+  {% endall %}
+</div>
+
+<p>
+  Vous souhaitez proposer d'autres outils ? N'hésitez pas à nous <a
+      class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/contact/">contacter</a>
+</p>

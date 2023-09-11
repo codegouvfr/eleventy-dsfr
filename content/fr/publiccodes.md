@@ -1,8 +1,8 @@
 ---
 eleventyNavigation:
-  key: Codes publics
+  key: Codes sources publics
   externalUrl: https://code.gouv.fr/public/
   parent: Ressources
-  order: 4
+  order: 1
 permalink: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Données personnelles et cookies
-layout: layouts/post.njk
+layout: layouts/page.njk
 slugOverride: donnees personnelles
 showBreadcrumb: true
 date: 2021-04-29

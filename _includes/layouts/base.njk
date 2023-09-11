@@ -27,6 +27,7 @@
   <meta name="generator" content="{{ eleventy.generator }}">
 
   <title>{{ title or metadata.title }}</title>
+  <script type="text/javascript" src="/js/matomo.js"></script>
 </head>
 <body id="top">
 {% include "templates/header.njk" %}
@@ -53,6 +54,5 @@
 <script type="module" src="/js/dsfr.module.min.js"></script>
 <script type="text/javascript" nomodule src="/js/dsfr.nomodule.min.js"></script>
 <!-- Script Matomo pour le suivi des visites -->
-<script type="text/javascript" src="/js/matomo.js"></script>
 </body>
 </html>

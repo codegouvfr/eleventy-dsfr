@@ -1,6 +1,6 @@
 ---
 title: Accessibilité
-layout: layouts/post.njk
+layout: layouts/page.njk
 slugOverride: accessibilite
 showBreadcrumb: true
 date: 2021-04-14

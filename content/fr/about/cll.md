@@ -1,6 +1,6 @@
 ---
 title: Le conseil logiciels libres
-layout: layouts/post.njk
+layout: layouts/page.njk
 eleventyNavigation:
   key: Le conseil logiciels libres
   parent: À propos

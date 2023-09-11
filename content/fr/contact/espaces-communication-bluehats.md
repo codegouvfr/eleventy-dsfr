@@ -1,6 +1,6 @@
 ---
 title: Où échanger avec d'autres agents publics libristes et la communauté BlueHats ?
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /contact/
     title: Contact

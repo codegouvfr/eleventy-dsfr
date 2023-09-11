@@ -1,6 +1,6 @@
 ---
 title: Ressources diverses
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /doc/
     title: Documentation

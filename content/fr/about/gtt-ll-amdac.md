@@ -1,6 +1,6 @@
 ---
 title: Groupe de travail logiciels libres au sein du réseau des AMDAC
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /mission/
     title: Mission

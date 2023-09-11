@@ -1,6 +1,6 @@
 ---
 title: Licences libres pour les codes sources publics, les catalogues GouvTech et le SILL
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /doc/
     title: Documentation

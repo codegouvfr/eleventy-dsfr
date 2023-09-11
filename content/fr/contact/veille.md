@@ -1,6 +1,6 @@
 ---
 title: Suivre les activités de la mission logiciels libres
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /contact/
     title: Contact

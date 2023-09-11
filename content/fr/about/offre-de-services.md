@@ -1,6 +1,6 @@
 ---
 title: Offre de services de la mission logiciels libres
-layout: layouts/post.njk
+layout: layouts/page.njk
 segments:
   - url: /mission/
     title: Mission

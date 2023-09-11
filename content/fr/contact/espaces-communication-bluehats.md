@@ -10,11 +10,11 @@ showBreadcrumb: true
 ## Espaces publics ouverts à tous
 
 - La [liste de discussion publique #BlueHats](https://lists.sr.ht/~codegouvfr/bluehats): vous pouvez vous y abonner en écrivant à `~codegouvfr/bluehats+subscribe@lists.sr.ht` et y envoyer des mails *en texte brut* en écrivant à `~codegouvfr/bluehats@lists.sr.ht`.  **Attention :** quand vous écrivez à la liste, celle-ci ne vous envoie pas de copie de vos propres mails.
-- Le canal public IRC `#bluehats` du serveur `irc.libera.chat`: vous pouvez [vous connecter via une interface web](https://web.libera.chat/#bluehats).  La mission logiciels libres est présent tous les lundi de 16h à 17h pour répondre à des questions.
+- Le canal public IRC `#bluehats` du serveur `irc.libera.chat`: vous pouvez [vous connecter via une interface web](https://web.libera.chat/#bluehats).  Le compte `codegouvfr` de la mission logiciels libres est en ligne tous les lundi de 16h à 17h pour répondre à vos questions.
 
 ## Espaces réservés aux agents publics
 
-- La liste de discussion privée `service-public-libre` gérée par l'association [ADULLACT](https://adullact.org/): vous pouvez vous abonner en envoyant un mail à `sympa@listes.adullact.org` avec comme sujet `SUBSCRIBE service-public-libre`, votre demande d'inscription sera traitée par un modérateur.
+- La liste de discussion privée `service-public-libre` gérée par l'association [ADULLACT](https://adullact.org/) : vous pouvez vous abonner en envoyant un mail à `sympa@listes.adullact.org` avec comme sujet `SUBSCRIBE service-public-libre`, votre demande d'inscription sera traitée par un modérateur.
 - La liste de discussion privée `sill-mainteneurs` gérée par la DINUM et qui rassemble les référents [SILL](https://code.gouv.fr/sill).  Vous ne pouvez la rejoindre que si vous devenez vous-même référent SILL (voir [comment](/fr/doc/sill/#qui-peut-etre-referent-sill)).
 
 Si vous avez accès à [Tchap](https://tchap.gouv.fr) :

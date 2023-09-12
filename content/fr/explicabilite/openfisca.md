@@ -10,7 +10,7 @@ showBreadcrumb: true
 ### Introduction
 
 OpenFisca est le moteur libre et ouvert le plus largement utilisé au monde pour transformer la loi en code et calculer son application aussi bien sur des situations individuelles que sur les populations locale et nationale.
-Développé en France depuis 2011, il est utilisé en production depuis 2014 par la DINUM, distingué par la [Commission européenne](https://joinup.ec.europa.eu/collection/sharing-and-reuse-it-solutions/sharing-reuse-awards-2019-results#oss-inno) en 2019 en par l’[OCDE](https://oecd-opsi.org/publications/cracking-the-code/) en 2020, et déployé sur [quatre continents](https://openfisca.org/fr/packages) en 2022.
+Développé en France depuis 2011, il est utilisé en production depuis 2014 par la DINUM, distingué par la [Commission européenne](https://joinup.ec.europa.eu/collection/sharing-and-reuse-it-solutions/sharing-reuse-awards-2019-results#oss-inno) en 2019 en par l’[OCDE](https://oecd-opsi.org/publications/cracking-the-code/) en 2020, et déployé sur [quatre continents](https://openfisca.org/fr/packages) en 2022. En 2023, OpenFisca est reconnu comme [innovation de l'année](https://www.khaleejtimes.com/uae/sheikh-saif-honours-french-governments-openfisca-project) au World Government Summit et comme [Bien Commun Numérique](https://app.digitalpublicgoods.net/a/10318) par l'Agence des Nations Unies pour le Développement et l'agence norvégienne pour le développement, à travers la [Digital Public Goods Alliance](https://digitalpublicgoods.net).
 
 ### Présentation
 

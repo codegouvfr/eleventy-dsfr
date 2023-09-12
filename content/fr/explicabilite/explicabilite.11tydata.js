@@ -4,7 +4,7 @@ module.exports = {
             url: "/fr/explicabilite/openfisca/",
             title: "OpenFisca",
             description: `OpenFisca est le moteur libre et ouvert le plus largement utilisé au monde pour transformer la loi en code et calculer son application aussi bien sur des situations individuelles que sur les populations locale et nationale.</br>
-Développé en France depuis 2011, il est utilisé en production depuis 2014 par la DINUM, distingué par la Commission européenne en 2019 en par l’OCDE en 2020, et déployé sur quatre continents en 2022.`
+Développé en France depuis 2011, il est utilisé en production depuis 2014 par la DINUM, distingué par la Commission européenne en 2019 et par l’OCDE en 2020, et déployé sur quatre continents en 2022, et reconnu comme Bien Commun Numérique par l'Agence des Nations Unies pour le Développement en 2023.`
         }, {
             url: "/fr/explicabilite/publicodes/",
             title: "Publi.Codes",

@@ -13,18 +13,18 @@ showBreadcrumb: true
 
 ## Organismes publics auxquels sont rattachés les participants coté administrations
 
-- AMUE
-- ANSSI
-- CNIL
-- CNNum
-- DAJ du MEFR
-- DGFIP
-- Gendarmerie nationale
-- INRIA
-- MEAE
-- MENJS
-- MESRI
-- Software Heritage
+- [AMUE](https://www.amue.fr/)
+- [ANSSI](https://www.ssi.gouv.fr/)
+- [CNIL](https://cnil.fr/fr)
+- [CNNum](https://cnnumerique.fr/)
+- [DAJ du MEFR](https://www.economie.gouv.fr/daj)
+- [DGFIP](https://www.economie.gouv.fr/dgfip)
+- [Gendarmerie nationale](https://www.gendarmerie.interieur.gouv.fr/)
+- [INRIA](https://www.inria.fr/fr)
+- [MEAE](https://www.diplomatie.gouv.fr/fr/)
+- [MENJS](https://www.education.gouv.fr/)
+- [MESRI](https://www.enseignementsup-recherche.gouv.fr/fr)
+- [Software Heritage](https://www.softwareheritage.org/?lang=fr)
 
 ## Membres de l'écosystème logiciels libres
 

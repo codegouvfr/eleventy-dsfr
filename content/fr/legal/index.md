@@ -31,7 +31,7 @@ Téléphone : 09 72 10 10 07
 
 ## Code source du site
 
-Le [code source du site est disponible sur GitHub](https://github.com/codegouvfr/codegouv-website).
+Le [code source du site est publié sur GitHub](https://github.com/codegouvfr/codegouv-website).
 
 ## Accessibilité
 

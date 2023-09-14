@@ -22,7 +22,7 @@ Vous travaillez dans une collectivité, une administration centrale ou déconcen
 
 L'Open Source Observatory est un projet européen qui publie des bilans réguliers des progrès de l'Open Source dans les pays membres de l'Union européenne.  Le projet fête ses 15 ans et propose de mettre en avant les meilleurs solutions libres développées par des administrations des pays membres.
 
-Toutes les administrations peuvent candidater *jusqu'au 23 septembre 2023*.
+Toutes les administrations peuvent candidater *jusqu'au 21 septembre 2023*.
 
 Toutes les informations sont à retrouver [sur leur site](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/osor-awards-2023) et voici le [formulaire de candidature](https://ec.europa.eu/eusurvey/runner/OSORawards2023).
 

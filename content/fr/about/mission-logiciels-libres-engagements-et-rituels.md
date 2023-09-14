@@ -58,5 +58,5 @@ Nous communiquons au sein de l'équipe via un salon Tchap privé.
 
 Chaque membre envoie le vendredi midi un mail à `contact@code.gouv.fr` indiquant ce qu'il a fait cette semaine et ce qu'il va faire la suivante.  S'il a contribué à des logiciels libres extérieurs à la mission, il les indique de façon distincte.
 
-Nous maintenons une présence publique sur le canal IRC `#bluehats` du serveur `irc.libera.chat` tous les lundi de 16h à 17h.  Si vous n'avez pas de client IRC, vous pouvez [rejoindre le salon de discussion publique via cette interface web](https://web.libera.chat/).
+Nous maintenons une présence publique sur le canal IRC `#bluehats` du serveur `irc.libera.chat` tous les lundi de 17h à 18h.  Si vous n'avez pas de client IRC, vous pouvez [rejoindre le salon de discussion publique via cette interface web](https://web.libera.chat/).
 

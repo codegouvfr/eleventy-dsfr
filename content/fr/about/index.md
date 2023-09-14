@@ -121,6 +121,23 @@ Les membres de la mission logiciels libres ont le droit de prendre sur leur temp
 - [git.sr.ht/~bzg/subscribe](https://git.sr.ht/~bzg/subscribe/)
 - [git.sr.ht/~bzg/choices](https://git.sr.ht/~bzg/choices)
 - [git.savannah.gnu.org/cgit/emacs/org-mode.git](https://git.savannah.gnu.org/cgit/emacs/org-mode.git/)
+- [github.com/hjonin/todoist-to-joplin](https://github.com/hjonin/todoist-to-joplin)
+- [github.com/hjonin/todoist-to-md](https://github.com/hjonin/todoist-to-md)
+
+Contributions passées :
+
+- [github.com/InseeFrLab/onyxia-web](https://github.com/InseeFrLab/onyxia-web)
+- [github.com/InseeFrLab/keycloakify](https://github.com/InseeFrLab/keycloakify)
+- [github.com/InseeFrLab/onyxia-ui](https://github.com/InseeFrLab/onyxia-ui)
+- [github.com/garronej/tss-react](https://github.com/garronej/tss-react)
+- [github.com/garronej/ts-ci](https://github.com/garronej/ts-ci)
+- [github.com/garronej/redux-clean-architecture](https://github.com/garronej/redux-clean-architecture)
+- [github.com/garronej/denoify](https://github.com/garronej/denoify)
+- [github.com/garronej/evt](https://github.com/garronej/evt)
+- [github.com/garronej/tsafe](https://github.com/garronej/tsafe)
+- [github.com/garronej/cra-envs](https://github.com/garronej/cra-envs)
+- [github.com/garronej/powerhooks](https://github.com/garronej/powerhooks)
+- [github.com/thieryw/gitlanding](https://github.com/thieryw/gitlanding)
 
 ## Autres ressources
 

@@ -20,7 +20,7 @@ Il *contribue* au mouvement BlueHats : les ateliers, la gazette et le programme
 Il *anime* le [conseil d'expertise et de mobilisation logiciels libres](/fr/mission/conseil-logiciels-libres/), qui réunit des administrations et des acteurs de l'écosystème du logiciel libre, et qui doit contribuer à la réussite du plan d'action.
 
 ## Engagements
-### Nos engagements envers nos interlocuteurs
+### Envers nos interlocuteurs
 
 Nos interlocuteurs prioritaires sont :
 
@@ -39,12 +39,12 @@ Nous engagements vis-à-vis des ces interlocuteurs sont :
 Nous répondons à tous les emails reçus :
 
 - sur `contact@code.gouv.fr`
-- sur `~codegouvfr/logiciels-libres@lists.sr.ht`
-- sur `~codegouvfr/dev@lists.sr.ht`
+- sur [~codegouvfr/logiciels-libres@lists.sr.ht](https://lists.sr.ht/~codegouvfr/logiciels-libres)
+- sur [~codegouvfr/dev@lists.sr.ht](~codegouvfr/dev@lists.sr.ht)
 
 Nous ne répondons pas systématiquement aux sollicitations sur les réseaux sociaux.
 
-### Nos engagements au sein de la mission
+### Au sein de la mission
 
 - *Free software first* : Nous publions dès le premier commit le plus de nos codes sources possible et nous utilisons le plus possible de logiciels libres.
 - *Culture produit* : Nous articulons tout ce que nous faisons autour de *produits* (logiciels, services en ligne, ressources), lesquels servent notre mission et reflètent nos engagements.

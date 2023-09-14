@@ -2,7 +2,7 @@
 layout: layouts/page.njk
 ---
 {# List every content page in the project #}
-<ul>
+<ul data-pagefind-ignore>
   {% for entry in collections.all %}
     {% if entry.url %}
       <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>

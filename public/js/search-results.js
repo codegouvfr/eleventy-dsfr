@@ -1,18 +1,23 @@
 (() => {
     const RESULTS_PER_PAGE = 10;
 
-    const SEARCH_RESULTS_SELECTOR = "#search-results";
+    const SEARCH_TERM_SELECTOR = "#search-term";
     const RESULT_COUNT_SELECTOR = "#result-count";
+    const SEARCH_RESULTS_SELECTOR = "#search-results";
 
     const FULL_WIDTH_COL_CLASS = "fr-col-12";
 
-    const searchResultList = document.querySelector(SEARCH_RESULTS_SELECTOR);
+    const searchTermText = document.querySelector(SEARCH_TERM_SELECTOR);
     const resultCounter = document.querySelector(RESULT_COUNT_SELECTOR);
+    const searchResultList = document.querySelector(SEARCH_RESULTS_SELECTOR);
 
     const getSearchResults = async () => {
         const pagefind = await import(PAGEFIND_URL);
         const queryParams = new URLSearchParams(window.location.search);
-        const search = await pagefind.search(queryParams.get(SEARCH_PARAM));
+        const searchTerm = queryParams.get(SEARCH_PARAM);
+        searchTermText.textContent = searchTerm;
+        pagefind.init();
+        const search = await pagefind.search(searchTerm);
         return search.results;
     }
 

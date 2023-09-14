@@ -14,7 +14,7 @@ Voici des informations pour [organiser votre veille](/fr/contact/veille/).
 
 Ce site présente les ressources publiées et mises en oeuvre dans le cadre du [plan d'action logiciels libres et communs numériques](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
 
-Son code source est disponible [sur ce dépôt](https://github.com/codegouvfr/codegouv-website).
+Son code source est publié [sur ce dépôt](https://github.com/codegouvfr/codegouv-website).
 
 ## Equipe
 

@@ -86,7 +86,7 @@ La présentation ci-dessus détaille sa composition et les attentes des parties 
 
 [Voir la page dédiée pour plus de détails](/fr/mission/conseil-logiciels-libres/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Présentation des ateliers BlueHats animés par la mission
+## Ateliers BlueHats animés par la mission
 
 Les [ateliers BlueHats](/fr/bluehats/tags/atelier/) animés par la mission logiciels libres permettent de découvrir des solutions libres déployées dans des administrations.
 
@@ -95,7 +95,7 @@ Chaque agent public est invité à proposer un atelier BlueHats en [nous
 
 [Voir le dépôt dédié](https://github.com/blue-hats/ateliers/blob/main/ateliers.org){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Présentation du programme "BlueHats Semester of Code"
+## Programme "BlueHats Semester of Code" (2022-2023)
 
 `BlueHats Semester of Code` est un programme de stages de 6 mois permettant de contribuer à des logiciels libres utilisés dans les administrations.  Il est destiné aux étudiants de CentraleSupélec de 2ème année en césure.
 
@@ -118,15 +118,13 @@ Les BlueHats sont toutes les personnes qui souhaitent montrer qu'elles contribue
 
 Les membres de la mission logiciels libres ont le droit de prendre sur leur temps de travail à hauteur de 20% maximum pour contribuer à des logiciels libres.  Parmi eux:
 
-- https://git.sr.ht/~bzg/woof
-- https://git.sr.ht/~bzg/subscribe/
-- https://git.sr.ht/~bzg/choices
-- https://git.savannah.gnu.org/cgit/emacs/org-mode.git/
+- [git.sr.ht/~bzg/subscribe](https://git.sr.ht/~bzg/subscribe/)
+- [git.sr.ht/~bzg/choices](https://git.sr.ht/~bzg/choices)
+- [git.savannah.gnu.org/cgit/emacs/org-mode.git](https://git.savannah.gnu.org/cgit/emacs/org-mode.git/)
 
-## Ressources (glossaire, interventions, liens externes, etc.)
+## Autres ressources
 
-- [Glossaire](/fr/doc/glossaire/) de la mission logiciels libres.
-- Pour les autres ressources, voir la [page dédiée](/fr/doc/ressources/).
+Voir la [page dédiée](/fr/doc/ressources/).
 
 ## Politique de contribution aux logiciels libres de l'Etat (2018-2021)
 

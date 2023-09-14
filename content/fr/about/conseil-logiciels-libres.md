@@ -17,6 +17,7 @@ showBreadcrumb: true
 - [ANSSI](https://www.ssi.gouv.fr/)
 - [CNIL](https://cnil.fr/fr)
 - [CNNum](https://cnnumerique.fr/)
+- [Comité pour la science ouverte](https://www.ouvrirlascience.fr)
 - [DAJ du MEFR](https://www.economie.gouv.fr/daj)
 - [DGFIP](https://www.economie.gouv.fr/dgfip)
 - [Gendarmerie nationale](https://www.gendarmerie.interieur.gouv.fr/)

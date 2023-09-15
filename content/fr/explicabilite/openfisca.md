@@ -3,7 +3,7 @@ title: OpenFisca
 layout: layouts/page.njk
 segments:
   - url: /explicabilite/
-    title: OpenFisca
+    title: Explicabilité
 showBreadcrumb: true
 ---
 

@@ -3,7 +3,7 @@ title: Publi.Codes
 layout: layouts/page.njk
 segments:
   - url: /explicabilite/
-    title: Publi.Codes
+    title: Explicabilité
 showBreadcrumb: true
 ---
 

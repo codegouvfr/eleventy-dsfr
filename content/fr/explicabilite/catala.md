@@ -3,7 +3,7 @@ title: Catala
 layout: layouts/page.njk
 segments:
   - url: /explicabilite/
-    title: Catala
+    title: Explicabilité
 showBreadcrumb: true
 ---
 

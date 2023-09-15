@@ -62,6 +62,7 @@ Dans l'éducation et l’enseignement supérieur, le libre et les communs numér
 ### En français
 
 - [IA : cette menace qui plane au-dessus de ChatGPT](https://www.lexpress.fr/economie/high-tech/ia-cette-menace-qui-plane-au-dessus-de-chatgpt-UYK3OWCEC5DFTHBM63TZWK3VCE/), lexpress.fr, septembre 2023
+- [L’État veut lever le risque juridique lié au partage de ses outils numériques avec les collectivités](https://acteurspublics.fr/articles/letat-veut-lever-le-risque-juridique-lie-au-partage-de-ses-outils-numeriques-avec-les-collectivites), acteurspublics.fr, septembre 2023
 - [Communs numériques : explorer l’hypothèse des organisations frontières ](https://cnnumerique.fr/paroles-de/communs-numeriques-explorer-lhypothese-des-organisations-frontieres), cnnumerique.fr, septembre 2023
 - [Les 14 logiciels libres entrés au SILL cet été](https://www.silicon.fr/logiciels-libres-sill-ete-2023-470983.html), silicon.fr, septembre 2023
 - [Une liste des codes source des projets gouvernementaux et du secteur public français](https://code-garage.fr/blog/codes-source-des-projets-gouvernementaux-et-du-secteur-public-francais/), code-garage.fr, septembre 2023

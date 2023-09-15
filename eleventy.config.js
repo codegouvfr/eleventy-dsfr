@@ -53,6 +53,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+    // Custom collections
     eleventyConfig.addCollection("allPosts", function(collectionApi) {
         return collectionApi.getFilteredByTags("posts")
             .concat(collectionApi.getFilteredByTags("bluehats_posts"));

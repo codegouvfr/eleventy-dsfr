@@ -3,30 +3,30 @@ title: Gazette BlueHats 🧢 n°24
 date: 2023-09-16
 ---
 
-# 👏🏼 Faites connaître vos progrès dans l'utilisation ou le développement de logiciels libres
+## 👏🏼 Faites connaître vos progrès dans l'utilisation ou le développement de logiciels libres
 
-Vous êtes une administration et portez une initiative autour du libre ?  C'est la saison des prix !  Rendez-vous sur [notre entrée de blog](https://code.gouv.fr/fr/blog/faites-reconnaitre-vos-efforts-dutilisation-de-logiciels-libres/) pour découvrir le label Territoire Numérique Libre, le prix OSOR de l'Union européenne et le prix du « service public engagé » via lesacteursdulibre.com.
+Vous êtes une administration et portez une initiative autour du libre ?  C'est la saison des prix !  Rendez-vous sur [notre entrée de blog](https://code.gouv.fr/fr/blog/faites-reconnaitre-vos-efforts-dutilisation-de-logiciels-libres/) pour découvrir le label Territoire Numérique Libre, le prix OSOR de l'Union européenne et le prix du « service public engagé » (lesacteursdulibre.com).
 
-# 💽 Des outils libres pour renforcer la transparence algorithmique
+## 💽 Des outils libres pour renforcer la transparence algorithmique
 
 La mission logiciels libres publie une nouvelle page dédiée aux [outils libres pour renforcer la transparence algorithmique](https://code.gouv.fr/fr/explicabilite/) où nous présentons le vénérable [OpenFisca](https://openfisca.org/en/), l'astucieux [Publi.Codes](https://publi.codes/) et l'intriguant [Catala](https://catala-lang.org/).
 
-# 🔙 Retour sur la journée Helm Charts d'avril
+## 🔙 Retour sur la journée Helm Charts d'avril
 
 Nous publions un [résumé de la journée consacrée à la mutualisation des
 charts Helm](https://code.gouv.fr/fr/bluehats/retour-sur-la-journee-helm-charts-avril-2023/).  Pour poursuivre les échanges et la collaboration, rendez-vous sur le dépôt [awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm) !
 
-# Discussions sur les
+## 🗳️ Consultation des agents publics : une boîte à idée très libre !
 
-https://www.fonction-publique-plus.gouv.fr/participation/boite-a-idees/liste/thematiques/outils-numeriques
+Consultés sur les [outils numériques](https://www.fonction-publique-plus.gouv.fr/participation/boite-a-idees/liste/thematiques/outils-numeriques), certains agents publics font mention des logiciels libres.  N'hésitez pas à ajouter votre voix à la leur !
 
-# 🚀 Permanences de la mission logiciels libres
+## 🚀 Permanences de la mission logiciels libres
 
 Les membres de la mission logiciels libres répondent à vos questions les lundi de 17h à 18h sur IRC et, pour les agents publics, les jeudi de 11h à 12h sur le salon Tchap BlueHats.
 
 Voir la page où nous présentons [les moyens d'entrer en contact avec la communauté BlueHats](https://code.gouv.fr/fr/contact/espaces-communication-bluehats/).
 
-# 📖 Nouveau livre sur Matomo
+## 📖 Nouveau livre sur Matomo
 
 Un livre consacré à [Matomo](https://code.gouv.fr/sill/detail?name=Matomo), logiciel libre d'analyse d'audience, est paru aux Editions ENI en avril dernier. Il s'agit d'un ouvrage consacré à l'installation de Matomo sur le serveur de votre choix. En parallèle de cela, la version 5 de Matomo a vu le jour au mois de juin. Parmi les changements majeurs le passage de AngularJS à Vue.js.
 
@@ -38,7 +38,7 @@ Si vous connaissez le logiciel Matomo et que vous souhaitez faire un retour d'ex
 
 <br/>
 
-# ✍🏾 Le libre et les communs numériques dans les compétences et métiers d'avenir
+## ✍🏾 Le libre et les communs numériques dans les compétences et métiers d'avenir
 
 L’appel à manifestation d’intérêt « [Compétences et métiers d’avenir](https://www.gouvernement.fr/competences-et-metiers-d-avenir) » a produit des [informations et fiches thématiques](https://www.gouvernement.fr/cma-informations-et-fiches-thematiques).  Pour atteindre les priorités France 2030, la « maîtrise de technologies numériques souveraines et sûres » est identifiée comme levier.
 
@@ -50,16 +50,16 @@ Dans l'éducation et l’enseignement supérieur, le libre et les communs numér
 
 <br/>
 
-# 📅 Événements
+## 📅 Événements
 
 - [Lutece Translation Hackathon](https://lutece.paris.fr/en/jsp/site/Portal.jsp?page=blog&id=66&portlet_id=17), le 16 octobre, un événement #BlueHats organisé par la ville de Paris
 - [Campus du libre](https://www.campus-du-libre.org), le 21 octobre, un événement autour du libre organisé par des personnes issues du milieu universitaire (étudiants et personnels) pour les étudiants lyonnais.
 
 <br/>
 
-# 📰 Revue de presse
+## 📰 Revue de presse
 
-## En français
+### En français
 
 - [IA : cette menace qui plane au-dessus de ChatGPT](https://www.lexpress.fr/economie/high-tech/ia-cette-menace-qui-plane-au-dessus-de-chatgpt-UYK3OWCEC5DFTHBM63TZWK3VCE/), lexpress.fr, septembre 2023
 - [Communs numériques : explorer l’hypothèse des organisations frontières ](https://cnnumerique.fr/paroles-de/communs-numeriques-explorer-lhypothese-des-organisations-frontieres), cnnumerique.fr, septembre 2023
@@ -76,7 +76,7 @@ Dans l'éducation et l’enseignement supérieur, le libre et les communs numér
 
 <br/>
 
-## En anglais
+### En anglais
 
 - [New RFI shows the U.S. gov effort to invest in open source is picking up steam](https://blog.tidelift.com/new-rfi-shows-the-us-gov-effort-to-invest-in-open-source-is-picking-up-steam), tidelift.com, août 2023
 - [France bets big on open-source AI](https://www.politico.eu/article/open-source-artificial-intelligence-france-bets-big/), politico.eu, août 2023

@@ -9,6 +9,7 @@ module.exports = {
     copied: "Copied!",
     dark_theme: "Dark Theme",
     display_params: "Display Parameters",
+    edit_this_page: "Edit this page",
     filter_by_tag: "Filter by Tag:",
     filtered_by: "Filtered by",
     first_page: "First page",

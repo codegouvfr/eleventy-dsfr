@@ -53,6 +53,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+    // Custom collections
+    eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {
+        return collectionApi.getAll().sort((a, b) => {
+            return a.inputPath.localeCompare(b.inputPath);
+        });
+    });
+
     // Filters
     eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {
         return DateTime.fromFormat(dateStr, format || "yyyy-LL-dd", {zone: zone || "utc"}).toJSDate();

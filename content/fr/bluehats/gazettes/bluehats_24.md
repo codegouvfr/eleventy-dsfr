@@ -3,40 +3,29 @@ title: Gazette BlueHats 🧢 n°24
 date: 2023-09-16
 ---
 
-## 👏🏼 Faites connaître vos progrès dans l'utilisation ou le développement de logiciels libres
+## 🚀 Nouvelles de la mission
+### Faites connaître vos progrès dans l'utilisation ou le développement de logiciels libres
 
 Vous êtes une administration et portez une initiative autour du libre ?  C'est la saison des prix !  Rendez-vous sur [notre entrée de blog](https://code.gouv.fr/fr/blog/faites-reconnaitre-vos-efforts-dutilisation-de-logiciels-libres/) pour découvrir le label Territoire Numérique Libre, le prix OSOR de l'Union européenne et le prix du « service public engagé » (lesacteursdulibre.com).
 
-## 💽 Des outils libres pour renforcer la transparence algorithmique
+### Des outils libres pour renforcer la transparence algorithmique
 
 La mission logiciels libres publie une nouvelle page dédiée aux [outils libres pour renforcer la transparence algorithmique](https://code.gouv.fr/fr/explicabilite/) où nous présentons le vénérable [OpenFisca](https://openfisca.org/en/), l'astucieux [Publi.Codes](https://publi.codes/) et l'intriguant [Catala](https://catala-lang.org/).
 
-## 🔙 Retour sur la journée Helm Charts d'avril
+### Retour sur la journée Helm Charts d'avril
 
 Nous publions un [résumé de la journée consacrée à la mutualisation des
 charts Helm](https://code.gouv.fr/fr/bluehats/retour-sur-la-journee-helm-charts-avril-2023/).  Pour poursuivre les échanges et la collaboration, rendez-vous sur le dépôt [awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm) !
 
-## 🗳️ Consultation des agents publics : une boîte à idée très libre !
-
-Consultés sur les [outils numériques](https://www.fonction-publique-plus.gouv.fr/participation/boite-a-idees/liste/thematiques/outils-numeriques), certains agents publics font mention des logiciels libres.  N'hésitez pas à ajouter votre voix à la leur !
-
-## 🚀 Permanences de la mission logiciels libres
+### Permanences de la mission logiciels libres
 
 Les membres de la mission logiciels libres répondent à vos questions les lundi de 17h à 18h sur IRC et, pour les agents publics, les jeudi de 11h à 12h sur le salon Tchap BlueHats.
 
 Voir la page où nous présentons [les moyens d'entrer en contact avec la communauté BlueHats](https://code.gouv.fr/fr/contact/espaces-communication-bluehats/).
 
-## 📖 Nouveau livre sur Matomo
+## 🗳️ Consultation des agents publics : une boîte à idée très libre !
 
-Un livre consacré à [Matomo](https://code.gouv.fr/sill/detail?name=Matomo), logiciel libre d'analyse d'audience, est paru aux Editions ENI en avril dernier. Il s'agit d'un ouvrage consacré à l'installation de Matomo sur le serveur de votre choix. En parallèle de cela, la version 5 de Matomo a vu le jour au mois de juin. Parmi les changements majeurs le passage de AngularJS à Vue.js.
-
-Si vous connaissez le logiciel Matomo et que vous souhaitez faire un retour d'expérience ou animer une conférence sur ce logiciel, l'édition 3 de MatomoCamp aura lieu les 9 et 10 novembre prochain.
-
-`>>` [Consulter le livre](https://www.editions-eni.fr/livre/matomo-l-outil-de-web-analytics-libre-et-ethique-9782409039607)
-
-`>>` [Site officiel de MatomoCamp](https://matomocamp.org)
-
-<br/>
+Consultés sur les [outils numériques](https://www.fonction-publique-plus.gouv.fr/participation/boite-a-idees/liste/thematiques/outils-numeriques), certains agents publics font mention des logiciels libres.  N'hésitez pas à ajouter votre voix à la leur !
 
 ## ✍🏾 Le libre et les communs numériques dans les compétences et métiers d'avenir
 
@@ -47,6 +36,18 @@ Dans la partie « Enseignement et numérique » du [document](https://www.gouver
 :::quote
 Dans l'éducation et l’enseignement supérieur, le libre et les communs numériques sont une réponse au besoin croissant de la communauté scolaire et universitaire de mutualiser et collaborer entre pairs en créant et partageant des ressources numériques pérennes et accessibles à toutes et tous dans un cadre de confiance inclusif et soucieux de la protection des données personnelles. L'idée directrice est que les ressources pédagogiques préparées par un enseignant ou un groupe d’enseignants puissent resservir à d’autres sans obstacle. Il s'agit tout autant d'utiliser des ressources que de contribuer collectivement à leur production, en consolidant ses compétences numériques. On apporte ses compétences à la communauté et on en développe de nouvelles par la pratique au contact de ses collègues.
 :::
+
+<br/>
+
+## 📖 Publication d'un nouveau livre sur Matomo
+
+Un livre consacré à [Matomo](https://code.gouv.fr/sill/detail?name=Matomo), logiciel libre d'analyse d'audience, est paru aux Editions ENI en avril dernier. Il s'agit d'un ouvrage consacré à l'installation de Matomo sur le serveur de votre choix. En parallèle de cela, la version 5 de Matomo a vu le jour au mois de juin. Parmi les changements majeurs le passage de AngularJS à Vue.js.
+
+Si vous connaissez le logiciel Matomo et que vous souhaitez faire un retour d'expérience ou animer une conférence sur ce logiciel, l'édition 3 de MatomoCamp aura lieu les 9 et 10 novembre prochain.
+
+`>>` [Consulter le livre](https://www.editions-eni.fr/livre/matomo-l-outil-de-web-analytics-libre-et-ethique-9782409039607)
+
+`>>` [Site officiel de MatomoCamp](https://matomocamp.org)
 
 <br/>
 

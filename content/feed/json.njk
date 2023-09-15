@@ -1,6 +1,7 @@
 ---
 # Metadata comes from _data/metadata.json
 permalink: /feed/feed.json
+numberOfLatestPostsToShow: 10
 ---
 {
 	"version": "https://jsonfeed.org/version/1.1",
@@ -14,7 +15,7 @@ permalink: /feed/feed.json
 		"url": "{{ metadata.author.url }}"
 	},
 	"items": [
-		{% for post in collections.posts | reverse %}
+		{% for post in collections.posts| head(-1 * numberOfLatestPostsToShow) | reverse %}
 		{% set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
 		{
 			"id": "{{ absolutePostUrl }}",

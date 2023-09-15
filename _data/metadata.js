@@ -17,6 +17,7 @@ module.exports = {
     peertube_url: "",
     github_url: "",
     sourcehut_url: "",
+    repository_url: "https://github.com/codegouvfr/eleventy-dsfr",
     language: "fr",
     description: "baseline - précisions sur l‘organisation",
     author: {

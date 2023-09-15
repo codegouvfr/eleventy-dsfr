@@ -4,7 +4,7 @@
   "description": "Une base de code pour déployer un site/blog statique avec Eleventy et le DSFR.",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "postbuild": "npx -y pagefind --source _site/",
+    "postbuild": "npx pagefind --site _site/ --output-subdir \"_pagefind\"",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-dsfr/",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
@@ -26,10 +26,10 @@
   },
   "homepage": "https://codegouvfr.github.io/eleventy-dsfr/",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-bundle": "^1.0.3",
+    "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@gouvfr/dsfr": "^1.9.3",
@@ -38,7 +38,7 @@
     "markdown-it-anchor": "^8.6.6",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-container": "^3.0.0",
-    "pagefind": "^0.12.0",
+    "pagefind": "^1.0.2",
     "ics": "^3.2.0"
   }
 }

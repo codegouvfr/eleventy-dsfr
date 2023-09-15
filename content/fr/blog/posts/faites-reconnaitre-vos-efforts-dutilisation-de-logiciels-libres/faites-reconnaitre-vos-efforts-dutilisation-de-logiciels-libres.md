@@ -1,5 +1,5 @@
 ---
-title: "Faites connaître vos progrès dans l'utilisation des logiciels libres !"
+title: "Faites connaître vos progrès dans l'utilisation ou le développement de logiciels libres"
 description: "La saison des prix est ouverte !"
 date: 2023-09-07
 tags: 
@@ -14,7 +14,7 @@ image:
   hide: True
 ---
 
-Vous travaillez dans une collectivité, une administration centrale ou déconcentrée et vous souhaitez faire reconnaître vos efforts d'utilisation de logiciels libres ?  Voici trois occasions de le faire d'ici la fin de l'année !
+Vous travaillez dans une collectivité, une administration centrale ou déconcentrée et vous souhaitez faire reconnaître vos efforts d'utilisation de logiciels libres ?  Voici trois occasions de le faire d'ici la fin de l'année.
 
 ## Candidatez à l'Open Source Observatory Award
 

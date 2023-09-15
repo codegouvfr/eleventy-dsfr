@@ -3,7 +3,7 @@ title: Gazette BlueHats 🧢 n°22
 date: 2023-06-15
 ---
 
-# 🚀 Nouvelles de la mission logiciels libres
+## 🚀 Nouvelles de la mission logiciels libres
 
 - Mise à jour du site du socle interministériel des logiciels libres : <https://code.gouv.fr/sill> ([source](https://github.com/codegouvfr/sill-web/)).
 - Mise à jour du site principal de <https://code.gouv.fr> ([source](https://github.com/codegouvfr/codegouv-website)).
@@ -13,8 +13,8 @@ date: 2023-06-15
 
 <br/>
 
-# 📖 Publications
-## Forges de l’ESR – Définition, usages, limitations rencontrées et analyse des besoins
+## 📖 Publications
+### Forges de l’ESR – Définition, usages, limitations rencontrées et analyse des besoins
 
 *Le rapport porte sur les forges logicielles utilisées dans les établissements de l’Enseignement supérieur et de la Recherche (ESR). Son propos est de faire un premier état des lieux des forges logicielles utilisées dans l’ESR français et d’identifier les moyens de rendre plus visibles les productions logicielles issues de la science ouverte.*
 
@@ -22,7 +22,7 @@ date: 2023-06-15
 
 [Télécharger le rapport en pdf](https://hal-lara.archives-ouvertes.fr/hal-04098702v2/file/etatdeslieux.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Nouvelle version de la Good Governance Initiative handbook
+### Nouvelle version de la Good Governance Initiative handbook
 
 L'OSPO Alliance publie une nouvelle version de son « Mémento de Bonne Gouvernance Open Source ».
 
@@ -32,8 +32,8 @@ L'OSPO Alliance publie une nouvelle version de son « Mémento de Bonne Gouvern
 
 <br/>
 
-# 📅 Événements
-## PG Day France
+## 📅 Événements
+### PG Day France
 
 Le PG Day France est la conférence annuelle de la communauté francophone de PostgreSQL.
 
@@ -45,7 +45,7 @@ La conférence débutera le **lundi 19 à 14h** et se terminera le **mardi 20 à
 
 *Rendez-vous en juin à Strasbourg !*
 
-## Journée GitLab
+### Journée GitLab
 
 Gitlab est un outil qui devient incontournable dans les laboratoires de recherche. Le groupe de travail inter-réseaux de la MITI (Mission pour les Initiatives Transverses et Interdisciplinaires du CNRS) sur les données de la recherche vous propose une journée dont l'objectif est de montrer la diversité des usages pour l'élaboration et la gestion de tout type de production scientifique : logiciels, données, publications.
 
@@ -53,7 +53,7 @@ Elle s'adresse à tous les publics (nul besoin d'être un expert en git ou un d�
 
 Programme et inscription sur le site <https://gtdonnees-gitlab2023.sciencesconf.org/>{.fr-link}
 
-## Rencontres Scenari
+### Rencontres Scenari
 
 Comme chaque année, l'[association Scenari](https://scenari.org/co/association.html) organise ses "Rencontres Scenari".
 
@@ -69,8 +69,8 @@ Programme et inscription (tarif préférentiels jusqu'au 15 mai) sur le site des
 
 <br/>
 
-# 💻 Recrutements
-## Le Parc national des Écrins #recrute un·e développeur·euse-mainteneur·euse web et base de données #GeoNature.
+## 💻 Recrutements
+### Le Parc national des Écrins #recrute un·e développeur·euse-mainteneur·euse web et base de données #GeoNature.
 
 GeoNature est un ensemble d'outils web et mobiles permettant de saisir, gérer et diffuser des données faune et flore. Le projet regroupe désormais une communauté d’une centaine de structures qui collaborent autour de cet outil, animée par le parc national.
 
@@ -78,7 +78,7 @@ Voir les annonces sur [www.ecrins-parcnational.fr](https://www.ecrins-parcnation
 
 <br/>
 
-# 📰 Revue de presse
+## 📰 Revue de presse
 
 - [Initiez-vous à Linux](https://www.francenum.gouv.fr/formations/initiez-vous-linux), francenum.gouv.fr
 - [Ils ont des chapeaux bleus retour sur le projet BlueHats semester](https://www.centralesupelec.fr/fr/ils-ont-des-chapeaux-bleus-retour-sur-le-projet-blue-hats-semester), centralesupelec.fr, Juin 2023

@@ -53,6 +53,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+    eleventyConfig.addCollection("allPosts", function(collectionApi) {
+        return collectionApi.getFilteredByTags("posts")
+            .concat(collectionApi.getFilteredByTags("bluehats_posts"));
+    });
+
     // Filters
     eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {
         return DateTime.fromFormat(dateStr, format || "yyyy-LL-dd", {zone: zone || "utc"}).toJSDate();

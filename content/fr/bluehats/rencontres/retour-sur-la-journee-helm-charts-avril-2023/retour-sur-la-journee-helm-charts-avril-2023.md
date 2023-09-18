@@ -1,5 +1,5 @@
 ---
-title: Retour sur la journée Helm Charts du 4 avril 2022
+title: Retour sur la journée Helm Charts du 4 avril 2023
 description: "Comment faire de la publication des codes sources un levier de mutualisation entre administrations ?"
 date: 2023-09-12
 ---

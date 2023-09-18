@@ -4,7 +4,7 @@ description: "Parmi les forges dont le code source est entièrement libre, Sourc
 date: 2021-12-05
 tags: 
 - Forge
-- SourceHug
+- SourceHut
 - GitHub
 - GitLab
 image:

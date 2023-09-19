@@ -13,6 +13,4 @@ Dans tous ces cas, ces codes publics sont réutilisables par tous : comment fai
 
 Toutes ces questions étaient au cœur de la [rencontre BlueHats](/posts/journee-bluehats-mutualisons-juillet-2022) organisée par le pôle logiciels libres d'Etalab le 1er juillet 2022 et à laquelle ont participé une quarantaine d'agents publics venus de nombreux ministères.
 
-{% imageContent "./photo-tri.jpg", "Les participants trient leurs idées" %}
-
 *Cette journée était animée par [La Dérivation](https://dérivation.fr/), une agence d'éducation populaire autour des questions numériques, que nous remercions pour l'animation de cette journée et pour la rédaction du compte-rendu.*

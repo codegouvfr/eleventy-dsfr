@@ -53,11 +53,8 @@ En fin de journée, nous avons improvisé **des présentations courtes** (« lig
 * [Anna-Livia Gomart](https://tube.ac-lyon.fr/videos/watch/cde0870c-bcfb-4262-808a-496de60361ca) (consultante pour la DINUM/beta.gouv.fr)
 
 <br>
-<br>
-
-Votre administration souhaite organiser un sprint source autour de ses propres produits libres ? C’est ouvert ! N’hésitez pas à écrire [bluehats@etalab.gouv.fr ](mailto:bluehats@etalab.gouv.fr) ou à [110bis@education.gouv.fr](mailto:110bis@education.gouv.fr) pour nous poser vos questions.
 
 L’organisation de ce tout premier sprint open source nous a permis de tirer quelques [enseignements et pistes d’amélioration](https://github.com/DISIC/evenements-bluehats/blob/master/retex/19-20-11-2019-retours.org) pour de prochaines rencontres, que nous vous partageons.
 
-**Le logiciel libre dans l’administration vous intéresse ? [Inscrivez-vous à la gazette #BlueHats](https://code.gouv.fr/newsletters/subscribe/bluehats@mail.codegouv.fr) bimensuelle, publiée par la DINUM, et consultez [les dernières éditions](https://code.gouv.fr/fr/bluehats/tags/gazette/).**
+*Le logiciel libre dans l’administration vous intéresse ? [Inscrivez-vous à la gazette #BlueHats](https://code.gouv.fr/newsletters/subscribe/bluehats@mail.codegouv.fr) bimensuelle, publiée par la DINUM, et consultez [les dernières éditions](https://code.gouv.fr/fr/bluehats/tags/gazette/).*
 

@@ -3,7 +3,7 @@ title: "Présentations de la journée BlueHats 🧢 2019 - Paris Open Source Sum
 date: 2019-12-11
 image:
   path: ./Bluehats_PARIS-SUMMIT.jpg
-  alt: Illustration pour l'événement contenant un titre et une date
+  alt: Illustration pour l'événement BlueHats au Paris Open Source Summit 2019
 description: Présentations faites lors de la journée BlueHats du 11 décembre 2019 qui s'est tenue lors du salon Paris Open Source Summit
 tags: OSXP
 ---

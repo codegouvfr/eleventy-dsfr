@@ -1,5 +1,5 @@
 ---
-Title: "Journée BlueHats: mutualisation des Helm charts"
+title: "Journée BlueHats: mutualisation des Helm charts"
 date: 2022-04-04
 ---
 

@@ -38,12 +38,16 @@ Les produits peuvent être des sites web, des contenus et ressources, des servic
 - [code.gouv.fr/public](https://code.gouv.fr/public): le site pour trouver des codes sources publiés par les administrations.
 - [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
 
+<br/>
+
 ### Logiciels et bibliothèques de code
 
 Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les maintenir dans la durée :
 
 - [react-dsfr](https://github.com/codegouvfr/react-dsfr) : une bibliothèque de composants React au DSFR.
 - [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) : un dépôt pour démarrer un site statique au DSFR avec le générateur Eleventy.
+
+<br/>
 
 ### Ressources
 
@@ -52,9 +56,13 @@ Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les 
 - Les [guides](/fr/doc/) de la mission logiciels libres.
 - Les [interventions](/fr/doc/ressources/#interventions-de-la-mission-logiciels-libres-en-francais) de la mission logiciels libres.
 
+<br/>
+
 ### Services web
 
 - [publiccode-editor.etalab.studio](https://publiccode-editor.etalab.studio/): le site permettant de créer un fichier `publiccode.yml`.
+
+<br/>
 
 <!-- # Logiciels -->
 
@@ -108,6 +116,8 @@ Chaque agent public est invité à proposer un atelier BlueHats en [nous
 - Liste des [bénéficiaires des marchés de support et d'expertise](/fr/utiliser/marches-logiciels-libres/).
 - Liste des logiciels libres concernés par les marchés de support et d'expertise [web](/fr/utiliser/marches-logiciels-libres-liste-logiciels/) ou [csv](/rsrc/marches-logiciels-libres-liste-logiciels.csv).
 
+<br/>
+
 ## Où échanger avec d'autres agents publics libristes et la communauté BlueHats ?
 
 Les BlueHats sont toutes les personnes qui souhaitent montrer qu'elles contribuent à des logiciels libres développés et/ou utilisés par l'administration publique : les agents publics impliqués dans le développement de ces logiciels, bien sûr, mais aussi les citoyens qui reconnaissent que leurs actions pour des logiciels libres aide les projets de l'administration.
@@ -138,6 +148,8 @@ Contributions passées :
 - [github.com/garronej/cra-envs](https://github.com/garronej/cra-envs)
 - [github.com/garronej/powerhooks](https://github.com/garronej/powerhooks)
 - [github.com/thieryw/gitlanding](https://github.com/thieryw/gitlanding)
+
+<br/>
 
 ## Autres ressources
 

@@ -1,5 +1,5 @@
 ---
-title: "Présentations de la journée BlueHats 🧢 2021"
+title: "Présentations de la journée BlueHats 🧢 2021 - Open Source Experience"
 date: 2021-11-09
 description: Présentations faites lors de la journée BlueHats du 9 novembre 2021 qui s'est tenue lors du salon Open Source Experience
 tags: OSXP

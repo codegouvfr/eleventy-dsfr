@@ -1,5 +1,5 @@
 ---
-title: "Présentations de la journée BlueHats 🧢 2019"
+title: "Présentations de la journée BlueHats 🧢 2019 - Paris Open Source Summit"
 date: 2019-12-11
 image:
   path: ./Bluehats_PARIS-SUMMIT.jpg

@@ -1,6 +1,6 @@
 ---
 title: "Présentations de la journée BlueHats 🧢 2018 - Paris Open Source Summit"
-date: 2018-12-08
+date: 2018-12-06
 image:
   path: ./photo_groupe_bluehats.jpg
   alt: Illustration pour l'événement BlueHats au Paris Open Source Summit 2018

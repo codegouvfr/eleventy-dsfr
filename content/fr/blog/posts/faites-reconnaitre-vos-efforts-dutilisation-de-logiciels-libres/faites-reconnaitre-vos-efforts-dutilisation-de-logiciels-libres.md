@@ -4,9 +4,7 @@ description: "La saison des prix est ouverte !"
 date: 2023-09-07
 tags: 
 - Prix
-- OSOR
-- ADULLACT
-- OSX
+- OSXP
 - Europe
 image:
   path: ./giorgio-trovato.jpg

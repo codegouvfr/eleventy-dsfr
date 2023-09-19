@@ -4,9 +4,6 @@ description: "Parmi les forges dont le code source est entièrement libre, Sourc
 date: 2021-12-05
 tags: 
 - Forge
-- SourceHut
-- GitHub
-- GitLab
 image:
   path: ./sourcehut.png
   alt: "Capture d'écran de sourcehut.org"

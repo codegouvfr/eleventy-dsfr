@@ -1,5 +1,5 @@
 ---
-title: "Présentations de la journée BlueHats 🧢 2022"
+title: "Présentations de la journée BlueHats 🧢 2022 - Open Source Experience"
 date: 2022-11-08
 description: Présentations faites lors de la journée BlueHats du 8 novembre 2022 qui s'est tenue lors du salon Open Source Experience
 tags: OSXP

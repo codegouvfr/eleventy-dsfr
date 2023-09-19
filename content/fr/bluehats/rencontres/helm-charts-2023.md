@@ -1,7 +1,6 @@
 ---
-title: Retour sur la journée Helm Charts du 4 avril 2023
-description: "Comment faire de la publication des codes sources un levier de mutualisation entre administrations ?"
-date: 2023-09-12
+Title: "Journée BlueHats: mutualisation des Helm charts"
+date: 2022-04-04
 ---
 
 ## Cadre de la journée
@@ -37,16 +36,9 @@ exposées et partagées en plénière. Par la suite ces questions ont pu
 - Groupe « communauté » : comment poser les bases d’un bien commun
   interministériel sur kubernetes ?
 
-Les visions et propositions d’actions qui en ont été tirées sont
-consultables sur [ce
-pad](https://pad.numerique.gouv.fr/WEoeCEpfRF6WEgpgTauv8A#).  
+Les visions et propositions d’actions qui en ont été tirées sont consultables sur [ce
+pad](https://pad.numerique.gouv.fr/WEoeCEpfRF6WEgpgTauv8A#).
 
 ## Et ensuite ?
 
-Rendez-vous sur le dépôt
-[codegouvfr/awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm)
-pour prolonger cet effort de mutualisation des helm charts et sur le
-[salon Tchap BlueHats - Helm
-Charts](https://tchap.gouv.fr/#/room/!JeIwrcxXnwJXtSvsby:agent.dinum.tchap.gouv.fr?via=agent.dinum.tchap.gouv.fr&via=agent.finances.tchap.gouv.fr&via=agent.interieur.tchap.gouv.fr)
-pour les agents publics qui ont un compte [Tchap](https://www.tchap.gouv.fr/).
-
+Rendez-vous sur le dépôt [codegouvfr/awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm) pour prolonger cet effort de mutualisation des helm charts et sur le [salon Tchap BlueHats - Helm Charts](https://tchap.gouv.fr/#/room/!JeIwrcxXnwJXtSvsby:agent.dinum.tchap.gouv.fr?via=agent.dinum.tchap.gouv.fr&via=agent.finances.tchap.gouv.fr&via=agent.interieur.tchap.gouv.fr) pour les agents publics qui ont un compte [Tchap](https://www.tchap.gouv.fr/).

@@ -11,9 +11,9 @@ showBreadcrumb: true
 
 Les AMDAC sont les administrateurs ministériels des données, des algorithmes et des codes sources (voir [la liste des AMDAC](https://www.data.gouv.fr/fr/datasets/liste-des-administrateurs-ministeriels-des-donnees/)).
 
-Un groupe de travail "logiciels libres" permet aux AMDAC de faire des points réguliers sur leurs avancées liées aux logiciels libres, qu'il s'agisse de la *publication des codes sources*, de la mise en oeuvre d'une *politique d'utilisation des logiciels libres* ou des efforts de contribution à l'écosystème des logiciels libres.
+Un groupe de travail « logiciels libres » permet aux AMDAC de faire des points réguliers sur leurs avancées liées aux logiciels libres, qu'il s'agisse de la *publication des codes sources*, de la mise en oeuvre d'une *politique d'utilisation des logiciels libres* ou des efforts de contribution à l'écosystème des logiciels libres.
 
-La priorité est donnée aux sujets de publication des codes sources et à l'entraide sur des questions opérationnelles : où publier les codes sources, comment inciter les directions métier à le faire, où trouver de l'aide juridique, etc.
+La priorité est donnée aux sujets de publication des codes sources et à l'entraide sur des questions opérationnelles : où publier les codes sources, comment inciter les directions métier à le faire, où trouver de l'aide juridique, etc.
 
 ## Modalités
 
@@ -21,15 +21,13 @@ Les réunions de ce groupe ont lieu en 2022 via [ce lien de visio](https://webin
 
 Vous pouvez télécharger le [calendrier .ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/rdv-gtt-ll.ics) de toutes les réunions.
 
-### Réunions pour 2023
+### Réunions 2023
 
 - 24 février 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-1-sur-5.ics)) - lien vers la [présentation du MESR](https://speakerdeck.com/bluehats/presentation-du-mesr-lors-dun-groupe-de-travail-sur-louverture-des-codes-sources)
-- 24 avril 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-2-sur-5.ics)) - annulé
-- 26 juin 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-3-sur-5.ics)) - annulé
-- 22 septembre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-4-sur-5.ics))
+- 20 octobre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-4-sur-5.ics))
 - 21 novembre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-5-sur-5.ics))
 
-### Réunions passées pour 2022
+### Réunions 2022
 
 - 7 décembre 2022 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2022-5-sur-5.ics)) : réunion annulée
 - 22 septembre 2022 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2022-4-sur-5.ics))

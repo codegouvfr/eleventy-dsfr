@@ -27,17 +27,6 @@ Les guides pouvant vous aider :
 
 ## Accompagnement à l'utilisation des logiciels libres
 
-### Sur les solutions libres du catalogue GouvTech
-
-Pour toute question concernant [une solution libre référencée dans le catalogue GouvTech](https://catalogue.numerique.gouv.fr/catalogue?distribution=Logiciel%20libre), veuillez écrire à `label.dinum@modernisation.gouv.fr` avec `contact@code.gouv.fr` en copie.
-
-Les questions courantes sont :
-
-- Comment référencer ma solution libre dans le catalogue GouvTech ?
-- Comment obtenir une expertise technique sur une solution présentée dans le catalogue ?
-  
-Vous pouvez aussi, en tant qu'acteur privé ou public, vous créer un compte sur [mon.catalogue.numerique.gouv.fr](https://mon.catalogue.numerique.gouv.fr) pour échanger directement avec les responsables de la plateforme.
-
 ### Sur le socle interministériel de logiciels libres (SILL)
 
 Pour toute question concernant le SILL, écrivez à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).

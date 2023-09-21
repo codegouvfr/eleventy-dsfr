@@ -1,5 +1,5 @@
 ---
-title: Licences libres pour les codes sources publics, les catalogues GouvTech et le SILL
+title: Licences libres pour les codes sources publics et le SILL
 layout: layouts/page.njk
 segments:
   - url: /doc/
@@ -11,9 +11,9 @@ showBreadcrumb: true
 
 Les licences listées sur cette page correspondent aux licences reconnues libres *à la fois* par la Free Software Foundation et l'Open Source Initiative, à l'exception de quelques licences CeCILL (reconnues soit par la FSF soit par l'OSI).
 
-Nous nous sommes appuyés sur la page https://spdx.org/licenses pour la constituer.
+Nous nous sommes appuyés sur la page [spdx.org/licenses](https://spdx.org/licenses) pour la constituer.
 
-Les logiciels libres référencés dans le [catalogue GouvTech](https://catalogue.numerique.gouv.fr/catalogue?distribution=Logiciel%20libre) et le [socle interministériel de logiciels libres](https://code.gouv.fr/sill/) doivent être publiés sous l'une des licences listées dans cette page.
+Les logiciels libres référencés dans le [socle interministériel de logiciels libres](https://code.gouv.fr/sill/) doivent être publiés sous l'une des licences listées dans cette page.
 
 ## Licences libres (reconnues FSF & OSI) utilisables pour les projets de l'administration
 
@@ -40,7 +40,7 @@ Et une reconnue seulement par l'OSI :
 
 - [CeCILL Free Software License Agreement v2.1](https://spdx.org/licenses/CECILL-2.1.html)
 
-## Autres licences libres valables pour GouvTech et le SILL
+## Autres licences libres valables pour le SILL
 
 - [Academic Free License v1.1](https://spdx.org/licenses/AFL-1.1.html)
 - [Academic Free License v1.2](https://spdx.org/licenses/AFL-1.2.html)

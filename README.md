@@ -1,7 +1,7 @@
 [![Software License](https://img.shields.io/badge/Licence-MIT%2C%20Licence%20Ouverte-orange.svg?style=flat-square)](https://git.sr.ht/~codegouvfr/codegouvfr-public/tree/main/item/LICENSES)
 
-![build-preprod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouv-website/preproduction.yml?label=Deploiement%20en%20préprod)
-![build-prod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouv-website/production.yml?label=Deploiement%20en%20prod)
+![build-preprod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouvfr-website/preproduction.yml?label=Deploiement%20en%20préprod)
+![build-prod](https://img.shields.io/github/actions/workflow/status/codegouvfr/codegouvfr-website/production.yml?label=Deploiement%20en%20prod)
 
 # Site code.gouv.fr
 

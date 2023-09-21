@@ -22,7 +22,7 @@ module.exports = {
     peertube_url: "https://tube.numerique.gouv.fr/a/logicielslibres/",
     github_url: "https://github.com/codegouvfr/",
     sourcehut_url: "https://sr.ht/~codegouvfr/",
-    repository_url: "https://github.com/codegouvfr/codegouv-website",
+    repository_url: "https://github.com/codegouvfr/codegouvfr-website",
     language: "fr",
     description: "Recourir et contribuer aux logiciels libres et aux communs numériques",
     author: {

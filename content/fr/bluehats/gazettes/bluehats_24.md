@@ -15,7 +15,7 @@ La mission logiciels libres publie une nouvelle page dédiée aux [outils libres
 ### Retour sur la journée Helm Charts d'avril
 
 Nous publions un [résumé de la journée consacrée à la mutualisation des
-charts Helm](https://code.gouv.fr/fr/bluehats/retour-sur-la-journee-helm-charts-avril-2023/).  Pour poursuivre les échanges et la collaboration, rendez-vous sur le dépôt [awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm) !
+charts Helm](https://code.gouv.fr/fr/bluehats/helm-charts-2023/).  Pour poursuivre les échanges et la collaboration, rendez-vous sur le dépôt [awesome-bluehats-helm](https://github.com/codegouvfr/awesome-bluehats-helm) !
 
 ### Permanences de la mission logiciels libres
 

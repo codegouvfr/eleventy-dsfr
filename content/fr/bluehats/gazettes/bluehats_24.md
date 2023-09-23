@@ -19,7 +19,7 @@ charts Helm](https://code.gouv.fr/fr/bluehats/helm-charts-2023/).  Pour poursuiv
 
 ### Permanences de la mission logiciels libres
 
-Les membres de la mission logiciels libres répondent à vos questions les lundi de 17h à 18h sur IRC et, pour les agents publics, les jeudi de 11h à 12h sur le salon Tchap BlueHats.
+Les membres de la mission logiciels libres répondent à vos questions les lundi de 17h à 18h sur IRC et, pour les agents publics, les jeudis de 11h à 12h sur le salon Tchap BlueHats.
 
 Voir la page où nous présentons [les moyens d'entrer en contact avec la communauté BlueHats](https://code.gouv.fr/fr/contact/espaces-communication-bluehats/).
 

@@ -53,7 +53,7 @@ Nous ne répondons pas systématiquement aux sollicitations sur les réseaux soc
 
 ## Nos rituels
 
-Nous sommes actifs dans le [salon Tchap BlueHats](https://tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr) tous les jeudi de 11h à 12h.
+Nous sommes actifs dans le [salon Tchap BlueHats](https://tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr) tous les jeudis de 11h à 12h.
 
 Nous maintenons une présence publique sur le canal IRC `#bluehats` du serveur `irc.libera.chat` tous les lundi de 17h à 18h.  Si vous n'avez pas de client IRC, vous pouvez [rejoindre le salon de discussion publique via cette interface web](https://web.libera.chat/).
 

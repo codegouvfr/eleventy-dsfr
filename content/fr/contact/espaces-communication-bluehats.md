@@ -20,7 +20,7 @@ showBreadcrumb: true
 - Le salon [SILL](https://www.tchap.gouv.fr/#/room/#SILLutRYrgV:agent.dinum.tchap.gouv.fr) (Socle interministériel de logiciels libres)
 - Le salon [MimLibre](https://www.tchap.gouv.fr/#/room/#MimixQlxMNQc:agent.interieur.tchap.gouv.fr)
 
-La mission logiciels libres assure une présence dans le salon `#BlueHats` tous les jeudi de 11h à 12h.
+La mission logiciels libres assure une présence dans le salon `#BlueHats` tous les jeudis de 11h à 12h.
 
 ### Communauté dans [OSMOSE](https://osmose.numerique.gouv.fr)
 

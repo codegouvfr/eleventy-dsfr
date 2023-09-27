@@ -11,7 +11,7 @@ segments:
 showBreadcrumb: true
 ---
 
-## Participants coté administrations
+## Administrations participantes
 
 - [AMUE](https://www.amue.fr/)
 - [ANSSI](https://www.ssi.gouv.fr/)

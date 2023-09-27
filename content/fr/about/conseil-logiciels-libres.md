@@ -11,7 +11,7 @@ segments:
 showBreadcrumb: true
 ---
 
-## Organismes publics auxquels sont rattachés les participants coté administrations
+## Participants coté administrations
 
 - [AMUE](https://www.amue.fr/)
 - [ANSSI](https://www.ssi.gouv.fr/)

@@ -12,14 +12,12 @@ eleventyNavigation:
 {% include "components/callout.njk" %}
 
 <h2>Différents outils, différentes finalités</h2>
-<p></p>
 
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
   {% asyncAll outilExplicabilite in outilsExplicabilite %}
   <div class="fr-col-12 fr-col-md-4">
     {% set card = {
-      url: false,
-      externalUrl: outilExplicabilite.url,
+      url: outilExplicabilite.url,
       title: outilExplicabilite.title,
       description: outilExplicabilite.description
     } %}

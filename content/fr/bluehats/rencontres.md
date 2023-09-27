@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Rencontres
+  key: Rencontres en présentiel
   url: /fr/bluehats/tags/rencontre/
   parent: Les BlueHats 🧢
   order: 4

@@ -30,7 +30,7 @@ Toutes les informations sont à retrouver [sur leur site](https://joinup.ec.euro
 
 Remis depuis 2022 lors du salon Open Source Experience dans le cadre du concours « Acteurs du Libre », le prix du service public engagé vise à « récompenser les administrations qui incitent leurs services à renforcer l’utilisation de logiciels libres et qui s’appuient sur l’écosystème open source professionnel par exemple via l’achat de la solution entreprise ou commerciale d’un éditeur Open Source ou par la délégation d’un projet complet et important à une ESN Open Source. »
 
-Toutes les administrations, centrales ou déconcentrées, peuvent candidater *jusqu'au 30 septembre 2023*.
+Toutes les administrations, centrales ou déconcentrées, peuvent candidater *jusqu'au 15 octobre 2023*.
 
 Toutes les informations sont à retrouver [sur leur site](https://lesacteursdulibre.com/portfolio/prix-du-service-public-engage/) et vous pouvez candidater en envoyant votre [dossier de candidature (.odt)](https://lesacteursdulibre.com/wp-content/uploads/2023/06/DOSSIER-PARTICIPATION-ActeursDuLibre2023-V4.odt) à `contact@lesacteursdulibre.com`.
 

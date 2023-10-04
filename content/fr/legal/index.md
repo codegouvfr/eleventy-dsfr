@@ -27,6 +27,7 @@ Téléphone : 09 72 10 10 07
 ## Crédits images
 
 - [Gradient icons created by srip](https://www.flaticon.com/authors/srip/gradient)
+- hat by sripfoto from [Noun Project](https://thenounproject.com/srip/) (CC BY 3.0)
 - [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
 
 ## Code source du site

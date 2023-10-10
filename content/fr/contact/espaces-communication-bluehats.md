@@ -26,6 +26,8 @@ La mission logiciels libres assure une présence dans le salon `#BlueHats` tous 
 
 - La [communauté Logiciels Libres d'OSMOSE](https://osmose.numerique.gouv.fr/jcms/c_2013888/fr/communaute-opensource-logiciel-libre-de-l-etat-bluehats?jsp=plugins%2FCollaborativeSpacePlugin%2Fjsp%2Fmembers.jsp&memberView=signups&start=0&pageSize=5&pagerAll=true&reverse=false&portletId=a_19102&portletDomId=c_2013903_0_a_19102_0).
 
+<br/>
+
 ### Listes de discussion
 
 - La liste de discussion privée `service-public-libre` gérée par l'association [ADULLACT](https://adullact.org/) : vous pouvez vous abonner en envoyant un mail à `sympa@listes.adullact.org` avec comme sujet `SUBSCRIBE service-public-libre`, votre demande d'inscription sera traitée par un modérateur.

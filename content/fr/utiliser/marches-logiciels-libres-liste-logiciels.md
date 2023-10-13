@@ -14,33 +14,31 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 
 ## Logiciels libres au marché de support
 
+- AWX
 - Ansible
 - Apache Directory
 - Apache Hadoop
-- Apache kafka
 - Apache Oozie
 - Apache Ranger
 - Apache Spark
-- Apache superset
 - Apache Tez
+- Apache kafka
+- Apache superset
 - Asqatasun
-- AWX
 - BAREOS
 - Bigbluebutton
-- bootstrap
 - COLLABORA online
 - CUPS
 - Docker
 - Dovecot
 - Fluentd
 - Gitlab
-- gravitee
 - Gunicorn
 - InfluxDB
 - Information System Designer
 - IntelliJ
-- jsch
 - Kali Linux
+- LDAP Tool Box
 - Linstor
 - Logstash
 - Maarch Courrier
@@ -54,34 +52,38 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Noyau Ubuntu
 - Peertube
 - Peertube
-- phpBB
 - PhpMyAdmin
-- pmd
-- portainer
 - Prodftpd
 - Promotheus
 - PulseAudio
 - Rabbitmq-server
 - RocketChat
-- Scenari
 - SCENARI greffons
+- SPIP
+- SURICATA
+- Scenari
 - Selenium plugin
 - Sendmail
 - SnakeTail
 - Solr
-- SPIP
 - Spring Boot
 - SuiteCRM
 - SuiteCRM
-- SURICATA
 - Symfony
-- tcpdump
 - The Hive
+- Trinio
 - TrueNAS CORE
 - VAULT
 - Wekan
 - XRDP
 - Zend engine
+- bootstrap
+- gravitee
+- jsch
+- phpBB
+- pmd
+- portainer
+- tcpdumpITSM-NG
 
 ## Logiciels libres critiques au marché de support
 

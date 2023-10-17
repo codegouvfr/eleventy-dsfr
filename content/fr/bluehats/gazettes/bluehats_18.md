@@ -19,7 +19,7 @@ Un beau programme d'ateliers en perspective !
 
 ## Autour du socle interministériel de logiciels libres
 
-En juillet dernier, nous avons partagé via [Mastodon](https://mastodon.social/web/@CodeGouvFr/108684058331200603) et [via Twitter](https://twitter.com/codegouvfr/status/1549732039808749571) quelques nouvelles du [SILL](https://code.gouv.fr/sill), mentionnant quelques logiciels libres parmi ceux qui ont intégré le catalogue depuis la refonte en mai.
+En juillet dernier, nous avons partagé via [Mastodon](https://social.numerique.gouv.fr/@CodeGouvFr/108684058331200603) et [via Twitter](https://twitter.com/codegouvfr/status/1549732039808749571) quelques nouvelles du [SILL](https://code.gouv.fr/sill), mentionnant quelques logiciels libres parmi ceux qui ont intégré le catalogue depuis la refonte en mai.
 
 Voici quelques articles qui ont repris cette information :
 
@@ -52,7 +52,7 @@ Bienvenue Hélène !
 
 `>>` [L'annonce de son recrutement sur Twitter](https://twitter.com/codegouvfr/status/1564283706906497025)
 
-`>>` [L'annonce de son recrutement sur Mastodon](https://mastodon.social/web/@CodeGouvFr/108907021541552747)
+`>>` [L'annonce de son recrutement sur Mastodon](https://social.numerique.gouv.fr/@CodeGouvFr/108907021541552747)
 
 ## Journée BlueHats au salon Open Source Experience le 8 novembre 2022
 

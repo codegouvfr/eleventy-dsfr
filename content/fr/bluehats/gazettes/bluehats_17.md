@@ -134,7 +134,7 @@ L'Initiative pour la Recherche et l'Innovation sur le Logiciel Libre présente s
 - [Découvrez FileSender, le service de référence dans la communauté Education-Recherche](https://www.renater.fr/Filesender-service-de-reference-dans-ESR), renater.fr.
 - [Épisode #5 : Lutter contre l'obsolescence grâce au logiciel libre](https://ecoresponsable.numerique.gouv.fr/publications/videos-vers-un-numerique-ecoresponsable/episode-5-lutter-obsolescence-grace-au-logiciel-libre/), ecoresponsable.numerique.gouv.fr, juin 2022.
 - [Une « pastille » qui donne du liant aux outils de travail collaboratif des agents de l’État](https://www.numerique.gouv.fr/actualites/une-pastille-qui-donne-du-liant-aux-outils-de-travail-collaboratif-des-agents-de-letat/), numerique.gouv.fr, juin 2022.
-- [Le service information de la Commission européenne DG DIGIT ouvre son compte Mastodon](https://mastodon.social/web/@EC_DIGIT@social.network.europa.eu)
+- [Le service information de la Commission européenne DG DIGIT ouvre son compte Mastodon](https://social.network.europa.eu/@EC_DIGIT)
 
 ### Côté écosystèmes
 

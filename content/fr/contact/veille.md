@@ -9,7 +9,7 @@ showBreadcrumb: true
 
 Pour des informations générales :
 
-- Vous abonner au compte Mastodon [@codegouvfr](https://mastodon.social/@codegouvfr)
+- Vous abonner au compte Mastodon [@codegouvfr](https://social.numerique.gouv.fr/@codegouvfr)
 - Vous abonner au compte Twitter [@codegouvfr](https://twitter.com/codegouvfr)
 - Recevoir les annonces d'[ateliers BlueHats](/fr/bluehats/tags/atelier/) et la [gazette BlueHats](/fr/bluehats/tags/gazette/) par courriel : [lien d'inscription](https://code.gouv.fr/newsletters/subscribe/bluehats@mail.codegouv.fr)
 

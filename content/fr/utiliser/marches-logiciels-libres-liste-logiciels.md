@@ -39,6 +39,7 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - IntelliJ
 - Kali Linux
 - LDAP Tool Box
+- LinShare
 - Linstor
 - Logstash
 - Maarch Courrier

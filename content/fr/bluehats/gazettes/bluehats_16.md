@@ -51,7 +51,7 @@ Ne manquez pas les prochains ateliers :
 
 Nous avons ouvert un compte sur une instance Mastodon : n'hésitez pas à nous suivre !
 
-`>>` Notre compte Mastodon : <https://mastodon.social/web/@CodeGouvFr>
+`>>` Notre compte Mastodon : <https://social.numerique.gouv.fr/@CodeGouvFr>
 
 ### Le pôle logiciels libres recrute un ou une apprenti(e)
 

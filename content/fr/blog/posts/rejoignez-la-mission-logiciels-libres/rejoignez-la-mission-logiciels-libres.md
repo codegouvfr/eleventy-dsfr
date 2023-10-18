@@ -4,6 +4,10 @@ description: "Deux postes sont à pourvoir."
 date: 2023-10-18
 tags:
 - Mission
+image:
+  path: ./mll.png
+  alt: "Photo de groupe de membres de la mission logiciels libres"
+  hide: True
 ---
 
 Vous souhaitez encourager les administrations à utiliser plus de logiciels libres ? aider le [socle interministériel de logiciels libres](https://code.gouv.fr/sill) à se développer ? encourager et animer l'échange d'expertise entre ministères ?

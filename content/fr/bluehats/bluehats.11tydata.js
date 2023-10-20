@@ -41,6 +41,11 @@ module.exports = {
             content: `
 <p>Tout le monde peut y accéder en ligne via <a href="https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b" target="_blank">ce lien</a>.  Ils sont aussi visibles en rediffusion sur <a href="https://tube.numerique.gouv.fr/a/logicielslibres/video-channels" target="_blank">la chaîne BlueHats de la mission logiciels libres</a>.</p>
 <p>Vous souhaitez proposer un atelier BlueHats 🧢 ?  <a href="mailto:contact@code.gouv.fr">Contactez-nous !</a></p>`
+        },
+{
+            title: "Vous souhaitez organiser un atelier ou événement BlueHats ?",
+            content: `
+<p>Tout agent public peut solliciter son administration pour organiser un événement BlueHats, en ligne ou en présentiel.  Si vous avez besoin de visuels pour communiquer, vous pouvez utiliser ce <a href="/doc/bluehats-visuals-2023-10-20.zip">kit BlueHats</a>.</p>`
         }
     ]
 };

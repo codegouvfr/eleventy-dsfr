@@ -23,13 +23,13 @@ Vous pouvez télécharger le [calendrier .ics](https://git.sr.ht/~codegouvfr/log
 
 ### Réunions à venir
 
-- 20 octobre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-4-sur-5.ics))
 - 21 novembre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-5-sur-5.ics))
 
 <br/>
 
 ### Réunions passées
 
+- 20 octobre 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-4-sur-5.ics)) - lien vers la [présentation du MENJ](https://apps.codegouv.fr/nextcloud/s/LWDn28g3MAyZkod)
 - 24 février 2023 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/2022/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2023-1-sur-5.ics)) - lien vers la [présentation du MESR](https://speakerdeck.com/bluehats/presentation-du-mesr-lors-dun-groupe-de-travail-sur-louverture-des-codes-sources)
 - 7 décembre 2022 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/2022/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2022-5-sur-5.ics)) : réunion annulée
 - 22 septembre 2022 11h-12h30 ([.ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/2022/GTT-ouverture-des-codes-sources-du-reseau-des-AMDAC-2022-4-sur-5.ics))

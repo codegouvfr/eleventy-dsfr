@@ -14,167 +14,164 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 
 ## Logiciels libres au marché de support
 
-- AWX
-- Ansible
-- Apache Directory
-- Apache Hadoop
-- Apache Oozie
-- Apache Ranger
-- Apache Spark
-- Apache Tez
-- Apache kafka
-- Apache superset
-- Asqatasun
-- BAREOS
-- Bigbluebutton
-- COLLABORA online
-- CUPS
-- Docker
-- Dovecot
-- Fluentd
+- ActiveMQ
+- Alfresco community
+- Apache HTTP Server
+- AXIS
+- bootstrap
+- BouncyCastle
+- Bugzilla
+- Cobbler
+- Cyrus IMAP
+- Drupal-core
+- Eclipse
+- ElasticSearch
+- Firefox
+- Fusion Forge
 - Gitlab
-- Gunicorn
-- InfluxDB
-- Information System Designer
-- IntelliJ
-- Kali Linux
-- LDAP Tool Box
-- LinShare
-- Linstor
-- Logstash
+- GLPI
+- GnuCobol
+- GRR
+- HAProxy
+- heartbeat
+- Hibernate
+- ISC BIND
+- Jasperreports
+- JAX-WS RI
+- JBoss
+- Jenkins
+- Jmeter
+- Joomla !
+- LibreOffice
+- logrotate
 - Maarch Courrier
-- Maarch RM
-- Memcached
-- Metricbeat
-- Moodle
-- Nats.io
+- MariaDB
+- Maven et plugins
+- MIT Kerberos
+- MySQL
+- NAGIOS
+- Nexus
+- NFS
+- Nginx
 - Noyau CentOS
 - Noyau Debian
 - Noyau Ubuntu
-- Peertube
-- Peertube
-- PhpMyAdmin
-- Prodftpd
-- Promotheus
-- PulseAudio
-- Rabbitmq-server
-- RocketChat
-- SCENARI greffons
-- SPIP
-- SURICATA
-- Scenari
-- Selenium plugin
-- Sendmail
-- SnakeTail
+- Ntp
+- Open Jdk
+- OpenLDAP
+- OpenSSH (dont sftp server)
+- OpenSSL
+- PostgreSQL
+- PrimeFace
+- Proxmox VE
+- Puppet
+- Rocky Linux
+- rsync
+- Samba
+- Shorewall
+- Snort
 - Solr
-- Spring Boot
-- SuiteCRM
-- SuiteCRM
-- Symfony
-- The Hive
-- Trinio
-- TrueNAS CORE
+- SPIP
+- Spring Framework
+- StatusNet
+- Struts 1
+- Struts 2
+- SVN
+- Sympa
+- syslog-ng
+- Thunderbird
+- Tomcat
+- Varnish
 - VAULT
-- Wekan
-- XRDP
-- Zend engine
-- bootstrap
-- gravitee
-- jsch
-- phpBB
-- pmd
-- portainer
-- tcpdumpITSM-NG
+- ZooKeeper
 
 ## Logiciels libres critiques au marché de support
 
 - 389 Directory Server
-- ActiveMQ
-- Alfresco community
 - Amavisd-new
 - AngularJS
+- Ansible
 - ANT
 - Antlr
 - Apache Commons
-- Apache HTTP Server
+- apache Hadoop
+- apache kafka
+- apache Spark
+- Apache superset
 - Apache XML Security
+- Asqatasun
 - Audit
 - AwStats
-- AXIS
+- AWX
 - Bacula
-- BouncyCastle
-- Bugzilla
+- BAREOS
+- Bigbluebutton
+- c-icap
 - Cargo
 - Castor
 - Centreon
 - cglib
-- c-icap
 - ClamAV
-- Cobbler
-- Cyrus IMAP
+- COLLABORA online
+- CUPS
 - Datafaris
 - DataLift
 - DBUnit
 - Display Tag
+- Docker
 - Dojo
 - dom4j
+- Dovecot
 - Drbd
 - Drbdlinks
-- Driver JDBC pour postgresql
+- Driver
+- JDBC pour postgresql
 - Drools Expert
-- Drupal-core
 - DSpace
-- Eclipse
 - ehcache
-- ElasticSearch
+- EJBCA
 - Explorer++
 - Filezilla client
 - Filezilla serveur
 - Firebird
-- Firefox
+- Fluentd
 - FOP
 - FPDF
 - FPDI
 - Framadate
+- FreeFileSync
 - Freeradius
 - Func
-- Fusion Forge
 - Fusion Inventory
-- GanttProject
 - Gatling
 - GeoServer
 - GFS2
 - Git
 - Glibc
-- GLPI
-- GnuCobol
 - GnuPG
 - Grafana
+- GrapeJS
+- gravitee
 - Gridlex
-- GRR
-- HAProxy
+- Gunicorn
 - HAVP
-- heartbeat
-- Hibernate
-- Horde
-- Ibatis
 - ImageMagick
-- ISC BIND
+- InfluxDB
+- Information System Designer
+- IntelliJ
 - ISC DHCP
 - itext
-- Jasperreports
+- ITOP
+- ITSM-NG
 - JasperStudio
 - jaxen
 - jaxrpc
-- JAX-WS RI
-- JBoss
-- Jenkins
 - Jersey
 - Jfrog Artifactory
-- Jmeter
 - Joget
-- Joomla !
+- JOPLIN
 - Jquery UI
+- jsch
 - JSTL
 - Junit
 - Kanboard
@@ -185,54 +182,46 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - LemonLDAP::NG
 - libnss-pgsql
 - libpcap
-- LibreOffice
 - Libvirt
 - Limesurvey
+- Linstor
 - Log4j
 - Logback
-- logrotate
+- Logstash
 - Lucene
 - LVM
 - LVS (Linux Virtual Server) / Ipvsadm
+- Maarch RM
 - Mantis
-- MariaDB
 - Matomo (Ex. Piwik)
-- Maven et plugins
 - MBeanMonitor
 - MediaWiki
+- Memcached
 - Metabase
+- Metricbeat
 - Metrics
 - MinIO
-- MIT Kerberos
 - MongoDB
+- Moodle
 - mPDF
 - Mx4j
 - MyFaces
-- MySQL
-- NAGIOS
+- Nats.io
 - Neo4j
 - Neo4J-OGM
 - Nextcloud
-- Nexus
-- NFS
-- Nginx
 - nmap
 - NodeJS
 - nss_ldap
-- Ntp
 - NVDA
 - OCS inventory NG
 - OpenDKIM
 - OpenDMARC
 - OpenFire (anciennement Wildfire)
-- Open Jdk
-- OpenLDAP
+- OpenLDAP ltb
 - OpenNebula
 - OpenSC
 - OpenSearchServer
-- OpenSSH (dont sftp server)
-- OpenSSL
-- OpenSTA
 - OpenVpn
 - OpenVSwitch
 - Ora2pg
@@ -242,79 +231,84 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Papyrus
 - Passbolt CE
 - Pdftk
+- Peertube
 - Pentaho CE
 - Perl
-- Petals
 - PgAdmin
 - PHP
+- phpBB
+- PhpMyAdmin
+- pmd
+- Podman
+- portainer
 - Postfix
-- PostgreSQL
-- PrimeFace
+- PrivacyIDEA
+- Proftpd
 - ProjectLibre
+- Prometheus
 - Proxmox backup server
-- Proxmox VE
 - Publik
-- Puppet
+- PulseAudio
 - Putty
 - pyspf
 - Python
 - QGis
 - Quartz
 - R
+- RabbitMQ
 - Rancher
 - Redis
 - Redmine
 - regexp
 - Repmgr
+- RocketChat
 - Roundcube
 - rrdtool
 - RShiny
 - rspamd
 - RStudio
-- rsync
 - rsyslog
 - Rundeck
 - saaj
 - SabreDAV
-- Samba
+- SCENARI
+- Selenium plugin
+- Sendmail
 - ServiceMix
-- Shorewall
 - Sl4j
 - Slony-I
 - Smarty
-- Snort
+- SnakeTail
 - SoapUI
 - Sogo
 - Sonar
 - Spamassassin
-- Spring Framework
+- Spring Boot
 - Squash TM
 - SQUID
 - SQUIDGUARD
-- SQuirreL SQL
-- StatusNet
-- Struts 1
-- Struts 2
 - Stunnel
+- SuiteCRM
 - Sumatra
-- SVN
-- Sympa
-- syslog-ng
+- SURICATA
+- SWIFT
+- Symfony
 - sysstat (sar & isag)
 - Talend Open Studio
 - Tanaguru
+- tcpdump
 - TestLink
-- TFTP-SERVER
-- Thunderbird
-- Tomcat
+- The Hive
 - Torque
 - Tortoise SVN
+- Trinio
+- TrueNAS CORE
 - UltraVNC
-- Varnish
 - Veyon
 - Virt-manager
 - vsftpd
 - Webmin
+- Wekan
 - WinPT
 - WinSCP3
 - Wordpress
@@ -325,11 +319,12 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Xdoclet
 - Xerces2 Java
 - XMLBeans
-- XML Graphics Common
 - XMLsec
 - xmltask
+- XRDP
 - XWiki
+- Z-Push
 - Zabbix
 - Zammad
-- ZooKeeper
-- Z-Push
+- Zend engine
+- Zentyal

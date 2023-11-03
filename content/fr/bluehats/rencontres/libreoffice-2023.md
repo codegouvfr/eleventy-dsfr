@@ -1,9 +1,6 @@
 ---
 title: "Retour sur l’utilisation de LibreOffice dans l’administration"
 date: 2023-03-20
-image:
-  path: ./libreoffice-notes.jpg
-  alt: Illustration pour la rencontre LibreOffice du 20 mars 2023
 ---
 
 Le 20 mars 2023, à l'initiative d'un
@@ -13,6 +10,8 @@ la question de l'utilisation de
 [LibreOffice](https://code.gouv.fr/sill/detail?name=LibreOffice) dans
 l'administration. Ce compte-rendu revient sur l'histoire de cette
 utilisation de la suite collaborative libre dans les ministères.
+
+{% imageContent "./libreoffice-notes.jpg", "Notes prises lors de la rencontre BlueHats autour de LibreOffice - crédit photo: Matthieu Faure" %}
 
 ## StarOffice, OpenOffice, LibreOffice
 

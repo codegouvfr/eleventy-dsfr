@@ -36,9 +36,9 @@ groupe MIMO.
 
 ## LibreOffice « MIMO » ?
 
-### Pourquoi un empaquetage spécifique
+### Pourquoi un empaquetage spécifique ?
 
-Pour développer une version « MIMO » de LibreOffice à destination des
+Pourquoi développer une version « MIMO » de LibreOffice à destination des
 agents publics ? Pour deux raisons principales : proposer un choix de
 modules pré-installés et intégrer des correctifs faits via le marché
 de support avant même, parfois, qu'ils ne soient intégrés en amont à
@@ -137,6 +137,6 @@ finaliser et bien documenter le processus d'empaquetage.
 
 Une autre mission importante sera de faire un point sur la
 documentation de MIMO: quels sont les usages actuels et les besoins
-des utilisateurs ? quels sont les modules à documenter ? quelles
+des utilisateurs ? Quels sont les modules à documenter ? Quelles
 parties de la documentation actuelle sont à mettre à jour ?
 

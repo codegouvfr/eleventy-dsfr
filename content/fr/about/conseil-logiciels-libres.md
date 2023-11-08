@@ -11,6 +11,18 @@ segments:
 showBreadcrumb: true
 ---
 
+## Présentation
+
+Le conseil logiciels libres est une instance mise en place et animée par la DINUM depuis 2022.
+
+Il réunit d'un côté des agents publics d'administrations engagées dans l'utilisation et le développement de logiciels libres, de l'autre des acteurs de l'écosystème : associations et fondations rassemblant des citoyens, des collectivités et des entreprises.
+
+Son rôle est d'être un espace d'échange entre différents acteurs du logiciel libre visant ensemble la réussite du [plan d'action logiciels libres](/fr/plan-action-logiciels-libres-et-communs-numeriques/).
+
+Le conseil peut se saisir de toute question à l'intersection entre le logiciel libre et la transformation numérique de l'administration et remonter à la DINUM un avis consultatif que le conseil décide ou non de rendre public. Si vous souhaitez présenter au conseil un sujet sur lequel celui-ci pourrait émettre un avis, vous pouvez [l'envoyer à la mission logiciels libres](/fr/contact/) qui le relaiera.
+
+<br/>
+
 ## Administrations participantes
 
 - [AMUE](https://www.amue.fr/)
@@ -62,10 +74,7 @@ des publications en lien avec les questions liées aux logiciels libres
 dans l'administration, lesquelles ne reflètent pas nécessairement la
 position de tous les membres du conseil.
 
-- *Apports du logiciel libre à la durabilité des équipements
-  (smartphones, ordinateurs, objets connectés, périphériques) : une
-  synthèse*, [PDF](/rsrc/2023_01_RapportIndiceDurabilite.pdf), 16
-  janvier 2023, CC BY-SA.
+- *Apports du logiciel libre à la durabilité des équipements (smartphones, ordinateurs, objets connectés, périphériques) : une synthèse*, [PDF](/rsrc/2023_01_RapportIndiceDurabilite.pdf), 16 janvier 2023, CC BY-SA.
 
 <br/>
 

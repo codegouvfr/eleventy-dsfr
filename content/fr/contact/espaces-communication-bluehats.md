@@ -10,7 +10,7 @@ showBreadcrumb: true
 ## Espaces publics ouverts à tous
 
 - La [liste de discussion publique #BlueHats](https://lists.sr.ht/~codegouvfr/bluehats): vous pouvez vous y abonner en écrivant à `~codegouvfr/bluehats+subscribe@lists.sr.ht` et y envoyer des mails *en texte brut* en écrivant à `~codegouvfr/bluehats@lists.sr.ht`.  **Attention :** quand vous écrivez à la liste, celle-ci ne vous envoie pas de copie de vos propres mails.
-- Le canal public IRC `#bluehats` du serveur `irc.libera.chat`: vous pouvez [vous connecter via une interface web](https://web.libera.chat/#bluehats).  Le compte `codegouvfr` de la mission logiciels libres est en ligne tous les lundi de 17h à 18h pour répondre à vos questions.
+- Le canal public IRC `#bluehats` du serveur `irc.libera.chat`: vous pouvez [vous connecter via une interface web](https://web.libera.chat/#bluehats).  Le compte `codegouvfr` de la mission logiciels libres est en ligne tous les lundis de 17h à 18h pour répondre à vos questions.
 
 ## Espaces réservés aux agents publics
 

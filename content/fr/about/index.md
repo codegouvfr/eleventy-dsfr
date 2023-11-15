@@ -58,14 +58,6 @@ Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les 
 
 <br/>
 
-### Services web
-
-- [publiccode-editor.etalab.studio](https://publiccode-editor.etalab.studio/): le site permettant de créer un fichier `publiccode.yml`.
-
-<br/>
-
-<!-- # Logiciels -->
-
 ## L'offre de services de la mission logiciels libres
 
 La mission logiciels libres de la DINUM aide les administrations publiques sur tous les sujets concernant l'ouverture de leurs codes sources, l'utilisation de logiciels libres et le recrutement de compétences liées au logiciel libre (utilisation et ouverture).

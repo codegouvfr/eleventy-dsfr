@@ -19,7 +19,7 @@ Pour en savoir plus sur la communauté BlueHats 🧢 voir [notre page dédiée](
 
 Un exemple de logiciel libre que vous utilisez dans votre administration ?  Un déploiement particulièrement réussi ?  Une collaboration fructueuse avec un éditeur ?  Nous attendons vos retours d'expérience !
 
-Envoyez à `contact@code.gouv.fr` **vos propositions d'interventions de 5 à 20 minutes d'ici le 20 novembre 23h59**. Indiquez-nous votre administration de rattachement, le sujet de votre intervention, votre après-midi préféré (du 6 ou 7 décembre) et la durée souhaitée (entre 5 et 30 minutes).  En cas de doute sur la pertinence, écrivez-nous et nous en parlerons.
+Envoyez à [bluehats@code.gouv.fr](bluehats@code.gouv.fr) **vos propositions d'interventions de 5 à 20 minutes d'ici le 20 novembre 23h59**. Indiquez-nous votre administration de rattachement, le sujet de votre intervention, votre après-midi préféré (du 6 ou 7 décembre) et la durée souhaitée (entre 5 et 30 minutes).  En cas de doute sur la pertinence, écrivez-nous et nous en parlerons.
 
 Nous vous répondrons avant le 27 novembre et publierons le programme stabilisé le 4 décembre.
 
@@ -29,7 +29,7 @@ Nous vous répondrons avant le 27 novembre et publierons le programme stabilisé
 
 Pour participer à la journée #BlueHats, il est indispensable de s'inscrire au préalable au salon Open Source Experience - c'est [libre et gratuit](https://www.opensource-experience.com/creer-mon-badge/).
 
-Pour toute question, n'hésitez pas à [nous écrire](mailto:contact@code.gouv.fr).
+Pour toute question, n'hésitez pas à [nous écrire](mailto:bluehats@code.gouv.fr).
 
 ## Les éditions passées
 

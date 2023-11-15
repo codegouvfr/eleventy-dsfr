@@ -28,7 +28,7 @@ module.exports = {
     author: {
         name: "Mission logiciels libres de la DINUM",
         email: "contact@code.gouv.fr",
-        url: "https://code.gouv.fr/mission/"
+        url: "https://code.gouv.fr/fr/mission/"
     },
     service: "Direction interministérielle du numérique"
 }

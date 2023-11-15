@@ -30,4 +30,4 @@ Envoyez-nous **vos propositions d'interventions de 5 à 20 minutes d'ici le 17 o
 
 Pour participer à la journée #BlueHats, il est indispensable de s'inscrire au préalable au salon Open Source Experience - c'est [libre et gratuit](https://www.opensource-experience.com/creer-mon-badge/).
 
-Pour toute question, n'hésitez pas à [nous écrire](mailto:contact@code.gouv.fr).
+Pour toute question, n'hésitez pas à [nous écrire](mailto:bluehats@code.gouv.fr).

@@ -15,7 +15,7 @@ date: 2023-11-20
 
 <br/>
 
-# 📅 Evénements
+## 📅 Evénements
 
 - **21 novembre 2023**, la Commission européenne organise l'événement [OSOR turns 15](https://osorturns15.eu/) pour fêter les 15 ans de son observatoire de l'open source.
 - **22 novembre 2023**, le CNRS organise une journée « [science ouverte : logiciels libres et fouille de textes](https://jso-cnrs-2023.sciencesconf.org/resource/page/id/1) ».
@@ -27,7 +27,7 @@ date: 2023-11-20
 
 <br/>
 
-# 🚧 Focus Tech : Kubic - Kubernetes Infrastructure as Code 
+## 🚧 Focus Tech : Kubic - Kubernetes Infrastructure as Code 
 
 [CentraleSupélec](https://www.centralesupelec.fr/) a basculé une partie de ses applications web sur une infrastructure Kubernetes chez un cloud provider (OVHCloud) en 2020, s’inscrivant ainsi dans la doctrine Cloud au centre de l’État.  Il a fallu itérer au fil des projets car l’écosystème Kubernetes est vaste et évolue rapidement.  C’est pourquoi CentraleSupélec a développé Kubic et vous le propose en logiciel libre.
 
@@ -36,7 +36,7 @@ date: 2023-11-20
 
 <br/>
 
-# 🏫 Focus Éduc : Le projet Numérique Inclusif Responsable et Durable
+## 🏫 Focus Éduc : Le projet Numérique Inclusif Responsable et Durable
 
 Le projet Numérique Inclusif Responsable et Durable initié au lycée Carnot dans l'académie de Lille utilise exclusivement les logiciels libres. Ceci afin d'inclure tous les élèves en s’attaquant à la fracture numérique, en renforçant la diversité des usages et pour maîtriser l’outil informatique plutôt que le subir. Il s'agit aussi de former des élèves conscients des enjeux et en capacité de s’émanciper pour en faire des citoyens responsables.
 
@@ -46,9 +46,9 @@ La réussite à ce jour est complète !  Avec des élèves et [professeurs qui 
 
 <br/>
 
-# 📰 Revue de presse
+## 📰 Revue de presse
 
-## En français
+### En français
 
 - [Avis CSNP sur les « communs numeriques : vers un modèle souverain et durable »](https://csnp.fr/wp-content/uploads/2023/11/Avis-n%C2%B02023-09-du-08-novembre-2023-sur-les-communs-numeriques-1.pdf), csnp.fr, novembre 2023
 - [Open source en entreprise : quelles bases pour 2024 en Europe](https://www.silicon.fr/open-source-entreprises-europe-2024-473347.html), silicon.fr, novembre 2023
@@ -71,7 +71,7 @@ La réussite à ce jour est complète !  Avec des élèves et [professeurs qui 
 
 <br/>
 
-## En anglais
+### En anglais
 
 - [FOSDEM 2024 Public Code and Digital Public Goods devroom Call for Participation](https://blog.publiccode.net/news/2023/11/13/fosdem-2024-public-code-and-digital-public-goods-devroom-call-for-proposal.html), publiccode.net, novembre 2023
 - [GNOME Recognized as Public Interest Infrastructure](https://foundation.gnome.org/2023/11/09/gnome-recognized-as-public-interest-infrastructure/), gnome.org, novembre 2023

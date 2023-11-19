@@ -15,6 +15,10 @@ Pour la cinquième année, la DINUM accueillera les agents publics impliqués da
 
 Pour en savoir plus sur la communauté BlueHats 🧢 voir [notre page dédiée](/fr/bluehats/).
 
+{% imageContent "./bluehats-osx-2023.png", "Venir aux conférences BlueHats lors du salon Open Source Experience avec le code invitation E-DINOSVIP23", [1000] %}
+
+Pour parcourir les programmes des éditions précédentes, voir la page dédiée à nos [rencontres](/rencontres/).
+
 ## Appel à interventions avant le 23 novembre
 
 Un exemple de logiciel libre que vous utilisez dans votre administration ?  Un déploiement particulièrement réussi ?  Une collaboration fructueuse avec un éditeur ?  Nous attendons vos retours d'expérience !

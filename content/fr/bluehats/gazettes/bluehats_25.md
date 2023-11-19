@@ -20,6 +20,7 @@ date: 2023-11-20
 - **21 novembre 2023**, la Commission européenne organise l'événement [OSOR turns 15](https://osorturns15.eu/) pour fêter les 15 ans de son observatoire de l'open source.
 - **22 novembre 2023**, le CNRS organise une journée « [science ouverte : logiciels libres et fouille de textes](https://jso-cnrs-2023.sciencesconf.org/resource/page/id/1) ».
 - **28 novembre 2023**, clôture de la saison 2 du programme 10% d'Etalab ([inscription](https://www.eventbrite.fr/e/billets-cloture-de-la-saison-2-du-programme-10-730265603077?aff=oddtdtcreator)).
+- **28 novembre 2023**, [OpenForum Academy Symposium](https://symposium.openforumeurope.org/) à Berlin
 - **6 et 7 décembre 2023**, salon Open Source Experience où la mission orgnise les [conférences BlueHats](https://code.gouv.fr/fr/blog/appel-a-interventions-journees-bluehats-2023/) ([inscription](https://www.opensource-experience.com/creer-mon-badge/)).
 - **12 décembre 2023**, le groupe Calcul du CNRS organise une journée « [Développement open source: Simplifions-nous la vie !](https://calcul.math.cnrs.fr/2023-12-github-actions.html) » ([inscription](https://indico.mathrice.fr/event/488/)).
 - **9 et 10 janvier 2024**, la mission organise un [hackathon BlueHats](https://code.gouv.fr/fr/blog/sauvez-la-date-hackathon-bluehats-2024/).

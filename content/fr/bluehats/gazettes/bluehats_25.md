@@ -13,6 +13,8 @@ date: 2023-11-20
 - Nous avons mis en ligne le compte-rendu de la [journée BlueHats autour de LibreOffice](https://code.gouv.fr/fr/bluehats/libreoffice-2023/) qui s'est tenue au printemps.
 - Nous proposons une [nouvelle liste de discussion privée BlueHats](https://groupes.renater.fr/sympa/info/bluehats).  Vous pouvez vous y inscrire depuis votre adresse d'agent public.
 
+<br/>
+
 # 📅 Evénements
 
 - **21 novembre 2023**, la Commission européenne organise l'événement [OSOR turns 15](https://osorturns15.eu/) pour fêter les 15 ans de son observatoire de l'open source.
@@ -22,6 +24,8 @@ date: 2023-11-20
 - **12 décembre 2023**, le groupe Calcul du CNRS organise une journée « [Développement open source: Simplifions-nous la vie !](https://calcul.math.cnrs.fr/2023-12-github-actions.html) » ([inscription](https://indico.mathrice.fr/event/488/)).
 - **9 et 10 janvier 2024**, la mission organise un [hackathon BlueHats](https://code.gouv.fr/fr/blog/sauvez-la-date-hackathon-bluehats-2024/).
 - **20-22 mars 2024**, les journées Esup-Pod #3 « 10 ans déjà » auront lieu à Avignon ! ([annonce](https://twitter.com/EsupPortail/status/1722182671692865728)).
+
+<br/>
 
 # 🚧 Focus Tech : Kubic - Kubernetes Infrastructure as Code 
 
@@ -64,6 +68,8 @@ La réussite à ce jour est complète !  Avec des élèves et [professeurs qui 
 - [Vidéos des journées GitLab de juin](https://www.canal-u.tv/chaines/ad/journee-gitlab), canal-u.tv, juin 2023
 - [Recommandations de sécurité relatives à un système GNU/Linux](https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-un-systeme-gnulinux/), ssi.gouv.fr, mis à jour en octobre 2022
 - [Llama 2 : Meta confond open source et innovation ouverte](https://www.lemagit.fr/actualites/366548060/Llama-2-Meta-confond-open-source-et-innovation-ouverte), lamagit.fr, août 2023
+
+<br/>
 
 ## En anglais
 

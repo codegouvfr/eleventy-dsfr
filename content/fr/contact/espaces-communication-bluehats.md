@@ -22,6 +22,10 @@ showBreadcrumb: true
 
 La mission logiciels libres assure une présence dans le salon `#BlueHats` tous les jeudis de 11h à 12h.
 
+### Liste de discussion privée BlueHats
+
+La [liste de discussion privée BlueHats](https://groupes.renater.fr/sympa/info/bluehats) permet d'échanger avec les BlueHats par mail.
+
 ### Communauté dans [OSMOSE](https://osmose.numerique.gouv.fr)
 
 - La [communauté Logiciels Libres d'OSMOSE](https://osmose.numerique.gouv.fr/jcms/c_2013888/fr/communaute-opensource-logiciel-libre-de-l-etat-bluehats?jsp=plugins%2FCollaborativeSpacePlugin%2Fjsp%2Fmembers.jsp&memberView=signups&start=0&pageSize=5&pagerAll=true&reverse=false&portletId=a_19102&portletDomId=c_2013903_0_a_19102_0).

@@ -13,7 +13,13 @@ tags: bluehats
 
 Pour la cinquième année, la DINUM accueillera les agents publics impliqués dans le logiciel libre lors du [salon Open Source Experience](https://www.opensource-experience.com/programme/les-evenements-dans-levenement/) les **6 et 7 décembre 2023 après-midi au palais des Congrès**.  Retrouvez-nous toute la journée à notre stand et participez aux **conférences BlueHats** les deux après-midi de 14h à 17h.
 
+<<<<<<< Updated upstream
 Pour en savoir plus sur la communauté BlueHats 🧢 voir [notre page dédiée](/fr/bluehats/).
+=======
+{% imageContent "./bluehats-osx-2023.png", "Venir aux conférences BlueHats lors du salon Open Source Experience avec le code invitation E-DINOSVIP23", [1000] %}
+
+Pour parcourir les programmes des éditions précédentes, voir la page dédiée à nos [rencontres](/rencontres/).
+>>>>>>> Stashed changes
 
 ## Appel à interventions avant le 23 novembre
 

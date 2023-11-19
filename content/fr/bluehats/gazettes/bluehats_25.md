@@ -76,6 +76,7 @@ La réussite à ce jour est complète !  Avec des élèves et [professeurs qui 
 
 - [Political agreement on the Interoperable Europe Act](https://joinup.ec.europa.eu/interoperable-europe/news/political-agreement-interoperable-europe-act), joinup.ec.europa.eu, novembre 2023
 - [FOSDEM 2024 Public Code and Digital Public Goods devroom Call for Participation](https://blog.publiccode.net/news/2023/11/13/fosdem-2024-public-code-and-digital-public-goods-devroom-call-for-proposal.html), publiccode.net, novembre 2023
+- [Cyber ​​Resilience Act could seriously disrupt European supply chains, says DIGITALEUROPE](https://stackdiary.com/cra-could-disrupt-eu-supply-chains-digitaleurope/), stackdiary.com, novembre 2023
 - [GNOME Recognized as Public Interest Infrastructure](https://foundation.gnome.org/2023/11/09/gnome-recognized-as-public-interest-infrastructure/), gnome.org, novembre 2023
 - [Higher Education and Research Forges in France - Definition, uses, limitations encountered and needs analysis](https://hal-lara.archives-ouvertes.fr/hal-04208924), hal-lara.archives-ouvertes.fr, novembre 2023
 - [Process code for software procurement](https://processcode.publiccode.net/1a-getting-oriented.html), publiccode.net, novembre 2023

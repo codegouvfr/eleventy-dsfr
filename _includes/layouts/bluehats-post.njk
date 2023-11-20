@@ -30,7 +30,11 @@ layout: layouts/base.njk
         </p>
       {% endif %}
 
-      {{ content | safe }}
+      <div class="fr-grid-row">
+        <div class="fr-col-md-8">
+          {{ content | safe }}
+        </div>
+      </div>
 
       {% if video %}
         <figure class="fr-content-media" role="group">

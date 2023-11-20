@@ -10,6 +10,8 @@ image:
   hide: True
 ---
 
+**Il y un souci temporaire avec les annonces publiées sur `choisirleservicepublic.gouv.fr`: vous pouvez [nous écrire](mailto:contact@code.gouv.fr) pour en savoir plus.**
+
 Vous souhaitez encourager les administrations à utiliser plus de logiciels libres ? aider le [socle interministériel de logiciels libres](https://code.gouv.fr/sill) à se développer ? encourager et animer l'échange d'expertise entre ministères ?
 
 👉 Consultez [l'annonce du poste de chef de produit « logiciels

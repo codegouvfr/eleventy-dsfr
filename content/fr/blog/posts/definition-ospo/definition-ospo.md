@@ -1,5 +1,5 @@
 ---
-title: "Qu'est-ce qu'un Open Source Programme Office (OSPO) ?"
+title: "Qu'est-ce qu'un Open Source Programme Office (OSPO) ?"
 description: "Une tentative de définition d'un OSPO."
 date: 2023-06-14
 image:
@@ -7,7 +7,7 @@ image:
   alt: "Illustration contenant le titre de l'article"
 tags: OSPO
 ---
-# Qu'est-ce qu'un *Open Source Programme Office* (OSPO) ?
+# Qu'est-ce qu'un *Open Source Programme Office* (OSPO) ?
 
 ## Du secteur privé au secteur public
 

@@ -36,7 +36,7 @@ groupe MIMO.
 
 ## LibreOffice « MIMO » ?
 
-### Pourquoi un empaquetage spécifique ?
+### Pourquoi un empaquetage spécifique ?
 
 Pourquoi développer une version « MIMO » de LibreOffice à destination des
 agents publics ? Pour deux raisons principales : proposer un choix de
@@ -117,7 +117,7 @@ et ses versions déployables en ligne.
 
 Le sujet de l'indépendance reste, lui aussi, entier.
 
-## Et maintenant ?
+## Et maintenant ?
 
 Suite à cette journée de mars 2023, « LibreOffice MIMO » a été renommé
 en « MIMO basé sur LibreOffice® » (ou « MIMO » en version courte) pour
@@ -137,6 +137,6 @@ finaliser et bien documenter le processus d'empaquetage.
 
 Une autre mission importante sera de faire un point sur la
 documentation de MIMO: quels sont les usages actuels et les besoins
-des utilisateurs ? Quels sont les modules à documenter ? Quelles
-parties de la documentation actuelle sont à mettre à jour ?
+des utilisateurs ? Quels sont les modules à documenter ? Quelles
+parties de la documentation actuelle sont à mettre à jour ?
 

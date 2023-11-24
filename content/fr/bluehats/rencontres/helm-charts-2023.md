@@ -32,7 +32,7 @@ exposées et partagées en plénière. Par la suite ces questions ont pu
   utiliser ? de créer les siens sur la base de template partagés ?
 - Groupe « chaine de confiance »: comment pour opérer, depuis
   l’extérieur jusqu’à la production, des éléments de confiance, sans
-  attendre « LE dépôt de confiance » ?
+  attendre « LE dépôt de confiance » ?
 - Groupe « communauté » : comment poser les bases d’un bien commun
   interministériel sur kubernetes ?
 

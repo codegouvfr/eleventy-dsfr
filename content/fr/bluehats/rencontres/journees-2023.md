@@ -32,9 +32,9 @@ tags: OSXP
 |       | SWMB, un logiciel libre et modulaire pour sécuriser votre parc Windows                                               | Gabriel Moreau                  | LEGI (CNRS)  |
 |       | React-Dsfr : l'implémentation React du système de design de l'État                                                   | Joseph Garrone                  | Indépendant  |
 | 15h   | Présentation de l'initiative du label Territoire Numérique Libre                                                     | Camille Tillatte                | ADULLACT     |
-|       | **NDD secteur public / Observatoire accessibilité: 90000 domaines, 1 réutilisation**                                 | Matthieu Faure                  | ADULLACT     |
+|       | Noms de domaine du secteur public et observatoire de l'accessibilité: 90000 domaines, 1 réutilisation**              | Matthieu Faure                  | ADULLACT     |
 |       | Assistant RGAA: une extension de navigateur libre pour vérifier les critères d'accessibilité numérique d'un site web | Antoine Cao                     | DINUM        |
-| 16h   | Interopérer les logiciels des SAMU : une approche ouverte sur l’écosystème et le code                                | Romain FOUILLAND                | ANS          |
+| 16h   | Interopérer les logiciels des SAMU : une approche ouverte sur l’écosystème et le code                                | Romain Fouilland                | ANS          |
 |       | LLaMandement : Grands modèles de langue pour la synthèse de propositions législatives parlementaires                 | Joseph Gesnouin                 | DGFiP        |
 |       | La stratégie Open Source derrière Albert                                                                             | Pierre-Etienne Devineau         | Etalab/DINUM |
 |       | Présentation des actualités de la mission logiciels libres                                                           | Hélène Jonin et Bastien Guerry  | DINUM        |

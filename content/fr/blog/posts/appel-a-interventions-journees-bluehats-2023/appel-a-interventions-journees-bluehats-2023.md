@@ -9,6 +9,8 @@ image:
 tags: bluehats
 ---
 
+**Voir le [programme actuel](/fr/bluehats/journees-2023/) de ces demi-journées BlueHats.**
+
 ## La DINUM rassemble les agents publics #BlueHats
 
 Pour la cinquième année, la DINUM accueillera les agents publics impliqués dans le logiciel libre lors du [salon Open Source Experience](https://www.opensource-experience.com/programme/les-evenements-dans-levenement/) les **6 et 7 décembre 2023 après-midi au palais des Congrès**.  Retrouvez-nous toute la journée à notre stand et participez aux **conférences BlueHats** les deux après-midi de 14h à 17h.

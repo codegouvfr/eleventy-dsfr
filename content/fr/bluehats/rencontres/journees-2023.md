@@ -1,5 +1,5 @@
 ---
-title: "Présentations des demi-journées BlueHats 🧢 2023 - Open Source Experience"
+title: "Présentations des journées BlueHats 🧢 2023 - Open Source Experience"
 date: 2023-12-06
 description: Présentations lors des journées BlueHats des 6 et 7 décembre 2023 lors du salon Open Source Experience
 tags: OSXP

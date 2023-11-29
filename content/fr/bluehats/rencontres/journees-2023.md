@@ -1,9 +1,13 @@
 ---
 title: "Présentations des journées BlueHats 🧢 2023 - Open Source Experience"
 date: 2023-12-06
-description: Présentations lors des journées BlueHats des 6 et 7 décembre 2023 lors du salon Open Source Experience
+description: Programme des présentations pour les journées BlueHats des 6 et 7 décembre 2023 lors du salon Open Source Experience
 tags: OSXP
 ---
+
+Pendant deux après-midi, des personnes partagent des retours d'expérience sur des logiciels libres utilisés ou développés par l'administration.
+
+Retrouvez l'espace de conférence au stand L57 et [inscrivez-vous](https://www.opensource-experience.com/creer-mon-badge/) !
 
 ## 6 décembre de 14h à 18h
 

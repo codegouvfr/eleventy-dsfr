@@ -5,8 +5,8 @@ layout: layouts/base.njk
   {% if showBreadcrumb %}
     {% include "components/breadcrumb.njk" %}
   {% endif %}
-  <div class="fr-grid-row" data-pagefind-body>
-    <div class="fr-col-12">
+  <div class="fr-grid-row fr-grid-row--center" data-pagefind-body>
+    <div class="fr-col-12 fr-col-md-8">
       {% set tagsUrl = "/bluehats/tags/" %}
       {% include "components/taggroup.njk" %}
       <div class="fr-grid-row">
@@ -30,11 +30,7 @@ layout: layouts/base.njk
         </p>
       {% endif %}
 
-      <div class="fr-grid-row">
-        <div class="fr-col-md-8">
-          {{ content | safe }}
-        </div>
-      </div>
+      {{ content | safe }}
 
       {% if video %}
         <figure class="fr-content-media" role="group">
@@ -55,7 +51,10 @@ layout: layouts/base.njk
           <figcaption class="fr-content-media__caption">Support de présentation</figcaption>
         </figure>
       {% endif %}
-
+    </div>
+  </div>
+  <div class="fr-grid-row">
+    <div class="fr-col-12">
       {% if collections.bluehats_posts %}
         {% set previousPost = collections.bluehats_posts | filterCollectionLang | getPreviousCollectionItem %}
         {% set nextPost = collections.bluehats_posts | filterCollectionLang | getNextCollectionItem %}

@@ -1,4 +1,5 @@
 const {DateTime} = require("luxon");
+const yaml = require("js-yaml");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -52,6 +53,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+    eleventyConfig.addDataExtension("yml, yaml", contents => yaml.load(contents));
 
     // Custom collections
     eleventyConfig.addCollection("allPosts", function(collectionApi) {

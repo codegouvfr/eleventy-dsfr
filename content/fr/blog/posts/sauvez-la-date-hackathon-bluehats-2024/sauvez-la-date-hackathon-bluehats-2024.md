@@ -1,5 +1,5 @@
 ---
-title: "Hackathon #BlueHats 🧢 9 et 10 janvier 2024"
+title: "Hackathon #BlueHats 🧢 les 9 et 10 janvier 2024"
 description: "Appel aux équipes qui développent des logiciels libres dans l'administration pour participer au hackathon BlueHats des 9 et 10 janvier 2024 au Lieu de la Transformation Publique"
 date: 2023-11-18
 image:

@@ -10,7 +10,7 @@ tags: awesome
 
 ## Pourquoi ?
 
-En octobre, Etalab publiait la première [liste des codes sources publics](https://code.gouv.fr/public). L'ambition était de promouvoir la démarche d'ouverture des codes dans laquelle étaient déjà engagées plusieurs administrations. Depuis, la mission logiciels libres a été créée (2021) et des organismes publics de plus en plus nombreux publient des codes sources.
+En octobre 2019, Etalab publiait la première [liste des codes sources publics](https://code.gouv.fr/public). L'ambition était de promouvoir la démarche d'ouverture des codes dans laquelle étaient déjà engagées plusieurs administrations. Depuis, la mission logiciels libres a été créée (2021) et des organismes publics de plus en plus nombreux publient des codes sources.
 
 Quels sont, parmi ces projets, ceux qui sont **activement maintenus et financés sur fonds publics**, qui cherchent à la fois **des utilisateurs et des contributeurs** et que toutes les administrations gagneraient à connaître ? Quels projets sont susceptibles de devenirs des communs logiciels, portés par plusieurs organismes publics ?
 

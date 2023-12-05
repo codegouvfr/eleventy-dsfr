@@ -154,6 +154,14 @@ div.fr-callout__text p {
     content: none !important;
 }
 
+.fr-link.link-no-style {
+    background-image: none;
+}
+
+.fr-link.link-no-style:after {
+    content: none;
+}
+
 /* Custom */
 .banner-primary {
     background: var(--background-alt-green-archipel);

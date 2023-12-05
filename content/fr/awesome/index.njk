@@ -5,7 +5,7 @@ layout: layouts/page.njk
 <p class="fr-text--lead">
   Voici la liste des logiciels libres développés par des administrations et à fort potentiel de réutilisation.
 <br>
-  Vous pouvez en apprendre plus dans le <a href="https://github.com/codegouvfr/awesome-codegouvfr" target="_blank">dépôt dédié à cette liste</a> et dans <a>l'article de blog</a> expliquant ce projet.
+  Vous pouvez en apprendre plus dans le <a class="fr-link fr-text--lead" href="https://github.com/codegouvfr/awesome-codegouvfr" target="_blank">dépôt dédié à cette liste</a> et dans <a class="fr-link fr-text--lead">l'article de blog</a> expliquant ce projet.
 </p>
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-mb-3w">
   {% asyncAll filename, project in awesome.dist %}
@@ -19,7 +19,7 @@ layout: layouts/page.njk
         url: project.logo,
         alt: "Logo du projet"
       },
-      detail: '<img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet">'
+      detail: '<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>'
     } %}
     {% include "components/card.njk" %}
   </div>

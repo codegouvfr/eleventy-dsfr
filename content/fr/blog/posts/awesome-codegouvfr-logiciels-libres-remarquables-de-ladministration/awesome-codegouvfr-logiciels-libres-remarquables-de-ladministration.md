@@ -24,7 +24,7 @@ Cette liste est *ouverte* : la suite de cette entrée de blog vous donne toutes
 
 Nous avons sélectionné des projets parmi les 18000+ dépôts référencés sur [code.gouv.fr/public](https://code.gouv.fr/public) en nous concentrant, pour cette première itération, sur les logiciels développés par le Ministère de la Transformation et de la Fonction Publique et des organisations connexes.
 
-Nous avons ensuite défini des critères de sélection, critères que nous avons affiné en mobilisant les expertises de la mission et après avoir passé en revue différents système de "scoring".
+Nous avons ensuite défini des critères de sélection, critères que nous avons affinés en mobilisant les expertises de la mission et après avoir passé en revue différents système de "scoring".
 
 Nous avons pour finir divisé ces critères en deux catégories : des critères requis pour figurer dans la liste et des critères optionnels, utiles au calcul d'un score "awesome-codegouvfr".
 

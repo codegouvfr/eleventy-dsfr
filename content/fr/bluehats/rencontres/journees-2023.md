@@ -13,7 +13,7 @@ Retrouvez l'espace de conférence au stand L57 et [inscrivez-vous](https://www.o
 
 | Heure | Intitulé                                                                                                  | Intervenant·e       | Affiliation                                                    |
 |-------|-----------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------|
-| 14h   | EOLE³ : la distribution qui propulse apps.education.fr                                                    | Daniel Dehennin     | [MENJ](https://www.education.gouv.fr)                          |
+| 14h   | EOLE³ : la distribution qui propulse apps.education.fr                                                    | Nicolas Schont     | [MENJ](https://www.education.gouv.fr)                          |
 |       | MIM-LIBRE : une communauté et ses services                                                                | Nicolas Schont      | [MENJ](https://www.education.gouv.fr)                          |
 |       | Superset pour restituer des indicateurs à destination des chefs d’établissement et des directeurs d’école | Richard Thibert     | [MENJ](https://www.education.gouv.fr)                          |
 | 15h   | Geotrek et GeoNature, 10 ans de construction et d'animation de communautés Open source                    | Camille Monchicourt | [Parc national des Écrins](https://www.ecrins-parcnational.fr) |

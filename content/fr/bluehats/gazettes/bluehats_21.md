@@ -17,7 +17,7 @@ Notre adresse de contact a changé aussi, vous pouvez nous joindre pour toute qu
 
 Le premier trimestre est consacré à un travail de refonte du socle interministériel de logiciels libres en fonction de retours que vous avez été nombreux à nous remonter.  Merci pour votre aide !
 
-`>>` [Téléchargez le résumé de l'étude (PDF)](/rsrc//SILL-recherche-utilisateur-T4-2022.pdf)
+`>>` [Téléchargez le résumé de l'étude (PDF)](/docs//SILL-recherche-utilisateur-T4-2022.pdf)
 
 ## Le conseil logiciels libres s'élargit
 
@@ -27,7 +27,7 @@ Le [conseil logiciels libres](/fr/mission/conseil-logiciels-libres/) s'élargit 
 
 Un membre du conseil a publié une note de synthèse sur le thème « Apports du logiciel libre à la durabilité des équipements ».
 
-`>>` [Lire la note en PDF](/rsrc/2023_01_RapportIndiceDurabilite.pdf)
+`>>` [Lire la note en PDF](/docs/2023_01_RapportIndiceDurabilite.pdf)
 
 Cette note a nourri une discussion au sein du conseil qui a permis à la DINUM d'émettre un avis en répondant positivement à la question : « Pensez-vous que de rendre possible l'installation d'un système d'exploitation libre augmente la durabilité des ordinateurs (portables ou non) et des smartphones ? »
 

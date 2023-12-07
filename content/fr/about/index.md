@@ -22,7 +22,7 @@ Le plan d'action est piloté par la mission logiciels libres de la [direction in
 
 [Voir la présentation en ligne](https://speakerdeck.com/bluehats/dinum){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-[Télécharger le livret PDF de présentation](/rsrc/pole-logiciels-libres-produits-bluehats.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+[Télécharger le livret PDF de présentation](/docs/pole-logiciels-libres-produits-bluehats.pdf){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 [Voir les objectifs, engagements et rituels de la mission logiciels libres](/fr/mission/mission-logiciels-libres-engagements-et-rituels/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
@@ -106,7 +106,7 @@ Chaque agent public est invité à proposer un atelier BlueHats en [nous
 - [Présentation](/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/) des marchés interministériels de support et d'expertise logiciels libres.
 - [Études de veille sur des logiciels libres](https://gitlab.adullact.net/marche-sll/etudes-de-veille/) publiées dans le cadre du marché.
 - Liste des [bénéficiaires des marchés de support et d'expertise](/fr/utiliser/marches-logiciels-libres/).
-- Liste des logiciels libres concernés par les marchés de support et d'expertise [web](/fr/utiliser/marches-logiciels-libres-liste-logiciels/) ou [csv](/rsrc/marches-logiciels-libres-liste-logiciels.csv).
+- Liste des logiciels libres concernés par les marchés de support et d'expertise [web](/fr/utiliser/marches-logiciels-libres-liste-logiciels/) ou [csv](/docs/marches-logiciels-libres-liste-logiciels.csv).
 
 <br/>
 

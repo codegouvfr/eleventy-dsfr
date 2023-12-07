@@ -42,7 +42,7 @@ Consultez le tableau de suivi des ouvertures de code source via [ouverture.data.
 
 Les engagements ci-dessous ont été pris par les ministères via les [feuilles de route ministérielles sur la politique de la donnée](https://www.data.gouv.fr/en/datasets/feuilles-de-route-ministerielles-sur-la-politique-de-la-donnee-des-algorithmes-et-des-codes-sources/).
 
-Vous pouvez [accéder au tableau ci-dessous au format .csv](/rsrc/engagements-feuilles-de-route-minist%C3%A9rielles-logiciels-libres.csv).
+Vous pouvez [accéder au tableau ci-dessous au format .csv](/docs/engagements-feuilles-de-route-minist%C3%A9rielles-logiciels-libres.csv).
 
 | Ministère | Thématiques                                     | Actions                                                                                                                                                                                                                                                                                                                                                                                                                                             | Echéances |
 |-----------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|

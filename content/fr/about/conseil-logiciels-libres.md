@@ -74,7 +74,7 @@ des publications en lien avec les questions liées aux logiciels libres
 dans l'administration, lesquelles ne reflètent pas nécessairement la
 position de tous les membres du conseil.
 
-- *Apports du logiciel libre à la durabilité des équipements (smartphones, ordinateurs, objets connectés, périphériques) : une synthèse*, [PDF](/rsrc/2023_01_RapportIndiceDurabilite.pdf), 16 janvier 2023, CC BY-SA.
+- *Apports du logiciel libre à la durabilité des équipements (smartphones, ordinateurs, objets connectés, périphériques) : une synthèse*, [PDF](/docs/2023_01_RapportIndiceDurabilite.pdf), 16 janvier 2023, CC BY-SA.
 
 <br/>
 

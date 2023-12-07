@@ -7,7 +7,7 @@ image:
   alt: Photo de quelques BlueHats présents à la journée, avec un chapeau bleu
 ---
 
-`>>` **Nous vous invitons à télécharger et explorer le [compte-rendu de la journée (PDF de 7.5Mo)](/rsrc/compte-rendu-journee-bluehats-mutualisons-1er-juillet-2022-version-1.0.pdf) qui fourmille de retours d'expérience, de réflexions et de perspectives.**
+`>>` **Nous vous invitons à télécharger et explorer le [compte-rendu de la journée (PDF de 7.5Mo)](/docs/compte-rendu-journee-bluehats-mutualisons-1er-juillet-2022-version-1.0.pdf) qui fourmille de retours d'expérience, de réflexions et de perspectives.**
 
 Le site [code.gouv.fr](https://code.gouv.fr/public/) recense à ce jour plus de 12000 dépôts de codes sources publiés par des organismes publics.  7000 viennent de l'enseignement supérieur et de la recherche.  Restent 5000 dépôts publiés par des ministères, des opérateurs de l'état, des collectivités : pourquoi des administrations publient-elles sous licence libre ces programmes qu'elles développent ou font développer ?
 

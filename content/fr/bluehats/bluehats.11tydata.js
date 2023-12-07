@@ -45,7 +45,7 @@ module.exports = {
 {
             title: "Vous souhaitez organiser un atelier ou événement BlueHats ?",
             content: `
-<p>Tout agent public peut solliciter son administration pour organiser un événement BlueHats, en ligne ou en présentiel.  Si vous avez besoin de visuels pour communiquer, vous pouvez utiliser ce <a href="/doc/bluehats-visuals-2023-10-20.zip">kit BlueHats</a>.</p>`
+<p>Tout agent public peut solliciter son administration pour organiser un événement BlueHats, en ligne ou en présentiel.  Si vous avez besoin de visuels pour communiquer, vous pouvez utiliser ce <a href="/docs/bluehats-visuals-2023-10-20.zip">kit BlueHats</a>.</p>`
         }
     ]
 };

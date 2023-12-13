@@ -40,8 +40,8 @@ mail de confirmation vous sera envoyé le 3 janvier.
 
 Le garagethon #BlueHats se tiendra les **9 et 10 janvier 2024 au [Lieu
 de la Transformation
-Publique](https://osm.org/go/0BOdSvERD?node=9825094308)**, 77 avenue
-de Ségur 75015 Paris, de 10h à 17h les deux jours.
+Publique](https://osm.org/go/0BOdSvERD?node=9825094308)**, au 77
+avenue de Ségur 75015 Paris, de 10h à 17h les deux jours.
 
 ## ✏️ Ce que nous allons faire
 
@@ -63,3 +63,15 @@ aura la possibilité de faire des présentations éclair sur des points
 qui lui tiennent à coeur, que ceux-ci soit des sujets techniques ou
 non. Le garagethon s'achèvera sur une tentative de bilan où nous
 insisterons sur ce que chacun a pu **apprendre des autres**.
+
+## 🛠️ Et pourquoi « garagethon » ?
+
+Nous n'allons pas prototyper, nous n'allons pas sortir rapidement des
+idées de produit, nous n'allons pas entrer en compétition les uns avec
+les autres. 
+
+Nous allons contribuer à des logiciels libres existants, déjà publiés
+par des administrations pour les améliorer. Nous n'avons pas besoin
+d'être très nombreux : juste ce qu'il faut pour un retour à l'esprit
+« garage », bien concentrés sur ce qu'on écrit et avec des moments de
+partage détendus.

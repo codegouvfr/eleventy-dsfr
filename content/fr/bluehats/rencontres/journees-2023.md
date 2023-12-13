@@ -9,16 +9,12 @@ Pendant deux après-midi, des personnes partagent des retours d'expérience sur 
 
 Retrouvez l'espace de conférence au stand L57 et [inscrivez-vous](https://www.opensource-experience.com/creer-mon-badge/) !
 
-https://eole.ac-dijon.fr/presentations/2023-journ%c3%a9es-blueHats-openSource-eXperience/
-
-https://podeduc.apps.education.fr/video/1607-eole-3/?is_iframe=true
-
 ## 6 décembre de 14h à 18h
 
 | Heure | Intitulé                                                                                                                                                        | Intervenant·e       | Affiliation                                                    |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------|
-| 14h   | EOLE³ : la distribution qui propulse apps.education.fr ([diaporama](https://eole.ac-dijon.fr/presentations/2023-journ%c3%a9es-blueHats-openSource-eXperience/)) | Nicolas Schont      | [MENJ](https://www.education.gouv.fr)                          |
-|       | MIM-LIBRE : une communauté et ses services ([diaporama](https://podeduc.apps.education.fr/video/1607-eole-3/?is_iframe=true))                                   | Nicolas Schont      | [MENJ](https://www.education.gouv.fr)                          |
+| 14h   | EOLE³ : la distribution qui propulse apps.education.fr ([diaporama](https://eole.ac-dijon.fr/presentations/2023-journ%c3%a9es-blueHats-openSource-eXperience/EOLE%c2%b3-la-distribution-qui-propulse-apps.education.fr.pdf)) | Nicolas Schont      | [MENJ](https://www.education.gouv.fr)                          |
+|       | MIM-LIBRE : une communauté et ses services ([diaporama](https://eole.ac-dijon.fr/presentations/2023-journ%c3%a9es-blueHats-openSource-eXperience/MIM-LIBRE-une-communaut%c3%a9-et-ses-services.pdf) et [vidéo](https://podeduc.apps.education.fr/video/1607-eole-3/?is_iframe=true))                                   | Nicolas Schont      | [MENJ](https://www.education.gouv.fr)                          |
 |       | Superset pour restituer des indicateurs à destination des chefs d’établissement et des directeurs d’école                                                       | Richard Thibert     | [MENJ](https://www.education.gouv.fr)                          |
 | 15h   | Geotrek et GeoNature, 10 ans de construction et d'animation de communautés Open source                                                                          | Camille Monchicourt | [Parc national des Écrins](https://www.ecrins-parcnational.fr) |
 |       | Open Source et packaging de communs sur kubernetes : un exemple en datascience                                                                                  | Frédéric Comte      | [INSEE](https://www.insee.fr)                                  |

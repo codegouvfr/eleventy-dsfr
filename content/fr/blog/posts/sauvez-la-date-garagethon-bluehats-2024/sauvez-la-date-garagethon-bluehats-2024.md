@@ -4,7 +4,7 @@ description: "Appel aux équipes qui développent des logiciels libres dans l'ad
 date: 2023-11-18
 image:
   path: ./bluehats-garagethon-save-the-date.png
-  alt: "Illustration pour l'événement contenant un titre, une description, la date et le lieu pour le garagethon #BlueHats."
+  alt: "Illustration pour le garagethon #BlueHats les 9 et 10 janvier 2024"
   hide: False
 tags: bluehats
 ---

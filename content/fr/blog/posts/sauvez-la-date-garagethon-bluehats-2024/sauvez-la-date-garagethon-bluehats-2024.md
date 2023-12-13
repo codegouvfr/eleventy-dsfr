@@ -31,7 +31,7 @@ mail de confirmation vous sera envoyé le 3 janvier.
 <p>
   <center>
     <button class="fr-btn fr-btn--secondary">
-      <a title="Formulaire de préinscription pour le garagethon #BlueHats" href="">Préinscrivez-vous au Garagethon #BlueHats</a>
+      <a title="Formulaire de préinscription pour le garagethon #BlueHats" href="https://framaforms.org/garagethon-bluehats-9-10-janvier-2024-1702471895">Préinscrivez-vous au Garagethon #BlueHats</a>
     </button>
   </center> 
 </p>

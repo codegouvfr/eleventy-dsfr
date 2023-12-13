@@ -15,8 +15,8 @@ module.exports = {
         },
         {
             url: "/fr/bluehats/",
-            title: "Attirer",
-            description: "S’appuyer sur les logiciels libres et open source et sur les communs numériques pour renforcer l’attractivité de l’État-employeur auprès des talents du numériques.",
+            title: "BlueHats",
+            description: "S’appuyer sur les logiciels libres et sur les communs numériques pour renforcer l’attractivité de l’État-employeur.",
             imageSrc: "/icons/hat-64.png"
         }
     ],

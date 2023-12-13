@@ -19,9 +19,9 @@ module.exports = {
             imageSrc: "/icons/businessman-64.png"
         },
         {
-            url: "/fr/bluehats/bluehats-semester-of-code/",
-            title: "BlueHats Semester of Code",
-            description: "En partenariat avec CentraleSupélec, la DINUM propose un programme de stages pour développer les contributions de l'administration à des logiciels libres.",
+            url: "/fr/bluehats/prix-bluehats/",
+            title: "Les prix BlueHats pour soutenir l'écosystème du libre",
+            description: "En partenariat avec NLnet, la DINUM récompense quatre mainteneurs de projets libres.",
             imageSrc: "/icons/coding-2-64.png"
         }
     ],

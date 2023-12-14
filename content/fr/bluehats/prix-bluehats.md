@@ -36,6 +36,14 @@ et annonce les **prix BlueHats** : **4 prix de 10K€** recompensant le
 travail de mainteneurs de logiciels libres fortement utilisés dans
 l'administration, logiciels à la fois essentiels et peu soutenus.
 
+<p>
+  <center>
+    <button class="fr-btn fr-btn--secondary">
+      <a title="Proposez un logiciel libre à récompenser via NLnet #BlueHats" href="https://nlnet.nl/bluehatsprize/2024/">Proposez un logiciel libre à récompenser via NLnet #BlueHats</a>
+    </button>
+  </center>
+</p>
+
 Ces mainteneurs doivent être citoyens d'un pays membre de l'Union
 européenne ; ne seront retenus que les personnes morales ou les
 associations à but non lucratif. Un jury se réunira pour choisir
@@ -44,12 +52,3 @@ quatre projets à récompenser en mars, avril, mai et juin 2024.
 Si vous connaissez de tels logiciels, nous vous invitons à [remplir ce
 formulaire sur le site de NLnet](https://nlnet.nl/bluehatsprize/2024/)
 pour les porter à notre connaissance.
-
-<p>
-  <center>
-    <button class="fr-btn fr-btn--secondary">
-      <a title="Proposer un projet à récompenser via NLnet #BlueHats" href="https://nlnet.nl/bluehatsprize/2024/">Proposer un projet à récompenser via NLnet #BlueHats</a>
-    </button>
-  </center>
-</p>
-

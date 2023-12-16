@@ -1,6 +1,6 @@
 ---
 eleventyNavigation:
-  key: Les BlueHats 🧢
+  key: BlueHats 🧢
   order: 2
 permalink: false
 ---

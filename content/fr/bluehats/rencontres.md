@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: Rencontres en présentiel
   url: /fr/bluehats/tags/rencontre/
-  parent: Les BlueHats 🧢
+  parent: BlueHats 🧢
   order: 4
 permalink: false
 ---

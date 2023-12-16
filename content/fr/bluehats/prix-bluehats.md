@@ -1,10 +1,11 @@
 ---
-title: "Des prix BlueHats pour soutenir les mainteneurs de logiciels libres"
+title: "Soutenir les mainteneurs de logiciels libres critiques et fragiles"
 layout: layouts/post.njk
-segments:
-- url: /bluehats/
-  title: Prix BlueHats
-showBreadcrumb: true
+eleventyNavigation:
+  key: Prix BlueHats
+  url: /fr/bluehats/prix-bluehats/
+  parent: BlueHats 🧢
+  order: 5
 permalink: /fr/bluehats/prix-bluehats/
 ---
 

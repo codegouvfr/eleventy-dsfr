@@ -28,6 +28,12 @@ module.exports = {
             externalUrl: "https://www.legifrance.gouv.fr/circulaire/id/45162",
             title: "Circulaire relative à la politique publique de la donnée, des algorithmes et des codes sources",
             description: `Une nouvelle impulsion pour l'ouverture des codes sources de toutes les administrations.`
+        },
+	{
+            url: false,
+            externalUrl: "https://mentor.gouv.fr/catalog/1754",
+            title: "Capsule Mentor : aborder en confiance les logiciels libres dans l'administration",
+            description: `Une capsule de formation sur la plateforme des agents publics Mentor : elle vous permettra de découvrir l'offre de service de la mission logiciels libres.`
         }
     ],
     docs: [

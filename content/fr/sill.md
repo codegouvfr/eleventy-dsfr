@@ -1,7 +1,7 @@
 ---
 title: Socle interministériel de logiciels libres
 layout: layouts/page.njk
-permalink: /fr/sill
+permalink: /fr/sill/
 ---
 
 L'application du socle interministériel de logiciels libres est

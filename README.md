@@ -17,7 +17,7 @@ Il a été construit à partir de [ce site modèle](https://github.com/codegouvf
 
 ## Déploiement
 
-Le site est déployé automatiquement en préproduction sur [preprod.codegouv.studio](http://preprod.codegouv.studio/fr/) depuis la branche `main` et en production sur [code.gouv.fr](https://code.gouv.fr/) depauis la branche `production`.
+Le site est déployé automatiquement en préproduction sur [preprod.codegouv.fr](http://preprod.codegouv.fr/fr/) depuis la branche `main` et en production sur [code.gouv.fr](https://code.gouv.fr/) depauis la branche `production`.
 
 # Contributions
 

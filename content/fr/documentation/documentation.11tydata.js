@@ -5,6 +5,11 @@ module.exports = {
     guides: [
         {
             url: false,
+            externalUrl: "https://code.gouv.fr/documentation/",
+            title: "Documentation généraliste en construction",
+            description: `Documentation sur les logiciels libres dans l'administration publique : utiliser, publier, contribuer.`
+        }, {
+            url: false,
             externalUrl: "https://guides.etalab.gouv.fr/logiciels/",
             title: "Guide pratique sur l'ouverture des codes sources",
             description: `Ce guide vous aide à définir vos objectifs en matière d'ouverture des codes sources.`
@@ -18,11 +23,6 @@ module.exports = {
             externalUrl: "https://www.data.gouv.fr/fr/pages/legal/licences/",
             title: "Les licences autorisées pour les codes sources du secteur public",
             description: `Les codes sources de l'administration peuvent être publiées sous plusieurs licences, parmi lesquelles : Apache, BSD, CeCILL, MPL et les licences du projet GNU.`
-        }, {
-            url: false,
-            externalUrl: "https://www.numerique.gouv.fr/publications/politique-logiciel-libre/",
-            title: "Politique de contribution aux logiciels libres de l’État",
-            description: `Depuis 2018, la politique de contribution aux logiciels libres de l’État guide l'ouverture des codes sources publics et la contribution à des projets tiers.`
         }, {
             url: false,
             externalUrl: "https://www.legifrance.gouv.fr/circulaire/id/45162",

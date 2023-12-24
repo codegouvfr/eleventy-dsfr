@@ -15,6 +15,8 @@ showBreadcrumb: true
 - Le salon [SILL](https://www.tchap.gouv.fr/#/room/#SILLutRYrgV:agent.dinum.tchap.gouv.fr) (Socle interministériel de logiciels libres)
 - Le salon [MimLibre](https://www.tchap.gouv.fr/#/room/#MimixQlxMNQc:agent.interieur.tchap.gouv.fr)
 
+<br/>
+
 ### Liste de discussion privée BlueHats
 
 La [liste de discussion privée BlueHats](https://groupes.renater.fr/sympa/info/bluehats) permet d'échanger avec les BlueHats par mail.

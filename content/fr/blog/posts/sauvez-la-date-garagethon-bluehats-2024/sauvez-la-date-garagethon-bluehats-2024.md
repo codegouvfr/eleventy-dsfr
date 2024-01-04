@@ -26,7 +26,7 @@ moments productifs et conviviaux ?
 
 La participation est gratuite dans la limite des places disponibles.
 Vous pouvez vous préinscrire jusqu'au 2 janvier via ce formulaire ; un
-mail de confirmation vous sera envoyé le 3 janvier.
+mail de confirmation vous sera envoyé le 4 janvier.
 
 <br/>
 <p>

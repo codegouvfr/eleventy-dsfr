@@ -9,16 +9,16 @@
         <li>
           <a class="fr-translate__language fr-nav__link" href="{{ page.url }}" lang="{{ page.lang }}"
              hreflang="{{ page.lang }}" aria-current="true">
-            {{ page.lang | upper }} - {{ "lang_name" | i18n(page.lang) }}
+            {{ page.lang | upper }} - {{ "lang_name" | i18n({}, page.lang) }}
           </a>
         </li>
-        {% for lang in availableLangs %}
+        {% for lang in availableLang %}
           {% if not (lang == page.lang) %}
             <li>
               {% set url = page.url | locale_url(lang) %}
               <a class="fr-translate__language fr-nav__link" {% if not (page.url == url) %}href="{{ url }}"
                  {% else %}aria-disabled="{{ page.url == url }}" {% endif %}lang="{{ lang }}" hreflang="{{ lang }}">
-                {{ lang | upper }} - {{ "lang_name" | i18n(lang) }}
+                {{ lang | upper }} - {{ "lang_name" | i18n({}, lang) }}
               </a>
             </li>
           {% endif %}

@@ -9,8 +9,11 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
+const i18n = require("@codegouvfr/eleventy-plugin-i18n");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
+
+const translations = require("./_data/i18n");
 
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
@@ -39,10 +42,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
-    eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        defaultLanguage: "fr",
-        errorMode: "allow-fallback"
-    });
 
     // Official plugins
     eleventyConfig.addPlugin(pluginRss);
@@ -52,6 +51,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(pluginBundle);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {
+        defaultLanguage: "fr",
+        errorMode: "allow-fallback"
+    });
+    eleventyConfig.addPlugin(i18n, {
+        translations,
+        fallbackLocales: {
+            "en": "fr"
+        }
+    });
 
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {

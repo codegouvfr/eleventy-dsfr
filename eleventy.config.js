@@ -10,6 +10,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 const {EleventyI18nPlugin} = require("@11ty/eleventy");
 const i18n = require("@codegouvfr/eleventy-plugin-i18n");
+const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
@@ -37,7 +38,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
     // App plugins
-    eleventyConfig.addPlugin(require("./eleventy.config.calendar.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
@@ -61,6 +61,7 @@ module.exports = function (eleventyConfig) {
             "en": "fr"
         }
     });
+    eleventyConfig.addPlugin(pluginCalendar);
 
     // Custom collections
     eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {
@@ -132,6 +133,10 @@ module.exports = function (eleventyConfig) {
         return (tags || []).filter(tag => ["all", "nav", "post", "posts", "event"]
             .concat(addTags)
             .indexOf(tag) === -1);
+    });
+
+    eleventyConfig.addFilter("findBySlug", function find(collection = [], slug = "") {
+        return collection.find(post => post.fileSlug === slug);
     });
 
     // Customize Markdown library settings:

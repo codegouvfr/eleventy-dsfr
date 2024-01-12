@@ -64,6 +64,7 @@ code {
 
 /* Direct Links / Markdown Headers */
 .header-anchor {
+    background-image: none;
     text-decoration: none;
     font-style: normal;
     font-size: 1em;

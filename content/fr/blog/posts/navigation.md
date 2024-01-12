@@ -8,7 +8,7 @@ tags:
 
 `eleventy-dsfr` utilise le [système de navigation d'Eleventy](https://www.11ty.dev/docs/plugins/navigation/).
 
-## Mise en place d'une navigation de niveau 2
+## Navigation de niveau 2
 
 Pour mettre en place une navigation de niveau 2, positionner la variable `parent` avec la valeur de la `key` du parent.
 Par exemple, dans le fichier [`content/fr/about/index.md`](https://github.com/codegouvfr/eleventy-dsfr/tree/main/content/fr/about/index.md) :

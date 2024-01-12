@@ -29,6 +29,8 @@
   <title>{{ title or metadata.title }}</title>
 </head>
 <body id="top">
+{% getBundle "js", "top" %}
+
 {% include "templates/header.njk" %}
 
 <main id="content">
@@ -42,6 +44,18 @@
 
 <!-- Current page: {{ page.url | htmlBaseUrl }} -->
 
+{% js "top" %}
+  <script>
+      // Fix FOUC in dark mode
+      setDarkBeforeRender = () => {
+          const localScheme = localStorage.getItem('scheme')
+          if (localScheme === 'dark' || (localScheme === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+              document.documentElement.setAttribute('data-fr-theme', 'dark');
+          }
+      }
+      setDarkBeforeRender();
+  </script>
+{% endjs %}
 {% js "body" %}
   <script>
       const SEARCH_RESULTS_URL = "{{ "/search-results/" | locale_url(page.lang) | htmlBaseUrl }}";

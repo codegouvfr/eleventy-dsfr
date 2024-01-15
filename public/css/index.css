@@ -16,14 +16,6 @@
     width: 1px;
 }
 
-.links-nextprev {
-    box-shadow: inset 0 1px 0 0 var(--background-contrast-grey);
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-}
-
 table {
     margin: 1em 0;
 }

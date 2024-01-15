@@ -30,6 +30,7 @@ module.exports = {
     pick_theme: "Choisissez un thème pour personnaliser l’apparence du site.",
     previous_page: "Page précédente",
     published_on: "Publié le",
+    read_also: "À lire aussi",
     results: "résultats",
     see_breadcrumb: "Voir le fil d’Ariane",
     see_more: "En savoir plus",

@@ -5,8 +5,8 @@ layout: layouts/base.njk
   {% if showBreadcrumb %}
     {% include "components/breadcrumb.njk" %}
   {% endif %}
-  <div class="fr-grid-row" data-pagefind-body>
-    <div class="fr-col-12">
+  <div class="fr-grid-row fr-grid-row--center" data-pagefind-body>
+    <div class="fr-col-12 fr-col-md-8">
       {% include "components/taggroup.njk" %}
       <div class="fr-grid-row">
         <div class="fr-col-12 fr-col-md-9">
@@ -28,31 +28,47 @@ layout: layouts/base.njk
       {% endif %}
 
       {{ content | safe }}
-
-      {% if collections.posts %}
-        {% set previousPost = collections.posts | filterCollectionLang | getPreviousCollectionItem %}
-        {% set nextPost = collections.posts | filterCollectionLang | getNextCollectionItem %}
-        {% if nextPost or previousPost %}
-          <ul class="links-nextprev fr-pt-3w fr-mt-6w fr-mb-3w" data-pagefind-ignore>
-            {% if previousPost %}
-              <li>
-                <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="{{ previousPost.url }}">
-                  {{ previousPost.data.title }}
-                </a>
-              </li>
-            {% else %}
-              <li></li>
-            {% endif %}
-            {% if nextPost %}
-              <li>
-                <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="{{ nextPost.url }}">
-                  {{ nextPost.data.title }}
-                </a>
-              </li>
-            {% endif %}
-          </ul>
-        {% endif %}
-      {% endif %}
     </div>
   </div>
+
+  {% if collections.posts %}
+    {% set previousPost = collections.posts | filterCollectionLang | getPreviousCollectionItem %}
+    {% set nextPost = collections.posts | filterCollectionLang | getNextCollectionItem %}
+    {% if nextPost or previousPost %}
+      <h2>{{ "read_also" | i18n }}</h2>
+      <div class="fr-grid-row fr-grid-row--gutters fr-mb-12v">
+        {% if previousPost %}
+          <div class="fr-col-12 fr-col-md-6">
+            <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
+              <div class="fr-card__body">
+                <p class="fr-card__detail fr-icon-time-fill">
+                  <time datetime="{{ previousPost.date | htmlDateString }}">
+                    {{ previousPost.date | readableDate }}
+                  </time>
+                </p>
+                <h4 class="fr-card__title">
+                  <a href="{{ previousPost.url }}" class="fr-card__link">{{ previousPost.data.title }}</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+        {% if nextPost %}
+          <div class="fr-col-12 fr-col-md-6">
+            <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
+              <div class="fr-card__body">
+                <p class="fr-card__detail">
+                  {{ nextPost.date | readableDate }}
+                </p>
+                <h4 class="fr-card__title">
+                  <a href="{{ nextPost.url }}" class="fr-card__link">{{ nextPost.data.title }}</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endif %}
+
 </div>

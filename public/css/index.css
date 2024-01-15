@@ -108,37 +108,34 @@ div.fr-callout__text p {
 }
 
 /** Missing icons **/
-.fr-follow .fr-link--mastodon:before,
-.fr-follow .fr-link--peertube:before,
-.fr-follow .fr-link--github:before,
-.fr-follow .fr-link--sourcehut:before {
-    background-color: currentColor !important;
-    content: "" !important;
-    display: inline-block !important;
-    flex: 0 0 auto !important;
-    height: var(--icon-size) !important;
-    -webkit-mask-size: 100% 100% !important;
-    mask-size: 100% 100% !important;
-    vertical-align: calc((.75em - var(--icon-size)) * .5) !important;
-    width: var(--icon-size) !important;
+.fr-follow .fr-btn--peertube:before,
+.fr-follow .fr-btn--github:before,
+.fr-follow .fr-btn--sourcehut:before {
+    margin-left: 0;
+    margin-right: 0.5rem;
+    flex: 0 0 auto;
+    display: inline-block;
+    vertical-align: calc((0.75em - var(--icon-size)) * 0.5);
+    background-color: currentColor;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    --icon-size: 2rem;
+    content: "";
 }
 
-.fr-follow .fr-link--mastodon:before {
-    -webkit-mask-image: url(icons/logo/mastodon-fill.svg) !important;
-    mask-image: url(icons/logo/mastodon-fill.svg) !important;
-}
-
-.fr-follow .fr-link--peertube:before {
+.fr-follow .fr-btn--peertube:before {
     -webkit-mask-image: url(../icons/logo/peertube.svg) !important;
     mask-image: url(../icons/logo/peertube.svg) !important;
 }
 
-.fr-follow .fr-link--github:before {
-    -webkit-mask-image: url(icons/logo/github-fill.svg) !important;
-    mask-image: url(icons/logo/github-fill.svg) !important;
+.fr-follow .fr-btn--github:before {
+    -webkit-mask-image: url(../icons/logo/github-fill.svg) !important;
+    mask-image: url(../icons/logo/github-fill.svg) !important;
 }
 
-.fr-follow .fr-link--sourcehut:before {
+.fr-follow .fr-btn--sourcehut:before {
     -webkit-mask-image: url(../icons/logo/sourcehut.svg) !important;
     mask-image: url(../icons/logo/sourcehut.svg) !important;
 }

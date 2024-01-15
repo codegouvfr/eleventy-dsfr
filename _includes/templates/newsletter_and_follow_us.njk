@@ -7,8 +7,9 @@
             <p class="fr-h5">{{ metadata.newsletter.title or "subscribe_newsletter" | i18n }}</p>
             <p class="fr-text--sm">{{ metadata.newsletter.description }}</p>
           </div>
-          <div>
-            <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter.url }}" target="_blank">
+          <div class="fr-btns-group fr-btns-group--inline-md">
+            <a class="fr-btn" title="{{ "subscribe" | i18n }}" href="{{ metadata.newsletter.url }}" target="_blank"
+               rel="noopener">
               {{ "subscribe" | i18n }}
             </a>
           </div>
@@ -17,61 +18,61 @@
       <div class="fr-col-12 fr-col-md-4">
         <div class="fr-follow__social">
           <p class="fr-h5">{{ "follow_us_description" | i18n | safe }} </p>
-          <ul class="fr-links-group">
+          <ul class="fr-btns-group">
             {% if metadata.facebook_url %}
-              <li><a class="fr-link--facebook fr-link"
+              <li><a class="fr-btn--facebook fr-btn"
                      title="Facebook - {{ "new_window" | i18n }}"
-                     href="{{ metadata.facebook_url }}" target="_blank">
+                     href="{{ metadata.facebook_url }}" target="_blank" rel="noopener external">
                   facebook </a></li>
             {% endif %}
             {% if metadata.mastodon_url %}
-              <li><a class="fr-link--mastodon fr-link"
+              <li><a class="fr-btn--mastodon fr-btn"
                      title="Mastodon - {{ "new_window" | i18n }}"
-                     href="{{ metadata.mastodon_url }}" target="_blank">
+                     href="{{ metadata.mastodon_url }}" target="_blank" rel="noopener external">
                   mastodon </a></li>
             {% endif %}
             {% if metadata.twitter_url %}
-              <li><a class="fr-link--twitter fr-link"
+              <li><a class="fr-btn--twitter-x fr-btn"
                      title="Twitter - {{ "new_window" | i18n }}"
-                     href="{{ metadata.twitter_url }}" target="_blank">
-                  twitter </a></li>
+                     href="{{ metadata.twitter_url }}" target="_blank" rel="noopener external">
+                  X (anciennement Twitter) </a></li>
             {% endif %}
             {% if metadata.instagram_url %}
-              <li><a class="fr-link--instagram fr-link"
+              <li><a class="fr-btn--instagram fr-btn"
                      title="Instagram - {{ "new_window" | i18n }}"
-                     href="{{ metadata.instagram_url }}" target="_blank">
+                     href="{{ metadata.instagram_url }}" target="_blank" rel="noopener external">
                   instagram </a></li>
             {% endif %}
             {% if metadata.linkedin_url %}
-              <li><a class="fr-link--linkedin fr-link"
+              <li><a class="fr-btn--linkedin fr-btn"
                      title="Linkedin - {{ "new_window" | i18n }}"
-                     href="{{ metadata.linkedin_url }}" target="_blank">
+                     href="{{ metadata.linkedin_url }}" target="_blank" rel="noopener external">
                   linkedin </a></li>
             {% endif %}
             {% if metadata.youtube_url %}
-              <li><a class="fr-link--youtube fr-link"
+              <li><a class="fr-btn--youtube fr-btn"
                      title="Youtube - {{ "new_window" | i18n }}"
-                     href="{{ metadata.youtube_url }}" target="_blank">
+                     href="{{ metadata.youtube_url }}" target="_blank" rel="noopener external">
                   youtube </a></li>
             {% endif %}
             {% if metadata.peertube_url %}
-              <li><a class="fr-link--peertube fr-link"
+              <li><a class="fr-btn--peertube fr-btn"
                      title="PeerTube - {{ "new_window" | i18n }}"
-                     href="{{ metadata.peertube_url }}" target="_blank">
+                     href="{{ metadata.peertube_url }}" target="_blank" rel="noopener external">
                   peertube </a></li>
             {% endif %}
           </ul>
-          <ul class="fr-links-group">
+          <ul class="fr-btns-group">
             {% if metadata.github_url %}
-              <li><a class="fr-link--github fr-link"
+              <li><a class="fr-btn--github fr-btn"
                      title="GitHub - {{ "new_window" | i18n }}"
-                     href="{{ metadata.github_url }}" target="_blank">
+                     href="{{ metadata.github_url }}" target="_blank" rel="noopener external">
                   github </a></li>
             {% endif %}
             {% if metadata.sourcehut_url %}
-              <li><a class="fr-link--sourcehut fr-link"
+              <li><a class="fr-btn--sourcehut fr-btn"
                      title="sourcehut - {{ "new_window" | i18n }}"
-                     href="{{ metadata.sourcehut_url }}" target="_blank">
+                     href="{{ metadata.sourcehut_url }}" target="_blank" rel="noopener external">
                   sourcehut </a></li>
             {% endif %}
           </ul>

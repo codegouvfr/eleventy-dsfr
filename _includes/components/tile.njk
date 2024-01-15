@@ -5,7 +5,7 @@
     {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
     <h4 class="fr-tile__title">
       <a class="fr-tile__link" href="{{ tileUrl }}"
-         title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank"{% endif %}>
+         title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank" rel="noopener"{% endif %}>
         {{ tile.title }}
       </a>
     </h4>

@@ -1,7 +1,5 @@
 const {readdirSync} = require('fs');
 
-const chalk = require("chalk")
-
 const langDirectories = readdirSync(__dirname, {withFileTypes: true})
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);

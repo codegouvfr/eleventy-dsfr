@@ -1,8 +1,8 @@
-name: Deploy code.gouv.fr website to production
+name: Deploy code.gouv.fr website to preproduction
 
 on:
   push:
-    branches: ["production"]
+    branches: ["main"]
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       - name: Build with Eleventy
         run: |
           npm install
-          npm run build-production
+          npm run build-preproduction
       - name: Index site for pagefind
         run: npm run postbuild
       - name: Deploy to Server
@@ -31,6 +31,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }} # must be in PEM format
           ARGS: "-av --delete"
           SOURCE: _site/
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST_PROD }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER_PROD }}
-          TARGET: ${{ secrets.REMOTE_TARGET_PROD }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}

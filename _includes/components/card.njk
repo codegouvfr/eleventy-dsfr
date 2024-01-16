@@ -30,14 +30,10 @@
     </div>
     <div class="fr-card__footer">
       {% if card.externalUrl %}
-        <ul class="fr-links-group">
-          <li>
-            <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.externalUrl }}"
-               title="{{ card.title }} - {{ "new_window" | i18n }}" target="_blank">
-              {{ card.urlDescription or "see_more" | i18n }}
-            </a>
-          </li>
-        </ul>
+        <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.externalUrl }}"
+           title="{{ card.title }} - {{ "new_window" | i18n }}" target="_blank" rel="noopener">
+          {{ card.urlDescription or "see_more" | i18n }}
+        </a>
       {% endif %}
     </div>
   </div>

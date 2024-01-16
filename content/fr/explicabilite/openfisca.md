@@ -1,6 +1,6 @@
 ---
 title: OpenFisca
-layout: layouts/page.njk
+layout: layouts/post.njk
 segments:
   - url: /explicabilite/
     title: Explicabilité

@@ -2,6 +2,7 @@
 <html lang="{{ page.lang }}" data-fr-scheme="system" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <meta name="description" content="{{ description or metadata.description }}">
@@ -31,6 +32,8 @@
   <script type="text/javascript" src="/js/matomo.js"></script>
 </head>
 <body id="top">
+{% getBundle "js", "top" %}
+
 {% include "templates/header.njk" %}
 
 <main id="content">
@@ -44,6 +47,18 @@
 
 <!-- Current page: {{ page.url | htmlBaseUrl }} -->
 
+{% js "top" %}
+  <script>
+      // Fix FOUC in dark mode
+      setDarkBeforeRender = () => {
+          const localScheme = localStorage.getItem('scheme')
+          if (localScheme === 'dark' || (localScheme === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+              document.documentElement.setAttribute('data-fr-theme', 'dark');
+          }
+      }
+      setDarkBeforeRender();
+  </script>
+{% endjs %}
 {% js "body" %}
   <script>
       const SEARCH_RESULTS_URL = "{{ "/search-results/" | locale_url(page.lang) | htmlBaseUrl }}";

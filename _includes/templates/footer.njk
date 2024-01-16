@@ -10,16 +10,20 @@
         <p class="fr-footer__content-desc">{{ data.footer_content_description | safe }}</p>
         <ul class="fr-footer__content-list">
           <li class="fr-footer__content-item">
-            <a class="fr-footer__content-link" target="_blank" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
+            <a class="fr-footer__content-link" target="_blank" rel="noopener external"
+               href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
           </li>
           <li class="fr-footer__content-item">
-            <a class="fr-footer__content-link" target="_blank" href="https://gouvernement.fr">gouvernement.fr</a>
+            <a class="fr-footer__content-link" target="_blank" rel="noopener external"
+               href="https://gouvernement.fr">gouvernement.fr</a>
           </li>
           <li class="fr-footer__content-item">
-            <a class="fr-footer__content-link" target="_blank" href="https://service-public.fr">service-public.fr</a>
+            <a class="fr-footer__content-link" target="_blank" rel="noopener external"
+               href="https://service-public.fr">service-public.fr</a>
           </li>
           <li class="fr-footer__content-item">
-            <a class="fr-footer__content-link" target="_blank" href="https://data.gouv.fr">data.gouv.fr</a></li>
+            <a class="fr-footer__content-link" target="_blank" rel="noopener external"
+               href="https://data.gouv.fr">data.gouv.fr</a></li>
         </ul>
       </div>
     </div>
@@ -40,7 +44,8 @@
           <a class="fr-footer__bottom-link" href="/fr/donnees-personnelles/">{{ "personal_data" | i18n }}</a>
         </li>
         <li class="fr-footer__bottom-item">
-          <a class="fr-footer__bottom-link fr-icon-pencil-line fr-link--icon-left" href="{{ metadata.repository_url }}/blob/main/{{ page.inputPath }}">{{ "edit_this_page" | i18n }}</a>
+          <a class="fr-footer__bottom-link fr-icon-pencil-line fr-link--icon-left"
+             href="{{ metadata.repository_url }}/blob/main/{{ page.inputPath }}">{{ "edit_this_page" | i18n }}</a>
         </li>
         {# <li class="fr-footer__bottom-item">
           <a class="fr-footer__bottom-link" href="#">Gestion des cookies</a>
@@ -55,7 +60,8 @@
       <div class="fr-footer__bottom-copy">
         <p>
           Sauf mention contraire, tous les contenus de ce site sont sous <a
-              href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
+              href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank"
+              rel="noopener">licence etalab-2.0</a>
         </p>
       </div>
     </div>

@@ -17,7 +17,8 @@
               {% for sublink in link.children %}
                 <li>
                   {% set sublinkUrl = sublink.url | locale_url(lang) or sublink.externalUrl %}
-                  <a class="fr-nav__link" href="{{ sublinkUrl }}" {% if sublink.externalUrl %} target="_blank"{% endif %}{% if sublinkUrl == page.url %} aria-current="page"{% endif %}>
+                  <a class="fr-nav__link"
+                     href="{{ sublinkUrl }}" {% if sublink.externalUrl %} target="_blank" rel="noopener"{% endif %}{% if sublinkUrl == page.url %} aria-current="page"{% endif %}>
                     {{ sublink.title }}
                   </a>
                 </li>

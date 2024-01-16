@@ -11,7 +11,7 @@ by the Ministry of Public Transformation and Civil Service after the
 publication of the Prime Minister’s data circular n°6264/SG of April
 27, 2021, and aims to support the State’s digital transformation.
 
-This action plan is led by a new Free Software unit, set up within the
+This action plan is led by a new Free Software Unit, set up within the
 Etalab department of the Inter-ministerial Directorate for Digital
 Affairs - "direction du numérique" in French - hereafter "DINUM".
 
@@ -22,7 +22,7 @@ free software to strengthen the attractiveness of the State as an
 employer of digital talents, in particular by enhancing the value of
 public contributions to the projects and communities concerned.
 
-The actions are jointly led by the Free Software unit, with the
+The actions are jointly led by the Free Software Unit, with the
 support of the LABEL and TALENTS missions of the [TECH.GOUV
 program](https://numerique.gouv.fr/publications/tech-gouv-strategie-et-feuille-de-route-2019-2021/
 "TECH.GOUV program - External link").  Other initiatives led by DINUM

@@ -14,7 +14,8 @@ eleventyNavigation:
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-mb-3w">
   {% asyncAll filename, project in awesome.dist %}
   <div class="fr-col-12 fr-col-md-3">
-    {% set card = {
+    {% from "components/component.njk" import component with context %}
+    {{ component("card", {
       url: false,
       externalUrl: project.landingURL or project.url,
       title: project.name,
@@ -24,8 +25,7 @@ eleventyNavigation:
         alt: "Logo du projet"
       },
       detail: '<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>'
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>

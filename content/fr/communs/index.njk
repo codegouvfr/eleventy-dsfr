@@ -6,10 +6,10 @@ eleventyNavigation:
   parent: Ressources
   order: 7
 ---
-{% set callout = {
+{% from "components/component.njk" import component with context %}
+{{ component("callout", {
   description: "Cette page vise à valoriser les démarches de communs numériques engagées par les administrations.  Elle référence aussi des communs numériques libres et collaboratifs auxquels le secteur public contribue déjà.  Les références proposées sur cette page sont appelées à évoluer au fil du temps."
-} %}
-{% include "components/callout.njk" %}
+}) }}
 <h2>Des communs numériques déjà utilisés dans le secteur public</h2>
 <p>On ne présente plus les projets Wikimédia, OpenStreetMap ou Open Food Facts. Ces communs numériques libres et
   collaboratifs font déjà l'objet de contributions de la part de l'administration et nous vous encourageons à y
@@ -17,13 +17,12 @@ eleventyNavigation:
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
   {% asyncAll communNumerique in communsNumeriques %}
   <div class="fr-col-12 fr-col-md-4">
-    {% set card = {
+    {{ component("card", {
       url: false,
       externalUrl: communNumerique.url,
       title: communNumerique.title,
       description: communNumerique.description
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>
@@ -33,7 +32,7 @@ eleventyNavigation:
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
   {% asyncAll communNumerique in admCommunsNumeriques %}
   <div class="fr-col-12 fr-col-md-4">
-    {% set card = {
+    {{ component("card", {
       url: false,
       externalUrl: communNumerique.url,
       title: communNumerique.title,
@@ -42,8 +41,7 @@ eleventyNavigation:
         path: communNumerique.imagePath,
         alt: communNumerique.title
       }
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>

@@ -12,7 +12,8 @@ permalink: /fr/bluehats/bsoc-contributions-2022/
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-mb-3w">
   {% asyncAll project in projects %}
   <div class="fr-col-12 fr-col-md-4">
-    {% set card = {
+    {% from "components/component.njk" import component with context %}
+    {{ component("card", {
       url: project.url,
       title: project.title,
       description: project.description,
@@ -20,8 +21,7 @@ permalink: /fr/bluehats/bsoc-contributions-2022/
         path: project.imagePath,
         alt: project.title
       }
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>

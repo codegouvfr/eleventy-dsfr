@@ -12,7 +12,8 @@ permalink: /fr/bluehats/bsoc-promotion-2022/
 <div class="fr-grid-row fr-grid-row--gutters fr-mb-3w">
   {% asyncAll person in people %}
   <div class="fr-col-12">
-    {% set card = {
+    {% from "components/component.njk" import component with context %}
+    {{ component("card", {
       url: person.projectUrl,
       urlDescription: "En savoir plus sur " + person.projectName,
       title: person.name,
@@ -22,8 +23,7 @@ permalink: /fr/bluehats/bsoc-promotion-2022/
         alt: person.name
       },
       orientation: "horizontal"
-    } %}
-    {% include "components/card.njk" %}
+    }) }}
   </div>
   {% endall %}
 </div>

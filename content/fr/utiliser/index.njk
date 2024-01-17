@@ -10,11 +10,11 @@ showBreadcrumb: true
     </div>
   {% endfor %}
 </div>
-{% set callout = {
+{% from "components/component.njk" import component with context %}
+{{ component("callout", {
   description: "Le <strong>SILL</strong> est publié depuis 2012 : chaque logiciel présent est utilisé par au moins une administration.  En tant qu'agent public inscrit au SILL, vous pouvez solliciter les référents de chaque logiciel qui pourront répondre à vos questions et vous aider dans l'appropriation de ces solutions.",
   link: {
     url: "https://code.gouv.fr/sill/add-software",
     title: "Inscrivez-vous !"
   }
-} %}
-{% include "components/callout.njk" %}
+}) }}

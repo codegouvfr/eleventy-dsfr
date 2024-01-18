@@ -131,7 +131,7 @@ div.fr-callout__text p {
 }
 
 .fr-follow .fr-btn--github:before {
-    -webkit-mask-image: url(../icons/logo/github-fill.svg) !important;
+    -webkit-mask-image: url(/icons/logo/github-fill.svg) !important;
     mask-image: url(../icons/logo/github-fill.svg) !important;
 }
 

@@ -2,7 +2,11 @@
 title: "De la transparence à l’explicabilité automatisée des algorithmes"
 description: "Nous publions une entrée de blog proposé par Denis Merigoux, qui présente des travaux relatifs à l'explicabilité des décisions administratives"
 date: 2024-01-18
-tags: algorithmes
+image:
+  path: ./illustration-explication-algorithmes.png
+  alt: "Exemple d'interface pour expliquer un traitement algorithmique"
+  hide: True
+tags: explicabilité algorithmes transparence
 ---
 
 *La transparence algorithmique ne se résume pas à la publication des codes sources. Comme le reflète la page que nous avons dédiée aux [outils aidant à expliquer les décisions administratives](https://code.gouv.fr/fr/explicabilite/), les façons de traduire du texte juridique en code source informatique sont variées. La mission logiciels libres accueille une entrée de blog invitée proposée par Denis Merigoux, qui présente un travail de recherche récent sur ces sujets. Les recommandations formulées dans cette entrée de blog appartiennent à son auteur.*
@@ -13,7 +17,7 @@ L’ouverture des codes sources constitue déjà une démarche remarquable de tr
 
 Le deuxième alinéa de l'article 47 de la [loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés](https://https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037823131) fixe l’horizon d’attente de l’explication des décisions administratives utilisant des algorithmes. Elles doivent être **individualisées, détaillées et intelligibles par la personne concernée**. Cependant, dans la pratique, toutes ces décisions algorithmiques ne font pas l’objet d’explication et, lorsque c'est le cas, elles se caractérisent par leur brièveté, voire un certain hermétisme. Par exemple, bien que le bulletin de paie des agents publics soit relativement détaillé et individualisé, qui est capable de déchiffrer les mécanismes de calcul de ses cotisations sociales ?
 
-{% imageContent "./illustration-explication-algorithmes.png", "Exemple d'explication" %}
+{% imageContent "./illustration-explication-algorithmes.png", "Exemple d'interface pour expliquer un traitement algorithmique" %}
 
 Partant d'un état des lieux des pratiques administratives en France, nous estimons qu’aucune forme explicative des décisions automatisées déployée ne remplit les exigences de la loi pour l'informatique et les libertés. Notre rapport de recherche propose **d'élargir la [conception d'Etalab](https://https://guides.etalab.gouv.fr/algorithmes/) de l'explicabilité des algorithmes publics, afin de la rendre plus opérationnalisable** par les administrations. Nous affirmons ainsi que l'explicabilité des algorithmes publics n'est pas seulement un enjeu externe (de redevabilité vis-à-vis des personnes physiques et morales impliquées par ces traitements administratifs, ni même vis-à-vis de la société politique dans son ensemble comme l'a montré), mais qu'il s'agit, dans le même temps, d'un enjeu interne à l'administration (pour la maîtrise de ses systèmes d'information).
 

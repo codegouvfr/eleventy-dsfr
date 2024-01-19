@@ -13,10 +13,14 @@
       <p class="fr-tile__desc">{{ tile.description | safe }}</p>
     </div>
   </div>
-  {% if tile.imageSrc %}
+  {% if tile.pictogram %}
     <div class="fr-tile__header">
       <div class="fr-tile__pictogram">
-        <img src="{{ tile.imageSrc }}" alt="" class="fr-responsive-img">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-major"></use>
+        </svg>
       </div>
     </div>
   {% endif %}

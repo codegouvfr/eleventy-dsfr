@@ -15,8 +15,9 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 {% from "components/component.njk" import component with context %}
 {{ component("tile", {
     url: "/",
-    title: "Titre MD bold",
-    description: "Description."
+    title: "Intitulé de la tuile",
+    description: "Lorem [...] elit ut.",
+    pictogram: "buildings/city-hall.svg"
 }) }}
 {% endraw %}
 ```
@@ -29,7 +30,7 @@ Le format complet de l'objet en paramètre est le suivant :
   "externalUrl": "string",
   "title": "string",
   "description": "string",
-  "imageSrc": "string"
+  "pictogram": "string"
 }
 ```
 
@@ -41,8 +42,9 @@ Si `tile.externalUrl` est utilisé, `tile.url` doit être `false`.
 <div>
 {{ component("tile", {
     url: "/",
-    title: "Titre MD bold",
-    description: "Description."
+    title: "Intitulé de la tuile",
+    description: "Lorem [...] elit ut.",
+    pictogram: "buildings/city-hall.svg"
 }) }}
 </div>
 

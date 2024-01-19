@@ -140,10 +140,6 @@ div.fr-callout__text p {
     mask-image: url(../icons/logo/sourcehut.svg) !important;
 }
 
-.fr-tile__link:after {
-    content: none !important;
-}
-
 /* Custom */
 .banner-primary {
     background: var(--background-alt-green-archipel);

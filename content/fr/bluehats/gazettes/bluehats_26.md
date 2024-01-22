@@ -100,6 +100,8 @@ consacrée au secteur public (cf. pages 36 à 48).
 - [Lire l'étude en PDF](https://cnll.fr/media/Open-Source-Monitor-France-Rapport-2023.pdf)
 - [Voir une courte vidéo de présentation](https://www.youtube.com/watch?v=WH5CX23MHdM)
 
+<br/>
+
 ## 💽 Focus sur une contribution
 
 <blockquote>
@@ -153,6 +155,8 @@ Github Actions.
 - [Nextcloud rachète la solution open-source de webmail Roundcube, novembre 2023](https://next.ink/brief_article/nextcloud-rachete-la-solution-open-source-de-webmail-roundcube/)
 - [Clap de fin pour la saison 2 pour le programme 10% d'Etalab, novembre 2023](https://10pct.datascience.etalab.studio/les-actualites/programme-10-clap-de-fin-pour-la-saison-2/)
 - [Modèles de valorisation socio-économique des productions numériques issues de la recherche publique dans un contexte de Science Ouverte, hal.inrae.fr, novembre 2023](https://hal.inrae.fr/hal-04279988)
+
+<br/>
 
 ### En anglais
 

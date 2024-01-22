@@ -16,10 +16,11 @@
   {% if tile.pictogram %}
     <div class="fr-tile__header">
       <div class="fr-tile__pictogram">
+        {% set pictogramUrl %}/artwork/pictograms/{{ tile.pictogram }}{% endset %}
         <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
-          <use class="fr-artwork-decorative" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-decorative"></use>
-          <use class="fr-artwork-minor" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-minor"></use>
-          <use class="fr-artwork-major" href="/artwork/pictograms/{{ tile.pictogram }}#artwork-major"></use>
+          <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
+          <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
         </svg>
       </div>
     </div>

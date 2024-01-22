@@ -100,7 +100,7 @@ consacrée au secteur public (cf. pages 36 à 48).
 - [Lire l'étude en PDF](https://cnll.fr/media/Open-Source-Monitor-France-Rapport-2023.pdf)
 - [Voir une courte vidéo de présentation](https://www.youtube.com/watch?v=WH5CX23MHdM)
 
-## 💽 Focus sur une contribution du secteur public
+## 💽 Focus sur une contribution
 
 <blockquote>
 « Le projet BigBlueButton souhaite remercier le ministère français de l' Education Nationale et la Dinum, qui a directement contribué au développement de cette version en finançant de nouvelles fonctionnalités. »
@@ -108,7 +108,7 @@ consacrée au secteur public (cf. pages 36 à 48).
 
 `>>` Voir les [notes de publication de BigBlueButton 2.7.4](https://github.com/bigbluebutton/bigbluebutton/releases/tag/v2.7.4)
 
-## 📓 Focus sur une documentation du secteur public
+## 📓 Focus sur une documentation
 
 L'intégration continue et la configuration du dépôt principal peuvent
 permettre de simplifier grandement les interactions entre les

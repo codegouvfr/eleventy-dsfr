@@ -126,18 +126,18 @@ div.fr-callout__text p {
 }
 
 .fr-follow .fr-btn--peertube:before {
-    -webkit-mask-image: url(../icons/logo/peertube.svg) !important;
-    mask-image: url(../icons/logo/peertube.svg) !important;
+    -webkit-mask-image: url(/icons/logo/peertube.svg) !important;
+    mask-image: url(/icons/logo/peertube.svg) !important;
 }
 
 .fr-follow .fr-btn--github:before {
-    -webkit-mask-image: url(../icons/logo/github-fill.svg) !important;
-    mask-image: url(../icons/logo/github-fill.svg) !important;
+    -webkit-mask-image: url(/icons/logo/github-fill.svg) !important;
+    mask-image: url(/icons/logo/github-fill.svg) !important;
 }
 
 .fr-follow .fr-btn--sourcehut:before {
-    -webkit-mask-image: url(../icons/logo/sourcehut.svg) !important;
-    mask-image: url(../icons/logo/sourcehut.svg) !important;
+    -webkit-mask-image: url(/icons/logo/sourcehut.svg) !important;
+    mask-image: url(/icons/logo/sourcehut.svg) !important;
 }
 
 /* Custom */

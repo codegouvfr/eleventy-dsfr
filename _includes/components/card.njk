@@ -45,6 +45,10 @@
     {% endif %}
     {% if card.image.path %}
       <div class="fr-card__img">{% imageSync card.image.path, card.image.alt %}</div>
+      {% elif card.image.src %}
+      <div class="fr-card__img">
+        <img class="fr-responsive-img fr-responsive-img--1x1" src="{{ card.image.src }}" alt="{{ card.image.alt }}">
+      </div>
     {% endif %}
   </div>
 </div>

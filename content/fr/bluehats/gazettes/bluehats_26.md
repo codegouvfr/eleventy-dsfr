@@ -139,7 +139,7 @@ Github Actions.
 - [Les "communs" : une alternative au capitalisme numérique ?, radiofrance.fr, Janvier 2024](https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/les-communs-une-alternative-au-capitalisme-numerique-4242420) - voir [la transcription sur librealire.org](https://www.librealire.org/les-communs-une-alternative-au-capitalisme-numerique)
 - [Ada & Zangemann, la première BD consacrée aux logiciels libres! radiofrance.fr, décembre 2023](https://www.radiofrance.fr/franceculture/podcasts/un-monde-connecte/ada-zangemann-ou-la-bande-dessinee-qui-s-interesse-aux-logiciels-libres-6208076)
 - [French Minister of Education Gabriel Attal presenting Ada & Zangemann, wikipedia.org, décembre 2024](https://fr.wikipedia.org/wiki/Fichier:French_Minister_of_Education_Gabriel_Attal_presenting_Ada_%26_Zangemann.webm)
-- [https://www.ecrins-parcnational.fr/actualite/geotrek-nouveau-recompense, ecrins-parcnational.fr, Décembre 2023](Geotrek de nouveau récompensé !)
+- [Geotrek de nouveau récompensé !, ecrins-parcnational.fr, Décembre 2023](https://www.ecrins-parcnational.fr/actualite/geotrek-nouveau-recompense)
 - [Mutualisation Numérique au sein du réseau Déclic, octobre 2023](https://www.asso-declic.fr/wp-content/uploads/2023/10/etude_mutualisation_version_publique.pdf) et [l'infographie PDF](https://www.asso-declic.fr/wp-content/uploads/2023/10/infographie_etude_mutualisation.pdf)
 - [L'Aful a 25 ans révolus \o/, aful.org, Décembre 2023](https://aful.org/nouvelles/aful-25-ans-revolus-o)
 - [L'Observatoire de l'accessibilité, adullact.org, Décembre 2023](https://adullact.org/breves/68-actualite/vie-associative/1103-l-observatoire-de-l-accessibilite)

@@ -5,7 +5,7 @@
     {{ component("card", {
       url: post.url,
       title: post.data.title,
-      description: post.data.description,
+      description: post.data.description | safe,
       tags: post.data.tags,
       date: post.date,
       badges: post.data.badges,

@@ -11,7 +11,7 @@
         {% else %}{{ card.title }}
         {% endif %}
       </h3>
-      <p class="fr-card__desc">{{ card.description | safe }}</p>
+      <p class="fr-card__desc">{{ card.description }}</p>
       <div class="fr-card__start">
         {% if card.tags %}
           {% set tags = card.tags %}

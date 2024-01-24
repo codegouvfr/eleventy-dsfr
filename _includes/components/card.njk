@@ -23,6 +23,8 @@
               {{ card.date | readableDate }}
             </time>
           </p>
+          {% elif card.detail %}
+          <p class="fr-card__detail">{{ card.detail }}</p>
         {% endif %}
       </div>
     </div>

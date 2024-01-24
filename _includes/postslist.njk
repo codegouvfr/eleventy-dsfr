@@ -1,11 +1,11 @@
-<div class="fr-grid-row fr-grid-row--gutters fr-mb-3w" data-pagefind-ignore>
+<div class="fr-grid-row fr-grid-row--gutters fr-mb-6v" data-pagefind-ignore>
   {% asyncAll post in postslist %}
   <div class="fr-col-12">
     {% from "components/component.njk" import component with context %}
     {{ component("card", {
       url: post.url,
       title: post.data.title,
-      description: post.data.description,
+      description: post.data.description | safe,
       tags: post.data.tags,
       date: post.date,
       badges: post.data.badges,

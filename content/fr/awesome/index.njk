@@ -21,10 +21,10 @@ eleventyNavigation:
       title: project.name,
       description: project.description.fr.shortDescription,
       image: {
-        url: project.logo,
+        src: project.logo,
         alt: "Logo du projet"
       },
-      detail: '<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>'
+      detail: ('<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>') | safe
     }) }}
   </div>
   {% endall %}

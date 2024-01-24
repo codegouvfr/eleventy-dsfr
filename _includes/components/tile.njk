@@ -1,19 +1,28 @@
 {% if not tile %}{% set tile = params %}{% endif %}
 <div class="fr-tile fr-enlarge-link">
   <div class="fr-tile__body">
-    {% set tileUrl = tile.url | locale_url or tile.externalUrl %}
-    {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
-    <h4 class="fr-tile__title">
-      <a class="fr-tile__link" href="{{ tileUrl }}"
-         title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank" rel="noopener"{% endif %}>
-        {{ tile.title }}
-      </a>
-    </h4>
-    <p class="fr-tile__desc">{{ tile.description | safe }}</p>
+    <div class="fr-tile__content">
+      {% set tileUrl = tile.url | locale_url or tile.externalUrl %}
+      {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
+      <h4 class="fr-tile__title">
+        <a class="fr-tile__link" href="{{ tileUrl }}"
+           title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank" rel="noopener"{% endif %}>
+          {{ tile.title }}
+        </a>
+      </h4>
+      <p class="fr-tile__desc">{{ tile.description }}</p>
+    </div>
   </div>
-  {% if tile.imageSrc %}
-    <div class="fr-tile__img">
-      <img src="{{ tile.imageSrc }}" alt="" class="fr-responsive-img">
+  {% if tile.pictogram %}
+    <div class="fr-tile__header">
+      <div class="fr-tile__pictogram">
+        {% set pictogramUrl = "/artwork/pictograms/" + tile.pictogram %}
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
+          <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
+        </svg>
+      </div>
     </div>
   {% endif %}
 </div>

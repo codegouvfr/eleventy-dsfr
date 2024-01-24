@@ -21,7 +21,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
     date: "2023-06-21" | jsDateObject,
     badges: ["label badge"],
     image: {
-        path : "../../../../public/img/placeholder.16x9.png",
+        src: "/img/placeholder.16x9.png",
         alt: ""
     },
     orientation: "horizontal"
@@ -42,15 +42,18 @@ Le format complet de l'objet en paramètre est le suivant :
   "date": "Date",
   "badges": "string[]",
   "image": {
-    "path": "string",
+    "src | path": "string",
     "alt": "string"
   },
   "orientation": "horizontal | vertical"
 }
 ```
 
+**Notes :**
+
 Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDescription` peut alors être utilisé pour nommer le lien.
-`imagePath` est le chemin de l'image dans le système de fichier (et non pas son url dans le site).
+
+`image.src` est le chemin de l'image dans le site. `image.path` peut être utilisé à la place de `image.src` en spécifiant le chemin relatif du fichier depuis l'emplacement de la page dans le dépôt (ex. `path : "../../../../public/img/placeholder.16x9.png"`). Cela permet de bénéficier du [plugin Image d'Eleventy](https://www.11ty.dev/docs/plugins/image/).
 
 ## Rendu
 
@@ -64,7 +67,7 @@ Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDesc
     date: "2023-06-21" | jsDateObject,
     badges: ["label badge"],
     image: {
-        path : "../../../../public/img/placeholder.16x9.png",
+        src : "/img/placeholder.16x9.png",
         alt: ""
     },
     orientation: "horizontal"

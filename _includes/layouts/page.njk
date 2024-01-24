@@ -1,13 +1,29 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="fr-container fr-py-8v">
-  {% if showBreadcrumb %}
-    {% include "components/breadcrumb.njk" %}
-  {% endif %}
-  <div class="fr-grid-row" data-pagefind-body>
-    <div class="fr-col-12">
-      {{ content | safe }}
+<div class="fr-mb-6w">
+  <div class="fr-py-6w fr-background-alt--blue-cumulus">
+    <div class="fr-container">
+      <div class="fr-grid-row">
+        <div class="fr-col-10">
+          {% if showBreadcrumb %}
+            {% include "components/breadcrumb.njk" %}
+          {% endif %}
+          <h1 class="fr-mt-6v">{{ title }}</h1>
+          {% if description %}
+            <p class="fr-text--lead">
+              {{ description }}
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-container fr-mt-6w" data-pagefind-body>
+    <div class="fr-grid-row">
+      <div class="fr-col-12">
+        {{ content | safe }}
+      </div>
     </div>
   </div>
 </div>

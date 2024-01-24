@@ -11,12 +11,12 @@ La mise en page [`post.njk`](https://github.com/codegouvfr/eleventy-dsfr/tree/ma
 ```markdown
 ---
 image:
-  src: ./possum.png
+  path: ./possum.png
   alt: A possum
 ---
 ```
 
-**Note :** La variable `src` correspond au chemin relatif du fichier depuis l'emplacement de la page dans le dépôt.
+**Note :** La variable `image.path` correspond au chemin relatif du fichier depuis l'emplacement de la page dans le dépôt.
 
 Le fil d'Ariane peut être affiché automatiquement si la variable `showBreadcrumb` du cartouche est positionnée :
 

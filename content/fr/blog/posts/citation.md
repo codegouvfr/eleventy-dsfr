@@ -20,7 +20,7 @@ Seul le texte est disponible.
 :::
 ```
 
-Le chemin de l'image (optionnelle) est son url dans le site.
+Le chemin de l'image (optionnelle) est celui dans le site.
 
 ### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
@@ -36,6 +36,8 @@ Le chemin de l'image (optionnelle) est son url dans le site.
 }) }}
 {% endraw %}
 ```
+
+`imageSrc` est le chemin de l'image dans le site.
 
 ## Rendu
 

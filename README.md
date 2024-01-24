@@ -121,3 +121,7 @@ Le dépôt est publié sous licence MIT pour le code et sous licence
 Etalab 2.0 pour les autres contenus.
 
 Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la DINUM.
+
+### Crédits images
+
+- [1F3DB.svg](public/icons/1F3DB.svg) par [Martin Wehl](https://openmoji.org/library/#author=Martin%20Wehl) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).

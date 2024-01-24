@@ -141,18 +141,6 @@ div.fr-callout__text p {
 }
 
 /* Custom */
-.banner-primary {
-    background: var(--background-alt-green-archipel);
-}
-
-.banner-secondary {
-    background: var(--background-alt-grey);
-}
-
 .text-center {
     text-align: center;
-}
-
-.col-center {
-    justify-content: center;
 }

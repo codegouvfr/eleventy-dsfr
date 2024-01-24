@@ -6,46 +6,60 @@ eleventyNavigation:
   parent: Ressources
   order: 7
 ---
+<div class="fr-highlight fr-highlight--blue-cumulus">
+  <p class="fr-text--lg">
+    Cette page vise à valoriser les démarches de communs numériques engagées par les administrations. Elle référence
+    aussi des communs numériques libres et collaboratifs auxquels le secteur public contribue déjà. Les références
+    proposées sur cette page sont appelées à évoluer au fil du temps.
+  </p>
+</div>
 {% from "components/component.njk" import component with context %}
+<div class="fr-my-6w">
+  <h2>Des communs numériques déjà utilisés dans le secteur public</h2>
+  <p class="fr-text--lead">
+    On ne présente plus les projets Wikimédia, OpenStreetMap ou Open Food Facts. Ces communs numériques libres et
+    collaboratifs font déjà l'objet de contributions de la part de l'administration et nous vous encourageons à y
+    contribuer.</p>
+  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    {% asyncAll communNumerique in communsNumeriques %}
+    <div class="fr-col-12 fr-col-md-4">
+      {{ component("card", {
+        url: false,
+        externalUrl: communNumerique.url,
+        title: communNumerique.title,
+        description: communNumerique.description | safe
+      }) }}
+    </div>
+    {% endall %}
+  </div>
+</div>
+<div class="fr-my-6w">
+  <h2>Des démarches de mise en commun initiées par l'administration</h2>
+  <p class="fr-text--lead">
+    Ces produits de l'administration publient des ressources sous licence libre et sont ouverts à la collaboration :
+    nous vous invitons à les découvrir et à y contribuer.
+  </p>
+  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    {% asyncAll communNumerique in admCommunsNumeriques %}
+    <div class="fr-col-12 fr-col-md-6">
+      {{ component("card", {
+        url: false,
+        externalUrl: communNumerique.url,
+        title: communNumerique.title,
+        description: communNumerique.description | safe,
+        image: {
+          path: communNumerique.imagePath,
+          alt: communNumerique.title
+        }
+      }) }}
+    </div>
+    {% endall %}
+  </div>
+</div>
 {{ component("callout", {
-  description: "Cette page vise à valoriser les démarches de communs numériques engagées par les administrations.  Elle référence aussi des communs numériques libres et collaboratifs auxquels le secteur public contribue déjà.  Les références proposées sur cette page sont appelées à évoluer au fil du temps."
+  title: "Vous souhaitez proposer d'autres communs numériques d'intérêt général ?",
+  link: {
+    url: "/contact/" | locale_url,
+    title: "N'hésitez pas à nous contacter !"
+  }
 }) }}
-<h2>Des communs numériques déjà utilisés dans le secteur public</h2>
-<p>On ne présente plus les projets Wikimédia, OpenStreetMap ou Open Food Facts. Ces communs numériques libres et
-  collaboratifs font déjà l'objet de contributions de la part de l'administration et nous vous encourageons à y
-  contribuer.</p>
-<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
-  {% asyncAll communNumerique in communsNumeriques %}
-  <div class="fr-col-12 fr-col-md-4">
-    {{ component("card", {
-      url: false,
-      externalUrl: communNumerique.url,
-      title: communNumerique.title,
-      description: communNumerique.description
-    }) }}
-  </div>
-  {% endall %}
-</div>
-<h2>Des démarches de mise en commun initiées par l'administration</h2>
-<p>Ces produits de l'administration publient des ressources sous licence libre et sont ouverts à la collaboration : nous
-  vous invitons à les découvrir et à y contribuer.</p>
-<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
-  {% asyncAll communNumerique in admCommunsNumeriques %}
-  <div class="fr-col-12 fr-col-md-4">
-    {{ component("card", {
-      url: false,
-      externalUrl: communNumerique.url,
-      title: communNumerique.title,
-      description: communNumerique.description,
-      image: {
-        path: communNumerique.imagePath,
-        alt: communNumerique.title
-      }
-    }) }}
-  </div>
-  {% endall %}
-</div>
-<p>
-  Vous souhaitez proposer d'autres communs numériques d'intérêt général ? N'hésitez pas à nous <a
-      class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/contact/">contacter</a>
-</p>

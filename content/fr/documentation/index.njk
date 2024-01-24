@@ -7,22 +7,28 @@ eleventyNavigation:
   order: 10
 permalink: /fr/doc/
 ---
-<h2>Guides pour la publication de logiciels libres</h2>
-<div class="fr-grid-row fr-grid-row--gutters fr-py-3w fr-grid-row--center">
-  {% for tile in guides %}
-    <div class="fr-col-12 fr-col-md-4">
-      {% include "components/tile.njk" %}
-    </div>
-  {% endfor %}
+<div class="fr-mb-6w">
+  <h2>Guides pour la publication de logiciels libres</h2>
+  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    {% for tile in guides %}
+      <div class="fr-col-12 fr-col-md-4">
+        {% include "components/tile.njk" %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
-<h2>Documentation pour nos produits</h2>
-<div class="fr-grid-row fr-grid-row--gutters fr-py-3w fr-grid-row--center">
-  {% for tile in docs %}
-    <div class="fr-col-12 fr-col-md-3">
-      {% include "components/tile.njk" %}
-    </div>
-  {% endfor %}
+<div class="fr-my-6w">
+  <h2>Documentation pour nos produits</h2>
+  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    {% for tile in docs %}
+      <div class="fr-col-12 fr-col-md-3">
+        {% include "components/tile.njk" %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
-<p>
-  <a href="{{ "/doc/ressources/" | locale_url }}" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Retrouvez aussi nos interventions et d'autres ressources</a>
-</p>
+<div>
+  <a href="{{ "/doc/ressources/" | locale_url }}" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">
+    Retrouvez aussi nos interventions et d'autres ressources
+  </a>
+</div>

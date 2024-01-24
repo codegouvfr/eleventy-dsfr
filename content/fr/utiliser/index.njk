@@ -3,16 +3,18 @@ title: Renforcer le recours aux logiciels libres et aux communs numériques
 layout: layouts/page.njk
 showBreadcrumb: true
 ---
-<div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
-  {% for tile in utilisations %}
-    <div class="fr-col-12 fr-col-md-4">
-      {% include "components/tile.njk" %}
-    </div>
-  {% endfor %}
+<div class="fr-mb-6w">
+  <div class="fr-grid-row fr-grid-row--gutters">
+    {% for tile in utilisations %}
+      <div class="fr-col-12 fr-col-md-4">
+        {% include "components/tile.njk" %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 {% from "components/component.njk" import component with context %}
 {{ component("callout", {
-  description: "Le <strong>SILL</strong> est publié depuis 2012 : chaque logiciel présent est utilisé par au moins une administration.  En tant qu'agent public inscrit au SILL, vous pouvez solliciter les référents de chaque logiciel qui pourront répondre à vos questions et vous aider dans l'appropriation de ces solutions." | safe,
+  description: "Le <strong>SILL</strong> est publié depuis 2012 : chaque logiciel présent est utilisé par au moins une administration. En tant qu'agent public inscrit au SILL, vous pouvez solliciter les référents de chaque logiciel qui pourront répondre à vos questions et vous aider dans l'appropriation de ces solutions." | safe,
   link: {
     url: "https://code.gouv.fr/sill/add-software",
     title: "Inscrivez-vous !"

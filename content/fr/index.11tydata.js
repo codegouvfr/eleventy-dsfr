@@ -4,20 +4,17 @@ module.exports = {
             url: "/fr/utiliser/",
             title: "Utiliser",
             description: "Mieux connaître, utiliser et concevoir les logiciels libres et les communs numériques.",
-            imageSrc: "/icons/coding-64.png"
         },
         {
             url: false,
             externalUrl: "https://code.gouv.fr/public/",
             title: "Publier",
             description: "Développer et accompagner l’ouverture et la libération des codes sources de l'administration.",
-            imageSrc: "/icons/programing-64.png"
         },
         {
             url: "/fr/bluehats/",
             title: "BlueHats",
             description: "S’appuyer sur les logiciels libres et sur les communs numériques pour renforcer l’attractivité de l’État-employeur.",
-            imageSrc: "/icons/hat-64.png"
         }
     ],
     accordionItems: [

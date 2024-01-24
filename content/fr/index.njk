@@ -11,40 +11,45 @@ eleventyNavigation:
       <div class="fr-col-10 fr-col-md-6">
         <h1>{{ title }}</h1>
         <p class="fr-text--lead">
-	  Nous <strong>accompagnons</strong> les administrations pour renforcer leur <strong>utilisation</strong> de logiciels libres, soutenir leurs démarches de <strong>publication</strong> et de mutualisation de codes sources et <strong>créer des liens</strong> avec l'écosystème open source.
+          Nous <strong>accompagnons</strong> les administrations pour renforcer leur <strong>utilisation</strong> de
+          logiciels libres, soutenir leurs démarches de <strong>publication</strong> et de mutualisation de codes
+          sources et <strong>créer des liens</strong> avec l'écosystème open source.
         </p>
       </div>
       <div class="fr-hidden fr-unhidden-md fr-col-md-4">
-        <img src="/icons/binaire-256.png" alt="">
+        <img src="/illustrations/Programmer.png" alt="">
       </div>
     </div>
   </div>
 </div>
 <div class="fr-container fr-my-6w">
-  <div class="fr-grid-row">
-    <div class="fr-col-12">
-      <h2>Le plan d’action logiciels libres et communs numériques</h2>
-      <p class="fr-text--lg">
-        La <strong>mission logiciels libres </strong>est née du <strong>plan d'action logiciels libres et communs
-          numériques </strong>dont les trois axes sont
-        soutenir le <strong>recours </strong>aux logiciels libres dans l'administration ;
-        développer l'<strong>ouverture </strong>des codes sources du secteur public ;
-        renforcer l'<strong>attractivité </strong>de l'Etat-employeur en s'appuyant sur l'open source.
-      </p>
-      <p>
-        <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right"
-           href="/fr/plan-action-logiciels-libres-et-communs-numeriques">Consulter le plan d'action</a>
-      </p>
-      <div class="fr-grid-row fr-grid-row--gutters">
-        {% for tile in actions %}
-          <div class="fr-col-12 fr-col-md-4">
-            {% include "components/tile.njk" %}
-          </div>
-        {% endfor %}
+  <div class="fr-grid-row fr-grid-row--gutters">
+    {% for tile in actions %}
+      <div class="fr-col-12 fr-col-md-4">
+        {% include "components/tile.njk" %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="fr-py-6w fr-background-alt--grey">
+  <div class="fr-container">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-10">
+        <h2>Le plan d’action logiciels libres et communs numériques</h2>
+        <p class="fr-text--lg">
+          La <strong>mission logiciels libres </strong>est née du <strong>plan d'action logiciels libres et communs
+            numériques </strong>dont les trois axes sont
+          soutenir le <strong>recours </strong>aux logiciels libres dans l'administration ;
+          développer l'<strong>ouverture </strong>des codes sources du secteur public ;
+          renforcer l'<strong>attractivité </strong>de l'Etat-employeur en s'appuyant sur l'open source.
+        </p>
+        <a class="fr-btn" href="/fr/plan-action-logiciels-libres-et-communs-numeriques">Consulter le plan d'action</a>
       </div>
     </div>
   </div>
-  <div class="fr-grid-row fr-grid-row--center fr-pt-6w fr-pb-8v">
+</div>
+<div class="fr-container fr-my-6w fr-pb-6v">
+  <div class="fr-grid-row fr-grid-row--center">
     <div class="fr-col-10">
       <h2 class="fr-h3">Vos contributions sont les bienvenues&nbsp;!</h2>
       {% include "components/accordionsgroup.njk" %}

@@ -1,31 +1,33 @@
 ---
 title: "Awesome CodeGouvFr"
+description: La liste des logiciels libres développés par des administrations et à fort potentiel de réutilisation.
 layout: layouts/page.njk
 eleventyNavigation:
   key: Awesome CodeGouvFr
   parent: Ressources
   order: 3
 ---
-<p class="fr-text--lead">
-  Voici une liste des logiciels libres développés par des administrations et à fort potentiel de réutilisation.
-<br>
-  Vous pouvez en apprendre plus dans le <a class="fr-link fr-text--lead" href="https://github.com/codegouvfr/awesome-codegouvfr" target="_blank">dépôt dédié à cette liste</a> et dans <a class="fr-link fr-text--lead" href="{{ "/blog/awesome-codegouvfr-logiciels-libres-remarquables-de-ladministration" | locale_url }}">l'article de blog</a> expliquant ce projet.
-</p>
-<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-mb-3w">
-  {% asyncAll filename, project in awesome.dist %}
-  <div class="fr-col-12 fr-col-md-3">
-    {% from "components/component.njk" import component with context %}
-    {{ component("card", {
-      url: false,
-      externalUrl: project.landingURL or project.url,
-      title: project.name,
-      description: project.description.fr.shortDescription,
-      image: {
-        src: project.logo,
-        alt: "Logo du projet"
-      },
-      detail: ('<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>') | safe
-    }) }}
+{% from "components/component.njk" import component with context %}
+{{ component("callout", {
+  title: "Vous souhaitez en apprendre plus ?",
+  description: 'Consultez le <a class="fr-link fr-text--lead" href="https://github.com/codegouvfr/awesome-codegouvfr" target="_blank">dépôt dédié à cette liste</a> et <a class="fr-link fr-text--lead" href="{{ "/blog/awesome-codegouvfr-logiciels-libres-remarquables-de-ladministration" | locale_url }}">l\'article de blog</a> expliquant ce projet.' | safe
+}) }}
+<div class="fr-my-6w">
+  <div class="fr-grid-row fr-grid-row--gutters">
+    {% asyncAll filename, project in awesome.dist %}
+    <div class="fr-col-12 fr-col-md-3">
+      {{ component("card", {
+        url: false,
+        externalUrl: project.landingURL or project.url,
+        title: project.name,
+        description: project.description.fr.shortDescription,
+        image: {
+          src: project.logo,
+          alt: "Logo du projet"
+        },
+        detail: ('<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>') | safe
+      }) }}
+    </div>
+    {% endall %}
   </div>
-  {% endall %}
 </div>

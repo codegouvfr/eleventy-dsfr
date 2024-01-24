@@ -17,7 +17,7 @@ permalink: /fr/bluehats/bsoc-promotion-2022/
       url: person.projectUrl,
       urlDescription: "En savoir plus sur " + person.projectName,
       title: person.name,
-      description: person.description,
+      description: person.description | safe,
       image: {
         path: person.imagePath,
         alt: person.name

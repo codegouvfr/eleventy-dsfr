@@ -6,26 +6,30 @@ eleventyNavigation:
   parent: Ressources
   order: 9
 ---
-{% from "components/component.njk" import component with context %}
-{{ component("callout", {
-  description: "Cette page recense les outils logiciels pouvant aider les administrations à mettre en œuvre l'explication des décisions administratives lorsque celles-ci reposent sur des algorithmes opérés par des programmes informatiques"
-}) }}
-
-<h2>Différents outils, différentes finalités</h2>
-
-<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-py-3w">
-  {% asyncAll outilExplicabilite in outilsExplicabilite %}
-  <div class="fr-col-12 fr-col-md-4">
-    {{ component("card", {
-      url: outilExplicabilite.url,
-      title: outilExplicabilite.title,
-      description: outilExplicabilite.description
-    }) }}
-  </div>
-  {% endall %}
+<div class="fr-highlight fr-highlight--blue-cumulus">
+  <p class="fr-text--lg">
+    Cette page recense les outils logiciels pouvant aider les administrations à mettre en œuvre l'explication des décisions administratives lorsque celles-ci reposent sur des algorithmes opérés par des programmes informatiques
+  </p>
 </div>
-
-<p>
-  Vous souhaitez proposer d'autres outils ? N'hésitez pas à nous <a
-      class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/fr/contact/">contacter</a>
-</p>
+{% from "components/component.njk" import component with context %}
+<div class="fr-my-6w">
+  <h2>Différents outils, différentes finalités</h2>
+  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    {% asyncAll outilExplicabilite in outilsExplicabilite %}
+    <div class="fr-col-12 fr-col-md-4">
+      {{ component("card", {
+        url: outilExplicabilite.url,
+        title: outilExplicabilite.title,
+        description: outilExplicabilite.description | safe
+      }) }}
+    </div>
+    {% endall %}
+  </div>
+</div>
+{{ component("callout", {
+  title: "Vous souhaitez proposer d'autres outils ?",
+  link: {
+    url: "/contact/" | locale_url,
+    title: "N'hésitez pas à nous contacter !"
+  }
+}) }}

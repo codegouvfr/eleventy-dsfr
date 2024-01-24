@@ -6,29 +6,39 @@ eleventyNavigation:
   parent: BlueHats 🧢
   order: 1
 ---
-<div class="fr-container fr-pt-8w fr-pb-3w">
-  <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--middle">
-    <div class="fr-col-offset-md-1 fr-col-12 fr-col-sm-12 fr-col-md-6">
-      <h1><code>BlueHats</code>, c'est qui ?</h1>
-      <p>
-        Les <code>BlueHats</code> sont toutes les personnes qui souhaitent montrer qu'elles contribuent à
-        des logiciels libres développés et/ou utilisés par l'administration publique : les agents publics
-        impliqués dans le développement de ces logiciels, bien sûr, mais aussi les citoyens qui
-        reconnaissent que leurs actions pour des logiciels libres aide les projets de l'administration.
-      </p>
-      <p>
-        <code>BlueHats</code> n'est pas un produit ou une marque de la DINUM, c'est un mouvement auquel elle contribue en publiant une <a href="/fr/bluehats/tags/gazette/">gazette</a>, en organisant des <a href="/fr/bluehats/tags/atelier/">ateliers en ligne</a> et des <a href="/fr/bluehats/tags/rencontre/">rencontres</a> en présentiel - toutes les administrations sont invitées à contribuer à ce mouvement !
-      </p>
-    </div>
-    <div class="fr-col-md-4 fr-hidden fr-unhidden-md">
-      <img src="/icons/bluehat.svg" alt="BlueHats logo" class="fr-responsive-img">
+<div class="fr-py-6w">
+  <div class="fr-container">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-10 fr-col-md-6">
+        <h1><code>BlueHats</code>, c'est qui ?</h1>
+        <p class="fr-text--lg">
+          Les <code>BlueHats</code> sont toutes les personnes qui souhaitent montrer qu'elles contribuent à
+          des logiciels libres développés et/ou utilisés par l'administration publique : les agents publics
+          impliqués dans le développement de ces logiciels, bien sûr, mais aussi les citoyens qui
+          reconnaissent que leurs actions pour des logiciels libres aide les projets de l'administration.
+        </p>
+        <p class="fr-text--lg">
+          <code>BlueHats</code> n'est pas un produit ou une marque de la DINUM, c'est un mouvement auquel elle
+          contribue
+          en publiant une <a href="/fr/bluehats/tags/gazette/">gazette</a>, en organisant des <a
+              href="/fr/bluehats/tags/atelier/">ateliers en ligne</a> et des <a href="/fr/bluehats/tags/rencontre/">rencontres</a>
+          en présentiel - toutes les administrations sont invitées à contribuer à ce mouvement !
+        </p>
+      </div>
+      <div class="fr-hidden fr-unhidden-md fr-col-md-4">
+        <img src="/icons/bluehats-logo-single.svg" alt="BlueHats logo" class="fr-responsive-img">
+      </div>
     </div>
   </div>
 </div>
-<div class="fr-background-alt--grey">
-  <div class="fr-container fr-pt-6w fr-pb-6w">
-    <h1 class="text-center"><code>BlueHats</code>, c'est quoi ?</h1>
-    <div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
+<div class="fr-py-6w fr-background-alt--grey">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-col-12">
+        <h1 class="text-center"><code>BlueHats</code>, c'est quoi ?</h1>
+      </div>
+    </div>
+    <div class="fr-grid-row fr-grid-row--gutters">
       {% for tile in initiatives %}
         <div class="fr-col-12 fr-col-md-6">
           {% include "components/tile.njk" %}
@@ -37,7 +47,7 @@ eleventyNavigation:
     </div>
   </div>
 </div>
-<div class="fr-container fr-pt-3w fr-pb-8v">
+<div class="fr-container fr-my-6w fr-pb-6v">
   <div class="fr-grid-row fr-grid-row--center">
     <div class="fr-col-10">
       <h2 class="fr-h3">Comment participer ?</h2>

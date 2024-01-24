@@ -23,7 +23,9 @@
   {% set tagsUrl = "/bluehats/tags/" %}
   {% include "components/taggroup.njk" %}
 </div>
-{% include "./" + tag.tagName + ".njk" ignore missing %}
+<div class="fr-my-6w">
+  {% include "./" + tag.tagName + ".njk" ignore missing %}
+</div>
 {% set postslist = tag.pageData %}
 {% include "postslist.njk" %}
 {% set tagUrl %}{{ "/bluehats/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}

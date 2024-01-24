@@ -1,6 +1,6 @@
 ---js
 {
-  title: "Blog",
+  title: "Actualités",
   pagination: {
     data: "collections.posts",
     size: 10,
@@ -12,7 +12,7 @@
   layout: "layouts/page.njk",
   permalink: "/{{ lang }}/blog/{% if pagination.pageNumber %}{{ pagePrefix }}{{ pagination.pageNumber + 1 }}/{% endif %}",
   eleventyNavigation: {
-    key: "Blog",
+    key: "Actualités",
     order: 5
   }
 }

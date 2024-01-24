@@ -4,25 +4,21 @@ module.exports = {
             url: "/fr/bluehats/tags/gazette/",
             title: "La gazette : le libre par et pour l'administration",
             description: "La gazette BlueHats est une lettre d'information bimestrielle autour des logiciels libres par et pour les administrations publiques.",
-            imageSrc: "/icons/interface-64.png"
         },
         {
             url: "/fr/bluehats/tags/atelier/",
             title: "Les ateliers",
             description: "Les ateliers BlueHats sont des visioconférences publiques consacrées à l'utilisation de logiciels libres par des administrations.",
-            imageSrc: "/icons/conference-64.png"
         },
         {
             url: "/fr/bluehats/tags/rencontre/",
             title: "Les rencontres",
             description: "Les rencontres BlueHats sont des événements en présentiel où les BlueHats se retrouve pour faire connaissance et collaborer.  Ces rencontres peuvent prendre différentes formes : Sprint Open Source, journées BlueHats lors de salons, etc.",
-            imageSrc: "/icons/businessman-64.png"
         },
         {
             url: "/fr/bluehats/prix-bluehats/",
             title: "Les prix BlueHats pour soutenir l'écosystème du libre",
             description: "En partenariat avec NLnet, la DINUM récompense quatre mainteneurs de projets libres.",
-            imageSrc: "/icons/coding-2-64.png"
         }
     ],
     accordionItems: [
@@ -45,7 +41,7 @@ module.exports = {
 {
             title: "Vous souhaitez organiser un atelier ou événement BlueHats ?",
             content: `
-<p>Tout agent public peut solliciter son administration pour organiser un événement BlueHats, en ligne ou en présentiel.  Si vous avez besoin de visuels pour communiquer, vous pouvez utiliser ce <a href="/docs/bluehats-visuals-2023-10-20.zip">kit BlueHats</a>.</p>`
+<p>Tout agent public peut solliciter son administration pour organiser un événement BlueHats, en ligne ou en présentiel.  Si vous avez besoin de visuels pour communiquer, vous pouvez utiliser ce <a href="https://github.com/codegouvfr/bluehats-visuals/archive/refs/tags/v0.5.zip">kit BlueHats</a>.</p>`
         }
     ]
 };

@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="fr-container fr-py-8v">
+<div class="fr-container fr-py-6w">
   {% if showBreadcrumb %}
     {% include "components/breadcrumb.njk" %}
   {% endif %}
@@ -26,7 +26,7 @@ layout: layouts/base.njk
 
       {% if description %}
         <p class="fr-text--lead">
-          {{ description | safe }}
+          {{ description }}
         </p>
       {% endif %}
 
@@ -55,45 +55,7 @@ layout: layouts/base.njk
   </div>
 
   {% if collections.bluehats_posts %}
-    {% set previousPost = collections.bluehats_posts | filterCollectionLang | getPreviousCollectionItem %}
-    {% set nextPost = collections.bluehats_posts | filterCollectionLang | getNextCollectionItem %}
-    {% if nextPost or previousPost %}
-      <h2>{{ "read_also" | i18n }}</h2>
-      <div class="fr-grid-row fr-grid-row--gutters fr-mb-12v">
-        {% if previousPost %}
-          <div class="fr-col-12 fr-col-md-6">
-            <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
-              <div class="fr-card__body">
-                <p class="fr-card__detail fr-icon-time-fill">
-                  <time datetime="{{ previousPost.date | htmlDateString }}">
-                    {{ previousPost.date | readableDate }}
-                  </time>
-                </p>
-                <h4 class="fr-card__title">
-                  <a href="{{ previousPost.url }}" class="fr-card__link">{{ previousPost.data.title }}</a>
-                </h4>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-        {% if nextPost %}
-          <div class="fr-col-12 fr-col-md-6">
-            <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
-              <div class="fr-card__body">
-                <p class="fr-card__detail fr-icon-time-fill">
-                  <time datetime="{{ nextPost.date | htmlDateString }}">
-                    {{ nextPost.date | readableDate }}
-                  </time>
-                </p>
-                <h4 class="fr-card__title">
-                  <a href="{{ nextPost.url }}" class="fr-card__link">{{ nextPost.data.title }}</a>
-                </h4>
-              </div>
-            </div>
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
+    {% set currentPosts = collections.bluehats_posts %}
+    {% include "previousnextlinks.njk" %}
   {% endif %}
-
 </div>

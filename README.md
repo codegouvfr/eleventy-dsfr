@@ -31,7 +31,5 @@ Le contenu rédactionnel du site est une publication DINUM, 20 avenue de Ségur,
 
 ### Crédits images
 
-- [Gradient icons created by srip](https://www.flaticon.com/authors/srip/gradient)
-- hat by sripfoto from [Noun Project](https://thenounproject.com/srip/) (CC BY 3.0)
+- [Programmer.png](public/illustrations/Programmer.png) par ven sur [IllustrationKit](https://illustrationkit.com/illustrations/ven)
 - [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
-

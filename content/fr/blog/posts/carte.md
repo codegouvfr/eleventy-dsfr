@@ -24,7 +24,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
         src: "/img/placeholder.16x9.png",
         alt: ""
     },
-    orientation: "horizontal"
+    addClass: "fr-card--horizontal-tier"
 }) }}
 {% endraw %}
 ```
@@ -45,7 +45,7 @@ Le format complet de l'objet en paramètre est le suivant :
     "src | path": "string",
     "alt": "string"
   },
-  "orientation": "horizontal | vertical"
+  "addClass": "string"
 }
 ```
 
@@ -70,7 +70,7 @@ Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDesc
         src : "/img/placeholder.16x9.png",
         alt: ""
     },
-    orientation: "horizontal"
+    addClass: "fr-card--horizontal-tier"
 }) }}
 </div>
 

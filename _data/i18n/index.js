@@ -20,5 +20,5 @@ const buildTranslations = () => {
 
 module.exports = {
     availableLang: langDirectories,
-    ...buildTranslations()
+    translations: buildTranslations()
 };

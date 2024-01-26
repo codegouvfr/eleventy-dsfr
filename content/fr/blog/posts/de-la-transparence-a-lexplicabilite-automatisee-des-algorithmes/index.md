@@ -6,7 +6,10 @@ image:
   path: ./illustration-explication-algorithmes.png
   alt: "Exemple d'interface pour expliquer un traitement algorithmique"
   hide: True
-tags: explicabilité algorithmes transparence
+tags:
+  - explicabilité
+  - algorithmes
+  - transparence
 ---
 
 *La transparence algorithmique ne se résume pas à la publication des codes sources. Comme le reflète la page que nous avons dédiée aux [outils aidant à expliquer les décisions administratives](https://code.gouv.fr/fr/explicabilite/), les façons de traduire du texte juridique en code source informatique sont variées. La mission logiciels libres accueille une entrée de blog invitée proposée par Denis Merigoux, Marie Alauzen, Justine Banuls, Louis Gesbert et Émile Rolley ; ils nous présentent un travail de recherche récent sur ces sujets. Les recommandations formulées dans cette entrée de blog appartiennent à son auteur.*

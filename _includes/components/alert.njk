@@ -1,0 +1,7 @@
+{% if not alert %}{% set alert = params %}{% endif %}
+<div class="fr-alert {% if alert.type %}fr-alert--{{ alert.type }}{% else %}fr-alert--info{% endif %} {% if not alert.title %}fr-alert--sm{% endif %}">
+    {% if alert.title %}
+        <h3 class="fr-alert__title">{{ alert.title | safe }}</h3>
+    {% endif %}
+    {% if alert.description %}{{ alert.description | safe }}{% endif %}
+</div>

@@ -1,3 +1,4 @@
+{% from "components/component.njk" import component with context %}
 {% set previousPost = currentPosts | filterCollectionLang | getPreviousCollectionItem %}
 {% set nextPost = currentPosts | filterCollectionLang | getNextCollectionItem %}
 {% if nextPost or previousPost %}
@@ -6,34 +7,22 @@
     <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
       {% if previousPost %}
         <div class="fr-col-12 fr-col-md-6">
-          <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
-            <div class="fr-card__body">
-              <p class="fr-card__detail fr-icon-time-fill">
-                <time datetime="{{ previousPost.date | htmlDateString }}">
-                  {{ previousPost.date | readableDate }}
-                </time>
-              </p>
-              <h4 class="fr-card__title">
-                <a href="{{ previousPost.url }}" class="fr-card__link">{{ previousPost.data.title }}</a>
-              </h4>
-            </div>
-          </div>
+          {{ component("card", {
+            url: previousPost.url,
+            title: previousPost.data.title,
+            date: previousPost.date,
+            addClass: "fr-card--horizontal-tier fr-card--grey fr-card--no-border fr-card--sm"
+          }) }}
         </div>
       {% endif %}
       {% if nextPost %}
         <div class="fr-col-12 fr-col-md-6">
-          <div class="fr-card fr-enlarge-link fr-card--grey fr-card--no-border">
-            <div class="fr-card__body">
-              <p class="fr-card__detail fr-icon-time-fill">
-                <time datetime="{{ nextPost.date | htmlDateString }}">
-                  {{ nextPost.date | readableDate }}
-                </time>
-              </p>
-              <h4 class="fr-card__title">
-                <a href="{{ nextPost.url }}" class="fr-card__link">{{ nextPost.data.title }}</a>
-              </h4>
-            </div>
-          </div>
+          {{ component("card", {
+            url: nextPost.url,
+            title: nextPost.data.title,
+            date: nextPost.date,
+            addClass: "fr-card--horizontal-tier fr-card--grey fr-card--no-border fr-card--sm"
+          }) }}
         </div>
       {% endif %}
     </div>

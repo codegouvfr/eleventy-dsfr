@@ -2,13 +2,13 @@ module.exports = {
     actions: [
         {
             url: "/fr/utiliser/",
-            title: "Utiliser",
+            title: "Pour l'administration",
             description: "Mieux connaître, utiliser et concevoir les logiciels libres et les communs numériques.",
         },
         {
             url: false,
             externalUrl: "https://code.gouv.fr/public/",
-            title: "Publier",
+            title: "Par les administrations",
             description: "Développer et accompagner l’ouverture et la libération des codes sources de l'administration.",
         },
         {

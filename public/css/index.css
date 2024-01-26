@@ -152,3 +152,14 @@ div.fr-callout__text p {
 .text-center {
     text-align: center;
 }
+
+.custom-card__img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card__img img {
+    width: 50%;
+}

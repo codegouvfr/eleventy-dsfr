@@ -10,12 +10,12 @@ module.exports = {
             description: `Documentation sur les logiciels libres dans l'administration publique : utiliser, publier, contribuer.`
         }, {
             url: false,
-            externalUrl: "https://guides.etalab.gouv.fr/logiciels/",
+            externalUrl: "https://code.gouv.fr/documentation/#/publier",
             title: "Guide pratique sur l'ouverture des codes sources",
             description: `Ce guide vous aide à définir vos objectifs en matière d'ouverture des codes sources.`
         }, {
             url: false,
-            externalUrl: "https://guide-juridique-logiciel-libre.etalab.gouv.fr/",
+            externalUrl: "https://code.gouv.fr/guides/juridique/",
             title: "Guide juridique interactif : quels codes sources ouvrir ",
             description: `En répondant à quelques questions, faites un point sur vos obligations.`
         }, {

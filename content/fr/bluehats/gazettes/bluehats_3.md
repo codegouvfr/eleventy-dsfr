@@ -151,7 +151,7 @@ Le POSS 2018 a été l'occasion pour la DINSIC de [lancer le mouvement #BlueHats
 
 -   La communauté #BlueHats est désormais présente dans un salon public de [Tchap](https://www.tchap.gouv.fr/#/room/#BlueHats21LW8XE:agent.dinum.tchap.gouv.fr) et dans le [Hub des communautés](https://www.modernisation.gouv.fr/le-hub-des-communautes/blue-hats) de la DITP.  Rejoignez-nous !
 
--   Etalab publie un [guide juridique interactif](https://guide-juridique-logiciel-libre.etalab.gouv.fr/) sur la publication des logiciels de l'administration en open data.
+-   Etalab publie un [guide juridique interactif](https://code.gouv.fr/guides/juridique/) sur la publication des logiciels de l'administration en open data.
 
 -   Etalab a réactivé son canal de discussion IRC pour permettre à tout le monde d'échanger avec l'équipe technique : rendez-vous via l'interface web de [riot](https://riot.im/app/#/room/#freenode_#etalab:matrix.org) ou via le canal `#etalab` sur le serveur `irc.freenode.net`.
 

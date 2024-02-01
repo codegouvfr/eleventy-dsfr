@@ -56,7 +56,7 @@ La liste des licences libres autorisées pour les publications de codes sources 
 -   Présentation de [la licence EUPL](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12)
 -   [La licence EPL sur SPDX](https://spdx.org/licenses/EPL-2.0.html)
 -   La [liste des licences autorisées](https://www.data.gouv.fr/fr/pages/legal/licences/)
--   Le [guide interactif](https://guide-juridique-logiciel-libre.etalab.gouv.fr) pour la publication de codes sources
+-   Le [guide interactif](https://code.gouv.fr/guides/juridique/) pour la publication de codes sources
 
 Un atelier #BlueHats aura lieu [le 25 février à 11h](https://github.com/blue-hats/ateliers/blob/main/ateliers.org#25-f%C3%A9vrier--pr%C3%A9sentation-de-la-licence-european-union-public-licence) pour présenter la licence EUPL, ce sera l'occasion de venir poser vos questions !
 

@@ -20,10 +20,10 @@ Les questions courantes sont :
 - Où publier un code source ?
 - Sous quelle licence publier un code source ?
 
-Les guides pouvant vous aider :
+La documentation pour vous aider :
 
-- https://guide-juridique-logiciel-libre.etalab.gouv.fr/
-- https://guides.etalab.gouv.fr/logiciels/
+- https://code.gouv.fr/guides/juridique
+- https://code.gouv.fr/documentation/#/publier
 
 ## Accompagnement à l'utilisation des logiciels libres
 

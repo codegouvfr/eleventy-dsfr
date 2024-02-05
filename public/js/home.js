@@ -9,7 +9,7 @@
     const sillSoftwareImg = document.querySelector(".sill .fr-card__header img");
 
     const getSill = async () => {
-        const response = await fetch(`${window.location.origin}/data/sill.json`);
+        const response = await fetch(`${window.location.origin}/internaldata/sill.json`);
         return await response.json();
     }
 
@@ -25,7 +25,7 @@
     const awesomeProjectImg = document.querySelector(".awesome .fr-card__header img");
 
     const getAwesome = async () => {
-        const response = await fetch(`${window.location.origin}/data/awesome.json`);
+        const response = await fetch(`${window.location.origin}/internaldata/awesome.json`);
         return await response.json();
     }
 

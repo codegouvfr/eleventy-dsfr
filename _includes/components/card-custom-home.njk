@@ -1,5 +1,5 @@
 {% if not card %}{% set card = params %}{% endif %}
-<div class="fr-card fr-enlarge-link fr-card--horizontal-half fr-card--grey fr-card--no-border fr-card--sm">
+<div class="fr-card fr-enlarge-link fr-card--horizontal-half fr-card--grey fr-card--no-border fr-card--sm {{ card.addClass }}">
   <div class="fr-card__body">
     <div class="fr-card__content">
       {% set cardUrl = card.url | locale_url or card.externalUrl %}

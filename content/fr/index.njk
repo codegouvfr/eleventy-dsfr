@@ -31,34 +31,25 @@ eleventyNavigation:
   </div>
   <div class="fr-grid-row fr-grid-row--gutters">
     <div class="fr-col-12 fr-col-md-4">
-      {% set randomSoftware = sill | random %}
-      {% if randomSoftware.logoUrl %}
-        {% set randomSoftwareImage = {
-          src: randomSoftware.logoUrl,
-          alt: "Logo de " + randomSoftware.n
-        } %}
-      {% endif %}
       {{ component("card-custom-home", {
         url: false,
-        externalUrl: "https://code.gouv.fr/sill/" + randomSoftware.n,
-        title: randomSoftware.n,
-        image: randomSoftwareImage,
-        detail: "Un logiciel au hasard"
+        image: {
+          src: "",
+          alt: ""
+        },
+        detail: "Un logiciel au hasard",
+        addClass: "sill"
       }) }}
     </div>
     <div class="fr-col-12 fr-col-md-4">
-      {% set randomSourceCode = awesome | random %}
-      {% if randomSourceCode.logo %}
-        {% set randomSourceCodeImage = {
-          src: randomSourceCode.logo,
-          alt: "Logo de " + randomSourceCode.name
-        } %}
-      {% endif %}
       {{ component("card-custom-home", {
-        url: "/awesome/" | locale_url,
-        title: randomSourceCode.name,
-        image: randomSourceCodeImage,
-        detail: "Un projet au hasard"
+        url: false,
+        image: {
+          src: "",
+          alt: ""
+        },
+        detail: "Un projet au hasard",
+        addClass: "awesome"
       }) }}
     </div>
     <div class="fr-col-12 fr-col-md-4">
@@ -103,3 +94,7 @@ eleventyNavigation:
     </div>
   </div>
 </div>
+
+{% js "body" %}
+  <script type="text/javascript" src="/js/home.js"></script>
+{% endjs %}

@@ -113,7 +113,7 @@ La suite de la documentation (composants, fonctionnalités) est disponible dans 
 ## Démonstration et réutilisations
 
 - Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
-- `eleventy-dsfr` est utilisé pour le site [code.gouv.fr](https://code.gouv.fr).
+- `eleventy-dsfr` est utilisé pour le site [code.gouv.fr](https://code.gouv.fr) (code source : https://github.com/codegouvfr/codegouvfr-website).
 
 ## Licence
 

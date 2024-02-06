@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "homepage": "https://code.gouv.fr/",
   "devDependencies": {

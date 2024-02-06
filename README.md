@@ -3,7 +3,8 @@
 # eleventy-dsfr
 
 Un dépôt pour démarrer un site statique au [DSFR](https://www.systeme-de-design.gouv.fr/) avec le
-générateur [Eleventy](https://www.11ty.dev/).
+générateur [Eleventy](https://www.11ty.dev/), déployé pour démonstration sur [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/).
+Pour d'autres exemples de réutilisation, cf. [Démonstration et réutilisations](#démonstration-et-réutilisations).
 
 ![Screenshot of the website front page.](eleventy-dsfr.png)
 
@@ -112,8 +113,11 @@ La suite de la documentation (composants, fonctionnalités) est disponible dans 
 
 ## Démonstration et réutilisations
 
-- Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
-- `eleventy-dsfr` est utilisé pour le site [code.gouv.fr](https://code.gouv.fr) (code source : https://github.com/codegouvfr/codegouvfr-website).
+Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/) correspondante.
+
+- [Site de la mission logiciels libres de la DINUM](https://code.gouv.fr) (code source : https://github.com/codegouvfr/codegouvfr-website).
+- [Site du cadre de cohérence technique du MI](https://dnum-mi.github.io/cct-mi/) (code source : https://github.com/dnum-mi/cct-mi)
+- [Site de documentation pour cartes.gouv.fr](https://ignf.github.io/cartes.gouv.fr-documentation/) (code source : https://github.com/IGNF/cartes.gouv.fr-documentation)
 
 ## Licence
 

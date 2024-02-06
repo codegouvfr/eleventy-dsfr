@@ -22,22 +22,25 @@ Ce composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`
 {% endraw %}
 ```
 
+```md
+:::info Test d'alerte
+Contenu **Mardown**
+:::
+```
+
 **Notes :**
 
 Le composant alerte n'inclut pas de bouton de fermeture.
 
 Le bloc ne porte pas l'attribut `role="alert"` car il n’apparait pas dynamiquement en cours de navigation.
 
-Les types possibles sont `info`, `warning`, `error`, `success`. Si le type est omis, le type `info` sera appliqué.
+Les types possibles sont `info`, `warning`, `error`, `success`. En `njk` si le type est omis, le type `info` sera appliqué.
 
 ## Rendu
 
-{% from "components/component.njk" import component with context %}
-{{ component("alert", {
-    type: "info",
-    title: "Titre de l'information",
-    description: "<p>Le contenu de l'alerte</p>"
-}) }}
+:::info Titre de l'information
+Contenu de l'alerte
+:::
 
 {% from "components/component.njk" import component with context %}
 {{ component("alert", {
@@ -46,11 +49,9 @@ Les types possibles sont `info`, `warning`, `error`, `success`. Si le type est o
     description: "<p>Le contenu de l'alerte</p>"
 }) }}
 
-{% from "components/component.njk" import component with context %}
-{{ component("alert", {
-    type: "success",
-    description: "<p>Contenu de l'alerte seul</p>"
-}) }}
+:::success
+Contenu de l'alerte seule
+:::
 
 {% from "components/component.njk" import component with context %}
 {{ component("alert", {

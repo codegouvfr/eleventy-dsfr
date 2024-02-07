@@ -57,5 +57,36 @@ module.exports = {
                 }
             }
         }
+    },
+    alert: md => {
+        const re = /^(info|warning|error|success)(\s+.*)?$/;
+        return {
+            validate: (params) => {
+                return params.trim().match(re);
+            },
+
+            render: (tokens, idx) => {
+                const params = tokens[idx].info.trim().match(re);
+                const type = params?.[1];
+                const title = md.utils.escapeHtml(params?.[2]) || '';
+
+                if (tokens[idx].nesting === 1) {
+                    title_elem = '';
+                    small_class = 'fr-alert--sm';
+                    if (title !== '') {
+                        title_elem = `<h3 class="fr-alert__title">${title}</h3>`;
+                        small_class = "";
+                    }
+                    // opening tag
+                    return `
+<div class="fr-alert fr-alert--${type} ${small_class}">
+    ${title_elem}
+`;
+                } else {
+                    // closing tag
+                    return '</div>\n';
+                }
+            }
+        }
     }
 }

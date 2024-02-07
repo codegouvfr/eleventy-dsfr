@@ -24,7 +24,7 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
         src: "/img/placeholder.16x9.png",
         alt: ""
     },
-    orientation: "horizontal"
+    addClass: "fr-card--horizontal-tier"
 }) }}
 {% endraw %}
 ```
@@ -39,13 +39,14 @@ Le format complet de l'objet en paramètre est le suivant :
   "title": "string",
   "description": "string",
   "tags": "string[]",
-  "date": "Date",
+  "date | detail": "Date | string",
+  "detailEnd": "string",
   "badges": "string[]",
   "image": {
     "src | path": "string",
     "alt": "string"
   },
-  "orientation": "horizontal | vertical"
+  "addClass": "string"
 }
 ```
 
@@ -54,6 +55,8 @@ Le format complet de l'objet en paramètre est le suivant :
 Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDescription` peut alors être utilisé pour nommer le lien.
 
 `image.src` est le chemin de l'image dans le site. `image.path` peut être utilisé à la place de `image.src` en spécifiant le chemin relatif du fichier depuis l'emplacement de la page dans le dépôt (ex. `path : "../../../../public/img/placeholder.16x9.png"`). Cela permet de bénéficier du [plugin Image d'Eleventy](https://www.11ty.dev/docs/plugins/image/).
+
+`date` et `detail` ne peuvent pas être renseignés simultanément car les deux utilisent la même zone de détail (haute).
 
 ## Rendu
 
@@ -70,7 +73,7 @@ Si `card.externalUrl` est utilisé, `card.url` doit être `false`. `card.urlDesc
         src : "/img/placeholder.16x9.png",
         alt: ""
     },
-    orientation: "horizontal"
+    addClass: "fr-card--horizontal-tier"
 }) }}
 </div>
 

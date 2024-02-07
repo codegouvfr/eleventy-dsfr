@@ -1,5 +1,5 @@
 {% if not card %}{% set card = params %}{% endif %}
-<div class="fr-card{% if not card.externalUrl %} fr-enlarge-link{% endif %}{% if card.orientation == 'horizontal' %} fr-card--horizontal-tier{% endif %}">
+<div class="fr-card{% if not card.externalUrl %} fr-enlarge-link{% endif %} {{ card.addClass }}">
   <div class="fr-card__body">
     <div class="fr-card__content">
       {% set cardUrl = card.url | locale_url or card.externalUrl %}
@@ -27,6 +27,11 @@
           <p class="fr-card__detail">{{ card.detail }}</p>
         {% endif %}
       </div>
+      {% if card.detailEnd %}
+        <div class="fr-card__end">
+          <p class="fr-card__detail">{{ card.detailEnd }}</p>
+        </div>
+      {% endif %}
     </div>
     <div class="fr-card__footer">
       {% if card.externalUrl %}
@@ -37,20 +42,24 @@
       {% endif %}
     </div>
   </div>
-  <div class="fr-card__header">
-    {% if card.badges %}
-      <ul class="fr-badges-group">
-        {% for badge in card.badges %}
-          <li><p class="fr-badge fr-badge--green-emeraude">{{ badge }}</p></li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-    {% if card.image.path %}
-      <div class="fr-card__img">{% imageSync card.image.path, card.image.alt %}</div>
-      {% elif card.image.src %}
-      <div class="fr-card__img">
-        <img class="fr-responsive-img fr-responsive-img--1x1" src="{{ card.image.src }}" alt="{{ card.image.alt }}">
-      </div>
-    {% endif %}
-  </div>
+  {% if card.badges or card.image %}
+    <div class="fr-card__header">
+      {% if card.badges %}
+        <ul class="fr-badges-group">
+          {% for badge in card.badges %}
+            <li><p class="fr-badge fr-badge--green-emeraude">{{ badge }}</p></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if card.image %}
+        {% if card.image.path %}
+          <div class="fr-card__img">{% imageSync card.image.path, card.image.alt %}</div>
+          {% elif card.image.src %}
+          <div class="fr-card__img">
+            <img class="fr-responsive-img fr-responsive-img--1x1" src="{{ card.image.src }}" alt="{{ card.image.alt }}">
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endif %}
 </div>

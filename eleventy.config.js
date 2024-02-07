@@ -14,7 +14,7 @@ const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
-const translations = require("./_data/i18n");
+const {translations} = require("./_data/i18n");
 
 module.exports = function (eleventyConfig) {
     // Copy the contents of the `public` folder to the output folder
@@ -163,6 +163,10 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItContainer, 'quote', customMarkdownContainers.quote(mdLib));
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'alert', customMarkdownContainers.alert(mdLib));
     });
 
     // Automatically strip all leading or trailing whitespace

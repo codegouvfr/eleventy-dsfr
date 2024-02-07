@@ -22,7 +22,23 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 {% endraw %}
 ```
 
+ou
+
+```md
+:::accordionsgroup
+
+???accordion Intitulé accordéon
+
+Contenu **markdown** _riche_
+
+???
+
+:::
+```
+
 ## Rendu
+
+Un accordéon créé en njk :
 
 {% from "components/component.njk" import component with context %}
 {{ component("accordionsgroup", {
@@ -31,6 +47,44 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
         content: "<p>Contenu HTML</p>"
     }]
 }) }}
+
+<br>
+
+Groupe d'accordéons créé en markdown :
+
+:::accordionsgroup
+
+???accordion Premier accordéon
+
+Contenu MD
+
+* one
+* two
+
+???
+
+???accordion Deuxième accordéon
+
+Contenu **markdown** _riche_
+
+```sh
+git commit
+git push
+```
+
+???
+
+:::
+
+<br>
+
+Un autre accordéon seul :
+
+???accordion Accordéon seul, hors groupe
+
+Lorem [...] elit ut.
+
+???
 
 <br>
 

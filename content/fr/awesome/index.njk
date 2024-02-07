@@ -15,6 +15,9 @@ eleventyNavigation:
 <div class="fr-my-6w">
   <div class="fr-grid-row fr-grid-row--gutters">
     {% asyncAll project in awesome %}
+    {% set projectBadgeLink %}
+      <a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="{{ project.awesomeShield }}" alt="Badge Awesome CodeGouvFr du projet {{ project.name }}"></a>
+    {% endset %}
     <div class="fr-col-12 fr-col-md-3">
       {{ component("card", {
         url: false,
@@ -23,9 +26,10 @@ eleventyNavigation:
         description: project.description.fr.shortDescription,
         image: {
           src: project.logo,
-          alt: "Logo du projet"
+          alt: "Logo du projet " + project.name
         },
-        detail: ('<a class="fr-link link-no-style" href="https://github.com/codegouvfr/awesome-codegouvfr#awesome-codegouvfr-score" target="_blank"><img src="' + project.awesomeShield + '" alt="Badge Awesome CodeGouvFr du projet"></a>') | safe
+        detail: projectBadgeLink | safe,
+        detailEnd: project.fundedBy | pluck("name") | join(", ")
       }) }}
     </div>
     {% endall %}

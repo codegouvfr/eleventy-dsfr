@@ -147,6 +147,10 @@ module.exports = function (eleventyConfig) {
         return collection.find(post => post.fileSlug === slug);
     });
 
+    eleventyConfig.addFilter("pluck", (arr, key) => {
+        return arr.map(item => item[key]);
+    });
+
     // Customize Markdown library settings:
     eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItAnchor, {

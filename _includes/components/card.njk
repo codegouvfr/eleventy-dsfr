@@ -27,6 +27,11 @@
           <p class="fr-card__detail">{{ card.detail }}</p>
         {% endif %}
       </div>
+      {% if card.detailEnd %}
+      <div class="fr-card__end">
+        <p class="fr-card__detail">{{ card.detailEnd }}</p>
+      </div>
+      {% endif %}
     </div>
     <div class="fr-card__footer">
       {% if card.externalUrl %}

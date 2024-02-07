@@ -20,7 +20,7 @@ Contenu **Mardown**
 :::
 ```
 
-[Voir aussi](/fr/blog/alert/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+[Voir aussi](/fr/blog/alerte/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 ## La citation
 

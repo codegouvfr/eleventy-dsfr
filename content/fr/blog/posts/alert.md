@@ -9,7 +9,17 @@ tags:
 
 Ce composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
-## Exemple d'utilisation
+## Utilisation
+
+### Exemple d'utilisation dans un fichier Markdown `.md`
+
+```md
+:::info Test d'alerte
+Contenu **Mardown**
+:::
+```
+
+### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
 ```njk
 {% raw %}
@@ -20,12 +30,6 @@ Ce composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`
     description: "<p>Le contenu de l'alerte</p>"
 }) }}
 {% endraw %}
-```
-
-```md
-:::info Test d'alerte
-Contenu **Mardown**
-:::
 ```
 
 **Notes :**
@@ -58,3 +62,7 @@ Contenu de l'alerte seule
     type: "error",
     title: "Titre d'une erreur simple"
 }) }}
+
+<br>
+
+[Voir aussi la page du composant sur le site du DSFR](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/alerte){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}

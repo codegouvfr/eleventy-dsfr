@@ -10,7 +10,17 @@ La syntaxe utilisée dans les fichiers Markdown `.md` du site suit la spécifica
 
 [Voir un rappel des principaux éléments](https://commonmark.org/help/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-**Deux nouveaux éléments** ont été ajoutés à cette syntaxe et sont disponibles dans eleventy-dsfr.
+**De nouveaux éléments** ont été ajoutés à cette syntaxe et sont disponibles dans eleventy-dsfr.
+
+## L'alerte
+
+```md
+:::info Test d'alerte
+Contenu **Mardown**
+:::
+```
+
+[Voir aussi](/fr/blog/alerte/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
 ## La citation
 

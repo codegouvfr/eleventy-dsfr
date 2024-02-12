@@ -170,6 +170,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.amendLibrary("md", mdLib => {
+
         mdLib.use(markdownItContainer, 'accordion', customMarkdownContainers.accordion(mdLib));
     });
 

@@ -8,7 +8,23 @@ tags:
 ---
 Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`.
 
-## Exemple d'utilisation
+## Utilisation
+
+### Exemple d'utilisation dans un fichier Markdown `.md`
+
+```md
+????accordionsgroup
+
+??? Intitulé accordéon
+
+Contenu **markdown** _riche_
+
+???
+
+????
+```
+
+### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 
 ```njk
 {% raw %}
@@ -22,23 +38,9 @@ Chaque composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `
 {% endraw %}
 ```
 
-ou
-
-```md
-:::accordionsgroup
-
-???accordion Intitulé accordéon
-
-Contenu **markdown** _riche_
-
-???
-
-:::
-```
-
 ## Rendu
 
-Un accordéon créé en njk :
+Un accordéon créé en Nunjucks :
 
 {% from "components/component.njk" import component with context %}
 {{ component("accordionsgroup", {
@@ -50,11 +52,11 @@ Un accordéon créé en njk :
 
 <br>
 
-Groupe d'accordéons créé en markdown :
+Groupe d'accordéons créé en Markdown :
 
-:::accordionsgroup
+????accordionsgroup
 
-???accordion Premier accordéon
+??? Premier accordéon
 
 Contenu MD
 
@@ -63,7 +65,7 @@ Contenu MD
 
 ???
 
-???accordion Deuxième accordéon
+??? Deuxième accordéon
 
 Contenu **markdown** _riche_
 
@@ -74,13 +76,13 @@ git push
 
 ???
 
-:::
+????
 
 <br>
 
 Un autre accordéon seul :
 
-???accordion Accordéon seul, hors groupe
+??? Accordéon seul, hors groupe
 
 Lorem [...] elit ut.
 

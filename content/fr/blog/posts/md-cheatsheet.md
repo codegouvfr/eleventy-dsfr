@@ -12,6 +12,21 @@ La syntaxe utilisée dans les fichiers Markdown `.md` du site suit la spécifica
 
 **De nouveaux éléments** ont été ajoutés à cette syntaxe et sont disponibles dans eleventy-dsfr.
 
+## L'accordéon
+
+```md
+????accordionsgroup
+
+??? Intitulé accordéon
+
+Contenu **markdown** _riche_
+
+???
+
+????
+```
+[Voir aussi](/fr/blog/accordeon/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
 ## L'alerte
 
 ```md

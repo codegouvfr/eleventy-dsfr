@@ -24,7 +24,7 @@ Contenu **markdown** _riche_
 ????
 ```
 
-NB: Le conteneur _accordionsgroup_ est facultatif quand il n'y a qu'un seul accordéon.
+**Note :** Le conteneur `accordionsgroup` est facultatif quand il n'y a qu'un seul accordéon.
 
 ### Exemple d'utilisation dans un fichier Nunjucks `.njk`
 

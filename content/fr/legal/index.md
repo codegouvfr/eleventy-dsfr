@@ -5,8 +5,6 @@ description: Mentions légales à compléter
 slugOverride: mentions legales
 showBreadcrumb: true
 ---
-# Mentions légales
-
 ## Identification de l'éditeur
 
 [ A COMPLETER ]

@@ -1,11 +1,10 @@
 ---
-title: Exemple
+title: Données personnelles
 layout: layouts/page.njk
 description: A compléter
 slugOverride: donnees personnelles
 showBreadcrumb: true
 ---
-# Données personnelles
 
 Ce site ne prélève aucune donnée à caractère personnel. L’outil de mesure d’audience que nous utilisons est paramétré de façon à ce que les informations recueillies soient anonymisées.
 

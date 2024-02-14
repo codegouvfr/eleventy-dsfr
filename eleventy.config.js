@@ -154,6 +154,12 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.renderer.rules.table_open = function(tokens, idx) {
+            return '<table class="fr-table">';
+        };
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItAttrs);
     });
 

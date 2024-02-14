@@ -187,6 +187,10 @@ module.exports = function (eleventyConfig) {
         mdLib.use(markdownItContainer, 'alert', customMarkdownContainers.alert(mdLib));
     });
 
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'accordion', customMarkdownContainers.accordion(mdLib));
+    });
+
     // Automatically strip all leading or trailing whitespace
     // to prevent Markdown lib from rendering with wrapping into paragraphs
     // instead of using Nunjucks special syntax. Learn more:

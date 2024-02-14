@@ -88,5 +88,44 @@ module.exports = {
                 }
             }
         }
+    },
+    accordion: md => {
+        const re = /^(accordionsgroup|.*)?$/;
+        return {
+            validate: (params) => {
+                return params.trim().match(re);
+            },
+
+            render: (tokens, idx) => {
+                const params = tokens[idx].info.trim().match(re);
+
+                if (tokens[idx].nesting === 1) {
+                    // opening tag
+                    if (params?.[1] === "accordionsgroup") {
+                        return `<div class="fr-accordions-group">`;
+                    } else {
+                        return `
+<section class="fr-accordion">
+    <h3 class="fr-accordion__title">
+        <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-${idx}">
+            ${md.utils.escapeHtml(params?.[1]) || ""}
+        </button>
+    </h3>
+    <div class="fr-collapse" id="accordion-${idx}">
+`;
+                    }
+                } else {
+                    // closing tag
+                    if (params?.[1] === "accordionsgroup") {
+                        return `</div>`;
+                    } else {
+                        return '</div></section>\n';
+                    }
+                }
+            },
+
+            marker: "?"
+        }
     }
+
 }

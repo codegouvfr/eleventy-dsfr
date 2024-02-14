@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     tags: [
-        "bluehats_posts", "rencontre", "event"
+        "bluehats_posts", "rencontre", "events"
     ],
     layout: "layouts/bluehats-post.njk",
     permalink: function (data) {
@@ -18,6 +18,16 @@ module.exports = {
             } else {
                 return data.image;
             }
-        }
+        },
+        badges: data => {
+            const postTime = new Date(data.page.date).getTime();
+            const currentTime = new Date().getTime();
+            if (postTime > currentTime) {
+                return ["à venir"];
+            } else {
+                return ["passé"]
+            }
+        },
+        start: data => data.page.date
     }
 };

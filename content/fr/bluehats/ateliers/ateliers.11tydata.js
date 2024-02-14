@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     tags: [
-        "bluehats_posts", "atelier", "event"
+        "bluehats_posts", "atelier", "events"
     ],
     layout: "layouts/bluehats-post.njk",
     permalink: function (data) {
@@ -24,7 +24,18 @@ module.exports = {
             const currentTime = new Date().getTime();
             if (postTime > currentTime) {
                 return ["à venir"];
+            } else {
+                return ["passé"]
             }
+        },
+        start: data => {
+            const postTime = new Date(data.page.date);
+            postTime.setUTCHours(11);
+            return postTime;
+        },
+        duration: {
+            hours: 1,
+            minutes: 30
         }
     }
 };

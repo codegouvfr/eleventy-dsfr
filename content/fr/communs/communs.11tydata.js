@@ -51,5 +51,11 @@ Datagir vous accompagne dans la compréhension et l’intégration de données e
             description: `
 Acceslibre collecte et met à disposition les informations essentielles à une personne en situation de handicap pour savoir si le lieu ouvert au public dans lequel elle souhaite se rendre lui est accessible.  La base de données est sous licence ouverte 2.0 et chacun peut y contribuer et la réutiliser.`,
             imagePath: "./acceslibre.jpg"
+        }, {
+            url: "https://www.data.inclusion.beta.gouv.fr",
+            title: "data.inclusion.beta.gouv.fr",
+            description: `
+data·inclusion est le commun numérique de l'offre d'insertion. Il recense les structures inclusives et leur offre de service sur le territoire. Notre mission est de rendre les acteurs interopérables et de mutualiser les efforts de recensement et de mise à jour.`,
+            imagePath: "./datainclusion.png"
         }]
 };

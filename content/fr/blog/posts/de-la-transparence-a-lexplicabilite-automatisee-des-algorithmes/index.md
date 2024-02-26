@@ -12,7 +12,7 @@ tags:
   - transparence
 ---
 
-*La transparence algorithmique ne se résume pas à la publication des codes sources. Comme le reflète la page que nous avons dédiée aux [outils aidant à expliquer les décisions administratives](https://code.gouv.fr/fr/explicabilite/), les façons de traduire du texte juridique en code source informatique sont variées. La mission logiciels libres accueille une entrée de blog invitée proposée par Denis Merigoux, Marie Alauzen, Justine Banuls, Louis Gesbert et Émile Rolley ; ils nous présentent un travail de recherche récent sur ces sujets. Les recommandations formulées dans cette entrée de blog appartiennent à son auteur.*
+*La transparence algorithmique ne se résume pas à la publication des codes sources. Comme le reflète la page que nous avons dédiée aux [outils aidant à expliquer les décisions administratives](https://code.gouv.fr/fr/explicabilite/), les façons de traduire du texte juridique en code source informatique sont variées. La mission logiciels libres accueille une entrée de blog invitée proposée par Denis Merigoux, Marie Alauzen, Justine Banuls, Louis Gesbert et Émile Rolley ; ils nous présentent un travail de recherche récent sur ces sujets. Les recommandations formulées dans cette entrée de blog appartiennent à ses auteurs.*
 
 L’explicabilité des algorithmes publics n’a rien d’une question purement technique devant restée confinée aux cercles experts des DSI des administrations. Affelnet, ParcourSup et MonMaster, les algorithmes de répartition des élèves et des étudiants, ont alimenté de vifs débats.
 

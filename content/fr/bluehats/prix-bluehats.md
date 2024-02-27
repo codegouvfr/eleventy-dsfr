@@ -48,7 +48,7 @@ l'administration, logiciels à la fois essentiels et peu soutenus.
 Ces mainteneurs doivent être citoyens d'un pays membre de l'Union
 européenne ; ne seront retenus que les personnes morales ou les
 associations à but non lucratif. Un jury se réunira pour choisir
-quatre projets à récompenser en mars, avril, mai et juin 2024.
+quatre projets à récompenser en avril, mai, juin et juillet 2024.
 
 Si vous connaissez de tels logiciels, nous vous invitons à [remplir ce
 formulaire sur le site de NLnet](https://nlnet.nl/bluehatsprize/2024/)

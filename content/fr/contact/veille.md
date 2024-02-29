@@ -17,13 +17,13 @@ Pour des informations générales :
 
 Pour suivre les contributions de la mission logiciels libres au mouvement [BlueHats](/fr/bluehats/) :
 
-- Vous abonner [au flux RSS des mises à jour "BlueHats"](/feed/feed.xml) du site `code.gouv.fr`, vous informant des gazettes parues et des ateliers ayant eu lieu
+- Vous abonner [au flux RSS des mises à jour "BlueHats"](/feed/feed.xml) du site `code.gouv.fr`, vous informant des gazettes parues et des ateliers ayant eu lieu.
 
 <br/>
 
 Pour connaître les nouveaux logiciels libres recommandés pour et développés par le secteur public :
 
-- Vous abonner [au flux RSS des mises à jour du SILL (socle interministériel de logiciels libres)](https://code.gouv.fr/data/latest-sill.xml), notamment pour connaître les nouveaux logiciels libres recommandés
+- Vous abonner [au flux RSS des mises à jour du socle interministériel de logiciels libres](https://code.gouv.fr/data/latest-sill.xml)
 - Vous abonner [au flux RSS des nouveaux dépôts de code.gouv.fr](https://code.gouv.fr/data/latest.xml)
 
 <br/>

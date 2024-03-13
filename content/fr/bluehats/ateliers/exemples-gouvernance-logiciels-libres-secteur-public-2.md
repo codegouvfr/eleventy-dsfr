@@ -1,5 +1,5 @@
 ---
-title: La gouvernance de logiciels libres issus du secteur public (2/3)
+title: La gouvernance de logiciels libres issus du secteur public (2/2)
 date: 2020-10-23
 video:
   src: https://tube.numerique.gouv.fr/videos/embed/21e16dd3-9725-4335-b5d4-8828acfe809f

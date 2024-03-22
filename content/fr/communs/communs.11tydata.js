@@ -57,5 +57,12 @@ Acceslibre collecte et met à disposition les informations essentielles à une p
             description: `
 data·inclusion est le commun numérique de l'offre d'insertion. Il recense les structures inclusives et leur offre de service sur le territoire. Notre mission est de rendre les acteurs interopérables et de mutualiser les efforts de recensement et de mise à jour.`,
             imagePath: "./datainclusion.png"
-        }]
+        }, {
+            url: "https://equipements.sports.gouv.fr",
+            title: "equipements.sports.gouv.fr",
+            description: `
+Retrouvez tous les équipements sportifs géolocalisés en France (terrain de football, court de tennis, mur d'escalade, etc.). Cette base de données des équipements sportifs et des lieux de pratiques contient aussi bien d'autres informations comme l'accessibilité, le niveau de pratique, le type de propriétaire, etc.`
+            imagePath: ""
+        }
+    ]
 };

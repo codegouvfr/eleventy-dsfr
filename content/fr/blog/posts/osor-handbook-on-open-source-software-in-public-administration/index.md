@@ -11,7 +11,7 @@ tags:
   - Documentation
 ---
 
-*Voir la version [française](https://code.gouv.fr/fr/blog/open-source-dans-ladministration-publique/).*
+*Lire la version [française](/fr/blog/open-source-dans-ladministration-publique/).*
 
 **The European Commission's [Open Source Observatory](https://joinup.ec.europa.eu/collection/open-source-observatory-osor) has published a handbook to help public sector organisations take the next step towards open source, whether that be in terms of purchasing, development, technical and legal aspects, or setting up an Open Source Programme Office to increase maturity in these areas within a public administration. We put a few questions to the OSOR team.**
 

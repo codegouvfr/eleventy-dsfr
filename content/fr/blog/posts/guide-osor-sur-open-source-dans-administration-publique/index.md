@@ -11,7 +11,7 @@ tags:
   - Documentation
 ---
 
-*Read the [english version](https://code.gouv.fr/fr/blog/open-source-software-in-public-administration/).*
+*Read the [english version](/fr/blog/open-source-software-in-public-administration/).*
 
 **[L'observatoire Open Source de la Commission européenne](https://joinup.ec.europa.eu/collection/open-source-observatory-osor) a publié un guide pour aider les administrations à s'approprier les sujets liés aux logiciels libres, qu'il s'agisse de leur achat, de leur développement, des aspects techniques, juridiques ou de la mise en place d'une entité pour porter ces sujets dans une administration. La mission logiciels libres a voulu en savoir plus et a pu échanger avec l'équipe d'OSOR qui publie ce guide.**
 

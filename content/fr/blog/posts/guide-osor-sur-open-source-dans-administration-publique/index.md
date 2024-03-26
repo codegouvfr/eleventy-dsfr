@@ -1,6 +1,6 @@
 ---
 title: "L'Europe publie un guide sur l'Open Source dans l'administration publique"
-description: "Entretien avec l'Observatoire Open Source européen"
+description: "Entretien avec OSOR sur ce guide Open Source"
 date: 2024-03-26
 image:
   path: ./osor-handbook.png

@@ -3,25 +3,27 @@ title: Gazette BlueHats 🧢 n°27
 date: 2024-03-26
 ---
 
-# 🇪🇺 OSOR publie un manuel sur l'Open Source pour les administrations publiques
+## 🇪🇺 OSOR publie un manuel sur l'Open Source pour les administrations publiques
 
 L'observatoire Open Source de la Commission européenne ([OSOR](https://joinup.ec.europa.eu/collection/open-source-observatory-osor)) a publié un guide pour aider les administrations à s'approprier les sujets liés aux logiciels libres, qu'il s'agisse de l'achat, du développement, des aspects techniques et juridiques ou de la mise en place d'une entité pour monter en maturité sur ces sujets dans une administration.
 
 `>>`  [Lire l'entretien de la mission logiciels libres avec l'équipe OSOR](https://preprod.codegouv.fr/fr/blog/guide-osor-sur-open-source-dans-administration-publique/)
 `>>`  [Voir la page de présentation du manuel](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/osor-handbook)
 
+<br/>
 
-# 🧢 Rencontre BlueHats le 3O avril autour de Superset, Metabase, etc.
+## 🧢 Rencontre BlueHats le 3O avril autour de Superset, Metabase, etc.
 
 Le 30 avril de 9h à 17h30 au [Lieu de la Transformation Publique](https://www.modernisation.gouv.fr/diffuser-linnovation-publique/le-lieu-de-la-transformation-publique), participez à une journée BlueHats sur les outils libres de gestion et de visualisation de données comme [Apache Superset](https://code.gouv.fr/sill/detail?name=Apache%20Superset) et [Metabase](https://code.gouv.fr/sill/detail?name=Metabase).
 
 `>>` Toutes les informations sur [la page de l'événement](https://code.gouv.fr/fr/bluehats/gestion-et-visualisation-de-donnees-2024/) 
 
+<br/>
 
-# 🚧 Focus Tech : OKDP et ChatMD
+## 🚧 Focus Tech : OKDP et ChatMD
 
 
-## Open Kubernetes Data Platform - TOSIT/DGFiP
+### Open Kubernetes Data Platform - TOSIT/DGFiP
 
 OKDP est une plateforme de services de gestion de données. Elle est composée d'un ensemble de logiciels et produits Open Source conteneurisés et repose sur une infrastructure Kubernetes qu'elle n'implémente et ne gère pas. Elle répond à des enjeux et des besoins de collecte, de stockage, de traitement, d'analyse et d'exposition de données. OKDP est modulable et chaque utilisateur pourra en utiliser tout ou partie selon ses besoins.
 
@@ -29,8 +31,9 @@ OKDP est un projet de l'association [TOSIT](https://tosit.fr/), membre du consei
 
 `>>` Plus d'information sur [OKDP](https://okdp.io) et ses [codes sources](https://github.com/OKDP/)
 
+<br/>
 
-## ChatMD : créer un chatbot à partir d'un fichier Markdown
+### ChatMD : créer un chatbot à partir d'un fichier Markdown
 
 ChatMD est un logiciel libre développé par Cédric Eyssette 🧢 qui permet de créer un chatbot à partir d'un fichier en Markdown et sans avoir besoin d'un serveur. Cet agent conversationnel reste simple d’accès, collaboratif et évolutif et déployable facilement.
 
@@ -42,11 +45,11 @@ ChatMD continue d'évoluer et propose déjà des options plus avancées comme l�
 
 `>>` Voir [la page de ChatMD](https://eyssette.forge.apps.education.fr/chatMD/) et [son code source](https://forge.aeif.fr/eyssette/chatMD)
 
+<br/>
 
-# 🚀 Focus contributions : Superset et GitLab
+## 🚀 Focus contributions : Superset et GitLab
 
-
-## Des cartes choroplèthes dans Apache Superset
+### Des cartes choroplèthes dans Apache Superset
 
 [Apache Superset](https://code.gouv.fr/sill/detail?name=Apache%20Superset) est une plateforme d'exploration et de visualisation de données. Parmi les graphiques disponibles dans le catalogue natif, une carte de pays avec subdivision départementale. Problème pour la France : il manque les DROM et la subdivision régionale ! C'est réglé avec deux contributions qui sont intégrées dans la 4.0 qui sort dans les prochains jours.
 
@@ -55,8 +58,9 @@ ChatMD continue d'évoluer et propose déjà des options plus avancées comme l�
 
 `>>` Suivre le compte GitHub de [Quentin Leroy](https://github.com/qleroy).
 
+<br/>
 
-## Comment faciliter la contribution entre instances GitLab ?
+### Comment faciliter la contribution entre instances GitLab ?
 
 Citons le [rapport sur les forges logicielles](https://www.ouvrirlascience.fr/forges-de-lesr-definition-usages-limitations-rencontrees-et-analyse-des-besoins/) utilisées dans les établissements de l’Enseignement supérieur et de la Recherche (ESR) :
 
@@ -66,16 +70,18 @@ Un ticket a été ouvert sur la gitlab.com pour faire évoluer GitLab de façon 
 
 `>>` [Facilitate code contribution (i.e. forks) from guest users in self hosted instances of GitLab](https://gitlab.com/gitlab-org/gitlab/-/issues/448320)
 
+<br/>
 
-## Le squelette DSFR pour SPIP
+### Le squelette DSFR pour SPIP
 
 Ce plugin SPIP vous permet de mettre en place rapidement et facilement la charte de l’état sur votre site web d’établissement ou disciplinaire. Disponible sur les fermes SPIP de l’académie de Versailles, laissez-vous guider par les tutoriel pour l’installer.
 
 `>>` [Voir la présentation du squelette DSFR pour SPIP](https://ressources.dane.ac-versailles.fr/spip.php?page=tutoriel&id_ressource=431&lang=fr)
 `>>` [Lire le code source](https://forge.apps.education.fr/drane-ile-de-france/site-de-versailles/squelette-spip-dsfr)
 
+<br/>
 
-# 🖊️ Focus traduction : Code is Law
+## 🖊️ Focus traduction : Code is Law
 
 > Nous sommes à l’âge du cyberespace. Il possède lui aussi son propre régulateur, qui lui aussi menace les libertés. Mais, qu’il s’agisse d’une autorisation qu’il nous concède ou d’une conquête qu’on lui arrache, nous sommes tellement obnubilés par l’idée que la liberté est intimement liée à celle de gouvernement que nous ne voyons pas la régulation qui s’opère dans ce nouvel espace, ni la menace qu’elle fait peser sur les libertés.
 > 
@@ -85,8 +91,9 @@ Ces mots sont ceux de [Lawrence Lessig](https://fr.wikipedia.org/wiki/Lawrence_L
 
 `>>` [Le code fait loi – De la liberté dans le cyberespace](https://framablog.org/2010/05/22/code-is-law-lessig/)
 
+<br/>
 
-# 🖥️ Focus emploi : Code The Law
+## 🖥️ Focus emploi : Code The Law
 
 Un des principaux chantiers associés à cette offre d'emploi est l'industrialisation du dispositif d'explicabilité des algorithmes publics dont [une démo est disponible](https://code.gouv.fr/demos/catala). Partant des recommandations de [ce rapport](https://inria.hal.science/hal-04391612), nous souhaitons faire plusieurs visualisations de la trace d'explication de la décision à destination du grand public, mais aussi en interne à l'administration aux juristes, développeurs et testeurs.
 
@@ -94,11 +101,11 @@ La ou le dev front sur le projet définira potentiellement à quoi ressemblera l
 
 `>>` [Offre d'emploi : Ingénieur développement logiciel spécialiste en web](https://jobs.inria.fr/public/classic/fr/offres/2024-07191)
 
+<br/>
 
-# 📅 Événements
+## 📅 Événements
 
-
-## 29 mars 2024 : la journée du libre éducatif
+### 29 mars 2024 : la journée du libre éducatif
 
 Nous nous réjouissons de vous accueillir vendredi 29 mars de 8h30 à 17h à la Journée du Libre Éducatif 2024, co-organisée par la région académique d'Ile-de-France et la Direction du numérique pour l'éducation du ministère de l’Éducation nationale et de la Jeunesse.
 
@@ -106,8 +113,9 @@ La journée aura lieu à la Faculté de Droit de l'Université Paris-Est Crétei
 
 `>>` Le [site de l'événement](https://journee-du-libre-educatif.forge.aeif.fr)
 
+<br/>
 
-## 27 mars 2024: Introduction à la reproductibilité des environnements de calcul
+### 27 mars 2024: Introduction à la reproductibilité des environnements de calcul
 
 Le titre complet : « Introduction à la reproductibilité des environnements de calcul : construction de paquets et liens avec Software Heritage » par Ludovic Courtès et Pierre-Antoine Bouttier.
 
@@ -115,8 +123,9 @@ Ce café guix sera diffusé en direct depuis les journées du réseau français 
 
 `>>` [La page des cafés Guix 2024](https://hpc.guix.info/events/2024/caf%C3%A9-guix/)
 
+<br/>
 
-## Save the dates : PyData Paris, Numérique en commun[s], JRES 2024
+### Save the dates : PyData Paris, Numérique en commun[s], JRES 2024
 
 **PyData Paris** aura lieu à la Cité des Sciences du 25 au 26 septembre 2024. Organisé par QuantStack et NumFOCUS, cet événement promet de réunir des mainteneurs et des passionnés de logiciels libres, ainsi que des experts du monde entier, tous unis par leur passion pour les technologies open-source.
 
@@ -130,11 +139,11 @@ Ce café guix sera diffusé en direct depuis les journées du réseau français 
 
 `>>` [La page de l'appel à candidatures pour le village du libre](https://2024.jres.org/actualites/appel-a-candidature-pour-le-village-du-libre)
 
+<br/>
 
-# 📰 Revue de presse
+## 📰 Revue de presse
 
-
-## En français
+### En français
 
 -   [La Direction interministérielle du numérique (DINUM) réunissait ce lundi 18 mars les référentes et référents ministériels du Numérique Ecoresponsable](https://www.linkedin.com/posts/mission-interministerielle-numerique-ecoresponsable_num%C3%A9riqueresponsable-num%C3%A9rique-minumeco-activity-7176635666972213248-gZiG/), linkedin.com, mars 2024
 -   [La Commission européenne prise en flag de non-respect de ses propres règles](https://www.itforbusiness.fr/la-commission-europeenne-prise-en-flag-de-non-respect-de-ses-propres-regles-74383), itforbusiness.fr, mars 2024
@@ -152,8 +161,9 @@ Ce café guix sera diffusé en direct depuis les journées du réseau français 
 -   [Un observatoire de l’accessibilité numérique pour mettre les collectivités face à leurs manquements](https://acteurspublics.fr/articles/un-observatoire-de-laccessibilite-numerique-pour-mettre-les-collectivites-face-a-leurs-manquements), acteurspublics.fr, janvier 2024
 -   [État des lieux de la production et de la valorisation des logiciels issus de la recherche publique française](https://www.ouvrirlascience.fr/wp-content/uploads/2023/12/Etat-des-lieux-de-la-production-et-de-la-valorisation-des-logiciels-issus-de-la-recherche-publique-fran-aise-30402.pdf), ouvrirlascience.fr, septembre 2023
 
+<br/>
 
-## En anglais
+### En anglais
 
 -   [Where is all the research software?](https://doi.org/10.7717/peerj-cs.1546) An analysis of software in UK academic repositories. Carlin, D., Rainer, A., & Wilson, D. (2023) PeerJ Computer Science, 9, e1546.
 -   [Firefox saw an increase in users following Apple’s default browser changes in the EU](https://www.theverge.com/2024/3/13/24100066/firefox-saw-an-increase-in-users-following-apples-default-browser-changes-in-the-eu), theverge.com, mars 2024

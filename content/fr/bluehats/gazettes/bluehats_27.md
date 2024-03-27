@@ -1,6 +1,6 @@
 ---
 title: Gazette BlueHats 🧢 n°27
-date: 2024-03-26
+date: 2024-03-27
 ---
 
 ## 🇪🇺 OSOR publie un manuel sur l'Open Source pour les administrations publiques
@@ -22,7 +22,6 @@ Le 30 avril de 9h à 17h30 au [Lieu de la Transformation Publique](https://www.m
 
 ## 🚧 Focus Tech : OKDP et ChatMD
 
-
 ### Open Kubernetes Data Platform - TOSIT/DGFiP
 
 OKDP est une plateforme de services de gestion de données. Elle est composée d'un ensemble de logiciels et produits Open Source conteneurisés et repose sur une infrastructure Kubernetes qu'elle n'implémente et ne gère pas. Elle répond à des enjeux et des besoins de collecte, de stockage, de traitement, d'analyse et d'exposition de données. OKDP est modulable et chaque utilisateur pourra en utiliser tout ou partie selon ses besoins.
@@ -33,7 +32,7 @@ OKDP est un projet de l'association [TOSIT](https://tosit.fr/), membre du consei
 
 <br/>
 
-### ChatMD : créer un chatbot à partir d'un fichier Markdown
+### ChatMD : un chatbot à partir d'un fichier Markdown
 
 ChatMD est un logiciel libre développé par Cédric Eyssette 🧢 qui permet de créer un chatbot à partir d'un fichier en Markdown et sans avoir besoin d'un serveur. Cet agent conversationnel reste simple d’accès, collaboratif et évolutif et déployable facilement.
 
@@ -60,7 +59,7 @@ ChatMD continue d'évoluer et propose déjà des options plus avancées comme l�
 
 <br/>
 
-### Comment faciliter la contribution entre instances GitLab ?
+### Faciliter la contribution entre instances GitLab ?
 
 Citons le [rapport sur les forges logicielles](https://www.ouvrirlascience.fr/forges-de-lesr-definition-usages-limitations-rencontrees-et-analyse-des-besoins/) utilisées dans les établissements de l’Enseignement supérieur et de la Recherche (ESR) :
 
@@ -105,13 +104,13 @@ La ou le dev front sur le projet définira potentiellement à quoi ressemblera l
 
 ## 📅 Événements
 
-### 29 mars 2024 : la journée du libre éducatif
+### 29 mars 2024 : la Journée du Libre Éducatif
 
 Nous nous réjouissons de vous accueillir vendredi 29 mars de 8h30 à 17h à la Journée du Libre Éducatif 2024, co-organisée par la région académique d'Ile-de-France et la Direction du numérique pour l'éducation du ministère de l’Éducation nationale et de la Jeunesse.
 
 La journée aura lieu à la Faculté de Droit de l'Université Paris-Est Créteil (UPEC, Campus André Boulle, 83-85 avenue du Général de Gaulle, 94010 Créteil).
 
-`>>` Le [site de l'événement](https://journee-du-libre-educatif.forge.aeif.fr)
+`>>` Le [site de la Journée du Libre Éducatif](https://journee-du-libre-educatif.forge.aeif.fr)
 
 <br/>
 

@@ -25,6 +25,11 @@ Vikidia est une encyclopédie francophone collaborative, libre et gratuite, à d
             title: "Infoclimat",
             description: `
 L’association Infoclimat produit, collecte et met à disposition des données météorologiques et climatiques.  L'association Infoclimat est soutenue via l'Accélérateur d'initiatives citoyennes.`
+        }, {
+            url: "https://panoramax.fr",
+            title: "Panoramax",
+            description: `
+Panoramax est l'alternative libre pour photo-cartographier les territoires.  Le projet a été initié en 2022 par OpenStreetMap France et L'IGN.`
         }],
     admCommunsNumeriques: [
         {

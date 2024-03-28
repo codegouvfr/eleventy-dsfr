@@ -16,9 +16,22 @@ L'observatoire Open Source de la Commission européenne ([OSOR](https://joinup.e
 
 Le 30 avril de 9h à 17h30 au [Lieu de la Transformation Publique](https://www.modernisation.gouv.fr/diffuser-linnovation-publique/le-lieu-de-la-transformation-publique), participez à une journée BlueHats sur les outils libres de gestion et de visualisation de données comme [Apache Superset](https://code.gouv.fr/sill/detail?name=Apache%20Superset) et [Metabase](https://code.gouv.fr/sill/detail?name=Metabase).
 
-`>>` Toutes les informations sur [la page de l'événement](https://code.gouv.fr/fr/bluehats/gestion-et-visualisation-de-donnees-2024/) 
+`>>` Toutes les informations sur [la page de l'événement](https://code.gouv.fr/fr/bluehats/gestion-et-visualisation-de-donnees-2024/)
 
 <br/>
+
+## 💰 Focus DINUM : des financements pour améliorer l’expérience utilisateur et/ou l’accessibilité
+
+La Direction interministérielle du numérique (DINUM) a ouvert un guichet de financement pour des projets dont l’objectif est d’améliorer l’expérience utilisateur et/ou l’accessibilité aux personnes en situation de handicap.
+
+Ce cofinancement concerne :
+
+- des démarches administratives et services en ligne proposés aux usagers
+- des grandes applications internes destinées aux agents
+
+Les projets lauréats bénéficieront d’un cofinancement jusqu’à 100% du coût de mise en accessibilité ou d’amélioration de l’expérience utilisateur. Les projets soumis seront privilégiés s’ils sont capables de produire de l'impact réel en moins de 6 mois.
+
+`>>` [Toutes les infos](https://www.numerique.gouv.fr/services/guichet-financement-design-et-accessibilite/)
 
 ## 🚧 Focus Tech : OKDP et ChatMD
 
@@ -83,7 +96,7 @@ Ce plugin SPIP vous permet de mettre en place rapidement et facilement la charte
 ## 🖊️ Focus traduction : Code is Law
 
 > Nous sommes à l’âge du cyberespace. Il possède lui aussi son propre régulateur, qui lui aussi menace les libertés. Mais, qu’il s’agisse d’une autorisation qu’il nous concède ou d’une conquête qu’on lui arrache, nous sommes tellement obnubilés par l’idée que la liberté est intimement liée à celle de gouvernement que nous ne voyons pas la régulation qui s’opère dans ce nouvel espace, ni la menace qu’elle fait peser sur les libertés.
-> 
+>
 > Ce régulateur, c’est le code [&#x2026;]
 
 Ces mots sont ceux de [Lawrence Lessig](https://fr.wikipedia.org/wiki/Lawrence_Lessig) en janvier 2000. Merci à Framasoft d'avoir organisé et mené à bien la traduction de cet article fondateur.

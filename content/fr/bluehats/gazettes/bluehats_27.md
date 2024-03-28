@@ -117,6 +117,18 @@ La ou le dev front sur le projet définira potentiellement à quoi ressemblera l
 
 ## 📅 Événements
 
+## Le 10 avril : Transformer les politiques publiques avec les communs numériques
+
+La Direction interministérielle du numérique (DINUM) a le plaisir de vous inviter à son événement annuel "Transformer les politiques publiques avec les communs numériques” le 10 avril, en partenariat avec le Conseil national du numérique, Data For Good et la Société des communs.
+
+Cet événement s’inscrit également dans la lignée de l’événement Numérique en Commun(s), dont est partenaire la DINUM. Il a une ambition : renforcer les coopérations entre les administrations et les initiatives citoyennes porteuses de communs numériques, pour créer des services numériques d’intérêt général résilients.
+
+`>>` **Quand ?** Le 10 avril de 9h30 à 17h
+`>>` **Où ?** Au Lieu de la transformation publique, 77 avenue de Ségur (Paris).
+`>>` [Lien d'inscription](https://www.eventbrite.fr/e/851345616657?aff=oddtdtcreator)
+
+<br/>
+
 ### 29 mars 2024 : la Journée du Libre Éducatif
 
 Nous nous réjouissons de vous accueillir vendredi 29 mars de 8h30 à 17h à la Journée du Libre Éducatif 2024, co-organisée par la région académique d'Ile-de-France et la Direction du numérique pour l'éducation du ministère de l’Éducation nationale et de la Jeunesse.

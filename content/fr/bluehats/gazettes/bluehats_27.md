@@ -124,7 +124,9 @@ La Direction interministérielle du numérique (DINUM) a le plaisir de vous invi
 Cet événement s’inscrit également dans la lignée de l’événement Numérique en Commun(s), dont est partenaire la DINUM. Il a une ambition : renforcer les coopérations entre les administrations et les initiatives citoyennes porteuses de communs numériques, pour créer des services numériques d’intérêt général résilients.
 
 `>>` **Quand ?** Le 10 avril de 9h30 à 17h
+
 `>>` **Où ?** Au Lieu de la transformation publique, 77 avenue de Ségur (Paris).
+
 `>>` [Lien d'inscription](https://www.eventbrite.fr/e/851345616657?aff=oddtdtcreator)
 
 <br/>

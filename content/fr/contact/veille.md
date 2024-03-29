@@ -17,7 +17,7 @@ Pour des informations générales :
 
 Pour suivre les contributions de la mission logiciels libres au mouvement [BlueHats](/fr/bluehats/) :
 
-- Vous abonner [au flux RSS des mises à jour "BlueHats"](/feed/feed.xml) du site `code.gouv.fr`, vous informant des gazettes parues et des ateliers ayant eu lieu.
+- Vous abonner [au flux RSS des mises à jour "BlueHats"](/feed/feed.xml) du site `code.gouv.fr`, vous informant des gazettes parues et des ateliers à venir et passés.
 
 <br/>
 
@@ -39,6 +39,7 @@ Pour suivre les dépôts de codes sources de la mission logiciels libres :
 
 - Suivre [les développements du projet logiciels-libres](https://sr.ht/~codegouvfr/logiciels-libres/feed)
 - Suivre [les développements du projet code.gouv.fr](https://sr.ht/~codegouvfr/code.gouv.fr/feed)
+- Suivre [les autres développements sur github.com](https://github.com/codegouvfr/)
 
 <br/>
 

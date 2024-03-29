@@ -29,3 +29,7 @@ Dans tous les cas, sentez-vous libres de lister [vos attentes dans ce pad](https
 ## Inscription avant le 20 avril
 
 L'inscription est gratuite et obligatoire en envoyant **avant le 20 avril 23h59** un mail à [contact@code.gouv.fr](mailto:contact@code.gouv.fr?subject=Participation%20à%20la%20journée%20🧢%20du%2030%20avril).
+
+## Ressources
+
+Il existe déjà un [salon Tchap pour Apache Superset](https://tchap.gouv.fr/#/room/#Programme10LoutildevisualisationdesdonnesdeltatPuvO4oGZW9:agent.interieur.tchap.gouv.fr) que vous pouvez rejoindre.

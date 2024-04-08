@@ -5,7 +5,7 @@
 
 # Site code.gouv.fr
 
-Ce dépôt contient les éléments nécessaires à la publication du site [code.gouv.fr](https://code.gouv.fr/).
+Ce dépôt contient les éléments nécessaires à la publication du site [code.gouv.fr](https://code.gouv.fr).
 
 Il a été construit à partir de [ce site modèle](https://github.com/codegouvfr/eleventy-dsfr/).
 
@@ -25,13 +25,13 @@ Le site est déployé automatiquement en préproduction sur [preprod.codegouv.fr
 
 Pour discuter d'évolutions éditoriales ou pour des retours devant rester confidentiels, écrivez à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
 
-## Licences
+# Licences
 
 Les codes sources de ce dépôt sont publiés sous [licence MIT](LICENSES/LICENSE.MIT.md).
 
 Le contenu rédactionnel du site est une publication DINUM, 20 avenue de Ségur, 75019, publié sous [licence Ouverte 2.0](LICENSES/LICENSE.Etalab-2.0.md).
 
-### Crédits images
+## Crédits images
 
 - [Programmer.png](public/illustrations/Programmer.png) par ven sur [IllustrationKit](https://illustrationkit.com/illustrations/ven)
 - [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).

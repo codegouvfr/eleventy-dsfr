@@ -1,5 +1,5 @@
 ---
-title: "Journée 🧢 sur les outils libres de gestion et de visualisation de données"
+title: "Journée BlueHats 🧢 sur les outils libres de gestion et de visualisation de données"
 date: 2024-04-30
 description: Découvrez les outils libres et open source (Superset, Metabase, etc.) pour la gestion collaborative et la visualisation de données
 image:

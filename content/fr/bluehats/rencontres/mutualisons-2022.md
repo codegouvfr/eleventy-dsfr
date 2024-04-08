@@ -1,5 +1,5 @@
 ---
-title: "Journée BlueHats « Mutualisons ! » du 1er juillet 2022"
+title: "Journée BlueHats 🧢 « Mutualisons ! » du 1er juillet 2022"
 date: 2022-07-01
 ---
 

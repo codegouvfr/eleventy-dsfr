@@ -27,9 +27,11 @@ Pour discuter d'évolutions éditoriales ou pour des retours devant rester confi
 
 # Licences
 
-Les codes sources de ce dépôt sont publiés sous [licence MIT](LICENSES/LICENSE.MIT.md).
+Ce dépôt est publié par la [DINUM](https://www.numerique.gouv.fr/) depuis 2023.
 
-Le contenu rédactionnel du site est une publication DINUM, 20 avenue de Ségur, 75019, publié sous [licence Ouverte 2.0](LICENSES/LICENSE.Etalab-2.0.md).
+Les codes sources du dépôt sont publiés sous [licence MIT](LICENSES/LICENSE.MIT.md).
+
+Le contenu rédactionnel du site est publié sous [licence Ouverte 2.0](LICENSES/LICENSE.Etalab-2.0.md).
 
 ## Crédits images
 

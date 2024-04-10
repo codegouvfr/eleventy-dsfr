@@ -35,5 +35,5 @@ Le contenu rédactionnel du site est publié sous [licence Ouverte 2.0](LICENSES
 
 ## Crédits images
 
-- [Programmer.png](public/illustrations/Programmer.png) par ven sur [IllustrationKit](https://illustrationkit.com/illustrations/ven)
+- [Programmer.png](public/illustrations/Programmer.png) par `ven` sur [IllustrationKit](https://illustrationkit.com/illustrations/ven)
 - [Blank_man_placeholder.svg](https://fr.wikipedia.org/wiki/Fichier:Blank_man_placeholder.svg) par [AntoFran](https://commons.wikimedia.org/wiki/User:AntoFran) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).

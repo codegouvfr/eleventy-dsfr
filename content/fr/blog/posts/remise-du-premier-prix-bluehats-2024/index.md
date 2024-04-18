@@ -12,11 +12,15 @@ tags:
   - NLnet
 ---
 
-*Lire l'annonce sur [le site de NLnet](https://nlnet.nl/bluehatsprize/2024/).*
+*Lire l'annonce sur [le site de NLnet](https://nlnet.nl/news/2024/20240418-BlueHatsPrize1.html).*
 
 ## `dnsmasq` remporte le premier prix BlueHats
 
 Les [prix BlueHats](https://code.gouv.fr/fr/bluehats/prix-bluehats/) sont une initiative de la Direction interministérielle du numérique. Ils récompensent les mainteneurs de logiciels libres critiques. En 2024, quatre prix de 10 000€ chacun seront décernés. Nous sommes heureux d'annoncer que le gagnant du premier prix BlueHats 2024 est **Simon Kelley**, mainteneur du projet dnsmasq. Dnsmasq fournit l'adressage réseau pour les petits réseaux : DNS, DHCP, annonce de routeur et démarrage de réseau.
+
+En apprenant qu'il avait gagné, Simon Kelley a déclaré :
+
+	Je suis ravi d'accepter le prix. Comme beaucoup de logiciels libres, dnsmasq a commencé comme une création immédiatement utile, mais est restée en vie et s'est développée pendant un quart de siècle grâce aux retours d'autres utilisateurs et à la reconnaissance, petite et grande, de son utilité. Ce prix est précieux sur le plan financier, mais il l'est encore plus en tant que marque de reconnaissance publique du fait que dnsmasq est toujours quelque chose qui vaut la peine d'être fait.
 
 ## Au sujet de `dnsmasq`
 

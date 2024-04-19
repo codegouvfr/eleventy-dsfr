@@ -44,6 +44,7 @@ Le conseil peut se saisir de toute question à l'intersection entre le logiciel 
 ## Membres de l'écosystème logiciels libres
 
 - [ADULLACT](https://adullact.org/)
+- [AFUL](https://aful.org/)
 - [APRIL](https://www.april.org/)
 - [CNLL](https://cnll.fr/)
 - [Code for France](https://codefor.fr/)

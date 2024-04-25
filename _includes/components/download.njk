@@ -1,0 +1,50 @@
+{% if not download %}{% set download = params %}{% endif %}
+{% if download.type == "card" %}
+<div class="fr-card fr-enlarge-link fr-card--download">
+    <div class="fr-card__body">
+        <div class="fr-card__content">
+            <h3 class="fr-card__title">
+                <a download href="{{ download.href }}">
+                    {{ download.title }}
+                </a>
+            </h3>
+            {% if download.description %}
+            <p class="fr-card__desc">{{ download.description }}</p>
+            {% endif %}
+            <div class="fr-card__end">
+                <p class="fr-card__detail">{{ download.detail }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif download.type == "tile" %}
+<div class="fr-tile fr-tile--download fr-enlarge-link" id="tile-6735">
+    <div class="fr-tile__body">
+        <div class="fr-tile__content">
+            <h4 class="fr-tile__title">
+                <a href="{{ download.href }}" download>{{ download.title }}</a>
+            </h4>
+            <p class="fr-tile__desc">{{ download.description }}</p>
+            <p class="fr-tile__detail">{{ download.detail }}</p>
+        </div>
+    </div>
+    {% if download.pictogram %}
+    <div class="fr-tile__header">
+        <div class="fr-tile__pictogram">
+            {% set pictogramUrl = "/artwork/pictograms/" + download.pictogram %}
+            <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+                <use class="fr-artwork-decorative" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-decorative"></use>
+                <use class="fr-artwork-minor" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-minor"></use>
+                <use class="fr-artwork-major" href="{{ pictogramUrl | htmlBaseUrl }}#artwork-major"></use>
+            </svg>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<p>
+    <a class="fr-link fr-link--download" download href="{{ download.href }}">
+        {{ download.title }} <span class="fr-link__detail">{{ download.detail }}</span>
+    </a>
+</p>
+{% endif %}

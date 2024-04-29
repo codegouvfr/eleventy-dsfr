@@ -11,7 +11,7 @@ tags:
   - bluehats
 ---
 
-*La mission logiciels libres va à la rencontre d'agents publics dont le parcours les a amenés à découvrir et à contribuer à des communs numériques ou des logiciels libres. Nous avons posé quelques questions à Delphine Montagne, ingénieure en système d'information géographique à l'université de Pau et actuellement en mise en disponibilité à l'URFIST de Lyon comme « wikimédienne en résidence ».*
+*La mission logiciels libres va à la rencontre d'agents publics dont le parcours les a amenés à découvrir et à contribuer à des communs numériques ou des logiciels libres. Nous avons posé quelques questions à Delphine Montagne, ingénieure d'études en sciences de l'information géographique à l'université de Pau et actuellement en mise en disponibilité à l'URFIST de Lyon comme « wikimédienne en résidence ».*
 
 *Bonjour Delphine ! Comment as-tu croisé le chemin des logiciels libres et des communs numériques ?*
 
@@ -27,7 +27,7 @@ Dans mon domaine professionnel, la recherche, les logiciels libres me permettent
 
 *Comment est née l'envie de les partager ?*
 
-Je trouve dommage que leurs opportunités soient si mal connues, d'où mon envie de les faire découvrir. D'abord je montre le potentiel par quelques réalisations, puis par des formations les personnes gagnent en autonomie. Généralement, faire tester les logiciels libres, c'est les faire adopter. Pour OSM et Wikipédia, je suis partie du constat que les collègues les connaissaient mal, ou pensaient les connaître, quand ils n'en ignoraient pas tout simplement leur fonctionnement. Ces projets, où l'on trouve des merveilles, sont utilisés pourtant chaque jours par des milliers de personnes et ils pourraient y participer facilement. C'est dommage ! Enfin, c'est aussi continuer un cercle vertueux : des personnes m'ont partagé leurs compétences, à présent, c'est à mon tour !
+Je trouve dommage que leurs opportunités soient si mal connues, d'où mon envie de les faire découvrir. D'abord je montre le potentiel par quelques réalisations, puis par des formations les personnes gagnent en autonomie. Généralement, faire tester les logiciels libres, c'est les faire adopter. Pour OSM et Wikipédia, je suis partie du constat que les collègues les connaissaient mal, ou pensaient les connaître, quand ils n'en ignoraient pas tout simplement leur fonctionnement. Ces projets, où l'on trouve des merveilles, sont utilisés pourtant chaque jour par des milliers de personnes et ils pourraient y participer facilement. C'est dommage ! Enfin, c'est aussi continuer un cercle vertueux : des personnes m'ont partagé leurs compétences, à présent, c'est à mon tour !
 
 *Un mot pour donner envie à d'autres agents publics d'aller à la rencontre de ces projets ?*
 

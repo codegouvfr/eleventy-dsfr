@@ -36,11 +36,7 @@ Il y a de fortes chances que vous utilisiez `dnsmasq` puisqu'il est utilisé dan
 
 Tout le monde peut proposer des projets libres et open source pour l'un des prix BlueHats (et [les nominations sont encore ouvertes](https://nlnet.nl/bluehatsprize/2024/)). Samuel Bizien Filippi, qui a proposé `dnsmasq`, a motivé son choix ainsi :
 
-> *Au PEReN, nous nous efforçons de conserver toute la configuration du réseau et du système sous forme de code dans un système de gestion de versions. Comme dnsmasq est configuré à l'aide de fichiers texte, il nous convient parfaitement. Dans notre configuration, dnsmasq est utilisé pour:*
-
-> *- pour la configuration réseau des clients via DHCP*
-> *- pour l'installation automatisée de systèmes avec DHCP et TFTP (deux fonctionnalités fournies par dnsmasq)*
-> *- pour la résolution de noms locaux*
+> *Au PEReN, nous nous efforçons de conserver toute la configuration du réseau et du système sous forme de code dans un système de gestion de versions. Comme dnsmasq est configuré à l'aide de fichiers texte, il nous convient parfaitement. Dans notre configuration, dnsmasq est utilisé pour (1) la configuration réseau des clients via DHCP, (2) l'installation automatisée de systèmes avec DHCP et TFTP (deux fonctionnalités fournies par dnsmasq) et (3) la résolution de noms locaux.*
 	
 ## Prix BlueHats pour les mainteneurs de logiciels critiques
 

@@ -18,9 +18,11 @@ tags:
 
 Les [prix BlueHats](https://code.gouv.fr/fr/bluehats/prix-bluehats/) sont une initiative de la Direction interministérielle du numérique. Ils récompensent les mainteneurs de logiciels libres critiques. En 2024, quatre prix de 10 000€ chacun seront décernés. Nous sommes heureux d'annoncer que le gagnant du premier prix BlueHats 2024 est **Simon Kelley**, mainteneur du projet dnsmasq. Dnsmasq fournit l'adressage réseau pour les petits réseaux : DNS, DHCP, annonce de routeur et démarrage de réseau.
 
+Le jury, composé d'agents publics des ministères de l'éducation nationale et de la jeunesse, de l'ANSSI et de DINUM, a reconnu l'importance de dnsmasq et de son développement continu pour la sécurité des réseaux.
+
 En apprenant qu'il avait gagné, Simon Kelley a déclaré :
 
-> Je suis ravi d'accepter le prix. Comme beaucoup de logiciels libres, dnsmasq a commencé comme une création immédiatement utile, mais est restée en vie et s'est développée pendant un quart de siècle grâce aux retours d'autres utilisateurs et à la reconnaissance, petite et grande, de son utilité. Ce prix est précieux sur le plan financier, mais il l'est encore plus en tant que marque de reconnaissance publique du fait que dnsmasq est toujours quelque chose qui vaut la peine d'être fait.
+> *Je suis ravi d'accepter le prix. Comme beaucoup de logiciels libres, dnsmasq a commencé comme une création immédiatement utile, mais est restée en vie et s'est développée pendant un quart de siècle grâce aux retours d'autres utilisateurs et à la reconnaissance, petite et grande, de son utilité. Ce prix est précieux sur le plan financier, mais il l'est encore plus en tant que marque de reconnaissance publique du fait que dnsmasq est toujours quelque chose qui vaut la peine d'être fait.*
 
 ## Au sujet de `dnsmasq`
 
@@ -34,11 +36,11 @@ Il y a de fortes chances que vous utilisiez `dnsmasq` puisqu'il est utilisé dan
 
 Tout le monde peut proposer des projets libres et open source pour l'un des prix BlueHats (et [les nominations sont encore ouvertes](https://nlnet.nl/bluehatsprize/2024/)). Samuel Bizien Filippi, qui a proposé `dnsmasq`, a motivé son choix ainsi :
 
-> Au PEReN, nous nous efforçons de conserver toute la configuration du réseau et du système sous forme de code dans un système de gestion de versions. Comme dnsmasq est configuré à l'aide de fichiers texte, il nous convient parfaitement. Dans notre configuration, dnsmasq est utilisé pour:
+> *Au PEReN, nous nous efforçons de conserver toute la configuration du réseau et du système sous forme de code dans un système de gestion de versions. Comme dnsmasq est configuré à l'aide de fichiers texte, il nous convient parfaitement. Dans notre configuration, dnsmasq est utilisé pour:*
 
-> - pour la configuration réseau des clients via DHCP
-> - pour l'installation automatisée de systèmes avec DHCP et TFTP (deux fonctionnalités fournies par dnsmasq)
-> - pour la résolution de noms locaux
+> *- pour la configuration réseau des clients via DHCP*
+> *- pour l'installation automatisée de systèmes avec DHCP et TFTP (deux fonctionnalités fournies par dnsmasq)*
+> *- pour la résolution de noms locaux*
 	
 ## Prix BlueHats pour les mainteneurs de logiciels critiques
 

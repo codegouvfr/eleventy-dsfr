@@ -14,7 +14,7 @@ Le **27 mai de 9h à 17h30**, le collège codes sources et logiciels du [comité
 
 L'événement est ouvert à toutes les personnes qui travaillent dans ou avec un organisme public.
 
-## Les bonnes raisons de venir...
+## Les bonnes raisons de venir
 
 - Avoir un aperçu du fonctionnement de la communauté des contributeurs GitLab : comment créer et classer des tickets, comment installer une version de développement de GitLab, comment contribuer du code, de la documentation au projet.
 - Participer à un hackathon sur des fonctionnalités remontées par la communauté BlueHats ou ESR pour mettre en pratique ces cas d'usage. 

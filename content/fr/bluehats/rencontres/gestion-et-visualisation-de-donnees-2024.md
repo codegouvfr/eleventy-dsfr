@@ -16,7 +16,7 @@ Le thème de cette journée BlueHats a fortement mobilisé : y ont participé 5
 
 # Les présentations du matin
 
-La matinée a été consacrée à des présentations et retours d'usage :
+La matinée a été consacrée à des présentations et des retours d'usage que vous trouverez ici :
 
 -   [Présentation générale de Apache Superset](https://chartsgouv.lab.sspcloud.fr/static/bluehats/index.html), Quentin Leroy, MI.
 -   [Retour d’expérience sur Data ETAT](https://speakerdeck.com/bluehats/presentation-du-projet-data-etat-et-de-lusage-de-superset-sgar-bretagne), de Marie Guibert, Région Bretagne.
@@ -27,7 +27,7 @@ La matinée a été consacrée à des présentations et retours d'usage :
 
 # Les ateliers de l'après-midi
 
-L'après-midi, les participants se sont répartis en ateliers :
+L'après-midi, les participants se sont répartis en ateliers, vous trouverez les notes dans les pads :
 
 -   Organiser le **partage de composants Superset** ([pad](https://pad.numerique.gouv.fr/38QoDXqpREiYo2RoFUzuQg#))
 -   Les ressources pour **s'approprier Superset** ([pad](https://pad.numerique.gouv.fr/7L6vJ7kbSvybL7rP8o_sBw#))
@@ -38,18 +38,19 @@ L'après-midi, les participants se sont répartis en ateliers :
 
 # Ce qu'on a fait...
 
--   Une liste de mentors partagée avec les participants
--   Un dépôt pour la documentation des ressources : <https://code.gouv.fr/superset-docs/#/>
--   Un dépôt va être ouvert sur <https://gitlab.mim-libre.fr> pour le partage des composants
--   Le groupe "Apache Superset Experts et Contributeurs" est constitué avec un [salon Tchap](https://tchap.gouv.fr/#/room/!ZOqsMXhLQmyRSDSHCr:agent.education.tchap.gouv.fr?via=agent.interieur.tchap.gouv.fr&via=agent.education.tchap.gouv.fr&via=agent.externe.tchap.gouv.fr) dédié
+-   Une liste de mentors volontaires pour aider sur Superset a été partagée entre participants
+-   Un dépôt va être ouvert sur <https://gitlab.mim-libre.fr> pour le partage des composants Superset
+-   Un autre dépôt pour la documentation a été ouvert : <https://code.gouv.fr/superset-docs/#/>
+-   Le groupe "Apache Superset Experts et Contributeurs" est constitué et discute dans un [salon Tchap](https://tchap.gouv.fr/#/room/!ZOqsMXhLQmyRSDSHCr:agent.education.tchap.gouv.fr?via=agent.interieur.tchap.gouv.fr&via=agent.education.tchap.gouv.fr&via=agent.externe.tchap.gouv.fr)
 
 <br>
 
 # ... et ce qu'on prévoit pour la suite
 
+Quelques idées pour la suite :
+
 -   Discuter avec les organisateurs du [programme 10%](https://www.10pourcent.etalab.gouv.fr/) pour continuer de mobiliser
 -   Wébinaire pour faire un point sur les ressources documentaire pour aider la communauté à continuer d’apprendre
 -   Wébinaire de mobilisation pour la formation Superset dans l’administration
 -   Wébinaire de présentation des composants développés et publiés en septembre 2024
--   Une autre journée BlueHats 🧢 Superset généraliste en présentiel en T2 2025 ?
-
+-   Une autre journée BlueHats 🧢 Superset généraliste en présentiel en T2 2025

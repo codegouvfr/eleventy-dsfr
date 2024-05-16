@@ -1,5 +1,5 @@
 ---
-title: "Interview with Johan Linåker from RISE about the report on software reuse"
+title: "Interview with Johan Linåker (RISE) about the Report on software reuse"
 description: ""
 date: 2024-05-16
 image:

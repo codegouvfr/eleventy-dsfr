@@ -1,5 +1,5 @@
 ---
-title: "Entretien avec Johan Linåker de l'institut RISE sur le rapport sur la réutilisation de logiciels"
+title: "Entretien avec Johan Linåker (RISE) au sujet du rapport sur la réutilisation de logiciels"
 description: ""
 date: 2024-05-16
 image:

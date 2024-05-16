@@ -1,37 +1,55 @@
 ---
 title: "Journée BlueHats 🧢 sur les outils libres de gestion et de visualisation de données"
 date: 2024-04-30
-description: Découvrez les outils libres et open source (Superset, Metabase, etc.) pour la gestion collaborative et la visualisation de données
+description: À la découverte de Superset pour la gestion collaborative et la visualisation de données
 image:
   path: ./superset.png
   alt: Capture d'écran de Superset pour vous donner envie
 tags: Data
 ---
 
-Le 30 avril de 9h à 17h30 au [Lieu de la Transformation Publique](https://www.modernisation.gouv.fr/diffuser-linnovation-publique/le-lieu-de-la-transformation-publique), participez à une journée BlueHats sur les outils libres de gestion et de visualisation de données, notamment [Apache Superset](https://code.gouv.fr/sill/detail?name=Apache%20Superset) et [Metabase](https://code.gouv.fr/sill/detail?name=Metabase).
+Le 30 avril de 9h à 17h30 au [Lieu de la Transformation Publique](https://www.modernisation.gouv.fr/diffuser-linnovation-publique/le-lieu-de-la-transformation-publique) s'est tenue une journée BlueHats sur les outils libres de gestion et de visualisation de données, notamment [Apache Superset](https://code.gouv.fr/sill/detail?name=Apache%20Superset).
 
-{% imageContent "./superset.png", "Capture d'écran de Superset pour vous donner envie" %}
+Le thème de cette journée BlueHats a fortement mobilisé : y ont participé 50 agents publics, dont 16 femmes.
 
-L'événement est ouvert à toutes les personnes qui travaillent dans ou avec un organisme public.
+{% imageContent "./bluehats-2024-04-30-2.jpg", "« Une journée passionnante et des rencontres enrichissantes, très heureux d'avoir pu y participer. »" %}
 
-## Vous êtes en particulier les bienvenus si...
+# Les présentations du matin
 
-- Vos chefs vous demandent des "dataviz"
-- Vos feuilles de calcul commencent à exploser
-- Vous envisager de vous passer d'outils comme PowerBI et Tableau
-- Vous souhaitez apprendre à vous servir de Metabase ou Superset
-- Vous avez envie de partager votre expérience de Metabase ou Superset
-- Vous voulez vérifier que Metabase ou Superset correspondent à vos besoins
-- Vous vous demandez ce qu'est `#BlueHats` 🧢
+La matinée a été consacrée à des présentations et retours d'usage :
 
-Dans tous les cas, sentez-vous libres de lister [vos attentes dans ce pad](https://pad.numerique.gouv.fr/rvl7I8tpRw-EHUGlxxaXaQ#).
+-   [Présentation générale de Apache Superset](https://chartsgouv.lab.sspcloud.fr/static/bluehats/index.html), Quentin Leroy, MI.
+-   [Retour d’expérience sur Data ETAT](https://speakerdeck.com/bluehats/presentation-du-projet-data-etat-et-de-lusage-de-superset-sgar-bretagne), de Marie Guibert, Région Bretagne.
+-   [L’Offre dataviz du D3IA : Apache Superset](https://speakerdeck.com/bluehats/loffre-dataviz-du-d3ia-apache-superset-mte), Xavier Richard, MTE/DNUM.
+-   [Superset dans le projet Archipel](https://speakerdeck.com/bluehats/superset-retour-dexperience-sur-le-projet-archipel), Richard Thibert, MENJS/DEPP.
 
-## Inscription avant le 20 avril
+{% imageContent "./bluehats-2024-04-30_4.jpg", "Un public attentif pour les retours d'expérience de la matinée" %}
 
-L'inscription est gratuite et obligatoire en envoyant **avant le 20 avril 23h59** un mail à [contact@code.gouv.fr](mailto:contact@code.gouv.fr?subject=Participation%20à%20la%20journée%20🧢%20du%2030%20avril).
+# Les ateliers de l'après-midi
 
-Les demandes d'inscription à partir du 10 avril seront placées en liste d'attente, nous confirmerons les inscriptions définitives le 25 avril.
+L'après-midi, les participants se sont répartis en ateliers :
 
-## Ressources
+-   Organiser le **partage de composants Superset** ([pad](https://pad.numerique.gouv.fr/38QoDXqpREiYo2RoFUzuQg#))
+-   Les ressources pour **s'approprier Superset** ([pad](https://pad.numerique.gouv.fr/7L6vJ7kbSvybL7rP8o_sBw#))
+-   Démonstration des **fonctionnalités de Superset** ([pad](https://pad.numerique.gouv.fr/99ZDhML7TkyMlCKve281pA#))
+-   Les questions à se poser **en amont d'une instance Superset** ([pad](https://pad.numerique.gouv.fr/XjL1O5EVSKqh9SlMWD9O6g?view#))
 
-Il existe déjà un [salon Tchap pour Apache Superset](https://tchap.gouv.fr/#/room/#Programme10LoutildevisualisationdesdonnesdeltatPuvO4oGZW9:agent.interieur.tchap.gouv.fr) que vous pouvez rejoindre.
+{% imageContent "./bluehats-2024-04-30-1.jpg", "Travail an ateliers pour l'après-midi" %}
+
+# Ce qu'on a fait...
+
+-   Une liste de mentors partagée avec les participants
+-   Un dépôt pour la documentation des ressources : <https://code.gouv.fr/superset-docs/#/>
+-   Un dépôt va être ouvert sur <https://gitlab.mim-libre.fr> pour le partage des composants
+-   Le groupe "Apache Superset Experts et Contributeurs" est constitué avec un [salon Tchap](https://tchap.gouv.fr/#/room/!ZOqsMXhLQmyRSDSHCr:agent.education.tchap.gouv.fr?via=agent.interieur.tchap.gouv.fr&via=agent.education.tchap.gouv.fr&via=agent.externe.tchap.gouv.fr) dédié
+
+<br>
+
+# ... et ce qu'on prévoit pour la suite
+
+-   Discuter avec les organisateurs du [programme 10%](https://www.10pourcent.etalab.gouv.fr/) pour continuer de mobiliser
+-   Wébinaire pour faire un point sur les ressources documentaire pour aider la communauté à continuer d’apprendre
+-   Wébinaire de mobilisation pour la formation Superset dans l’administration
+-   Wébinaire de présentation des composants développés et publiés en septembre 2024
+-   Une autre journée BlueHats 🧢 Superset généraliste en présentiel en T2 2025 ?
+

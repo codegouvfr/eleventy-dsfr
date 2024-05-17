@@ -1,7 +1,7 @@
 ---
 title: Présentation de la plateforme OKDP
 date: 2024-06-07
-description: Intervention d'Olivier Mazain, Diode Lahouar et Diode Ben Aissa (DGFiP)
+description: Intervention d'Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben Aissa (Consultants pour la DGFiP)
 ---
 
 <!-- video: -->

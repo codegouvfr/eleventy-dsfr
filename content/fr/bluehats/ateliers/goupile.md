@@ -8,6 +8,12 @@ description: Intervention de Niels Martignene, Centre national de ressources et 
 <!--   src: https://tube.numerique.gouv.fr/videos/embed/7e54593b-643a-419b-b58c-f14efc3c39f0 -->
 <!--   title: "Atelier BlueHats : Présentation de la plateforme OKDP" -->
 
+- Date : 14 juin 2024
+- Heure : De 11h à 12h30
+- Visio : [Salon BlueHats](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)
+
+<br/>
+
 L’objet de cet atelier est de présenter l’outil de recueil de données
 Goupile.
 

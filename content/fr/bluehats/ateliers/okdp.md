@@ -8,6 +8,12 @@ description: Intervention d'Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben A
 <!--   src: https://tube.numerique.gouv.fr/videos/embed/7e54593b-643a-419b-b58c-f14efc3c39f0 -->
 <!--   title: "Atelier BlueHats : Présentation de la plateforme OKDP" -->
 
+- Date : 7 juin 2024
+- Heure : De 11h à 12h30
+- Visio : [Salon BlueHats](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)
+
+<br/>
+
 OKDP est l’acronyme de Open Kubernetes Data Platform.
 
 C’est une plateforme de services de gestion de données. Elle est composée d’un ensemble de logiciels et produits Open Source conteneurisés et repose sur une infrastructure Kubernetes qu’elle n’implémente et ne gère pas (isolation logique d’espace de ‘traitement’). Elle répond à des enjeux et des besoins de collecte, de stockage, de traitement, d’analyse et d’exposition de données. Pour ce faire, OKDP est modulable et chaque utilisateur pourra en utiliser tout ou partie selon ses besoins.

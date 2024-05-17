@@ -34,7 +34,7 @@ L'après-midi, les participants se sont répartis en ateliers, vous trouverez le
 -   Démonstration des **fonctionnalités de Superset** ([pad](https://pad.numerique.gouv.fr/99ZDhML7TkyMlCKve281pA#))
 -   Les questions à se poser **en amont d'une instance Superset** ([pad](https://pad.numerique.gouv.fr/XjL1O5EVSKqh9SlMWD9O6g?view#))
 
-{% imageContent "./bluehats-2024-04-30-1.jpg", "Travail an ateliers pour l'après-midi" %}
+{% imageContent "./bluehats-2024-04-30-1.jpg", "Travail en ateliers pour l'après-midi" %}
 
 # Ce qu'on a fait...
 
@@ -50,7 +50,7 @@ L'après-midi, les participants se sont répartis en ateliers, vous trouverez le
 Quelques idées pour la suite :
 
 -   Discuter avec les organisateurs du [programme 10%](https://www.10pourcent.etalab.gouv.fr/) pour continuer de mobiliser
--   Wébinaire pour faire un point sur les ressources documentaire pour aider la communauté à continuer d’apprendre
+-   Wébinaire pour faire un point sur les ressources documentaires pour aider la communauté à continuer d’apprendre
 -   Wébinaire de mobilisation pour la formation Superset dans l’administration
 -   Wébinaire de présentation des composants développés et publiés en septembre 2024
 -   Une autre journée BlueHats 🧢 Superset généraliste en présentiel en T2 2025

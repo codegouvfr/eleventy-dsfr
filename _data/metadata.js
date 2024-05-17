@@ -19,7 +19,7 @@ module.exports = {
     instagram_url: "",
     linkedin_url: "",
     youtube_url: "",
-    peertube_url: "https://tube.numerique.gouv.fr/a/logicielslibres/",
+    peertube_url: "https://tube.numerique.gouv.fr/c/bluehats",
     github_url: "https://github.com/codegouvfr/",
     sourcehut_url: "https://sr.ht/~codegouvfr/",
     repository_url: "https://github.com/codegouvfr/codegouvfr-website",

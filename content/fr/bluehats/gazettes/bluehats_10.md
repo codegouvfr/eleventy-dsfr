@@ -36,7 +36,7 @@ L'annuaire inclut également une visualisation cartographique de la localisation
 
 ## De-ci de-là
 
--   [Les vidéos des sessions des ateliers BlueHats sont publiques](https://tube.numerique.gouv.fr/a/logicielslibres/video-channels)
+-   [Les vidéos des sessions des ateliers BlueHats sont publiques](https://tube.numerique.gouv.fr/c/bluehats)
 -   [Présentation de la solution de visioconférence de l'Éducation Nationale](https://danescenari.edu.ac-lyon.fr/sc/pub/Visios_BBB_web/co/module_Visios_BBB.html)
 -   [Le moteur open source de pix.fr réutilisé pour ecriplus.fr](https://twitter.com/jbuget/status/1366128542241730572)
 

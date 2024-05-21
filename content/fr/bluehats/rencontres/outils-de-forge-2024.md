@@ -23,8 +23,8 @@ L'événement est ouvert à toutes les personnes qui travaillent dans ou avec un
 
 - Lieu : [Lieu de la Transformation Publique](https://www.modernisation.gouv.fr/diffuser-linnovation-publique/le-lieu-de-la-transformation-publique)
 - Début et fin : de 9h30 à 17h
-- Inscription gratuite et obligatoire *avant le 20 mai* : à l'aide de ce [sondage](https://evento.renater.fr/survey/participation-a-la-journee-college-codes-sources-et-logiciels-du-coso-avec-gitlab-r1nw87el) - attention, il y a une limite de 50 places en présentiel : premiers inscrits, premiers servis.
-- Visio : Le lien pour la visio sera envoyé aux personnes inscrites en distanciel avant le 24 mai.
+- Inscription gratuite et obligatoire *avant le 23 mai* : à l'aide de ce [sondage](https://evento.renater.fr/survey/participation-a-la-journee-college-codes-sources-et-logiciels-du-coso-avec-gitlab-r1nw87el) - attention, il y a une limite de 50 places en présentiel : premiers inscrits, premiers servis.
+- Visio : Le lien pour la visio sera envoyé aux personnes inscrites en distanciel le 24 mai.
 
 ## Ressources
 

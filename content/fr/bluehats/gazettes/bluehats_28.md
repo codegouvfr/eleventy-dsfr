@@ -99,11 +99,12 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 ## 📰 La revue de presse
 ### En français
 
-- [NIRD : un lycée reconditionne sous logiciels libres et distribue des ordinateurs collectés](https://www.zdnet.fr/blogs/l-esprit-libre/nird-un-lycee-reconditionne-sous-logiciels-libres-et-distribue-des-ordinateurs-collectes-390954.htm), zdnet.fr, avril 2024
-- [Open Source et IA : des synergies à repenser ?](https://www.peren.gouv.fr/rapports/2024-04-03_Eclairage%20sur_OpenSource-IAG_FR.pdf), peren.gouv.fr, avril 2024
+- [La suite collaborative numérique de l’État dans les starting-blocks](https://acteurspublics.fr/articles/la-suite-collaborative-numerique-de-letat-dans-les-starting-blocks), mai 2024
 - [Les candidatures pour le prix science ouverte du logiciel libre de la recherche 2024 sont ouvertes !](https://www.ouvrirlascience.fr/les-candidatures-pour-le-prix-science-ouverte-du-logiciel-libre-de-la-recherche-2024-sont-ouvertes/), ouvrirlascience.fr, mai 2024
 - [Bye bye Windows : 30 000 membres du personnel de l'État travailleront bientôt sous Linux](https://www.digitec.ch/fr/page/bye-bye-windows-30-000-membres-du-personnel-de-letat-travailleront-bientot-sous-linux-32543), digitec.ch, mai 2024
 - [Oracle abandonne Terraform, un environnement logiciel d'« infrastructure en tant que code », au profit d'OpenTofu](https://oracle.developpez.com/actu/357902/Oracle-abandonne-Terraform-un-environnement-logiciel-d-infrastructure-en-tant-que-code-au-profit-d-OpenTofu-et-demande-a-ses-clients-de-passer-a-la-derniere-MAJ-construite-sur-des-logiciels-libres/), developpez.com, mai 2024
+- [NIRD : un lycée reconditionne sous logiciels libres et distribue des ordinateurs collectés](https://www.zdnet.fr/blogs/l-esprit-libre/nird-un-lycee-reconditionne-sous-logiciels-libres-et-distribue-des-ordinateurs-collectes-390954.htm), zdnet.fr, avril 2024
+- [Open Source et IA : des synergies à repenser ?](https://www.peren.gouv.fr/rapports/2024-04-03_Eclairage%20sur_OpenSource-IAG_FR.pdf), peren.gouv.fr, avril 2024
 - [Les logiciels libres entrés au SILL au premier trimestre 2024](https://www.silicon.fr/logiciels-libres-sill-premier-trimestre-2024-477205.html), silicon.fr, avril 2024
 - [Un Land allemand lâche la bureautique Microsoft pour l'open source](https://www.cio-online.com/actualites/lire-un-land-allemand-lache-la-bureautique-microsoft-pour-l-open-source-15576.html), avril 2024
 - [Le CNLL se mobilise pour les élections européennes](https://cnll.fr/news/le-cnll-se-mobilise-pour-les-%C3%A9lections-europ%C3%A9ennes/), cnll.fr, mars 2024

@@ -10,7 +10,7 @@ date: 2024-05-22
 - Nous publions le [compte-rendu de la journée BlueHats consacrée à Superset](https://code.gouv.fr/fr/bluehats/gestion-et-visualisation-de-donnees-2024/) : merci aux nombreux participants !
 - Il reste deux jours pour vous inscrire à la prochaine [journée BlueHats organisée autour de GitLab CE](https://code.gouv.fr/fr/bluehats/outils-de-forge-2024/) et qui aura lieu à Paris le 27 mai.
 - Qu'on se le dise : les [ateliers BlueHats](https://code.gouv.fr/fr/bluehats/tags/atelier/) reprennent !
-- La mission logiciels libres a été distinguée par la [https://www.fsf.org](Free Software Foundation) en recevant son [prix pour les projets d'utilité sociale](https://www.fsf.org/news/free-software-awards-winners-announced-bruno-haible-french-free-software-unit-nick-logozzo) : une bonne nouvelle pour tous les OSPO du secteur public !
+- La mission logiciels libres a été distinguée par la [Free Software Foundation](https://www.fsf.org) en recevant son [prix pour les projets d'utilité sociale](https://www.fsf.org/news/free-software-awards-winners-announced-bruno-haible-french-free-software-unit-nick-logozzo) : une bonne nouvelle pour tous les OSPO du secteur public !
 
 <br>
 

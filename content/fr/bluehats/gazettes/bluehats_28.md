@@ -16,7 +16,7 @@ date: 2024-05-22
 
 ## 🧢 Une nouvelle forge pour l'éducation nationale
 
-Comme l'a annoncé Audran Le Baron à la Journée du Libre Éducatif (voir plus bas), la Forge des communs numériques éducatifs rejoint et vient enrichir les services partagés de [apps.education.fr](https://apps.education.fr).
+Comme l'a annoncé Audran Le Baron à la Journée du Libre Éducatif (voir plus bas), la Forge des communs numériques éducatifs rejoint et vient enrichir les services partagés de [apps.education.fr](https://apps.education.fr).  La forge compte déjà 1200 inscrits et plus de 800 projets !
 
 `>>` Consulter [forge.apps.education.fr](https://forge.apps.education.fr)
 
@@ -93,6 +93,8 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 - [Journée du libre éducatif 2024](https://journee-du-libre-educatif.forge.aeif.fr) : voir [l'intervention d'Audran Le Baron](https://tube-numerique-educatif.apps.education.fr/w/gygxmHSvTGkXnCVDC8znZD) ou [lire sa transcription](https://www.librealire.org/journee-du-libre-educatif-2024-audran-le-baron) ; voir aussi [ce mini-reportage vidéo](https://podeduc.apps.education.fr/video/42285-journee-du-libre-educatif-a-luniversite-de-creteil/)
 - [Alpes Open Source Software](https://alposs.fr), l’événement Isérois de l’écosystème Open Source : voir [le programme](https://alposs.fr/wp-content/uploads/2024/03/Programme-AlpOSS-2024.pdf) et [les vidéos](https://video.echirolles.fr/w/p/q7Hrt74jyS1M64NXffCdfz).
 - [Les journées Esup Pod](https://www.linkedin.com/posts/nicolas-can-a6bb7869_esupabrpod-activity-7180903481040351232-qLnX/), où furent fêtés les 10 ans du projet.
+
+<br>
 
 ## 📰 La revue de presse
 ### En français

@@ -1,4 +1,6 @@
 const {DateTime} = require("luxon");
+const {nanoid} = require ("nanoid");
+
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -130,7 +132,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "event"]
+        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "events"]
             .concat(addTags)
             .indexOf(tag) === -1);
     });
@@ -187,6 +189,8 @@ module.exports = function (eleventyConfig) {
         trimBlocks: true,
         lstripBlocks: true,
     });
+
+    eleventyConfig.addNunjucksGlobal("nanoid", () => nanoid());
 
     // Features to make your build faster (when you need them)
 

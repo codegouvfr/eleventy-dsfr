@@ -3,7 +3,7 @@ title: Gazette BlueHats 🧢 n°28
 date: 2024-05-22
 ---
 
-## 🚀 Actualités de la mission logiciels libres
+## 🚀 Les actualités de la mission logiciels libres
 
 - Simon Kelley, mainteneur du logiciel libre `dnsmasq`, qui remporte le 1er [prix BlueHats](https://code.gouv.fr/fr/blog/remise-du-premier-prix-bluehats-2024/) 🧢 et [Hacker News](https://news.ycombinator.com/item?id=40077793) en discute.
 - La mission s'est entretenu avec [Delphine Montagne](https://code.gouv.fr/fr/blog/entretien-avec-delphine-montagne/), fonctionnaire et wikimédienne en résidence, et avec [Johan Linåker](https://preprod.codegouv.fr/fr/blog/entretien-avec-johan-linaker-RISE-2024/), chercheur à [RISE](https://www.ri.se), qui présente un rapport sur la réutilisation de logiciels.
@@ -12,13 +12,15 @@ date: 2024-05-22
 - Qu'on se le dise : les [ateliers BlueHats](https://code.gouv.fr/fr/bluehats/tags/atelier/) reprennent !
 - La mission logiciels libres a été distinguée par la [https://www.fsf.org](Free Software Foundation) en recevant son [prix pour les projets d'utilité sociale](https://www.fsf.org/news/free-software-awards-winners-announced-bruno-haible-french-free-software-unit-nick-logozzo) : une bonne nouvelle pour tous les OSPO du secteur public !
 
-## 🧢 Focus éducation
+<br>
 
-Comme l'a annoncé Audran Le Baron à la Journée du Libre Éducatif (voir plus bas), la Forge des communs numériques éducatifs rejoint et vient enrichir les services partagés de [apps.education.fr](https://apps.education.fr), Les services numériques partagés des agents de l'Éducation nationale.
+## 🧢 Une nouvelle forge pour l'éducation nationale
+
+Comme l'a annoncé Audran Le Baron à la Journée du Libre Éducatif (voir plus bas), la Forge des communs numériques éducatifs rejoint et vient enrichir les services partagés de [apps.education.fr](https://apps.education.fr).
 
 `>>` Consulter [forge.apps.education.fr](https://forge.apps.education.fr)
 
-## 🖊️ Focus formation
+## 🖊️ Le CNRS forme aux enjeux des logiciels libres
 
 Les Instituts CNRS Sciences Humaines et Sociales et CNRS Mathématiques organisent conjointement une formation qui abordera plusieurs enjeux liés au logiciel libre : le contexte national et international de la science ouverte et la problématique du logiciel dans ce contexte, la réglementation et le cadre juridique, les modèles économiques du logiciel libre, les questions de bonnes pratiques pour favoriser la ré-utilisabilité, la reproductibilité et le développement d’une communauté et les éléments de gouvernance d’un logiciel libre.
 
@@ -26,8 +28,8 @@ Cette formation s’adresse à tous les membres des instituts CNRS mathématique
 
 `>>` [Détails](https://logiciel-libre.sciencesconf.org/) et [inscription](https://formation.ifsem.cnrs.fr/training/1304/3650)
 
-## 🖥️ Focus emploi
-### VIGINUM recrute
+## 🖥️ Le secteur public recrute
+### VIGINUM
 
 À VIGINUM, nous avons pour mission de détecter et caractériser les manipulations de l'information impliquant des acteurs étrangers dans le débat public français. Nous recrutons un•e développeur·se fullstack pour renforcer le pôle technique. Au programme, pas mal de scraping et de collecte de données mais aussi développement d'outils en interne (dashboards, interfaces utilisateurs).
 
@@ -35,7 +37,7 @@ Si vous voulez en savoir plus sur nos travaux, vous pouvez retrouver nos publica
 
 `>>` VIGINUM ouvre un poste de [dev full stack](https://www.welcometothejungle.com/fr/companies/viginum/jobs/developpeur-full-stack-h-f_paris?)
 
-### L'université Grenoble Alpes recrute au sein de l'unité GRICAD
+### L'université Grenoble Alpes au sein de l'unité GRICAD
 
 L'université Grenoble Alpes recrute au sein de l'unité GRICAD un-une développeur-euse web full stack, dans le cadre d'un projet novateur "Transparency to Sustain Open Science Infrastructure". Le projet est à rayonnement international, financé par le Comité pour la Science Ouverte (MESR) et piloté par l'UGA. Son objectif est de valoriser les acteurs financiers qui soutiennent les infrastructures œuvrant pour la science ouverte.
 
@@ -43,11 +45,11 @@ Le ou la recruté-e devra réaliser une plateforme web publique dédiée à la v
 
 `>>` Candidater directement sur le site du CNRS en tant qu'[ingénieur·e d'étude](https://emploi.cnrs.fr/Offres/CDD/UAR3758-VANCAN-004/Default.aspx) ou [de recherche](https://emploi.cnrs.fr/Offres/CDD/UAR3758-VANCAN-005/Default.aspx).
 
-### Le parc des Écrins recrute
+### Le parc des Écrins
 
 Dans le cadre du groupement de partenaires utilisateurs de [Geotrek](https://geotrek.fr/), le Parc des Écrins recrute nous venons de publier un [poste de coordinateur·rice technique Geotrek pour 3 ans](https://www.ecrins-parcnational.fr/contractuel-cat-coordinateur-coordinatrice-technique-communaute-geotrek).
 
-### Software Heritage recrute
+### Software Heritage
 
 Afin d'accompagner l'expansion de l'archive et le lancement de nouveaux projets, l'équipe Software Heritage s'agrandit !  Nous recrutons actuellement sur les profils suivants :
 
@@ -55,7 +57,9 @@ Afin d'accompagner l'expansion de l'archive et le lancement de nouveaux projets,
 - [Développeur⸱se Backend](https://www.softwareheritage.org/2023/11/13/developpeur%e2%b8%b1se-backend/?lang=fr)
 - [Ingénieur⸱e Big Data](https://www.softwareheritage.org/2024/03/01/ingenieur%e2%b8%b1e-architecture-et-developpement-big-data/?lang=fr).
 
-## 📅 Événements
+<br>
+
+## 📅 Les événements à venir
 ### 24 mai : présentation de la mission logiciels libres via OSPO Alliance
 
 Vous connaissez peut-être l'[OSPO Alliance](https://ospo-alliance.org) et son [guide de bonne gouvernance Open Source](https://gitlab.ow2.org/ggi/ggi/-/blob/dev/handbook/translations/fr/ggi_handbook_v1.2_fr.pdf) disponible librement.
@@ -82,14 +86,15 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 - 11 et 12 juin : [OW2 con'2024 à Paris](https://www.ow2con.org/view/2024/)
 - 9 et 10 juillet : [OSPOs for Good 2024 à New York](https://www.un.org/techenvoy/content/ospos-good-2024)
 
+<br>
 
-### Retour sur...
+## 🎥 Les événements à revivre
 
-- Journée du libre éducatif 2024 : voir [l'intervention d'Audran Le Baron](https://tube-numerique-educatif.apps.education.fr/w/gygxmHSvTGkXnCVDC8znZD) ou [lire sa transcription](https://www.librealire.org/journee-du-libre-educatif-2024-audran-le-baron) ; voir aussi [ce mini-reportage vidéo](https://podeduc.apps.education.fr/video/42285-journee-du-libre-educatif-a-luniversite-de-creteil/)
-- [Alpes Open Source Software](https://alposs.fr/), l’événement Isérois de l’écosystème Open Source : voir [le programme](https://alposs.fr/wp-content/uploads/2024/03/Programme-AlpOSS-2024.pdf) et [les vidéos](https://video.echirolles.fr/w/p/q7Hrt74jyS1M64NXffCdfz).
+- [Journée du libre éducatif 2024](https://journee-du-libre-educatif.forge.aeif.fr) : voir [l'intervention d'Audran Le Baron](https://tube-numerique-educatif.apps.education.fr/w/gygxmHSvTGkXnCVDC8znZD) ou [lire sa transcription](https://www.librealire.org/journee-du-libre-educatif-2024-audran-le-baron) ; voir aussi [ce mini-reportage vidéo](https://podeduc.apps.education.fr/video/42285-journee-du-libre-educatif-a-luniversite-de-creteil/)
+- [Alpes Open Source Software](https://alposs.fr), l’événement Isérois de l’écosystème Open Source : voir [le programme](https://alposs.fr/wp-content/uploads/2024/03/Programme-AlpOSS-2024.pdf) et [les vidéos](https://video.echirolles.fr/w/p/q7Hrt74jyS1M64NXffCdfz).
 - [Les journées Esup Pod](https://www.linkedin.com/posts/nicolas-can-a6bb7869_esupabrpod-activity-7180903481040351232-qLnX/), où furent fêtés les 10 ans du projet.
 
-## 📰 Revue de presse
+## 📰 La revue de presse
 ### En français
 
 - [NIRD : un lycée reconditionne sous logiciels libres et distribue des ordinateurs collectés](https://www.zdnet.fr/blogs/l-esprit-libre/nird-un-lycee-reconditionne-sous-logiciels-libres-et-distribue-des-ordinateurs-collectes-390954.htm), zdnet.fr, avril 2024

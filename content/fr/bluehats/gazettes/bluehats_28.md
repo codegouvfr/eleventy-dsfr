@@ -81,6 +81,7 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 ### Dans l'écosystème Open Source, en France 
 
 - 25 et 26 mai : [Journées du logiciel libre à Lyon](https://www.jdll.org)
+- 3 au 7 juin : [Rencontres Scenari 2024 à Toulouse](https://scenari.org/rencontres2024/)
 - 4 juin : [APELL Conference 2024 à Berlin](https://apell.info/conference/)
 - 10 juin : [Rencontres professionnelles du logiciel libre à Lyon](https://www.rpll.fr)
 - 11 et 12 juin : [OW2 con'2024 à Paris](https://www.ow2con.org/view/2024/)

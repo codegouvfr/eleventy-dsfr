@@ -22,7 +22,7 @@ Comme l'a annoncé Audran Le Baron à la Journée du Libre Éducatif (voir plus 
 
 ## 🖊️ Le CNRS forme aux enjeux des logiciels libres
 
-Les Instituts CNRS Sciences Humaines et Sociales et CNRS Mathématiques organisent conjointement une formation qui abordera plusieurs enjeux liés au logiciel libre : le contexte national et international de la science ouverte et la problématique du logiciel dans ce contexte, la réglementation et le cadre juridique, les modèles économiques du logiciel libre, les questions de bonnes pratiques pour favoriser la ré-utilisabilité, la reproductibilité et le développement d’une communauté et les éléments de gouvernance d’un logiciel libre.
+Les Instituts CNRS Sciences Humaines et Sociales et CNRS Mathématiques organisent conjointement une formation qui abordera plusieurs enjeux liés au logiciel libre : le contexte national et international de la science ouverte et la problématique du logiciel dans ce contexte, la réglementation et le cadre juridique, les modèles économiques du logiciel libre, les questions de bonnes pratiques pour favoriser la ré-utilisabilité, la reproductibilité et le développement d’une communauté et les éléments de gouvernance d’un logiciel libre.
 
 Cette formation s’adresse à tous les membres des instituts CNRS mathématiques et CNRS sciences humaines et sociales : chercheurs, enseignants chercheurs, ingénieurs, doctorants.
 
@@ -80,19 +80,20 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 
 ### Dans l'écosystème Open Source, en France 
 
-- 25 et 26 mai : [Journées du logiciel libre à Lyon](https://www.jdll.org)
-- 3 au 7 juin : [Rencontres Scenari 2024 à Toulouse](https://scenari.org/rencontres2024/)
-- 4 juin : [APELL Conference 2024 à Berlin](https://apell.info/conference/)
-- 10 juin : [Rencontres professionnelles du logiciel libre à Lyon](https://www.rpll.fr)
-- 11 et 12 juin : [OW2 con'2024 à Paris](https://www.ow2con.org/view/2024/)
-- 9 et 10 juillet : [OSPOs for Good 2024 à New York](https://www.un.org/techenvoy/content/ospos-good-2024)
+- 25 et 26 mai : [Journées du logiciel libre à Lyon](https://www.jdll.org)
+- 3 au 7 juin : [Rencontres Scenari 2024 à Toulouse](https://scenari.org/rencontres2024/)
+- 4 juin : [APELL Conference 2024 à Berlin](https://apell.info/conference/)
+- 10 juin : [Rencontres professionnelles du logiciel libre à Lyon](https://www.rpll.fr)
+- 11 et 12 juin : [OW2 con'2024 à Paris](https://www.ow2con.org/view/2024/)
+- 26 et 27 juin : [GeoNature, les rencontres nationales 2024 à Aix-en-Provence](https://geonature.fr/rencontres-2024.html)
+- 9 et 10 juillet : [OSPOs for Good 2024 à New York](https://www.un.org/techenvoy/content/ospos-good-2024)
 
 <br>
 
 ## 🎥 Les événements à revivre
 
 - [Journée du libre éducatif 2024](https://journee-du-libre-educatif.forge.aeif.fr) : voir [l'intervention d'Audran Le Baron](https://tube-numerique-educatif.apps.education.fr/w/gygxmHSvTGkXnCVDC8znZD) ou [lire sa transcription](https://www.librealire.org/journee-du-libre-educatif-2024-audran-le-baron) ; voir aussi [ce mini-reportage vidéo](https://podeduc.apps.education.fr/video/42285-journee-du-libre-educatif-a-luniversite-de-creteil/)
-- [Alpes Open Source Software](https://alposs.fr), l’événement Isérois de l’écosystème Open Source : voir [le programme](https://alposs.fr/wp-content/uploads/2024/03/Programme-AlpOSS-2024.pdf) et [les vidéos](https://video.echirolles.fr/w/p/q7Hrt74jyS1M64NXffCdfz).
+- [Alpes Open Source Software](https://alposs.fr), l’événement Isérois de l’écosystème Open Source : voir [le programme](https://alposs.fr/wp-content/uploads/2024/03/Programme-AlpOSS-2024.pdf) et [les vidéos](https://video.echirolles.fr/w/p/q7Hrt74jyS1M64NXffCdfz).
 - [Les journées Esup Pod](https://www.linkedin.com/posts/nicolas-can-a6bb7869_esupabrpod-activity-7180903481040351232-qLnX/), où furent fêtés les 10 ans du projet.
 
 <br>
@@ -101,11 +102,11 @@ Lors de ce webinaire organisé par le programme Transformation numérique des te
 ### En français
 
 - [Les candidatures pour le prix science ouverte du logiciel libre de la recherche 2024 sont ouvertes !](https://www.ouvrirlascience.fr/les-candidatures-pour-le-prix-science-ouverte-du-logiciel-libre-de-la-recherche-2024-sont-ouvertes/), ouvrirlascience.fr, mai 2024
-- [Bye bye Windows : 30 000 membres du personnel de l'État travailleront bientôt sous Linux](https://www.digitec.ch/fr/page/bye-bye-windows-30-000-membres-du-personnel-de-letat-travailleront-bientot-sous-linux-32543), digitec.ch, mai 2024
+- [Bye bye Windows : 30 000 membres du personnel de l'État travailleront bientôt sous Linux](https://www.digitec.ch/fr/page/bye-bye-windows-30-000-membres-du-personnel-de-letat-travailleront-bientot-sous-linux-32543), digitec.ch, mai 2024
 - [Oracle abandonne Terraform, un environnement logiciel d'« infrastructure en tant que code », au profit d'OpenTofu](https://oracle.developpez.com/actu/357902/Oracle-abandonne-Terraform-un-environnement-logiciel-d-infrastructure-en-tant-que-code-au-profit-d-OpenTofu-et-demande-a-ses-clients-de-passer-a-la-derniere-MAJ-construite-sur-des-logiciels-libres/), developpez.com, mai 2024
-- [Fondation NLnet : financer le logiciel libre en Europe – Lwenn Bussière](https://www.projets-libres.org/fondation-nlnet-financer-le-logiciel-libre-en-europe-lwenn-bussiere/), projets-libres.org, mai 2024
-- [NIRD : un lycée reconditionne sous logiciels libres et distribue des ordinateurs collectés](https://www.zdnet.fr/blogs/l-esprit-libre/nird-un-lycee-reconditionne-sous-logiciels-libres-et-distribue-des-ordinateurs-collectes-390954.htm), zdnet.fr, avril 2024
-- [Open Source et IA : des synergies à repenser ?](https://www.peren.gouv.fr/rapports/2024-04-03_Eclairage%20sur_OpenSource-IAG_FR.pdf), peren.gouv.fr, avril 2024
+- [Fondation NLnet : financer le logiciel libre en Europe – Lwenn Bussière](https://www.projets-libres.org/fondation-nlnet-financer-le-logiciel-libre-en-europe-lwenn-bussiere/), projets-libres.org, mai 2024
+- [NIRD : un lycée reconditionne sous logiciels libres et distribue des ordinateurs collectés](https://www.zdnet.fr/blogs/l-esprit-libre/nird-un-lycee-reconditionne-sous-logiciels-libres-et-distribue-des-ordinateurs-collectes-390954.htm), zdnet.fr, avril 2024
+- [Open Source et IA : des synergies à repenser ?](https://www.peren.gouv.fr/rapports/2024-04-03_Eclairage%20sur_OpenSource-IAG_FR.pdf), peren.gouv.fr, avril 2024
 - [Les logiciels libres entrés au SILL au premier trimestre 2024](https://www.silicon.fr/logiciels-libres-sill-premier-trimestre-2024-477205.html), silicon.fr, avril 2024
 - [Un Land allemand lâche la bureautique Microsoft pour l'open source](https://www.cio-online.com/actualites/lire-un-land-allemand-lache-la-bureautique-microsoft-pour-l-open-source-15576.html), avril 2024
 - [La suite collaborative numérique de l’État dans les starting-blocks](https://acteurspublics.fr/articles/la-suite-collaborative-numerique-de-letat-dans-les-starting-blocks), avril 2024

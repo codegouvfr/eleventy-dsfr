@@ -16,7 +16,7 @@ slides:
 
 <br/>
 
-OKDP est l’acronyme de Open Kubernetes Data Platform.
+[OKDP](https://okdp.io) est l’acronyme de Open Kubernetes Data Platform.
 
 C’est une plateforme de services de gestion de données. Elle est composée d’un ensemble de logiciels et produits Open Source conteneurisés et repose sur une infrastructure Kubernetes qu’elle n’implémente et ne gère pas (isolation logique d’espace de ‘traitement’). Elle répond à des enjeux et des besoins de collecte, de stockage, de traitement, d’analyse et d’exposition de données. Pour ce faire, OKDP est modulable et chaque utilisateur pourra en utiliser tout ou partie selon ses besoins.
 

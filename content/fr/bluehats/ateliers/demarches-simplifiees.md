@@ -7,7 +7,7 @@ video:
   title: "Atelier BlueHats de présentation de Démarches simplifiées"
 slides:
   src: https://speakerdeck.com/player/5f74059e35014bfe9a205eb331f9b52a
-  title: "Atelier BlueHats - présentation de  Démarches simplifiées"
+  title: "Atelier BlueHats - présentation de Démarches simplifiées"
 ---
 
 Le support est diffusé sous [licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).

@@ -11,7 +11,7 @@ description: Intervention de Niels Martignene, Centre national de ressources et 
 <br/>
 
 L’objet de cet atelier est de présenter l’outil de recueil de données
-Goupile.
+[Goupile](https://goupile.org/).
 
 Goupile est un éditeur de formulaires pour le recueil de données pour
 la recherche. C’est une application web utilisable sur ordinateur, sur

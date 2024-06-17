@@ -16,7 +16,7 @@ Ce site présente les ressources publiées et mises en oeuvre dans le cadre du [
 
 Son code source est publié [sur ce dépôt](https://github.com/codegouvfr/codegouvfr-website).
 
-## Equipe
+## Équipe
 
 Le plan d'action est piloté par la mission logiciels libres de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
 

@@ -7,7 +7,7 @@ module.exports = {
         },
         {
             url: false,
-            externalUrl: "https://code.gouv.fr/public/",
+            externalUrl: "https://code.gouv.fr/sources/",
             title: "Par les administrations",
             description: "Développer et accompagner l’ouverture et la libération des codes sources de l'administration.",
         },

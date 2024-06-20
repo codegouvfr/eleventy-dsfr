@@ -42,7 +42,7 @@ PeerTube a annoncé la sortie de sa version 4.2 ainsi que le lot de nouveautés 
 
 L'essai « Données, Transparence et Démocratie » est une envie de partager avec le plus grand nombre possible ce changement fondamental pour notre démocratie qu'est l'ouverture des données. Cette ouverture peut être vue dans la continuité du mouvement des logiciels libres, le partage plutôt que la commercialisation.
 
-Cela implique un passage par les licences ouvertes qui permettent la construction sur l'existant sans risques juridiques. De fait, l'ouverture est aussi celle des algorithmes et des logiciels qui permettent de présenter les données. Ainsi on cite le cas de la base de demandes de valeurs foncières avec son application de visualisation dont le code est sur [code.gouv.fr](https://code.gouv.fr/public/).
+Cela implique un passage par les licences ouvertes qui permettent la construction sur l'existant sans risques juridiques. De fait, l'ouverture est aussi celle des algorithmes et des logiciels qui permettent de présenter les données. Ainsi on cite le cas de la base de demandes de valeurs foncières avec son application de visualisation dont le code est sur [code.gouv.fr](https://code.gouv.fr/sources/).
 
 Pour les plus motivés, l'essai finit par les outils disponibles pour le traitement des données avec un aperçu de Python sous Jupyter.
 

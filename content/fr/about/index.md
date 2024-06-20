@@ -35,7 +35,7 @@ Les produits peuvent être des sites web, des contenus et ressources, des servic
 ### Sites web
 
 - [code.gouv.fr](/fr/): le site de présentation du plan d'action logiciels libres et communs numériques.
-- [code.gouv.fr/public](https://code.gouv.fr/public): le site pour trouver des codes sources publiés par les administrations.
+- [code.gouv.fr/sources](https://code.gouv.fr/sources): le site pour trouver des codes sources publiés par les administrations.
 - [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
 
 <br/>

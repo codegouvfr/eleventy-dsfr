@@ -75,7 +75,7 @@ La [Haute autorité pour la transparence de la vie publique](https://www.hatvp.f
 
 Cette solution, écrite en Javascript et PHP, initialement développée par la société [Artifica](https://www.artifica.fr), met l'accent sur l'accessibilité.  Elle est librement adaptable à d'autres outils.
 
-`>>` Vous pouvez suivre l'ajout de nouveaux codes sources en suivant [le flux RSS](https://code.gouv.fr/data/latest.xml) disponible depuis la plateforme [code.etalab.gouv.fr](https://code.gouv.fr/public).
+`>>` Vous pouvez suivre l'ajout de nouveaux codes sources en suivant [le flux RSS](https://code.gouv.fr/data/latest.xml) disponible depuis la plateforme [code.etalab.gouv.fr](https://code.gouv.fr/sources).
 
 ## Des nouvelles de l'Europe
 

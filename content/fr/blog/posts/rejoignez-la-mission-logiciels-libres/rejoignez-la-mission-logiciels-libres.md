@@ -14,7 +14,7 @@ Vous souhaitez encourager les administrations à utiliser plus de logiciels libr
 
 👉 Consultez [l'annonce du poste de chef·fe de produit « logiciels libres »](https://choisirleservicepublic.gouv.fr/offre-emploi/2023-1367481/) !
 
-Vous souhaitez accompagner les administrations dans l'ouverture de leurs codes sources ? les aider à créer des occasions de mutualiser leurs efforts de développement ? concevoir et mettre en oeuvre les prochaines version de notre [catalogue de codes sources publics](https://code.gouv.fr/public/) ?
+Vous souhaitez accompagner les administrations dans l'ouverture de leurs codes sources ? les aider à créer des occasions de mutualiser leurs efforts de développement ? concevoir et mettre en oeuvre les prochaines version de notre [catalogue de codes sources publics](https://code.gouv.fr/sources/) ?
 
 👉 Consultez [l'annonce du poste de chef·fe de produit « codes sources »](https://choisirleservicepublic.gouv.fr/offre-emploi/2023-1365406/) !
 

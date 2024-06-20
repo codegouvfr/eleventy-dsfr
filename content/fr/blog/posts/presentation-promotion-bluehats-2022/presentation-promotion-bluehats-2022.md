@@ -12,7 +12,7 @@ tags: bluehats
 
 Comment rendre l'administration publique plus attractive auprès des futurs talents de la tech ?
 
-En montrant les efforts qu'elle fait pour contribuer au mouvement du logiciel libre.  Ces efforts vont de l'utilisation renforcée de solutions libres (cf. le [socle interministériel de logiciels libres](https://code.gouv.fr/sill)) à la publication plus systématique des codes sources (cf. [code.gouv.fr](https://code.gouv.fr/public/)) en passant par la contribution aux projets existants.
+En montrant les efforts qu'elle fait pour contribuer au mouvement du logiciel libre.  Ces efforts vont de l'utilisation renforcée de solutions libres (cf. le [socle interministériel de logiciels libres](https://code.gouv.fr/sill)) à la publication plus systématique des codes sources (cf. [code.gouv.fr](https://code.gouv.fr/sources/)) en passant par la contribution aux projets existants.
 
 C'est la vocation du programme **BlueHats Semester of Code** : accompagner des étudiantes et étudiants pour les aider à contribuer à des projets libres, projets qui se sont [proposés](/bluehats/bsoc-contributions-2022/) de les mentorer pendant six mois.
 

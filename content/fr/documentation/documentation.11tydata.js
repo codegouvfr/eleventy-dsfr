@@ -49,8 +49,8 @@ module.exports = {
         },
         {
             url: false,
-            externalUrl: "https://code.gouv.fr/public/#/about",
-            title: "Présentation de code.gouv.fr/public",
+            externalUrl: "https://code.gouv.fr/sources/#/about",
+            title: "Présentation de code.gouv.fr/sources",
             description: ``
         }
     ]

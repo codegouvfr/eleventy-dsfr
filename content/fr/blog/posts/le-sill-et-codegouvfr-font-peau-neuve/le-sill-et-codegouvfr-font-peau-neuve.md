@@ -40,23 +40,23 @@ La liste des logiciels que vous pouvez tester va évoluer au fil des semaines à
 
 ## code.gouv.fr expose de nouvelles données
 
-[code.gouv.fr](https://code.gouv.fr/public/) permet de parcourir tous les codes sources publiés par des organismes publics.  Les administrations y trouveront des applications et des bibliothèques développées par d'autres administrations ; les citoyens pourront se plonger dans les productions des administrations qui ouvrent leurs codes par souci de transparence ou de mutualisation.
+[code.gouv.fr](https://code.gouv.fr/sources/) permet de parcourir tous les codes sources publiés par des organismes publics.  Les administrations y trouveront des applications et des bibliothèques développées par d'autres administrations ; les citoyens pourront se plonger dans les productions des administrations qui ouvrent leurs codes par souci de transparence ou de mutualisation.
 
 {% imageContent "./codegouvfr.png", "Capture d'écran de la page d'accueil de code.gouv.fr" %}
 
 ### Les évolutions principales de code.gouv.fr
 
-- Nous référençons désormais les [bibliothèques](https://code.gouv.fr/public/#/libs) (ou *libraries* en anglais) publiées à partir des comptes d'organisation ou groupes référencés.
+- Nous référençons désormais les [bibliothèques](https://code.gouv.fr/sources/#/libs) (ou *libraries* en anglais) publiées à partir des comptes d'organisation ou groupes référencés.
 
 - Nous avons ajouté de **nouveaux filtres de recherche** : les organisations par ministère ou autre institution de rattachement ; les dépôts selon qu'ils ont un fichier `CONTRIBUTING.md` à la racine ; les dépôts à partir desquels sont publiés des bibliothèques ; les dépendances selon leur type.
 
 - Nous référençons désormais les codes sources hébergés sur la forge [SourceHut](https://sourcehut.org/), notamment ceux du pôles logiciels libres (par ici pour les [explications](https://code.gouv.fr/fr/blog/pourquoi-le-pole-logiciels-libres-detalab-utilise-sourcehut/)).
 
-- Nous avons amélioré la détection des [dépendances](https://code.gouv.fr/public/#/deps) et nous avons ajouté celles de l'écosystème [Rust](https://code.gouv.fr/public/#/repos?language=Rust) à partir des fichiers `Cargo.toml`.
+- Nous avons amélioré la détection des [dépendances](https://code.gouv.fr/sources/#/deps) et nous avons ajouté celles de l'écosystème [Rust](https://code.gouv.fr/sources/#/repos?language=Rust) à partir des fichiers `Cargo.toml`.
 
-- code.gouv.fr permet d'accéder rapidement au [socle interministériel de logiciels libres](https://code.gouv.fr/public/#/sill) et aux [services](https://code.gouv.fr/public/#/services) qui instancient des logiciels libres.
+- code.gouv.fr permet d'accéder rapidement au [socle interministériel de logiciels libres](https://code.gouv.fr/sources/#/sill) et aux [services](https://code.gouv.fr/sources/#/services) qui instancient des logiciels libres.
 
-- Vous pouvez vous abonner à de nouveaux [flux RSS](https://code.gouv.fr/public/#/feeds) : les dernières organisations ajoutées, les dernières entrées du SILL, les dernières dépendances et bibliothèques selon leurs dates de mises à jour, ainsi que les dernières versions "taggée" publiées depuis tous les dépôts.
+- Vous pouvez vous abonner à de nouveaux [flux RSS](https://code.gouv.fr/sources/#/feeds) : les dernières organisations ajoutées, les dernières entrées du SILL, les dernières dépendances et bibliothèques selon leurs dates de mises à jour, ainsi que les dernières versions "taggée" publiées depuis tous les dépôts.
 
 - Nous sommes passés à la dernière version 1.5.1 du [système de design de l'État](https://www.systeme-de-design.gouv.fr/) et le site est désormais totalement conforme au référentiel général d'amélioration de l'accessibilité 4.1.
 

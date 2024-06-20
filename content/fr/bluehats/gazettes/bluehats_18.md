@@ -34,11 +34,11 @@ Voici quelques articles qui ont repris cette information :
 
 ## Autour de code.gouv.fr
 
-Trois nouveautés pour [code.gouv.fr](https://code.gouv.fr/public/) :
+Trois nouveautés pour [code.gouv.fr](https://code.gouv.fr/sources/) :
 
-- La page consacrée aux [dépôts de code source](https://code.gouv.fr/public/#/repos) contient désormais un filtre pour ne voir que les dépôts qui possèdent un fichier [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) à leur racine.
-- La page consacrée au [socle interministériel de logiciels libres](https://code.gouv.fr/public/#/sill) permet, lorsqu'on clique sur le lien "Prestataires", d'afficher la liste de ceux identifiés par l'[ADULLACT et](https://adullact.org) et par le [CNLL](https://cnll.fr/), deux acteurs de l'écosystème membres du [conseil logiciels libres](/fr/mission/conseil-logiciels-libres/) animé par le pôle logiciels libres.
-- `code.gouv.fr` propose enfin un nouvel onglet [Versions taguées](https://code.gouv.fr/public/#/tags) pour suivre les mises à jour de certains dépôts : ceux qui ont un fichier `publiccode.yml`, un `CONTRIBUTING.md` ou ceux à partir desquels sont publiées des [bibliothèques](https://code.gouv.fr/public/#/libs).
+- La page consacrée aux [dépôts de code source](https://code.gouv.fr/sources/#/repos) contient désormais un filtre pour ne voir que les dépôts qui possèdent un fichier [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) à leur racine.
+- La page consacrée au [socle interministériel de logiciels libres](https://code.gouv.fr/sources/#/sill) permet, lorsqu'on clique sur le lien "Prestataires", d'afficher la liste de ceux identifiés par l'[ADULLACT et](https://adullact.org) et par le [CNLL](https://cnll.fr/), deux acteurs de l'écosystème membres du [conseil logiciels libres](/fr/mission/conseil-logiciels-libres/) animé par le pôle logiciels libres.
+- `code.gouv.fr` propose enfin un nouvel onglet [Versions taguées](https://code.gouv.fr/sources/#/tags) pour suivre les mises à jour de certains dépôts : ceux qui ont un fichier `publiccode.yml`, un `CONTRIBUTING.md` ou ceux à partir desquels sont publiées des [bibliothèques](https://code.gouv.fr/sources/#/libs).
 
 Vos retours sur `code.gouv.fr` sont toujours les bienvenus par mail [privé](contact@code.gouv.fr) ou [public](https://lists.sr.ht/~codegouvfr/dev).
 

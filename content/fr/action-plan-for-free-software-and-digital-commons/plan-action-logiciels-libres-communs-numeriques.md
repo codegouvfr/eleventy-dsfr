@@ -67,7 +67,7 @@ l’avancée de sa mise en œuvre seront publiés sur
    sources. Aider les administrations à mobiliser leurs écosystèmes
    autour des codes sources publiés.
 
-2. Développer la plateforme [code.gouv.fr](https://code.gouv.fr/public) :
+2. Développer la plateforme [code.gouv.fr](https://code.gouv.fr/sources) :
     - Référencer les codes et les bibliothèques publiés par des
       administrations.
     - Valoriser les codes sources ayant un fort potentiel de

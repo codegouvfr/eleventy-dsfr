@@ -10,7 +10,7 @@ tags: awesome
 
 ## Pourquoi ?
 
-En octobre 2019, Etalab publiait la première [liste des codes sources publics](https://code.gouv.fr/public). L'ambition était de promouvoir la démarche d'ouverture des codes dans laquelle étaient déjà engagées plusieurs administrations. Depuis, la mission logiciels libres a été créée (2021) et des organismes publics de plus en plus nombreux publient des codes sources.
+En octobre 2019, Etalab publiait la première [liste des codes sources publics](https://code.gouv.fr/sources). L'ambition était de promouvoir la démarche d'ouverture des codes dans laquelle étaient déjà engagées plusieurs administrations. Depuis, la mission logiciels libres a été créée (2021) et des organismes publics de plus en plus nombreux publient des codes sources.
 
 Quels sont, parmi ces projets, ceux qui sont **activement maintenus et financés sur fonds publics**, qui cherchent à la fois **des utilisateurs et des contributeurs** et que toutes les administrations gagneraient à connaître ? Quels projets sont susceptibles de devenirs des communs logiciels, portés par plusieurs organismes publics ?
 
@@ -22,7 +22,7 @@ Cette liste est *ouverte* : la suite de cette entrée de blog vous donne toutes
 
 ### De 18000 dépôts à 18 projets
 
-Nous avons sélectionné des projets parmi les 18000+ dépôts référencés sur [code.gouv.fr/public](https://code.gouv.fr/public) en nous concentrant, pour cette première itération, sur les logiciels développés par le Ministère de la Transformation et de la Fonction Publique et des organisations connexes.
+Nous avons sélectionné des projets parmi les 18000+ dépôts référencés sur [code.gouv.fr/sources](https://code.gouv.fr/sources) en nous concentrant, pour cette première itération, sur les logiciels développés par le Ministère de la Transformation et de la Fonction Publique et des organisations connexes.
 
 Nous avons ensuite défini des critères de sélection, critères que nous avons affinés en mobilisant les expertises de la mission et après avoir passé en revue différents système de "scoring".
 

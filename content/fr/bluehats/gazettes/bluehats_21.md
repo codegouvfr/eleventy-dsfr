@@ -5,7 +5,7 @@ date: 2023-03-03
 
 ## Des nouvelles de la mission logiciels libres
 
-La mission logiciels libres rassemble désormais ses publications sur le site [code.gouv.fr](/fr/).  Vous y retrouverez la page principale, le [socle interministériel de logiciels libres](https://code.gouv.fr/sill), la page consacrée aux [dépôts de code source des administrations](https://code.gouv.fr/public/) et celle vous permettant de gérer [vos abonnements à nos infolettres](https://code.gouv.fr/newsletters/).
+La mission logiciels libres rassemble désormais ses publications sur le site [code.gouv.fr](/fr/).  Vous y retrouverez la page principale, le [socle interministériel de logiciels libres](https://code.gouv.fr/sill), la page consacrée aux [dépôts de code source des administrations](https://code.gouv.fr/sources/) et celle vous permettant de gérer [vos abonnements à nos infolettres](https://code.gouv.fr/newsletters/).
 
 Nous en avons aussi profité pour créer deux espaces : l'un consacré aux projets libres que la mission maintient, seule ou avec d'autres administrations (voir [code.gouv.fr/devs/](/fr/devs/) et l'autre consacré à toute notre documentation (voir [code.gouv.fr/doc/](/fr/doc/).
 

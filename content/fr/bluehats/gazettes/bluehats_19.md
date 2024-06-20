@@ -58,7 +58,7 @@ Une journée très enrichissante pour tout le monde !
 
 Vous travaillez dans l'enseignement supérieur et avez besoin de points de repère sur les codes sources et les logiciels ?  Ce [nouveau guide « Codes et Logiciels »](https://www.ouvrirlascience.fr/science-ouverte-codes-et-logiciels/) publié dans la collection Passeport s'adresse à vous !
 
-Rappelons qu'environ les deux tiers des codes sources référencés sur la plateforme [code.gouv.fr](https://code.gouv.fr/public/) sont issus de l'enseignement supérieur et de la recherche.
+Rappelons qu'environ les deux tiers des codes sources référencés sur la plateforme [code.gouv.fr](https://code.gouv.fr/sources) sont issus de l'enseignement supérieur et de la recherche.
 
 ## Focus invité : « logiciels libres et recherche reproductible »
 

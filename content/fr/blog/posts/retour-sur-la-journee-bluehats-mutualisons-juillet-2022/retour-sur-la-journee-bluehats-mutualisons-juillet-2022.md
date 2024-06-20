@@ -9,7 +9,7 @@ image:
 
 `>>` **Nous vous invitons à télécharger et explorer le [compte-rendu de la journée (PDF de 7.5Mo)](/docs/compte-rendu-journee-bluehats-mutualisons-1er-juillet-2022-version-1.0.pdf) qui fourmille de retours d'expérience, de réflexions et de perspectives.**
 
-Le site [code.gouv.fr](https://code.gouv.fr/public/) recense à ce jour plus de 12000 dépôts de codes sources publiés par des organismes publics.  7000 viennent de l'enseignement supérieur et de la recherche.  Restent 5000 dépôts publiés par des ministères, des opérateurs de l'état, des collectivités : pourquoi des administrations publient-elles sous licence libre ces programmes qu'elles développent ou font développer ?
+Le site [code.gouv.fr](https://code.gouv.fr/sources/) recense à ce jour plus de 12000 dépôts de codes sources publiés par des organismes publics.  7000 viennent de l'enseignement supérieur et de la recherche.  Restent 5000 dépôts publiés par des ministères, des opérateurs de l'état, des collectivités : pourquoi des administrations publient-elles sous licence libre ces programmes qu'elles développent ou font développer ?
 
 C'est parfois l'explication des algorithmes publics qui l'exige (voir [ce guide](https://guides.etalab.gouv.fr/algorithmes/)) ; cela peut aussi être [un choix éthique délibéré](https://medialab.sciencespo.fr/a-propos/#deontology) ou l'une des dimensions d'une [politique de développement plus large](https://github.com/abes-esr/abes-politique-developpement#les-objectifs-vis%C3%A9s).
 

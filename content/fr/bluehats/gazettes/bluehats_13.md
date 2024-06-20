@@ -59,7 +59,7 @@ Il est disponible au téléchargement dans les magasins d'extensions de [Firefox
 ## Les contributions du mois
 
 -   Des chercheurs ont contribué à une [analyse de risque](https://gitlab.inria.fr/stopcovid19/stopcovid-android/-/issues/79) sur les statistiques TousAntiCovid.  Voir [l'article de 01net.com](https://www.01net.com/actualites/l-application-tousanticovid-peut-faire-fuiter-des-donnees-personnelles-2047120.html) pour des éléments de contexte.
--   [Nicolas Carpi](https://science.curie.fr/members/nicolas-carpi/) a ajouté [des tests](https://github.com/etalab/code.etalab.gouv.fr/pull/89) pour le code qui est derrière le site [code.etalab.gouv.fr](https://code.gouv.fr/public)
+-   [Nicolas Carpi](https://science.curie.fr/members/nicolas-carpi/) a ajouté [des tests](https://github.com/etalab/code.etalab.gouv.fr/pull/89) pour le code qui est derrière le site [code.etalab.gouv.fr](https://code.gouv.fr/sources)
 -   [Julien Palard](https://mdk.fr/) a contribué au dépôt listant [les noms de domaines des organismes publics](https://github.com/etalab/noms-de-domaine-organismes-secteur-public).
 
 Merci à ces personnes qui améliorent les dépôts du secteur public !

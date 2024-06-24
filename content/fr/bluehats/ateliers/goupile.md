@@ -2,6 +2,9 @@
 title: Présentation de Goupile, un outil de conception d’eCRF libre
 date: 2024-06-14
 description: Intervention de Niels Martignene, Centre national de ressources et de résilience, médecin Santé Publique, et Youenn Alexandre, CH Lorient, coordination de projets dans les domaines de l’innovation, de la recherche et des données
+video:
+  src: https://tube.numerique.gouv.fr/videos/embed/e63a8c7b-84e1-49b2-bc45-91ce61e9cf7e
+  title: "Atelier BlueHats de présentation de Goupile"
 ---
 
 - Date : 14 juin 2024

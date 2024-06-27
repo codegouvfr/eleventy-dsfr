@@ -38,7 +38,7 @@ critiques pour les infrastructures logicielles, et maintenus par des
 Karl Heinz Marbaise, président du comité de gestion du projet Maven, a
 déclaré en apprenant qu'il avait gagné :
 
-> C'est un honneur d'accepter le prix en tant que représentant actuel de l'équipe Apache Maven. C'est un grand pas en avant pour sensibiliser le public à l'open source.
+> « C'est un honneur d'accepter le prix en tant que représentant actuel de l'équipe Apache Maven. C'est un grand pas en avant pour sensibiliser le public à l'open source. »
 
 # À propos de Maven
 
@@ -69,12 +69,12 @@ ouvertes). Maven a été proposé par Tamás Cservenák, ancien développeur
 principal de Nexus, un gestionnaire de référentiel pour Maven. Il a
 motivé son choix en écrivant :
 
-> Il s'agit de l'outil de construction Java essentiel (et le plus populaire), bien qu'il manque cruellement de personnel, l'estimation la plus optimiste indique qu'il y a 10 personnes qui maintiennent activement l'ensemble de l'écosystème Maven (car il ne s'agit pas d'un seul projet, mais de nombreux sous-projets et de tous les modules d'extension, etc.)
+> « Il s'agit de l'outil de construction Java essentiel (et le plus populaire), bien qu'il manque cruellement de personnel, l'estimation la plus optimiste indique qu'il y a 10 personnes qui maintiennent activement l'ensemble de l'écosystème Maven (car il ne s'agit pas d'un seul projet, mais de nombreux sous-projets et de tous les modules d'extension, etc.) »
 
 Frédéric Séraphine, du Pôle Usine Logicielle de l'agence de services
 et de paiement , explique :
 
-> Apache Maven est un composant Open Source crucial au cœur de nos applications java. Il nous permet de construire nos applications dans notre usine logicielle, en assurant une gestion facilitée des dépendances logicielles internes et externes à l'établissement. Il outille près de 300 projets pour plus de 2 millions de lignes de code.
+> « Apache Maven est un composant Open Source crucial au cœur de nos applications java. Il nous permet de construire nos applications dans notre usine logicielle, en assurant une gestion facilitée des dépendances logicielles internes et externes à l'établissement. Il outille près de 300 projets pour plus de 2 millions de lignes de code. »
  
 # Prix BlueHats pour les mainteneurs de logiciels critiques
 

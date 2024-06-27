@@ -1,5 +1,8 @@
 const {DateTime} = require("luxon");
+const {nanoid} = require ("nanoid");
+
 const yaml = require("js-yaml");
+
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -199,6 +202,8 @@ module.exports = function (eleventyConfig) {
         trimBlocks: true,
         lstripBlocks: true,
     });
+
+    eleventyConfig.addNunjucksGlobal("nanoid", () => nanoid());
 
     // Features to make your build faster (when you need them)
 

@@ -25,7 +25,7 @@ Le site est déployé automatiquement en préproduction sur [preprod.codegouv.fr
 
 Pour discuter d'évolutions éditoriales ou pour des retours devant rester confidentiels, écrivez à [contact@code.gouv.fr](mailto:contact@code.gouv.fr).
 
-Pour la rédaction des messages de commit:
+Pour la rédaction des messages de commit :
 
 - utiliser l'anglais systématiquement ;
 - dans la 1ère ligne, indiquer le fichier ou répertoire modifié suivi d'un double-point et d'une indication sur la modification. Majuscule pour l'indication, pas de point à la fin.  Par exemple :

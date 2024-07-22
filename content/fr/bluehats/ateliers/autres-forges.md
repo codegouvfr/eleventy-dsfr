@@ -1,7 +1,7 @@
 ---
-title: Des quelques forges trop peu connues
+title: "De quelques forges moins connues : Forgejo, Fordj et SourceHut"
 date: 2024-09-13
-description: Forgejo, Fordj et SourceHut : connaissez-vous ces forges ?
+description: "Forgejo, Fordj et SourceHut : connaissez-vous ces forges ?"
 ---
 - Date : 13 septembre 2024
 - Heure : De 11h à 12h30

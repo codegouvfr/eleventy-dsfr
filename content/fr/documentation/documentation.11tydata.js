@@ -6,18 +6,18 @@ module.exports = {
         {
             url: false,
             externalUrl: "https://code.gouv.fr/documentation/",
-            title: "Documentation généraliste en construction",
+            title: "Documentation généraliste",
             description: `Documentation sur les logiciels libres dans l'administration publique : utiliser, publier, contribuer.`
-        }, {
-            url: false,
-            externalUrl: "https://code.gouv.fr/documentation/#/publier",
-            title: "Guide pratique sur l'ouverture des codes sources",
-            description: `Ce guide vous aide à définir vos objectifs en matière d'ouverture des codes sources.`
         }, {
             url: false,
             externalUrl: "https://code.gouv.fr/guides/juridique/",
             title: "Guide juridique interactif : quels codes sources ouvrir ",
             description: `En répondant à quelques questions, faites un point sur vos obligations.`
+        }, {
+            url: false,
+            externalUrl: "https://code.gouv.fr/guides/awesome/",
+            title: "Guide Awesome CodeGouvFr : votre projet est-il remarquable ?",
+            description: `Êtes-vous prêts à intégrer https://code.gouv.fr/fr/awesome/ ?`
         }, {
             url: false,
             externalUrl: "https://www.data.gouv.fr/fr/pages/legal/licences/",

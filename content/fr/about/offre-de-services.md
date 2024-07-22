@@ -23,7 +23,8 @@ Les questions courantes sont :
 La documentation pour vous aider :
 
 - [code.gouv.fr/guides/juridique](https://code.gouv.fr/guides/juridique)
-- [code.gouv.fr/documentation/#/publier](https://code.gouv.fr/documentation/#/publier)
+- [code.gouv.fr/guides/awesome](https://code.gouv.fr/guides/awesome)
+- [code.gouv.fr/documentation](https://code.gouv.fr/documentation)
 
 ## Accompagnement à l'utilisation des logiciels libres
 

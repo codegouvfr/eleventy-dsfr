@@ -8,6 +8,8 @@ image:
 tags: awesome
 ---
 
+*Pour vous aider à vous approprier les critères requis et optionnels, nous publions un [guide interactf Awesome CodeGouvFr](https://code.gouv.fr/guides/awesome/).*
+
 ## Pourquoi ?
 
 En octobre 2019, Etalab publiait la première [liste des codes sources publics](https://code.gouv.fr/sources). L'ambition était de promouvoir la démarche d'ouverture des codes dans laquelle étaient déjà engagées plusieurs administrations. Depuis, la mission logiciels libres a été créée (2021) et des organismes publics de plus en plus nombreux publient des codes sources.
@@ -29,10 +31,11 @@ Nous avons ensuite défini des critères de sélection, critères que nous avons
 Nous avons pour finir divisé ces critères en deux catégories : des critères requis pour figurer dans la liste et des critères optionnels, utiles au calcul d'un score "awesome-codegouvfr".
 
 Les critères requis doivent permettre de valider les points suivants :
-- le projet est *activement maintenu* ;
-- il est *actuellement financé* par un plusieurs organismes publics ;
-- il est *utilisé par plusieurs administrations* ;
-- il est *fortement réutilisable par toute administration*.
+
+- le logiciel est publié *sous licence libre* :
+- il est *activement maintenu* ;
+- il est *actuellement financé* par un ou plusieurs organismes publics ;
+- il est *actuellement utilisé en production par plusieurs administrations* ;
 
 <br/>
 

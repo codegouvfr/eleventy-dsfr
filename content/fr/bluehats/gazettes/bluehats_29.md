@@ -122,6 +122,8 @@ Le [Muséum national d'Histoire naturelle](https://www.mnhn.fr/fr) cherche son [
 - [Retour sur les premières rencontres nationales GeoNature](https://www.ecrins-parcnational.fr/actualite/retour-premieres-rencontres-nationales-geonature), ecrins-parcnational.fr, juillet 2024
 - [L’open source se fait une place parmi les outils de visioconférence utilisés par les établissements](https://www.campusmatin.com/numerique/equipements-systemes-informations/l-open-source-se-fait-une-place-parmi-les-outils-de-visioconference-utilises-par-les-etablissements.html), campusmatin.com, juillet 2024
 
+<br>
+
 ### En anglais
 
 - [German state ditches Microsoft for Linux and LibreOffice](https://www.zdnet.com/article/german-state-ditches-microsoft-for-linux-and-libreoffice/), zdnet.com, avril 2024
@@ -136,6 +138,8 @@ Le [Muséum national d'Histoire naturelle](https://www.mnhn.fr/fr) cherche son [
 - [FOSS funding vanishes from EU's 2025 Horizon program plans](https://www.theregister.com/2024/07/17/foss_funding_vanishes_from_eus/), theregister.com, juillet 2024
 - [Switzerland now requires all government software to be open source](https://www.zdnet.com/article/switzerland-now-requires-all-government-software-to-be-open-source/), zdnet.com, juillet 2024
 - [Rewatch SEMIC 2024: All Recordings Now Available on YouTube](https://joinup.ec.europa.eu/interoperable-europe/news/rewatch-semic-2024-all-recordings-now-available-youtube), joinup.ec.europa.eu, juillet 2024
+
+<br>
 
 ### En allemand
 

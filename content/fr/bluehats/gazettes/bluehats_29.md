@@ -45,7 +45,7 @@ Toutes les idées innovantes sont bienvenues.
 
 ## 📡 Rejoignez le collège Codes sources et logiciels du Comité pour la science ouverte
 
-Le Comité pour la science ouverte lance un appel à manifestation d’intérêt pour susciter la candidature de nouveaux membres pour son [collège Codes sources et logiciels](https://www.ouvrirlascience.fr/college-codes-sources-et-logiciels/), afin de renforcer les actions qu’il mène.
+Le Comité pour la science ouverte lance un appel à manifestation d’intérêt pour susciter la candidature de nouveaux membres issus de l'enseignement et de la recherche pour son [collège Codes sources et logiciels](https://www.ouvrirlascience.fr/college-codes-sources-et-logiciels/), afin de renforcer les actions qu’il mène.
 
 En rejoignant le collège, vous contribuerez activement à la définition et à la mise en œuvre des politiques nationales relatives aux logiciels dans le cadre de la science ouverte et piloterez des actions structurantes qui bénéficient à l’ensemble de la communauté de l’enseignement supérieur et de la recherche.
 

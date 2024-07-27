@@ -37,9 +37,7 @@ Il est proposé de payer 96% des salaires de certains des ingénieurs. La princi
 - Biscuit : fédération d'authentification
 - Repman : passage à l'échelle de MariaDB
 
-Cela nous permet de valoriser nos technologies avec de nouveaux cas d'usage et vous permet d'être aidé pour adopter des technologies qui donnent un avantage compétitif (coût,  résilience,  vie privée etc.)
-
-Toutes les idées innovantes sont bienvenues.
+Cela permet de valoriser les technologies Hyper Open X avec de nouveaux cas d'usage et pour vous permet d'être aidé pour adopter des technologies qui donnent un avantage compétitif (coût, résilience, vie privée, etc.)
 
 `>>` Plus d'infos sur [hyperopenx.fr](https://hyperopenx.fr)
 

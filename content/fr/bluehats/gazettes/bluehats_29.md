@@ -63,18 +63,15 @@ Une nouvelle étude de veille sur la bureautique en ligne sollicitée dans le ca
 
 ## 🌟 Le concours des #acteursdulibre 2024 est ouvert !
 
-En collaboration avec Open Source Experience, le #CNLL récompense les entreprises, entrepreneurs, projets, associations et administrations qui contribuent au développement de l’#OpenSource. 
+En collaboration avec le salon [Open Source Experience](https://www.opensource-experience.com/), le CNLL récompense les entreprises, entrepreneurs, projets, associations et administrations qui contribuent au développement de l’Open Source.  Éditeurs, utilisateurs, prestataires ESN/ENL ou passionnés de logiciels libres, ne manquez pas cette occasion unique !
 
-Éditeurs, utilisateurs, prestataires ESN/ENL ou passionnés de #logiciellibre, ne manquez pas cette opportunité unique ! 
+`>>` [Candidatez](https://lnkd.in/egmU3NfX) avant le 30 septembre et gagnez une chance d'être mis en lumière lors de l'événement #OSXP2024 à Paris les 4 et 5 décembre 2024.
 
-`>>` Candidatez avant le 30 septembre : https://lnkd.in/egmU3NfX et gagnez une chance d'être mis en lumière lors de l'#OSXP2024 à Paris (4-5 décembre).
+## 📅 13-14 November : OpenForum Academy
 
-### 13-14 November : OpenForum Academy
+Le Symposium OFA réunira un ensemble interdisciplinaire de chercheurs, de praticiens et de décideurs du monde entier à Harvard Business School, Boston, afin d'explorer la puissance transformatrice des logiciels et du matériel open source.
 
-Le Symposium OFA réunira un ensemble interdisciplinaire de chercheurs, de praticiens et de décideurs du monde entier à Harvard Business School, Boston, afin d'explorer la puissance transformatrice des logiciels et du matériel Open Source.
-
-🌐 Plus d’infos sur https://symposium.openforumeurope.org/
-
+`>>` Plus d’infos sur [symposium.openforumeurope.org](https://symposium.openforumeurope.org)
 
 ## 🇪🇺 L'Allemagne et la Suisse progressent vers le logiciel libre
 

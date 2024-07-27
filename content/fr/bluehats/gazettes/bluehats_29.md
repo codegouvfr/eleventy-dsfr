@@ -5,41 +5,43 @@ date: 2024-07-27
 
 ## 🚀 Les actualités de la mission logiciels libres
 
-- Nous étions récemment à New York pour l’évènement [OSPOs for Good](https://www.un.org/techenvoy/content/ospos-good-2024) : nous vous raconterons bientôt 🧢
-- Un nouveau logiciel libre est entré dans le catalogue [Awesome](https://code.gouv.fr/fr/awesome/) :  [Recomandations Collaboratives (Recoco)](https://recommandations-collaboratives.beta.gouv.fr) 
-- Nous référençons un nouveau commun numérique sur [code.gouv.fr](https://code.gouv.fr/fr/communs/), le [Référentiel National des Bâtiments](https://rnb.beta.gouv.fr/)
-- Nous publions un nouveau [guide interactif pour déterminer le *awesome score* de votre projet libre](https://code.gouv.fr/guides/awesome/)
-- Le prochain atelier #BlueHats du 13 septembre vous présentera des forges peu connues : [Forgejo, Fordj et SourceHut](https://code.gouv.fr/fr/bluehats/autres-forges/)
+- En juillet, la mission était à New York pour l’évènement [OSPOs for Good](https://www.un.org/techenvoy/content/ospos-good-2024) : nous vous raconterons bientôt 🧢
+- Un nouveau logiciel libre est entré dans le catalogue [Awesome](https://code.gouv.fr/fr/awesome/) :  [Recomandations Collaboratives (Recoco)](https://github.com/betagouv/recommandations-collaboratives/) 
+- [code.gouv.fr](https://code.gouv.fr/fr/communs/) référence un nouveau commun numérique : le [référentiel national des bâtiments](https://rnb.beta.gouv.fr)
+- Voici un nouveau [guide interactif pour déterminer le *awesome score* de votre projet libre](https://code.gouv.fr/guides/awesome/)
+- Le prochain atelier #BlueHats du 13 septembre présentera des forges peu connues : [Forgejo, Fordj et SourceHut](https://code.gouv.fr/fr/bluehats/autres-forges/)
+
+<br>
 
 ## 📻 L'émission « Libre à vous ! » et les collectivités
 
-L'émission Libre à vous ! de l'April consacrée aux libertés informatiques propose régulièrement des retours d'expérience de collectivités qui parlent de leurs actions et de leur stratégie en faveur du logiciel libre. Il est désormais possible de retrouver tous ces retours d'expériences sur la page https://www.libreavous.org/interview-de-collectivites
+L'émission Libre à vous ! de l'April consacrée aux libertés informatiques propose régulièrement des retours d'expérience de collectivités qui parlent de leurs actions et de leur stratégie en faveur du logiciel libre.
 
 La prochaine collectivité invitée dans l'émission sera Boé, commune de 5700 habitantes et habitants du Lot-et-Garonne, récompensée d'un label Territoire Numérique Libre niveau 5 en 2023. Nous recevrons Boé mardi 1er octobre 2024.
                  
 Si vous avez des suggestions de sujet à traiter ou d'intervention dans Libre à vous ! vous pouvez contacter l'équipe à l'adresse [bonjour@libreavous.org](mailto:bonjour@libreavous.org)
 
-`>>` https://www.libreavous.org/interview-de-collectivites
+`>>` [www.libreavous.org/interview-de-collectivites](https://www.libreavous.org/interview-de-collectivites)
 
-## 📢 Recevez 100K€ pour innover avec du edge cloud libre
+## 📢 100K€ pour innover avec du edge cloud libre
 
 Dans le cadre du projet Hyper Open X, des subventions de 100K€ sont proposées aux PME et start-up qui souhaitent créer de nouveaux services de cloud ou de edge fondés sur des technologies libres.
 
 Il est proposé de payer 96% des salaires de certains des ingénieurs. La principale condition est d'utiliser un des logiciels libres du projet HyperOpen X.
 
-🔹 SlapOS : edge cloud résilient / gestion automatique de SaaS
-🔹 OpenSVC : cloud haute disponibilité
-🔹 Wendelin : big data
-🔹 Sozu : reverse proxy
-🔹 Rapid-CDN : CDN
-🔹 Biscuit : fédération d'authentification
-🔹 Repman : passage à l'échelle de MariaDB
+- SlapOS : edge cloud résilient / gestion automatique de SaaS
+- OpenSVC : cloud haute disponibilité
+- Wendelin : big data
+- Sozu : reverse proxy
+- Rapid-CDN : CDN
+- Biscuit : fédération d'authentification
+- Repman : passage à l'échelle de MariaDB
 
 Cela nous permet de valoriser nos technologies avec de nouveaux cas d'usage et vous permet d'être aidé pour adopter des technologies qui donnent un avantage compétitif (coût,  résilience,  vie privée etc.)
 
 Toutes les idées innovantes sont bienvenues.
 
-`>>` Plus d'infos sur https://hyperopenx.fr
+`>>` Plus d'infos sur [hyperopenx.fr](https://hyperopenx.fr)
 
 ## 📡 Rejoignez le collège Codes sources et logiciels du Comité pour la science ouverte
 
@@ -47,7 +49,7 @@ Le Comité pour la science ouverte lance un appel à manifestation d’intérêt
 
 En rejoignant le collège, vous contribuerez activement à la définition et à la mise en œuvre des politiques nationales relatives aux logiciels dans le cadre de la science ouverte et piloterez des actions structurantes qui bénéficient à l’ensemble de la communauté de l’enseignement supérieur et de la recherche.
 
-`>>` Plus d'infos sur https://www.ouvrirlascience.fr/appel-a-manifestation-dinteret-rejoignez-le-college-codes-sources-et-logiciels-du-comite-pour-la-science-ouverte-2/
+`>>` Lire [l'appel à manifestation d'intérêt](https://www.ouvrirlascience.fr/appel-a-manifestation-dinteret-rejoignez-le-college-codes-sources-et-logiciels-du-comite-pour-la-science-ouverte-2/)
 
 ## 🗳️ Votez pour des fonctionnalités GitLab CE
 
@@ -55,9 +57,11 @@ La [journée BlueHats dédiée à GitLab CE](https://code.gouv.fr/fr/bluehats/co
 
 `>>` Voir le [dépôt du point de contact national des forges](https://gitlab.in2p3.fr/coso-college-codes-sources-et-logiciels/point-de-contact-national-forges) pour l'enseignement supérieur
 
-### Nouvelle étude de veille
+## ✏️ Nouvelle étude de veille sur la bureautique en ligne
 
-Une nouvelle étude de veille sur la bureautique en ligne a été publiée sur le dépôt dédié de l’ADULLACT : https://gitlab.adullact.net/marche-sll/etudes-de-veille#bureautique-en-ligne
+Une nouvelle étude de veille sur la bureautique en ligne sollicitée dans le cadre des [marchés interministériels de support et d'expertise logiciels libres](https://code.gouv.fr/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/) a été publiée sur le dépôt dédié de l’ADULLACT.
+
+`>>` Retrouvez [l'étude de veille sur la bureautique en ligne](https://gitlab.adullact.net/marche-sll/etudes-de-veille#bureautique-en-ligne)
 
 ## 🌟 Le concours des #acteursdulibre 2024 est ouvert !
 
@@ -73,12 +77,6 @@ Le Symposium OFA réunira un ensemble interdisciplinaire de chercheurs, de prati
 
 🌐 Plus d’infos sur https://symposium.openforumeurope.org/
 
-
-## 👷‍♀️ Offres d'emploi
-
-Le projet [Software Heritage](https://www.softwareheritage.org) cherche son [Chief Technical Officer](https://www.softwareheritage.org/2024/07/03/software-heritage-seeks-new-cto).
-
-Le [Muséum national d'Histoire naturelle](https://www.mnhn.fr/fr) cherche son [Tech Lead python](https://recrutement.mnhn.fr/front-jobs-detail.html?id_job=871) sur GeoNature pour des projets nationaux sur la biodiversité.
 
 ## 🇪🇺 L'Allemagne et la Suisse progressent vers le logiciel libre
 
@@ -97,6 +95,12 @@ des raisons importantes en matière de sécurité excluent ou limitent
 cette possibilité. ».
 
 `>>` Voir le texte de loi : https://www.fedlex.admin.ch/eli/cc/2023/682/fr#art_9
+
+## 👷‍♀️ Offres d'emploi
+
+Le projet [Software Heritage](https://www.softwareheritage.org) cherche son [Chief Technical Officer](https://www.softwareheritage.org/2024/07/03/software-heritage-seeks-new-cto).
+
+Le [Muséum national d'Histoire naturelle](https://www.mnhn.fr/fr) cherche son [Tech Lead python](https://recrutement.mnhn.fr/front-jobs-detail.html?id_job=871) sur GeoNature pour des projets nationaux sur la biodiversité.
 
 ## 📰 Revue de presse
 ### En français

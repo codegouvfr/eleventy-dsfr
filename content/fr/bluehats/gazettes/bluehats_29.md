@@ -5,7 +5,7 @@ date: 2024-07-27
 
 ## 🚀 Les actualités de la mission logiciels libres
 
-- En juillet, la mission était à New York pour l’évènement [OSPOs for Good](https://www.un.org/techenvoy/content/ospos-good-2024) : nous vous raconterons bientôt 🧢
+- En juillet, la mission était à New York pour l’événement [OSPOs for Good](https://www.un.org/techenvoy/content/ospos-good-2024) : nous vous raconterons bientôt 🧢
 - Un nouveau logiciel libre est entré dans le catalogue [Awesome](https://code.gouv.fr/fr/awesome/) :  [Recomandations Collaboratives (Recoco)](https://github.com/betagouv/recommandations-collaboratives/) 
 - [code.gouv.fr](https://code.gouv.fr/fr/communs/) référence un nouveau commun numérique : le [référentiel national des bâtiments](https://rnb.beta.gouv.fr)
 - Voici un nouveau [guide interactif pour déterminer le *awesome score* de votre projet libre](https://code.gouv.fr/guides/awesome/)

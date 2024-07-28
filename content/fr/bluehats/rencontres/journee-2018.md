@@ -7,7 +7,7 @@ image:
 tags: OSXP
 ---
 
-Le 6 décembre dernier, dans les couloirs des Docks de Paris où se tenait le **Paris open source summit,** évènement européen du logiciel libre, plus d’une centaine de personnes coiffées d’un chapeau bleu se rencontraient pour échanger et débattre autour des usages du logiciel libre dans l’administration.
+Le 6 décembre dernier, dans les couloirs des Docks de Paris où se tenait le **Paris Open Source Summit,** événement européen du logiciel libre, plus d’une centaine de personnes coiffées d’un chapeau bleu se rencontraient pour échanger et débattre autour des usages du logiciel libre dans l’administration.
 
 Leurs points communs ? La contribution à des projets ouverts utilisés par l’administration et l’envie de faire progresser le libre et ses usages au sein du service public.
 

@@ -93,7 +93,7 @@ L’association Ploss-Ra présente les Rencontres Professionnelles du Logiciel L
 
 ### Conférence APELL/CNLL “The Future of Open Source Business inEurope” 16 juin, Strasbourg
 
-Cette journée co-organisée par l’APELL et le CNLL a pour but de rassembler les entrepreneurs et organisations européennes de l’open source pour échanger et co-construire des propositions à la Commission Européenne autour de trois thémes de travail. La participation est sur invitation. Contactez-nous si vous avez un interêt pour cet évènement.
+Cette journée co-organisée par l’APELL et le CNLL a pour but de rassembler les entrepreneurs et organisations européennes de l’open source pour échanger et co-construire des propositions à la Commission Européenne autour de trois thémes de travail. La participation est sur invitation. Contactez-nous si vous avez un interêt pour cet événement.
 
 `>>` [Plus d’information](https://www.apell.info/the-future-of-open-source-business-in-europe/)
 

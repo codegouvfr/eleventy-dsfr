@@ -32,20 +32,15 @@ Nous articulons tout ce que nous faisons autour de *produits* (logiciels, servic
 
 Les produits peuvent être des sites web, des contenus et ressources, des services web ou des logiciels.
 
+### Politique logiciels libres
+
+Tous les codes sources que nous développons sont publiés sous licence libre.
+
 ### Sites web
 
 - [code.gouv.fr](/fr/): le site de présentation du plan d'action logiciels libres et communs numériques.
 - [code.gouv.fr/sources](https://code.gouv.fr/sources): le site pour trouver des codes sources publiés par les administrations.
 - [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
-
-<br/>
-
-### Logiciels et bibliothèques de code
-
-Pour ces logiciels et bibliothèques, le pôle logiciels libres s'engage à les maintenir dans la durée :
-
-- [react-dsfr](https://github.com/codegouvfr/react-dsfr) : une bibliothèque de composants React au DSFR.
-- [eleventy-dsfr](https://github.com/codegouvfr/eleventy-dsfr) : un dépôt pour démarrer un site statique au DSFR avec le générateur Eleventy.
 
 <br/>
 
@@ -123,11 +118,13 @@ Les membres de la mission logiciels libres ont le droit de prendre sur leur temp
 - [git.sr.ht/~bzg/subscribe](https://git.sr.ht/~bzg/subscribe/)
 - [git.sr.ht/~bzg/choices](https://git.sr.ht/~bzg/choices)
 - [git.savannah.gnu.org/cgit/emacs/org-mode.git](https://git.savannah.gnu.org/cgit/emacs/org-mode.git/)
-- [github.com/hjonin/todoist-to-joplin](https://github.com/hjonin/todoist-to-joplin)
-- [github.com/hjonin/todoist-to-md](https://github.com/hjonin/todoist-to-md)
+
+<br/>
 
 Contributions passées :
 
+- [github.com/hjonin/todoist-to-joplin](https://github.com/hjonin/todoist-to-joplin)
+- [github.com/hjonin/todoist-to-md](https://github.com/hjonin/todoist-to-md)
 - [github.com/InseeFrLab/onyxia-web](https://github.com/InseeFrLab/onyxia-web)
 - [github.com/InseeFrLab/keycloakify](https://github.com/InseeFrLab/keycloakify)
 - [github.com/InseeFrLab/onyxia-ui](https://github.com/InseeFrLab/onyxia-ui)
@@ -143,7 +140,7 @@ Contributions passées :
 
 <br/>
 
-## Autres ressources
+## Interventions de la mission logiciels libres
 
 Voir la [page dédiée](/fr/doc/ressources/).
 

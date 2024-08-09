@@ -26,6 +26,8 @@ showBreadcrumb: true
 - 9 décembre 2020 : [Intervention vidéo](https://www.dailymotion.com/video/x7xqldm) de Bastien Guerry (DINUM) et Matthieu Faure (Adullact) lors du Forum de l'Emploi Tech de l'État 2020 : "Le logiciel libre dans l'État et les réalisations".
 - 9 juillet 2019 : [Intervention radio](https://www.libreavous.org/33-dinsic-ziklibrenbib-irfm-et-parcoursup) de Xavier Béchade (DINSIC/Tchap) et Bastien Guerry (DINSIC/Etalab) lors de l'émission « Libre à vous ! », animée par l'APRIL.
 
+<br/>
+
 ## Interventions de la mission logiciels libres en anglais
 
 - 6 février 2022 : [FOSDEM2022](https://fosdem.org/2022/schedule/event/9000_public_code_repositories/) : We listed +9000 public code repositories. Now what? How to build valuable services on top of fragile assets.  [Watch the video](https://tube.numerique.gouv.fr/w/kh3pRKx5J66LyUeEPsuYUD).
@@ -34,12 +36,16 @@ showBreadcrumb: true
 - 30 novembre 2021 : Participation au Panel "Perspective from public administration" lors des [5 ans de Software Heritage à l'Unesco](https://www.softwareheritage.org/news/events/swh5years/) ([vidéo](https://www.youtube.com/watch?v=LocTNyTT4Sw)).
 - 20 Avril 2021 : Participation à la [DigitALL Public conference](https://hadea.ec.europa.eu/events/digitall-public-conference_fr) : [The role of open source in the public sector](https://digitallpublic.app.swapcard.com/event/digitall-public/planning/UGxhbm5pbmdfMzUzNTA3) ([vidéo](https://youtu.be/QgvossmO240)).
 
+<br/>
+
 ## Positionnements politiques
 
 - Intervention [vidéo](https://youtu.be/TwCb_AAkCx8?t=2412) d'Amélie de Montchalin sur les logiciels libres des administrations européennes lors de la conférence des ministres européens chargés de l'administration publique du 17 mars 2022.
 - Intervention [vidéo](https://tube.numerique.gouv.fr/w/cbtirQAqNdNynHFd4fTjfK) de la ministre Amélie de Montchalin lors du sommet européen sur les politiques open source du 4 février 2022.
 - Déclaration de Strasbourg sur les valeurs et défis communs aux administrations publiques européennes ([PDF](https://www.transformation.gouv.fr/files/presse/Declaration_Strasbourg_valeurs_defis_administrations_publiques_europeennes_1.pdf)), 17 mars 2022.
 - Commissioner Thierry Breton talking about the benefits of open source at the 2021 Open Source Policy Summit ([video](https://www.youtube.com/watch?v=I5e_ngrzm1E)).
+
+<br/>
 
 ## Présentations et diaporamas en ligne
 
@@ -53,12 +59,16 @@ Vous pouvez [retrouver en ligne nos présentations](https://speakerdeck.com/blue
 - Le n°13 (février 2021) de la revue « La collection numérique » de l'Amue : « [Vive le numérique libre](https://www.amue.fr/fileadmin/amue/systeme-information/documents-publications/la-collection-numerique/N__13_-_Vive_le_Numerique_libre__fevrier_2021_.pdf) ».
 - Le n°19 (février 2022) de la revue « La collection numérique » de l'Amue : « [Les veilles](https://www.amue.fr/fileadmin/amue/systeme-information/documents-publications/la-collection-numerique/N19__Les_veilles_fevrier_2022.pdf) ».
 
+<br/>
+
 ## Éléments sur les communs
 
 ### Sur les communs numériques
 
 - Synthèse [PDF](https://numerique-en-communs.fr/wp-content/uploads/2020/12/synthese-communs.pdf) « Le commun numérique et sa ressource » proposée par la [mission Société Numérique](https://societenumerique.gouv.fr/), janvier 2022.
 - [Les communs de l'information, de la connaissance et du numérique](https://contrib.eduscol.education.fr/numerique/dossier/competences/communs-information-connaissance/@@document_whole), contrib.eduscol.education.fr, 2015
+
+<br/>
 
 ### Sur les communs en général
 

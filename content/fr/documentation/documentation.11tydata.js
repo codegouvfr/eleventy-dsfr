@@ -20,6 +20,11 @@ module.exports = {
             description: `Êtes-vous prêts à intégrer https://code.gouv.fr/fr/awesome/ ?`
         }, {
             url: false,
+            externalUrl: "https://code.gouv.fr/guides/ospo/",
+            title: "Guide OSPO : comment créer votre Open Source Programme Office ?",
+            description: `Quels sont les éléments à aborder pour définir et mettre en oeuvre votre stratégie open source ?`
+        }, {
+            url: false,
             externalUrl: "https://www.data.gouv.fr/fr/pages/legal/licences/",
             title: "Les licences autorisées pour les codes sources du secteur public",
             description: `Les codes sources de l'administration peuvent être publiées sous plusieurs licences, parmi lesquelles : Apache, BSD, CeCILL, MPL et les licences du projet GNU.`

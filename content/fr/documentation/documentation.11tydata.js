@@ -11,7 +11,7 @@ module.exports = {
         }, {
             url: false,
             externalUrl: "https://code.gouv.fr/guides/juridique/",
-            title: "Guide juridique interactif : quels codes sources ouvrir ",
+            title: "Guide juridique interactif : quels codes sources ouvrir ?",
             description: `En répondant à quelques questions, faites un point sur vos obligations.`
         }, {
             url: false,

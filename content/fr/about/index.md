@@ -62,6 +62,8 @@ Tous les codes sources que nous développons sont publiés sous licence libre.
 - Convention 2023 avec l'ADULLACT ([PDF](docs/Convention_DINUM_Adullact_2023.pdf))
 - Convention 2024 avec l'association Descodeuses ([PDF](docs/Convention_Descodeuses_Dinum_2024.pdf))
 
+<br/>
+
 ## L'offre de services de la mission logiciels libres
 
 La mission logiciels libres de la DINUM aide les administrations publiques sur tous les sujets concernant l'ouverture de leurs codes sources, l'utilisation de logiciels libres et le recrutement de compétences liées au logiciel libre (utilisation et ouverture).

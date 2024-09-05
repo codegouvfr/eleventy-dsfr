@@ -14,7 +14,7 @@ const sortByAwesomeScoreOrName = (a, b) => {
 }
 
 module.exports = async function () {
-    const URL = "https://code.gouv.fr/data/awesome-codegouvfr-old.json";
+    const URL = "https://code.gouv.fr/data/awesome-codegouvfr.json";
 
     let awesome = await EleventyFetch(URL, {
         duration: "2w",

@@ -31,7 +31,7 @@
     const awesomeUrl = `${window.location.origin}/fr/awesome`;
 
     const getAwesome = async () => {
-        const response = await fetch(`${dataBaseUrl}/awesome.json`);
+        const response = await fetch(`https://code.gouv.fr/data/awesome-codegouvfr.json`);
         return await response.json();
     }
 

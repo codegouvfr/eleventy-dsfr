@@ -1,5 +1,5 @@
 ---
-title: Migration de l’application COBOL MedocDB de GCOS à GnuCOBOL sur Linux
+title: Migration de l’application COBOL MedocDB de GCOS à GnuCOBOL sur GNU/Linux
 date: 2024-09-29
 description: Intervention d'Olivier Blanc (DGFiP) et Fabrice Le Fessant (OCamlPro)
 ---
@@ -10,6 +10,6 @@ description: Intervention d'Olivier Blanc (DGFiP) et Fabrice Le Fessant (OCamlPr
 
 <br/>
 
-Avec l'arrivée en fin de vie des mainframes BULL GCOS, la migration de l'application MedocDB vers une nouvelle plateforme était nécessaire. Pour cette migratio de code COBOL, la DGFiP a choisit de cibler l'environnement open-source GnuCOBOL sous Linux.
+Avec l'arrivée en fin de vie des mainframes BULL GCOS, la migration de l'application MedocDB vers une nouvelle plateforme était nécessaire. Pour cette migratio de code COBOL, la DGFiP a choisit de cibler l'environnement open-source GnuCOBOL sous GNU/Linux.
 
 Cet exposé sera l'opportunité de présenter l'application medocDB, d'expliquer les raisons de ce choix, et de faire un premier retour sur la migration elle-même, puis de présenter plus en détail l'environnement COBOL open-source disponible autour du compilateur libre GnuCOBOL.

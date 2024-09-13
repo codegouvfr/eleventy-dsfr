@@ -10,5 +10,5 @@ video:
 Bref historique de la Messagerie Collaborative de l'État (MCE), présentation de l'architecture technique basée sur un socle libre et de la dernière interface totalement intégrée (Suite collaborative).
 
 - Présentation de la MCE (ce que c'est / ce que ce n'est pas) et bref historique,
-- Vision stratégique de cette solution de messagerie OpenSource, Patrick Chaléat et Cyril Aeck, Chef et Adjoint du groupe
+- Vision stratégique de cette solution de messagerie Open Source, Patrick Chaléat et Cyril Aeck, Chef et Adjoint du groupe
 - Démo de la solution colaborative conçue autour de cette écosystème, Julien Delamarre & Thomas Payen, DévOps/Team Leader Apitech

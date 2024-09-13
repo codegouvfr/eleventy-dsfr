@@ -1,7 +1,7 @@
 ---
 title: Présentation de la plateforme OKDP
 date: 2024-06-07
-description: Intervention d'Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben Aissa (Consultants pour la DGFiP)
+description: Interventions d'Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben Aissa (Consultants pour la DGFiP)
 video:
   src: https://tube.numerique.gouv.fr/videos/embed/77e584f7-a892-4816-bbab-f322a0a473fd
   title: "Atelier BlueHats de présentation d'OKDP"
@@ -12,8 +12,7 @@ slides:
 
 - Date : 7 juin 2024
 - Heure : De 11h à 12h30
-- Intervenants : Intervention d'Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben Aissa (Consultants pour la DGFiP)
-- Visio : [Salon BlueHats](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)
+- Intervenants : Olivier Mazain (DGFiP), Diode Lahouar et Diode Ben Aissa (Consultants pour la DGFiP)
 
 <br/>
 

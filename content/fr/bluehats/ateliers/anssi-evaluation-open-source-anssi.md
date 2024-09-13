@@ -7,7 +7,6 @@ description: L’ANSSI finance depuis 2017 des évaluations de produits open sou
 - Date : 28 juin 2024
 - Heure : De 11h à 12h30
 - Intervenant : Elina Machefer (ANSSI/DIT)
-- Visio : [Salon BlueHats](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)
 
 <br/>
 

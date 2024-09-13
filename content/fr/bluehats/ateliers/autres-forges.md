@@ -3,7 +3,7 @@ title: "De quelques forges moins connues : Forgejo, Fordj et SourceHut"
 date: 2024-09-13
 description: "Forgejo, Fordj et SourceHut : connaissez-vous ces forges ?"
 video:
-  src: https://tube.numerique.gouv.fr/w/w9ThwuQSduzkwCBdpWpAHq
+  src: https://tube.numerique.gouv.fr/videos/embed/f42fb725-ba39-43e7-bde4-afd627b1b302
   title: "Atelier BlueHats de présentation de forges moins connues : Forgejo, Fordj et SourceHut"
 ---
 - Date : 13 septembre 2024

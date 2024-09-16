@@ -14,80 +14,10 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 
 ## Logiciels libres au marché de support
 
+- 389 Directory Server
 - ActiveMQ
 - Alfresco community
-- Apache HTTP Server
-- AXIS
-- bootstrap
-- BouncyCastle
-- Bugzilla
-- Cobbler
-- Cyrus IMAP
-- Drupal-core
-- Eclipse
-- ElasticSearch
-- Firefox
-- Fusion Forge
-- Gitlab
-- GLPI
-- GnuCobol
-- GRR
-- HAProxy
-- heartbeat
-- Hibernate
-- ISC BIND
-- Jasperreports
-- JAX-WS RI
-- JBoss
-- Jenkins
-- Jmeter
-- Joomla !
-- LibreOffice
-- logrotate
-- Maarch Courrier
-- MariaDB
-- Maven et plugins
-- MIT Kerberos
-- MySQL
-- NAGIOS
-- Nexus
-- NFS
-- Nginx
-- Noyau CentOS
-- Noyau Debian
-- Noyau Ubuntu
-- Ntp
-- Open Jdk
-- OpenLDAP
-- OpenSSH (dont sftp server)
-- OpenSSL
-- PostgreSQL
-- PrimeFace
-- Proxmox VE
-- Puppet
-- Rocky Linux
-- rsync
-- Samba
-- Shorewall
-- Snort
-- Solr
-- SPIP
-- Spring Framework
-- StatusNet
-- Struts 1
-- Struts 2
-- SVN
-- Sympa
-- syslog-ng
-- Thunderbird
-- Tomcat
-- Varnish
-- VAULT
-- ZooKeeper
-
-## Logiciels libres critiques au marché de support
-
-- 389 Directory Server
+- Alma Linux
 - Amavisd-new
 - AngularJS
 - Ansible
@@ -95,6 +25,7 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Antlr
 - Apache Commons
 - apache Hadoop
+- Apache HTTP Server
 - apache kafka
 - apache Spark
 - Apache superset
@@ -103,37 +34,45 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Audit
 - AwStats
 - AWX
+- AXIS
 - Bacula
 - BAREOS
 - Bigbluebutton
-- c-icap
+- bootstrap
+- BouncyCastle
+- Bugzilla
 - Cargo
 - Castor
 - Centreon
+- CEPH
 - cglib
+- c-icap
+- Cilium
 - ClamAV
+- Cobbler
 - COLLABORA online
 - CUPS
-- Datafaris
-- DataLift
+- Cyrus IMAP
 - DBUnit
 - Display Tag
 - Docker
-- Dojo
 - dom4j
 - Dovecot
 - Drbd
 - Drbdlinks
-- Driver
-- JDBC pour postgresql
+- Driver JDBC pour postgresql
 - Drools Expert
+- Drupal-core
 - DSpace
+- Eclipse
 - ehcache
 - EJBCA
 - Explorer++
+- Falco
 - Filezilla client
 - Filezilla serveur
 - Firebird
+- Firefox
 - Fluentd
 - FOP
 - FPDF
@@ -141,34 +80,49 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Framadate
 - FreeFileSync
 - Freeradius
-- Func
+- Fusion Forge
 - Fusion Inventory
+- Gatekeeper
 - Gatling
 - GeoServer
 - GFS2
 - Git
+- Gitlab
 - Glibc
+- GLPI
+- GnuCobol
 - GnuPG
 - Grafana
 - GrapeJS
 - gravitee
 - Gridlex
+- GRR
 - Gunicorn
+- HAProxy
 - HAVP
+- heartbeat
+- Hibernate
 - ImageMagick
 - InfluxDB
 - Information System Designer
 - IntelliJ
+- ISC BIND
 - ISC DHCP
 - itext
 - ITOP
 - ITSM-NG
+- Jasperreports
 - JasperStudio
 - jaxen
 - jaxrpc
+- JAX-WS RI
+- JBoss
+- Jenkins
 - Jersey
 - Jfrog Artifactory
+- Jmeter
 - Joget
+- Joomla !
 - JOPLIN
 - Jquery UI
 - jsch
@@ -182,18 +136,24 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - LemonLDAP::NG
 - libnss-pgsql
 - libpcap
+- LibreOffice
 - Libvirt
 - Limesurvey
 - Linstor
 - Log4j
 - Logback
+- logrotate
 - Logstash
+- Longhorn
 - Lucene
 - LVM
 - LVS (Linux Virtual Server) / Ipvsadm
+- Maarch Courrier
 - Maarch RM
 - Mantis
+- MariaDB
 - Matomo (Ex. Piwik)
+- Maven et plugins
 - MBeanMonitor
 - MediaWiki
 - Memcached
@@ -201,114 +161,155 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - Metricbeat
 - Metrics
 - MinIO
-- MongoDB
+- MIT Kerberos
 - Moodle
-- mPDF
-- Mx4j
 - MyFaces
+- MySQL
+- NAGIOS
 - Nats.io
 - Neo4j
 - Neo4J-OGM
 - Nextcloud
+- Nexus
+- NFS
+- Nginx
 - nmap
 - NodeJS
+- Noyau CentOS
+- Noyau Debian
+- Noyau Ubuntu
 - nss_ldap
+- Ntp
 - NVDA
 - OCS inventory NG
 - OpenDKIM
 - OpenDMARC
 - OpenFire (anciennement Wildfire)
+- Open Jdk
+- OpenLDAP
 - OpenLDAP ltb
 - OpenNebula
 - OpenSC
+- OpenSearch
+- Opensearch-data-prepper
 - OpenSearchServer
+- OpenSSH (dont sftp server)
+- OpenSSL
 - OpenVpn
 - OpenVSwitch
 - Ora2pg
 - OSWorkflow
 - OWASP CSRF Guard
+- OWASP Dependency-Check
 - Owasp Java HTML Sanitizer
 - Papyrus
 - Passbolt CE
+- Patroni
 - Pdftk
 - Peertube
 - Pentaho CE
 - Perl
 - PgAdmin
+- pgbouncer
+- pgpool
 - PHP
 - phpBB
 - PhpMyAdmin
 - pmd
-- Podman
 - portainer
 - Postfix
+- PostgreSQL
+- PowerDNS
+- PrimeFace
 - PrivacyIDEA
 - Proftpd
 - ProjectLibre
 - Prometheus
 - Proxmox backup server
+- Proxmox VE
 - Publik
 - PulseAudio
+- Puppet
 - Putty
 - pyspf
 - Python
+- QEMU
 - QGis
 - Quartz
 - R
 - RabbitMQ
 - Rancher
-- Redis
 - Redmine
 - regexp
 - Repmgr
 - RocketChat
+- Rocky Linux
 - Roundcube
 - rrdtool
 - RShiny
 - rspamd
 - RStudio
+- rsync
 - rsyslog
 - Rundeck
 - saaj
 - SabreDAV
+- Samba
 - SCENARI
 - Selenium plugin
 - Sendmail
 - ServiceMix
+- Shorewall
+- ShredOS
 - Sl4j
 - Slony-I
+- SLURM
 - Smarty
 - SnakeTail
+- Snort
 - SoapUI
 - Sogo
+- Solr
 - Sonar
 - Spamassassin
+- SPIP
 - Spring Boot
+- Spring Framework
 - Squash TM
 - SQUID
 - SQUIDGUARD
+- StatusNet
+- Struts 1
+- Struts 2
 - Stunnel
 - SuiteCRM
 - Sumatra
 - SURICATA
+- SVN
 - SWIFT
 - Symfony
+- Sympa
+- syslog-ng
 - sysstat (sar & isag)
 - Talend Open Studio
 - Tanaguru
 - tcpdump
 - TestLink
 - The Hive
-- Torque
+- Thunderbird
 - Tortoise SVN
 - Trinio
+- Trivy
 - TrueNAS CORE
+- Tuleap
 - UltraVNC
+- Varnish
+- Velero
 - Veyon
-- Virt-manager
 - vsftpd
 - Webmin
 - Wekan
+- Wildfly
 - WinPT
 - WinSCP3
 - Wordpress
@@ -323,8 +324,8 @@ Pour le détail des versions inclues dans le marché, sollicitez votre coordinat
 - xmltask
 - XRDP
 - XWiki
-- Z-Push
 - Zabbix
-- Zammad
 - Zend engine
 - Zentyal
+- ZooKeeper
+- Z-Push

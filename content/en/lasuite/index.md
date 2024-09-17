@@ -10,9 +10,9 @@ date: 2024-09-16
 
 The Ministry of Transformation and Public Service announced the launch of The Digital Suite at the service of all public officials who are invited to grab it today.
 
-👉 [Read more about La Suite in French](https://lasuite.numerique.gouv.fr)
-
 <img src="/img/la_suite_numerique.png" alt="Screenshot of https://lasuite.numerique.gouv.fr" class="fr-responsive-img">
+
+👉 [Read more about La Suite in French](https://lasuite.numerique.gouv.fr)
 
 This involves offering users a complete offering including: single authentication facilitating connection to tools (AgentConnect is already accessible to 1.6 million agents and professionals in the public sphere to access interministerial tools of DINUM), authorization and directory; the possibility of connecting to sovereign, à la carte, interconnected applications, based on free software and SecNumCloud infrastructures, based on free digital commons; the daily handling of tools chosen à la carte such as instant communication, holding meetings via audio or video conference, sharing documents and collaboration within teams (for project management among others) as well as the communication by email (for small teams initially), all respecting a common graphic charter in order to be better identified. The use of The Digital Suite and the same tools by all public agents facilitates interministerial collaboration and contributes to the effectiveness of State action.
 

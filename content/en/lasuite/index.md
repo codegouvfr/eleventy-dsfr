@@ -10,6 +10,11 @@ date: 2024-09-16
 
 The Ministry of Transformation and Public Service announced the launch of The Digital Suite at the service of all public officials who are invited to grab it today.
 
+:::callout
+Would you like to receive occasional news about the open source digital workplace?
+<a href="mailto:lasuite@code.gouv.fr?subject=Send me news about La Suite">Send us an email!</a>
+:::
+
 <img src="/img/la_suite_numerique.png" alt="Screenshot of https://lasuite.numerique.gouv.fr" class="fr-responsive-img">
 
 👉 [Read more about La Suite in French](https://lasuite.numerique.gouv.fr)

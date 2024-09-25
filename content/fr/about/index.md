@@ -34,7 +34,7 @@ Les produits peuvent être des sites web, des contenus et ressources, des servic
 
 ### Politique logiciels libres
 
-Tous les codes sources que nous développons sont publiés sous licence libre.
+Tous les codes sources développés par la mission logiciels libres sont publiés sous licence libre.
 
 ### Sites web
 
@@ -96,10 +96,7 @@ La présentation ci-dessus détaille sa composition et les attentes des parties 
 
 Les [ateliers BlueHats](/fr/bluehats/tags/atelier/) animés par la mission logiciels libres permettent de découvrir des solutions libres déployées dans des administrations.
 
-Chaque agent public est invité à proposer un atelier BlueHats en [nous
-écrivant](mailto:contact@code.gouv.fr).
-
-[Voir le dépôt dédié](https://github.com/blue-hats/ateliers/blob/main/ateliers.org){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+Chaque agent public est invité à proposer un atelier BlueHats en [nous écrivant](mailto:contact@code.gouv.fr).
 
 ## Programme "BlueHats Semester of Code" (2022-2023)
 

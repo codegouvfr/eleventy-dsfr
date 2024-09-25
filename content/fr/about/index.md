@@ -45,12 +45,12 @@ Tous les codes sources développés par la direction interministérielle du num�
 
 ## Les conventions de la DINUM portés par la mission logiciels libres
 
-- Convention 2022 avec l'ADULLACT ([PDF](docs/Convention_Adullact-Dinum-2022.pdf))
-- Convention 2022 avec l'école CentraleSupélec pour le BlueHats Semester of Code ([PDF](docs/Convention_CentraleSupelec-Dinum-2021.pdf))
-- Convention 2022 avec l'association OW2 ([PDF](docs/Convention_OW2_Dinum_2022.pdf))
-- Convention 2023 avec la fondation [NLnet](https://nlnet.nl) ([PDF](docs/DINUM-NLNET-convention-subvention-23112022.pdf))
-- Convention 2023 avec l'ADULLACT ([PDF](docs/Convention_DINUM_Adullact_2023.pdf))
-- Convention 2024 avec l'association Descodeuses ([PDF](docs/Convention_Descodeuses_Dinum_2024.pdf))
+- Convention 2022 avec l'ADULLACT ([PDF](/docs/Convention_Adullact-Dinum-2022.pdf))
+- Convention 2022 avec l'école CentraleSupélec pour le BlueHats Semester of Code ([PDF](/docs/Convention_CentraleSupelec-Dinum-2021.pdf))
+- Convention 2022 avec l'association OW2 ([PDF](/docs/Convention_OW2_Dinum_2022.pdf))
+- Convention 2023 avec la fondation [NLnet](https://nlnet.nl) ([PDF](/docs/DINUM-NLNET-convention-subvention-23112022.pdf))
+- Convention 2023 avec l'ADULLACT ([PDF](/docs/Convention_DINUM_Adullact_2023.pdf))
+- Convention 2024 avec l'association Descodeuses ([PDF](/docs/Convention_Descodeuses_Dinum_2024.pdf))
 
 <br/>
 

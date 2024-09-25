@@ -16,7 +16,7 @@ Ce site présente les ressources publiées et mises en oeuvre dans le cadre du [
 
 Son code source est publié [sur ce dépôt](https://github.com/codegouvfr/codegouvfr-website).
 
-## Équipe
+## L'équipe de la mission logiciels libres
 
 Le plan d'action est piloté par la mission logiciels libres de la [direction interministérielle du numérique (DINUM)](https://www.numerique.gouv.fr/).
 
@@ -26,30 +26,20 @@ Le plan d'action est piloté par la mission logiciels libres de la [direction in
 
 [Voir les objectifs, engagements et rituels de la mission logiciels libres](/fr/mission/mission-logiciels-libres-engagements-et-rituels/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Les produits de la mission logiciels libres
+## Les services et ressources accessibles depuis code.gouv.fr
 
-Nous articulons tout ce que nous faisons autour de *produits* (logiciels, services en ligne, ressources).  Ceux-ci servent notre mission et reflètent nos [engagements](/fr/mission/mission-logiciels-libres-engagements-et-rituels/#engagements).
-
-Les produits peuvent être des sites web, des contenus et ressources, des services web ou des logiciels.
-
-### Politique logiciels libres
-
-Tous les codes sources développés par la mission logiciels libres sont publiés sous licence libre.
-
-### Sites web
-
-- [code.gouv.fr](/fr/): le site de présentation du plan d'action logiciels libres et communs numériques.
-- [code.gouv.fr/sources](https://code.gouv.fr/sources): le site pour trouver des codes sources publiés par les administrations.
-- [code.gouv.fr/sill](https://code.gouv.fr/sill): le site pour trouver des logiciels libres recommandés aux administrations. Pour savoir comment ajouter un logiciel libre au SILL, veuillez lire [cette page de documentation](https://code.gouv.fr/sill/readme).
+- [code.gouv.fr/sources](https://code.gouv.fr/sources) vous aide à trouver des codes sources publiés par les administrations.
+- [code.gouv.fr/sill](https://code.gouv.fr/sill) vous aide à trouver des logiciels libres recommandés aux administrations.
+- La [gazette BlueHats](/fr/bluehats/tags/gazette/) vous informe sur les logiciels libres dans l'administration.
+- Les [ateliers BlueHats](/fr/bluehats/tags/atelier/) vous permet de revoir les organisés autour de logiciels libres utilisés par des organismes publics.
+- Les [guides](/fr/doc/) de la mission vous aident à vous approprier tous les sujets autour du libre.
+- Vous pouvez aussi consulter nos [interventions](/fr/doc/ressources/#interventions-de-la-mission-logiciels-libres-en-francais) passées.
 
 <br/>
 
-### Ressources
+### La politique de publication des codes sources de la DINUM
 
-- La [gazette BlueHats](/fr/bluehats/tags/gazette/).
-- Les [ateliers BlueHats](/fr/bluehats/tags/atelier/).
-- Les [guides](/fr/doc/) de la mission logiciels libres.
-- Les [interventions](/fr/doc/ressources/#interventions-de-la-mission-logiciels-libres-en-francais) de la mission logiciels libres.
+Tous les codes sources développés par la direction interministérielle du numérique sont, dans la mesure du possible, publiés sous licence libre.
 
 <br/>
 
@@ -70,13 +60,13 @@ La mission logiciels libres de la DINUM aide les administrations publiques sur t
 
 [Voir la page dédiée](/fr/mission/offre-de-services/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Groupe de travail logiciels libres au sein du réseau des AMDAC
+## Le groupe de travail logiciels libres au sein du réseau des AMDAC
 
 La DINUM anime un groupe de travail logiciels libres pour les administrateurs ministériels des données, des algorithmes et des codes sources.
 
 [Voir la page dédiée](/fr/mission/gtt-ll-amdac/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Conseil d'expertise et de mobilisation logiciels libres
+## Le Conseil d'expertise et de mobilisation logiciels libres (CLL)
 
 La DINUM anime un conseil d'expertise et de mobilisation autour du plan d'action logiciels libres et communs numériques. Ce conseil vise à favoriser l'entraide entre administrations et l'accès à des services proposés par l'écosystème.
 
@@ -92,19 +82,13 @@ La présentation ci-dessus détaille sa composition et les attentes des parties 
 
 [Voir la page dédiée pour plus de détails](/fr/mission/conseil-logiciels-libres/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Ateliers BlueHats animés par la mission
+## Les ateliers BlueHats animés ou accueillis par la mission
 
 Les [ateliers BlueHats](/fr/bluehats/tags/atelier/) animés par la mission logiciels libres permettent de découvrir des solutions libres déployées dans des administrations.
 
 Chaque agent public est invité à proposer un atelier BlueHats en [nous écrivant](mailto:contact@code.gouv.fr).
 
-## Programme "BlueHats Semester of Code" (2022-2023)
-
-`BlueHats Semester of Code` est un programme de stages de 6 mois permettant de contribuer à des logiciels libres utilisés dans les administrations.  Il est destiné aux étudiants de CentraleSupélec de 2ème année en césure.
-
-[Voir la page dédiée](/fr/bluehats/bluehats-semester-of-code/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
-
-## Marchés interministériels de support et d'expertise logiciels libres
+## Les marchés interministériels de support et d'expertise logiciels libres
 
 - [Présentation](/fr/utiliser/marches-interministeriels-support-expertise-logiciels-libres/) des marchés interministériels de support et d'expertise logiciels libres.
 - [Études de veille sur des logiciels libres](https://gitlab.adullact.net/marche-sll/etudes-de-veille/) publiées dans le cadre du marché.
@@ -119,7 +103,7 @@ Les BlueHats sont toutes les personnes qui souhaitent montrer qu'elles contribue
 
 [Voir la page dédiée](/fr/contact/espaces-communication-bluehats/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
-## Logiciels libres auxquels la mission contribue
+## Les logiciels libres auxquels la mission contribue
 
 Les membres de la mission logiciels libres ont le droit de prendre sur leur temps de travail à hauteur de 20% maximum pour contribuer à des logiciels libres.  Parmi eux:
 
@@ -148,10 +132,18 @@ Contributions passées :
 
 <br/>
 
-## Interventions de la mission logiciels libres
+## Les interventions de la mission logiciels libres
 
 Voir la [page dédiée](/fr/doc/ressources/).
 
-## Politique de contribution aux logiciels libres de l'Etat (2018-2021)
+## Le programme "BlueHats Semester of Code" (2022-2023)
+
+`BlueHats Semester of Code` est un programme de stages de 6 mois permettant de contribuer à des logiciels libres utilisés dans les administrations.  Il est destiné aux étudiants de CentraleSupélec de 2ème année en césure.
+
+[Voir la page dédiée](/fr/bluehats/bluehats-semester-of-code/){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
+<br/>
+
+## La politique de contribution aux logiciels libres de l'Etat (2018-2021)
 
 Cette politique de contribution est en cours de remplacement par les [guides](/fr/doc/) de la mission logiciels libres mais elle est toujours valable et vous pouvez [la consulter](https://man.sr.ht/~codegouvfr/logiciels-libres/archives/pocos/index.md).

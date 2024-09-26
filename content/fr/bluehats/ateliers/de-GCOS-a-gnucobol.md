@@ -1,6 +1,6 @@
 ---
 title: Migration de l’application COBOL MedocDB de GCOS à GnuCOBOL sur GNU/Linux
-date: 2024-09-29
+date: 2024-11-29
 description: Intervention d'Olivier Blanc (DGFiP) et Fabrice Le Fessant (OCamlPro)
 ---
 - Date : 29 novembre 2024

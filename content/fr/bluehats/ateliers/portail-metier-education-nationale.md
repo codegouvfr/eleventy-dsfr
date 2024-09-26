@@ -3,7 +3,7 @@ title: Présentation du portail métier de l'éducation nationale
 date: 2024-09-20
 description: "Le vendredi 20 septembre 2024 à 14h nous avons eu une présentation du portail métier de l'éducation nationale par Erwan Garel (DNE), Matthieu Gastineau (DSII) et Romain Stephan (DSII)."
 video:
-  src: https://tube.numerique.gouv.fr/videos/embed/c8746929-e70b-4e1e-accf-dfb64cb5e322
+  src: https://tube.numerique.gouv.fr/videos/embed/2ba94dda-2439-4d28-9427-c38fa6a6bff8
   title: "Atelier BlueHats : présentation du portail métier de l'éducation nationale"
 
 ---

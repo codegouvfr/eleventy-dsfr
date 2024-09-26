@@ -35,7 +35,7 @@ module.exports = {
         {
             title: "Vous souhaitez participer à un atelier BlueHats ?",
             content: `
-<p>Tout le monde peut y accéder en ligne via <a href="https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b" target="_blank">ce lien</a>.  Ils sont aussi visibles en rediffusion sur <a href="https://tube.numerique.gouv.fr/a/logicielslibres/video-channels" target="_blank">la chaîne BlueHats de la mission logiciels libres</a>.</p>
+<p>Tout le monde peut y accéder en ligne via <a href="https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf" target="_blank">ce lien</a>.  Ils sont aussi visibles en rediffusion sur <a href="https://tube.numerique.gouv.fr/a/logicielslibres/video-channels" target="_blank">la chaîne BlueHats de la mission logiciels libres</a>.</p>
 <p>Vous souhaitez proposer un atelier BlueHats 🧢 ?  <a href="mailto:bluehats@code.gouv.fr">Contactez-nous !</a></p>`
         },
 {

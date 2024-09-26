@@ -17,7 +17,7 @@ La priorité est donnée aux sujets de publication des codes sources et à l'ent
 
 ## Modalités
 
-Les réunions de ce groupe ont lieu depuis 2022 via [ce lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b).
+Les réunions de ce groupe ont lieu depuis 2022 via [ce lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf).
 
 Vous pouvez télécharger le [calendrier .ics](https://git.sr.ht/~codegouvfr/logiciels-libres/blob/main/evenements/rdv-gtt-ll.ics) de toutes les réunions.
 

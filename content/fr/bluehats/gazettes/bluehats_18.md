@@ -7,13 +7,13 @@ date: 2022-08-31
 
 Un beau programme d'ateliers en perspective !
 
-- 2 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Des outils pour mettre en valeur votre projet libre
-- 16 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [NixOS](https://nixos.org/) et de son écosystème
-- 30 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [LocoKit](https://locokit.io/), un outil libre Low-code, avec le projet CaPel du Parc national de Port-Cros
-- 14 octobre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [Docusaurus](https://docusaurus.io/)
-- 28 octobre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [TDP](https://github.com/TOSIT-IO/TDP)
-- 25 novembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [PMB](https://www.wikidata.org/wiki/Q3359740) (1/2)
-- 9 décembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b)) : Présentation de [PMB](https://www.wikidata.org/wiki/Q3359740) (2/2)
+- 2 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Des outils pour mettre en valeur votre projet libre
+- 16 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [NixOS](https://nixos.org/) et de son écosystème
+- 30 septembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [LocoKit](https://locokit.io/), un outil libre Low-code, avec le projet CaPel du Parc national de Port-Cros
+- 14 octobre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [Docusaurus](https://docusaurus.io/)
+- 28 octobre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [TDP](https://github.com/TOSIT-IO/TDP)
+- 25 novembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [PMB](https://www.wikidata.org/wiki/Q3359740) (1/2)
+- 9 décembre 2022 ([lien de visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf)) : Présentation de [PMB](https://www.wikidata.org/wiki/Q3359740) (2/2)
 
 `>>` [Toutes les informations sur les ateliers BlueHats](/fr/bluehats/tags/atelier/)
 

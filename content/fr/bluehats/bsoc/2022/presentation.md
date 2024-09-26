@@ -113,9 +113,9 @@ Si le stage ne vous convient pas, nous pouvons au bout de trois mois envisager d
 - **Jusqu'au 6 mars 2022** : Sélection des propositions de contribution.
 - **8 mars 2022** : Publication des [projets sélectionnés](/fr/bluehats/bsoc-contributions-2022/).
 - **15 mars au 15 mai 2022 23h59** : Les étudiants peuvent candidater en remplissant [ce formulaire](https://framaforms.org/candidature-bluehats-semester-of-code-1647254344).
-- **13 avril 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b) avec un premier groupe de candidats.
-- **27 avril 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b) avec un deuxième groupe de candidats.
-- **18 mai 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr//meeting/signin/362/creator/369/hash/84c9902a44b481830388d5d69c808eb669da0a5b) avec le dernier groupe de candidats.
+- **13 avril 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf) avec un premier groupe de candidats.
+- **27 avril 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf) avec un deuxième groupe de candidats.
+- **18 mai 17h15 2022** : Rencontre CS/DINUM en [visio](https://webinaire.numerique.gouv.fr/meeting/signin/invite/362/creator/369/hash/14eb55bd230aa1a8b8a98e0ee35b056d0196afcf) avec le dernier groupe de candidats.
 - **Avant fin mai 2022** : Confirmation définitive par les étudiants et engagement des signatures de conventions.
 - **6 septembre 2022** : Accueil des étudiants à la DINUM
 - **28 septembre 2022** : Participation à la table ronde Etalab du séminaire EIG (suivie d'un déjeuner)

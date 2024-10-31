@@ -1,8 +1,10 @@
 name: GitlabSync
 
-on:
-  push:
-    branches: [ "sync" ]
+#on:
+#  push:
+#    branches: [ "sync" ]
+
+on: workflow_dispatch
 
 jobs:
   sync:

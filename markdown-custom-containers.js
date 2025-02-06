@@ -23,6 +23,30 @@ module.exports = {
             }
         }
     },
+    highlight: () => {
+        const re = /^highlight$/;
+        return {
+            validate: (params) => {
+                return params.trim().match(re);
+            },
+    
+            render: (tokens, idx) => {
+                if (tokens[idx].nesting === 1) {
+                    // opening tag
+                    return `
+<div class="fr-highlight">
+    <p>
+`;
+                } else {
+                    // closing tag
+                    return `
+    </p>
+</div>
+\n`;
+                }
+            }
+        }
+    },
     quote: md => {
         const re = /^quote(\s+.*)?$/
         let params = undefined;

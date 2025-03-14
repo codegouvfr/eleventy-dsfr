@@ -1,11 +1,17 @@
-[![img](https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange.svg)](https://code.gouv.fr/documentation/#/publier)
+[![img](https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange.svg)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)
 ![build](https://img.shields.io/github/actions/workflow/status/codegouvfr/eleventy-dsfr/11ty-gh-pages.yml?label=deployed%20to%20gh-pages)
 
 # eleventy-dsfr
 
-Un dépôt pour démarrer un site statique au [DSFR](https://www.systeme-de-design.gouv.fr/) avec le
-générateur [Eleventy](https://www.11ty.dev/), déployé pour démonstration sur [GitHub Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/).
-Pour d'autres exemples de réutilisation, cf. [Démonstration et réutilisations](#démonstration-et-réutilisations).
+`eleventy-dsfr` permet de déployer un site statique au
+[DSFR](https://www.systeme-de-design.gouv.fr/) avec le générateur
+[Eleventy](https://www.11ty.dev/).
+
+Voir la démonstration sur [GitHub
+Pages](https://codegouvfr.github.io/eleventy-dsfr/fr/).
+
+Pour d'autres exemples de réutilisation, cf. [Démonstration et
+réutilisations](#démonstration-et-réutilisations).
 
 ![Screenshot of the website front page.](eleventy-dsfr.png)
 
@@ -32,7 +38,7 @@ Pour d'autres exemples de réutilisation, cf. [Démonstration et réutilisations
     - Plan du site et `sitemap.xml`
     - Page non trouvée (404)
     - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
-    
+
 ## Prise en main
 ### Installation
 
@@ -123,13 +129,21 @@ Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/ele
 - [Site de la start-up Médiation Logement](https://mediationlogement.beta.gouv.fr/) (code source : https://github.com/betagouv/mediation-logement)
 - [Portail du BARRI du CISIRH](https://cisirh.github.io/portail-barri/fr/) (code source : https://github.com/CISIRH/portail-barri)
 
+## Contribution
+
+Les contributions ponctuelles peuvent être acceptées, mais le dépôt n'est plus activement maintenu.
+
 ## Licence
 
 Le dépôt est publié sous licence MIT pour le code et sous licence
 Etalab 2.0 pour les autres contenus.
 
-Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la DINUM.
+Il est maintenu par la [mission logiciels
+libres](https://code.gouv.fr/) de la DINUM.
 
 ### Crédits images
 
-- [1F3DB.svg](public/icons/1F3DB.svg) par [Martin Wehl](https://openmoji.org/library/#author=Martin%20Wehl) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
+- [1F3DB.svg](public/icons/1F3DB.svg) par [Martin
+  Wehl](https://openmoji.org/library/#author=Martin%20Wehl) sous
+  licence [CC BY-SA
+  4.0](https://creativecommons.org/licenses/by-sa/4.0>).

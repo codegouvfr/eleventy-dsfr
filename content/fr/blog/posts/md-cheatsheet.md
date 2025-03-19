@@ -57,6 +57,16 @@ Les parents d’enfants de 11 à 14 ans n’ont aucune démarche à accomplir : 
 
 [Voir aussi](/fr/blog/mise-en-avant/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
 
+## La mise en exergue
+
+```md
+:::highlight
+Les parents d’enfants de 11 à 14 ans n’ont aucune démarche à accomplir : les CAF versent <strong>automatiquement</strong> l’ARS aux familles déjà allocataires qui remplissent les conditions.
+:::
+```
+
+[Voir aussi](/fr/blog/mise-en-exergue/#exemple-d-utilisation-dans-un-fichier-markdown-md){.fr-link .fr-fi-arrow-right-line .fr-link--icon-right}
+
 <br>
 
 La syntaxe utilisée pour le [cartouche](https://www.11ty.dev/docs/data-frontmatter/) en début de fichier est communément le [YAML](https://learnxinyminutes.com/docs/yaml/).

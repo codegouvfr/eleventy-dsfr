@@ -170,6 +170,10 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItContainer, 'highlight', customMarkdownContainers.highlight(mdLib));
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItContainer, 'quote', customMarkdownContainers.quote(mdLib));
     });
 

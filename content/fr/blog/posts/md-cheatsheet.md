@@ -31,7 +31,7 @@ Contenu **markdown** _riche_
 
 ```md
 :::info Test d'alerte
-Contenu **Mardown**
+Contenu **Markdown**
 :::
 ```
 

@@ -16,7 +16,7 @@ Seuls le titre et la description sont disponibles.
 
 ```md
 :::callout Titre mise en avant
-Contenu **Mardown**
+Contenu **Markdown**
 :::
 ```
 

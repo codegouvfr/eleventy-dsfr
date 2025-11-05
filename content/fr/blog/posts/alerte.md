@@ -15,7 +15,7 @@ Ce composant peut être inclus dans un fichier Nunjucks `.njk` ou Markdown `.md`
 
 ```md
 :::info Test d'alerte
-Contenu **Mardown**
+Contenu **Markdown**
 :::
 ```
 

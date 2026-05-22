@@ -4,6 +4,7 @@ const {nanoid} = require ("nanoid");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
+const markdownItFootnote = require("markdown-it-footnote");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -183,6 +184,10 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.amendLibrary("md", mdLib => {
         mdLib.use(markdownItContainer, 'accordion', customMarkdownContainers.accordion(mdLib));
+    });
+
+    eleventyConfig.amendLibrary("md", mdLib => {
+        mdLib.use(markdownItFootnote);
     });
 
     // Automatically strip all leading or trailing whitespace

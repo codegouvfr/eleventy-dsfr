@@ -129,10 +129,12 @@ Pour une démonstration, voir la [GitHub Pages](https://codegouvfr.github.io/ele
 - [Site du cadre de cohérence technique du MI](https://dnum-mi.github.io/cct-mi/) (code source : https://github.com/dnum-mi/cct-mi)
 - [Site de documentation pour cartes.gouv.fr](https://ignf.github.io/cartes.gouv.fr-documentation/) (code source : https://github.com/IGNF/cartes.gouv.fr-documentation)
 - [Partie blog du site de DiaLog](https://dialog.beta.gouv.fr/blog/fr/) (code source : https://github.com/MTES-MCT/dialog/tree/main/blog)
-- [Site de la start-up Médiation Logement](https://mediationlogement.beta.gouv.fr/) (code source : https://github.com/betagouv/mediation-logement)
 - [Portail du BARRI du CISIRH](https://cisirh.github.io/portail-barri/fr/) (code source : https://github.com/CISIRH/portail-barri)
 - [Site du service Fonds de cartes](https://fab-geocommuns.github.io/carte-facile-site/) (code source : https://github.com/fab-geocommuns/carte-facile-site)
 - [Site de la MiNumEco](https://ecoresponsable.numerique.gouv.fr/) (code source : https://github.com/DISIC/MiNumEco)
+
+> [!TIP]
+> Ajoutez votre réutilisation via PR !
 
 ## Contribution
 

@@ -1,6 +1,9 @@
 [![img](https://img.shields.io/badge/code.gouv.fr-publi%C3%A9-orange.svg)](https://code.gouv.fr/documentation/#quels-degres-douverture-pour-les-codes-sources)
 ![build](https://img.shields.io/github/actions/workflow/status/codegouvfr/eleventy-dsfr/11ty-gh-pages.yml?label=deployed%20to%20gh-pages)
 
+> [!IMPORTANT]
+> 🚨 Recherche mainteneur·se dans le service public ! Discussion via PR. 🚨
+
 # eleventy-dsfr
 
 `eleventy-dsfr` permet de déployer un site statique au
